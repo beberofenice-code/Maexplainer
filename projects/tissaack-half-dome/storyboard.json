@@ -1,0 +1,1055 @@
+{
+ "schema_version": 1,
+ "meta": {
+  "slug": "tissaack-half-dome",
+  "title": "Tis-sa-ack and Half Dome",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "lufs": -15,
+  "max_tile_zoom": 18,
+  "voice": {
+   "provider": "auto",
+   "elevenlabs_voice": "Brian",
+   "elevenlabs_model": "eleven_v4",
+   "stability": 0.5,
+   "similarity_boost": 0.8,
+   "style": 0.3,
+   "edge_voice": "en-US-AndrewNeural",
+   "edge_rate": "+6%",
+   "continuous": true
+  },
+  "music": {
+   "enabled": false,
+   "bpm": 112,
+   "bed_db": -25,
+   "duck_db": -9
+  },
+  "subtitles": {
+   "max_words": 3,
+   "y_pct": 76
+  }
+ },
+ "geo": {
+  "context": [
+   "USA",
+   "CAN",
+   "MEX"
+  ],
+  "features": [
+   {
+    "id": "usa",
+    "source": "natural_earth",
+    "adm0_a3": "USA"
+   },
+   {
+    "id": "california",
+    "source": "nominatim",
+    "nominatim": "California, United States",
+    "color": "california",
+    "label": [
+     -119.6,
+     37.2
+    ]
+   },
+   {
+    "id": "yosemite_np",
+    "source": "nominatim",
+    "nominatim": "Yosemite National Park",
+    "color": "yosemite",
+    "label": [
+     -119.55,
+     37.85
+    ]
+   },
+   {
+    "id": "half_dome",
+    "source": "inline",
+    "color": "tissaack",
+    "_note": "Summit slab traced from Esri imagery (z15).",
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -119.52756,
+       37.74836
+      ],
+      [
+       -119.53013,
+       37.74734
+      ],
+      [
+       -119.53314,
+       37.74598
+      ],
+      [
+       -119.53657,
+       37.74377
+      ],
+      [
+       -119.54,
+       37.74174
+      ],
+      [
+       -119.54022,
+       37.74038
+      ],
+      [
+       -119.53872,
+       37.73885
+      ],
+      [
+       -119.53571,
+       37.73902
+      ],
+      [
+       -119.53228,
+       37.74072
+      ],
+      [
+       -119.52971,
+       37.74276
+      ],
+      [
+       -119.52799,
+       37.74513
+      ],
+      [
+       -119.52692,
+       37.74717
+      ],
+      [
+       -119.52756,
+       37.74836
+      ]
+     ]
+    ],
+    "label": [
+     -119.5335,
+     37.7435
+    ]
+   },
+   {
+    "id": "missing_half",
+    "source": "inline",
+    "color": "tissaack",
+    "_note": "Mirror of half_dome across the NW face: the 'missing half' that never existed.",
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -119.52756,
+       37.74836
+      ],
+      [
+       -119.53013,
+       37.74734
+      ],
+      [
+       -119.53314,
+       37.74598
+      ],
+      [
+       -119.53657,
+       37.74377
+      ],
+      [
+       -119.54,
+       37.74174
+      ],
+      [
+       -119.54168,
+       37.74209
+      ],
+      [
+       -119.5429,
+       37.74377
+      ],
+      [
+       -119.54157,
+       37.74591
+      ],
+      [
+       -119.53829,
+       37.74778
+      ],
+      [
+       -119.53493,
+       37.74889
+      ],
+      [
+       -119.53151,
+       37.74926
+      ],
+      [
+       -119.52871,
+       37.74928
+      ],
+      [
+       -119.52756,
+       37.74836
+      ]
+     ]
+    ],
+    "label": [
+     -119.537,
+     37.7465
+    ]
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "mode": "satellite",
+   "narration": "This granite giant is Half Dome, and legend says it was once a woman named Tis-sa-ack.",
+   "tail_s": 0.4,
+   "transition_sfx": null,
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -119.565,
+      37.748
+     ],
+     "zoom": 11.6,
+     "pitch": 0,
+     "bearing": 0
+    },
+    {
+     "t": 2.2,
+     "center": [
+      -119.536,
+      37.7455
+     ],
+     "zoom": 14.3,
+     "pitch": 24,
+     "bearing": 0,
+     "easing": "easeOutQuart"
+    },
+    {
+     "at_word": "woman",
+     "center": [
+      -119.535,
+      37.7452
+     ],
+     "zoom": 14.9,
+     "pitch": 30,
+     "bearing": 40,
+     "easing": "easeInOutCubic"
+    },
+    {
+     "t": 8.0,
+     "center": [
+      -119.5345,
+      37.745
+     ],
+     "zoom": 15.1,
+     "pitch": 32,
+     "bearing": 46,
+     "easing": "linear"
+    }
+   ],
+   "layers": [
+    {
+     "feature": "half_dome",
+     "style": "highlight",
+     "at_word": "Half",
+     "offset": 0.1,
+     "width": 5
+    }
+   ],
+   "elements": [
+    {
+     "type": "HookTitle",
+     "t": 0.2,
+     "accent": "Tis-sa-ack",
+     "text": "and Half Dome",
+     "y_pct": 17,
+     "until_word": "legend",
+     "until_offset": 0.3
+    },
+    {
+     "type": "CalloutArrow",
+     "at_word": "Dome",
+     "from_pct": [
+      80,
+      36
+     ],
+     "to": [
+      -119.5332,
+      37.7459
+     ],
+     "curve": -0.35
+    },
+    {
+     "type": "QuestionMarks",
+     "at_word": "woman",
+     "at": [
+      -119.5332,
+      37.7459
+     ],
+     "count": 3,
+     "radius": 170
+    },
+    {
+     "type": "Label",
+     "at_word": "Tis-sa-ack",
+     "at_pct": [
+      50,
+      22
+     ],
+     "text": "Tis-sa-ack",
+     "size": 76,
+     "text_color": "#FFE600"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "whoosh_deep",
+     "t": 0.0,
+     "gain_db": -2
+    }
+   ]
+  },
+  {
+   "id": "where",
+   "mode": "dark_cutaway",
+   "narration": "It towers over Yosemite Valley, in California's Sierra Nevada, a place the Ahwahneechee people called Ahwahnee.",
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -100.0,
+      39.0
+     ],
+     "zoom": 3.6,
+     "pitch": 0,
+     "bearing": 0
+    },
+    {
+     "at_word": "California's",
+     "center": [
+      -119.3,
+      37.3
+     ],
+     "zoom": 5.4,
+     "pitch": 0,
+     "bearing": 0,
+     "easing": "easeInOutCubic"
+    },
+    {
+     "at_word": "Sierra",
+     "center": [
+      -119.5,
+      37.6
+     ],
+     "zoom": 6.0,
+     "pitch": 0,
+     "bearing": 0,
+     "easing": "linear"
+    },
+    {
+     "at_word": "place",
+     "center": [
+      -119.55,
+      37.82
+     ],
+     "zoom": 8.2,
+     "pitch": 0,
+     "bearing": 0,
+     "easing": "easeInOutCubic"
+    },
+    {
+     "t": 12.0,
+     "center": [
+      -119.56,
+      37.8
+     ],
+     "zoom": 8.4,
+     "pitch": 0,
+     "bearing": 0,
+     "easing": "linear"
+    }
+   ],
+   "layers": [
+    {
+     "feature": "usa",
+     "style": "hatch",
+     "t": 0.1,
+     "lift": 10,
+     "until_word": "place"
+    },
+    {
+     "feature": "california",
+     "style": "hatch",
+     "at_word": "California's",
+     "lift": 14
+    },
+    {
+     "feature": "yosemite_np",
+     "style": "hatch",
+     "at_word": "place",
+     "lift": 10
+    }
+   ],
+   "elements": [
+    {
+     "type": "Label",
+     "at_word": "California's",
+     "offset": 0.2,
+     "at_pct": [
+      50,
+      20
+     ],
+     "text": "California",
+     "size": 64,
+     "sfx": null,
+     "until_word": "place"
+    },
+    {
+     "type": "GlowingBorderBar",
+     "at_word": "Sierra",
+     "until_word": "place",
+     "coordinates": [
+      [
+       -121.3,
+       40.3
+      ],
+      [
+       -120.2,
+       39.0
+      ],
+      [
+       -119.4,
+       37.9
+      ],
+      [
+       -118.6,
+       36.6
+      ],
+      [
+       -118.2,
+       35.6
+      ]
+     ],
+     "width": 10
+    },
+    {
+     "type": "Label",
+     "at_word": "Sierra",
+     "offset": 0.2,
+     "at": [
+      -117.4,
+      37.4
+     ],
+     "text": "Sierra Nevada",
+     "size": 40,
+     "sfx": null,
+     "until_word": "place"
+    },
+    {
+     "type": "HotspotPin",
+     "at_word": "Yosemite",
+     "at": [
+      -119.59,
+      37.74
+     ],
+     "label": "Yosemite",
+     "size": 0.8,
+     "label_size": 40,
+     "until_word": "place"
+    },
+    {
+     "type": "Label",
+     "at_word": "Ahwahneechee",
+     "at_pct": [
+      50,
+      20
+     ],
+     "text": "Yosemite",
+     "size": 64,
+     "sfx": null
+    },
+    {
+     "type": "HotspotPin",
+     "at_word": "Ahwahnee.",
+     "at": [
+      -119.585,
+      37.742
+     ],
+     "label": "“Ahwahnee”",
+     "size": 0.8,
+     "label_size": 44
+    }
+   ]
+  },
+  {
+   "id": "journey",
+   "mode": "satellite",
+   "narration": "In their story, Tis-sa-ack and her husband Nangas crossed the mountains to reach the valley. Tired and thirsty, she drank the whole lake dry.",
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -119.5,
+      37.79
+     ],
+     "zoom": 11.4,
+     "pitch": 10,
+     "bearing": 0
+    },
+    {
+     "at_word": "crossed",
+     "center": [
+      -119.5,
+      37.79
+     ],
+     "zoom": 11.6,
+     "pitch": 16,
+     "bearing": 0,
+     "easing": "linear"
+    },
+    {
+     "at_word": "Tired",
+     "center": [
+      -119.548,
+      37.748
+     ],
+     "zoom": 14.2,
+     "pitch": 26,
+     "bearing": -10,
+     "easing": "easeInOutCubic"
+    },
+    {
+     "at_word": "dry",
+     "center": [
+      -119.5508,
+      37.7463
+     ],
+     "zoom": 15.3,
+     "pitch": 30,
+     "bearing": -6,
+     "easing": "easeInOutCubic"
+    },
+    {
+     "t": 14.0,
+     "center": [
+      -119.5508,
+      37.7463
+     ],
+     "zoom": 15.5,
+     "pitch": 32,
+     "bearing": -2,
+     "easing": "linear"
+    }
+   ],
+   "layers": [],
+   "elements": [
+    {
+     "type": "Label",
+     "at_word": "Tis-sa-ack",
+     "at_pct": [
+      30,
+      18
+     ],
+     "text": "Tis-sa-ack",
+     "size": 56,
+     "text_color": "#FFE600",
+     "until_word": "Tired"
+    },
+    {
+     "type": "Label",
+     "at_word": "Nangas",
+     "at_pct": [
+      70,
+      25
+     ],
+     "text": "Nangas",
+     "size": 56,
+     "until_word": "Tired"
+    },
+    {
+     "type": "TravelArc",
+     "from": [
+      -119.4555,
+      37.8325
+     ],
+     "to": [
+      -119.5508,
+      37.7463
+     ],
+     "height": 0.3,
+     "label": null,
+     "until_word": "Tired",
+     "t": 0.4,
+     "draw_s": 2.2
+    },
+    {
+     "type": "HotspotPin",
+     "at_word": "lake",
+     "at": [
+      -119.5508,
+      37.7463
+     ],
+     "label": "Mirror Lake",
+     "size": 0.9,
+     "label_size": 46
+    },
+    {
+     "type": "StatBadge",
+     "at_word": "dry",
+     "at_pct": [
+      50,
+      20
+     ],
+     "text": "Drunk dry",
+     "label": "Mirror Lake",
+     "size": 64
+    }
+   ]
+  },
+  {
+   "id": "stone",
+   "mode": "satellite",
+   "narration": "Nangas was furious. They quarrelled, and the spirits turned them both to stone, facing each other across the valley forever.",
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -119.546,
+      37.752
+     ],
+     "zoom": 13.6,
+     "pitch": 14,
+     "bearing": 0
+    },
+    {
+     "at_word": "stone",
+     "center": [
+      -119.543,
+      37.7535
+     ],
+     "zoom": 13.9,
+     "pitch": 22,
+     "bearing": 0,
+     "easing": "linear"
+    },
+    {
+     "at_word": "facing",
+     "center": [
+      -119.543,
+      37.7535
+     ],
+     "zoom": 13.7,
+     "pitch": 26,
+     "bearing": -4,
+     "easing": "easeInOutCubic"
+    },
+    {
+     "t": 12.0,
+     "center": [
+      -119.543,
+      37.7535
+     ],
+     "zoom": 13.85,
+     "pitch": 28,
+     "bearing": 0,
+     "easing": "linear"
+    }
+   ],
+   "layers": [
+    {
+     "feature": "half_dome",
+     "style": "tint",
+     "at_word": "stone",
+     "offset": 0.1,
+     "width": 4
+    }
+   ],
+   "elements": [
+    {
+     "type": "QuestionMarks",
+     "at_word": "furious",
+     "at": [
+      -119.5508,
+      37.7463
+     ],
+     "count": 3,
+     "radius": 150,
+     "until_word": "spirits"
+    },
+    {
+     "type": "HotspotPin",
+     "at_word": "stone",
+     "offset": 0.1,
+     "at": [
+      -119.5332,
+      37.7459
+     ],
+     "label": "Tis-sa-ack",
+     "label_size": 42,
+     "size": 0.85
+    },
+    {
+     "type": "HotspotPin",
+     "at_word": "both",
+     "offset": 0.0,
+     "at": [
+      -119.5525,
+      37.7618
+     ],
+     "label": "Nangas",
+     "label_size": 42,
+     "size": 0.85
+    },
+    {
+     "type": "StatBadge",
+     "at_word": "stone",
+     "offset": 0.4,
+     "at_pct": [
+      50,
+      18
+     ],
+     "text": "Turned to stone",
+     "size": 60,
+     "until_word": "facing"
+    },
+    {
+     "type": "DistanceRuler",
+     "at_word": "facing",
+     "offset": 0.2,
+     "from": [
+      -119.5525,
+      37.7618
+     ],
+     "to": [
+      -119.5332,
+      37.7459
+     ],
+     "label_offset": -90
+    }
+   ]
+  },
+  {
+   "id": "tears",
+   "mode": "satellite",
+   "narration": "Her basket fell upside down and became Basket Dome, and the dark streaks on Half Dome's face are said to be her tears.",
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -119.548,
+      37.762
+     ],
+     "zoom": 14.6,
+     "pitch": 18,
+     "bearing": 0
+    },
+    {
+     "at_word": "Basket",
+     "occurrence": 2,
+     "center": [
+      -119.5446,
+      37.767
+     ],
+     "zoom": 15.2,
+     "pitch": 26,
+     "bearing": -4,
+     "easing": "easeInOutCubic"
+    },
+    {
+     "at_word": "streaks",
+     "center": [
+      -119.5355,
+      37.7462
+     ],
+     "zoom": 15.4,
+     "pitch": 32,
+     "bearing": 128,
+     "easing": "easeInOutCubic"
+    },
+    {
+     "t": 12.0,
+     "center": [
+      -119.5352,
+      37.746
+     ],
+     "zoom": 15.6,
+     "pitch": 32,
+     "bearing": 132,
+     "easing": "linear"
+    }
+   ],
+   "layers": [
+    {
+     "feature": "half_dome",
+     "style": "tint",
+     "at_word": "streaks",
+     "width": 4
+    }
+   ],
+   "elements": [
+    {
+     "type": "HotspotPin",
+     "at_word": "Basket",
+     "occurrence": 2,
+     "at": [
+      -119.5446,
+      37.767
+     ],
+     "label": "Basket Dome",
+     "size": 0.9,
+     "label_size": 46,
+     "until_word": "streaks"
+    },
+    {
+     "type": "GlowingBorderBar",
+     "at_word": "face",
+     "coordinates": [
+      [
+       -119.52756,
+       37.74836
+      ],
+      [
+       -119.53013,
+       37.74734
+      ],
+      [
+       -119.53314,
+       37.74598
+      ],
+      [
+       -119.53657,
+       37.74377
+      ],
+      [
+       -119.54,
+       37.74174
+      ]
+     ],
+     "width": 10
+    },
+    {
+     "type": "CalloutArrow",
+     "at_word": "tears",
+     "offset": -0.3,
+     "from_pct": [
+      50,
+      24
+     ],
+     "to": [
+      -119.5345,
+      37.7448
+     ],
+     "curve": 0.3,
+     "label": "Her tears"
+    },
+    {
+     "type": "Label",
+     "at_word": "face",
+     "offset": 0.2,
+     "at_pct": [
+      50,
+      62
+     ],
+     "text": "Her face",
+     "size": 56,
+     "sfx": null
+    }
+   ]
+  },
+  {
+   "id": "height",
+   "mode": "satellite",
+   "narration": "That face rises about fourteen hundred and forty metres above the valley floor.",
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -119.548,
+      37.744
+     ],
+     "zoom": 13.3,
+     "pitch": 20,
+     "bearing": 110
+    },
+    {
+     "t": 6.0,
+     "center": [
+      -119.545,
+      37.744
+     ],
+     "zoom": 13.0,
+     "pitch": 24,
+     "bearing": 118,
+     "easing": "linear"
+    }
+   ],
+   "layers": [
+    {
+     "feature": "half_dome",
+     "style": "highlight",
+     "t": 0,
+     "width": 4
+    }
+   ],
+   "elements": [
+    {
+     "type": "StatBadge",
+     "at_word": "fourteen",
+     "at_pct": [
+      50,
+      20
+     ],
+     "value": 1444,
+     "suffix": " m",
+     "label": "4,737 ft above the valley",
+     "size": 80
+    },
+    {
+     "type": "CalloutArrow",
+     "at_word": "valley",
+     "from_pct": [
+      24,
+      60
+     ],
+     "to": [
+      -119.555,
+      37.742
+     ],
+     "curve": -0.3,
+     "label": "Valley floor"
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "mode": "dark_cutaway",
+   "mode_at": [
+    {
+     "at_word": "still",
+     "mode": "satellite"
+    }
+   ],
+   "narration": "But geologists say the missing half probably never existed. About eighty percent of the dome is still standing, and so is she.",
+   "tail_s": 1.4,
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -119.535,
+      37.7445
+     ],
+     "zoom": 14.6,
+     "pitch": 0,
+     "bearing": 0
+    },
+    {
+     "at_word": "eighty",
+     "center": [
+      -119.5345,
+      37.7445
+     ],
+     "zoom": 14.8,
+     "pitch": 0,
+     "bearing": 0,
+     "easing": "linear"
+    },
+    {
+     "at_word": "still",
+     "center": [
+      -119.5345,
+      37.7452
+     ],
+     "zoom": 14.7,
+     "pitch": 28,
+     "bearing": 130,
+     "easing": "easeInOutCubic"
+    },
+    {
+     "t": 12.0,
+     "center": [
+      -119.5345,
+      37.7452
+     ],
+     "zoom": 15.0,
+     "pitch": 32,
+     "bearing": 136,
+     "easing": "linear"
+    }
+   ],
+   "layers": [
+    {
+     "feature": "half_dome",
+     "style": "hatch",
+     "t": 0.1,
+     "lift": 14,
+     "until_word": "still"
+    },
+    {
+     "feature": "missing_half",
+     "style": "silhouette",
+     "at_word": "missing",
+     "until_word": "still"
+    },
+    {
+     "feature": "half_dome",
+     "style": "highlight",
+     "at_word": "still",
+     "width": 5
+    }
+   ],
+   "elements": [
+    {
+     "type": "QuestionMarks",
+     "at_word": "missing",
+     "offset": 0.2,
+     "at": [
+      -119.5372,
+      37.7468
+     ],
+     "count": 3,
+     "radius": 160,
+     "until_word": "eighty"
+    },
+    {
+     "type": "Label",
+     "at_word": "never",
+     "at_pct": [
+      50,
+      18
+     ],
+     "text": "Never there?",
+     "size": 64,
+     "until_word": "eighty",
+     "sfx": null
+    },
+    {
+     "type": "StatBadge",
+     "at_word": "eighty",
+     "at_pct": [
+      50,
+      20
+     ],
+     "value": 80,
+     "suffix": "%",
+     "label": "of the dome remains",
+     "size": 84,
+     "until_word": "so"
+    },
+    {
+     "type": "HotspotPin",
+     "at_word": "she",
+     "at": [
+      -119.5332,
+      37.7459
+     ],
+     "label": "Tis-sa-ack",
+     "size": 0.9,
+     "label_size": 48
+    }
+   ]
+  }
+ ]
+}

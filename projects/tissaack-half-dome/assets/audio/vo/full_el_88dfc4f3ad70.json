@@ -1,0 +1,672 @@
+[
+ {
+  "word": "This",
+  "start": 0.0,
+  "end": 0.24
+ },
+ {
+  "word": "granite",
+  "start": 0.32,
+  "end": 0.64
+ },
+ {
+  "word": "giant",
+  "start": 0.8,
+  "end": 1.2
+ },
+ {
+  "word": "is",
+  "start": 1.28,
+  "end": 1.44
+ },
+ {
+  "word": "Half",
+  "start": 1.52,
+  "end": 1.76
+ },
+ {
+  "word": "Dome,",
+  "start": 1.84,
+  "end": 2.48
+ },
+ {
+  "word": "and",
+  "start": 2.56,
+  "end": 2.72
+ },
+ {
+  "word": "legend",
+  "start": 2.8,
+  "end": 3.12
+ },
+ {
+  "word": "says",
+  "start": 3.2,
+  "end": 3.44
+ },
+ {
+  "word": "it",
+  "start": 3.48,
+  "end": 3.52
+ },
+ {
+  "word": "was",
+  "start": 3.6,
+  "end": 3.76
+ },
+ {
+  "word": "once",
+  "start": 3.84,
+  "end": 4.0
+ },
+ {
+  "word": "a",
+  "start": 4.08,
+  "end": 4.12
+ },
+ {
+  "word": "woman",
+  "start": 4.16,
+  "end": 4.48
+ },
+ {
+  "word": "named",
+  "start": 4.56,
+  "end": 4.8
+ },
+ {
+  "word": "Tis-sa-ack.",
+  "start": 4.96,
+  "end": 5.92
+ },
+ {
+  "word": "It",
+  "start": 6.16,
+  "end": 6.32
+ },
+ {
+  "word": "towers",
+  "start": 6.4,
+  "end": 6.88
+ },
+ {
+  "word": "over",
+  "start": 6.96,
+  "end": 7.12
+ },
+ {
+  "word": "Yosemite",
+  "start": 7.2,
+  "end": 7.68
+ },
+ {
+  "word": "Valley,",
+  "start": 7.76,
+  "end": 8.32
+ },
+ {
+  "word": "in",
+  "start": 8.4,
+  "end": 8.48
+ },
+ {
+  "word": "California's",
+  "start": 8.56,
+  "end": 9.2
+ },
+ {
+  "word": "Sierra",
+  "start": 9.28,
+  "end": 9.52
+ },
+ {
+  "word": "Nevada,",
+  "start": 9.6,
+  "end": 10.56
+ },
+ {
+  "word": "a",
+  "start": 10.64,
+  "end": 10.72
+ },
+ {
+  "word": "place",
+  "start": 10.88,
+  "end": 11.04
+ },
+ {
+  "word": "the",
+  "start": 11.12,
+  "end": 11.2
+ },
+ {
+  "word": "Ahwahneechee",
+  "start": 11.28,
+  "end": 11.92
+ },
+ {
+  "word": "people",
+  "start": 12.08,
+  "end": 12.24
+ },
+ {
+  "word": "called",
+  "start": 12.32,
+  "end": 12.56
+ },
+ {
+  "word": "Ahwahnee.",
+  "start": 12.72,
+  "end": 13.84
+ },
+ {
+  "word": "In",
+  "start": 13.92,
+  "end": 14.0
+ },
+ {
+  "word": "their",
+  "start": 14.08,
+  "end": 14.24
+ },
+ {
+  "word": "story,",
+  "start": 14.32,
+  "end": 14.96
+ },
+ {
+  "word": "Tis-sa-ack",
+  "start": 15.0,
+  "end": 15.6
+ },
+ {
+  "word": "and",
+  "start": 15.64,
+  "end": 15.68
+ },
+ {
+  "word": "her",
+  "start": 15.76,
+  "end": 15.84
+ },
+ {
+  "word": "husband",
+  "start": 15.92,
+  "end": 16.24
+ },
+ {
+  "word": "Nangas",
+  "start": 16.28,
+  "end": 16.88
+ },
+ {
+  "word": "crossed",
+  "start": 16.96,
+  "end": 17.24
+ },
+ {
+  "word": "the",
+  "start": 17.28,
+  "end": 17.36
+ },
+ {
+  "word": "mountains",
+  "start": 17.44,
+  "end": 17.84
+ },
+ {
+  "word": "to",
+  "start": 17.88,
+  "end": 17.92
+ },
+ {
+  "word": "reach",
+  "start": 18.0,
+  "end": 18.16
+ },
+ {
+  "word": "the",
+  "start": 18.2,
+  "end": 18.24
+ },
+ {
+  "word": "valley.",
+  "start": 18.32,
+  "end": 19.2
+ },
+ {
+  "word": "Tired",
+  "start": 19.24,
+  "end": 19.6
+ },
+ {
+  "word": "and",
+  "start": 19.68,
+  "end": 19.76
+ },
+ {
+  "word": "thirsty,",
+  "start": 19.8,
+  "end": 20.52
+ },
+ {
+  "word": "she",
+  "start": 20.56,
+  "end": 20.72
+ },
+ {
+  "word": "drank",
+  "start": 20.76,
+  "end": 20.96
+ },
+ {
+  "word": "the",
+  "start": 21.08,
+  "end": 21.2
+ },
+ {
+  "word": "whole",
+  "start": 21.32,
+  "end": 21.44
+ },
+ {
+  "word": "lake",
+  "start": 21.56,
+  "end": 21.68
+ },
+ {
+  "word": "dry.",
+  "start": 21.76,
+  "end": 22.72
+ },
+ {
+  "word": "Nangas",
+  "start": 22.88,
+  "end": 23.36
+ },
+ {
+  "word": "was",
+  "start": 23.44,
+  "end": 23.52
+ },
+ {
+  "word": "furious.",
+  "start": 23.68,
+  "end": 24.72
+ },
+ {
+  "word": "They",
+  "start": 24.8,
+  "end": 24.88
+ },
+ {
+  "word": "quarrelled,",
+  "start": 24.96,
+  "end": 25.627
+ },
+ {
+  "word": "and",
+  "start": 25.653,
+  "end": 25.68
+ },
+ {
+  "word": "the",
+  "start": 25.72,
+  "end": 25.76
+ },
+ {
+  "word": "spirits",
+  "start": 25.84,
+  "end": 26.32
+ },
+ {
+  "word": "turned",
+  "start": 26.44,
+  "end": 26.56
+ },
+ {
+  "word": "them",
+  "start": 26.68,
+  "end": 26.8
+ },
+ {
+  "word": "both",
+  "start": 26.92,
+  "end": 27.04
+ },
+ {
+  "word": "to",
+  "start": 27.12,
+  "end": 27.2
+ },
+ {
+  "word": "stone,",
+  "start": 27.28,
+  "end": 28.16
+ },
+ {
+  "word": "facing",
+  "start": 28.24,
+  "end": 28.56
+ },
+ {
+  "word": "each",
+  "start": 28.64,
+  "end": 28.72
+ },
+ {
+  "word": "other",
+  "start": 28.8,
+  "end": 29.04
+ },
+ {
+  "word": "across",
+  "start": 29.12,
+  "end": 29.44
+ },
+ {
+  "word": "the",
+  "start": 29.52,
+  "end": 29.6
+ },
+ {
+  "word": "valley",
+  "start": 29.68,
+  "end": 29.92
+ },
+ {
+  "word": "forever.",
+  "start": 30.04,
+  "end": 30.96
+ },
+ {
+  "word": "Her",
+  "start": 31.2,
+  "end": 31.44
+ },
+ {
+  "word": "basket",
+  "start": 31.68,
+  "end": 31.8
+ },
+ {
+  "word": "fell",
+  "start": 31.92,
+  "end": 32.0
+ },
+ {
+  "word": "upside",
+  "start": 32.16,
+  "end": 32.48
+ },
+ {
+  "word": "down",
+  "start": 32.88,
+  "end": 32.96
+ },
+ {
+  "word": "and",
+  "start": 33.04,
+  "end": 33.12
+ },
+ {
+  "word": "became",
+  "start": 33.2,
+  "end": 33.64
+ },
+ {
+  "word": "Basket",
+  "start": 33.84,
+  "end": 33.92
+ },
+ {
+  "word": "Dome,",
+  "start": 34.0,
+  "end": 34.72
+ },
+ {
+  "word": "and",
+  "start": 34.8,
+  "end": 34.88
+ },
+ {
+  "word": "the",
+  "start": 34.96,
+  "end": 35.08
+ },
+ {
+  "word": "dark",
+  "start": 35.2,
+  "end": 35.28
+ },
+ {
+  "word": "streaks",
+  "start": 35.36,
+  "end": 35.68
+ },
+ {
+  "word": "on",
+  "start": 35.84,
+  "end": 35.96
+ },
+ {
+  "word": "Half",
+  "start": 36.08,
+  "end": 36.16
+ },
+ {
+  "word": "Dome's",
+  "start": 36.24,
+  "end": 36.72
+ },
+ {
+  "word": "face",
+  "start": 36.96,
+  "end": 37.04
+ },
+ {
+  "word": "are",
+  "start": 37.2,
+  "end": 37.28
+ },
+ {
+  "word": "said",
+  "start": 37.36,
+  "end": 37.44
+ },
+ {
+  "word": "to",
+  "start": 37.48,
+  "end": 37.52
+ },
+ {
+  "word": "be",
+  "start": 37.6,
+  "end": 37.72
+ },
+ {
+  "word": "her",
+  "start": 37.84,
+  "end": 37.92
+ },
+ {
+  "word": "tears.",
+  "start": 38.0,
+  "end": 38.96
+ },
+ {
+  "word": "That",
+  "start": 39.2,
+  "end": 39.28
+ },
+ {
+  "word": "face",
+  "start": 39.52,
+  "end": 39.6
+ },
+ {
+  "word": "rises",
+  "start": 39.76,
+  "end": 40.0
+ },
+ {
+  "word": "about",
+  "start": 40.32,
+  "end": 40.44
+ },
+ {
+  "word": "fourteen",
+  "start": 40.56,
+  "end": 40.8
+ },
+ {
+  "word": "hundred",
+  "start": 40.92,
+  "end": 41.16
+ },
+ {
+  "word": "and",
+  "start": 41.28,
+  "end": 41.4
+ },
+ {
+  "word": "forty",
+  "start": 41.52,
+  "end": 41.6
+ },
+ {
+  "word": "metres",
+  "start": 41.76,
+  "end": 42.04
+ },
+ {
+  "word": "above",
+  "start": 42.16,
+  "end": 42.24
+ },
+ {
+  "word": "the",
+  "start": 42.32,
+  "end": 42.4
+ },
+ {
+  "word": "valley",
+  "start": 42.48,
+  "end": 42.64
+ },
+ {
+  "word": "floor.",
+  "start": 43.52,
+  "end": 43.627
+ },
+ {
+  "word": "But",
+  "start": 43.68,
+  "end": 43.76
+ },
+ {
+  "word": "geologists",
+  "start": 43.84,
+  "end": 44.48
+ },
+ {
+  "word": "say",
+  "start": 44.56,
+  "end": 44.6
+ },
+ {
+  "word": "the",
+  "start": 44.64,
+  "end": 44.72
+ },
+ {
+  "word": "missing",
+  "start": 45.04,
+  "end": 45.24
+ },
+ {
+  "word": "half",
+  "start": 45.44,
+  "end": 45.68
+ },
+ {
+  "word": "probably",
+  "start": 45.92,
+  "end": 46.0
+ },
+ {
+  "word": "never",
+  "start": 46.16,
+  "end": 46.28
+ },
+ {
+  "word": "existed.",
+  "start": 46.4,
+  "end": 47.547
+ },
+ {
+  "word": "About",
+  "start": 47.68,
+  "end": 47.76
+ },
+ {
+  "word": "eighty",
+  "start": 47.92,
+  "end": 48.0
+ },
+ {
+  "word": "percent",
+  "start": 48.24,
+  "end": 48.32
+ },
+ {
+  "word": "of",
+  "start": 48.36,
+  "end": 48.4
+ },
+ {
+  "word": "the",
+  "start": 48.48,
+  "end": 48.52
+ },
+ {
+  "word": "dome",
+  "start": 48.56,
+  "end": 48.8
+ },
+ {
+  "word": "is",
+  "start": 48.88,
+  "end": 48.96
+ },
+ {
+  "word": "still",
+  "start": 49.12,
+  "end": 49.2
+ },
+ {
+  "word": "standing,",
+  "start": 50.0,
+  "end": 50.16
+ },
+ {
+  "word": "and",
+  "start": 50.24,
+  "end": 50.32
+ },
+ {
+  "word": "so",
+  "start": 50.4,
+  "end": 50.48
+ },
+ {
+  "word": "is",
+  "start": 50.56,
+  "end": 50.64
+ },
+ {
+  "word": "she.",
+  "start": 50.88,
+  "end": 51.2
+ }
+]

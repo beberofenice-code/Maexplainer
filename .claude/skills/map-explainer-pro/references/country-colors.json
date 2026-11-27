@@ -19,7 +19,8 @@
     "portugal": { "name": "Portugal",       "adm0_a3": "PRT", "fill": "#2E8B57", "tint": "rgba(46, 139, 87, 0.55)",   "border": "#FFFFFF", "glow": "rgba(120, 220, 160, 0.90)" },
     "andorra":  { "name": "Andorra",        "adm0_a3": "AND", "fill": "#28B446", "tint": "rgba(40, 180, 70, 0.55)",   "border": "#FFFFFF", "glow": "rgba(130, 240, 150, 0.90)" },
     "uk":       { "name": "United Kingdom", "adm0_a3": "GBR", "fill": "#C92A2A", "tint": "rgba(201, 42, 42, 0.55)",   "border": "#FFFFFF", "glow": "rgba(255, 120, 120, 0.90)" },
-    "morocco":  { "name": "Morocco",        "adm0_a3": "MAR", "fill": "#2AD4C0", "tint": "rgba(42, 212, 192, 0.55)",  "border": "#FFFFFF", "glow": "rgba(140, 255, 240, 0.90)" }
+    "morocco":  { "name": "Morocco",        "adm0_a3": "MAR", "fill": "#2AD4C0", "tint": "rgba(42, 212, 192, 0.55)",  "border": "#FFFFFF", "glow": "rgba(140, 255, 240, 0.90)" },
+    "usa":      { "name": "United States",  "adm0_a3": "USA", "fill": "#7A5CC8", "tint": "rgba(122, 92, 200, 0.55)",  "border": "#FFFFFF", "glow": "rgba(190, 165, 255, 0.90)" }
   },
   "territories": {
     "llivia":         { "name": "Llívia",                     "parent": "spain", "type": "enclave" },
@@ -30,6 +31,9 @@
   },
   "overlays": {
     "nyc_size_overlay": { "name": "NYC true-scale overlay", "fill": "#2A9BB0", "tint": "rgba(42, 155, 176, 0.55)", "border": "#FFFFFF", "glow": "rgba(120, 220, 240, 0.90)" },
+    "california":       { "name": "California",             "fill": "#F2A93B", "tint": "rgba(242, 169, 59, 0.55)", "border": "#FFFFFF", "glow": "rgba(255, 210, 140, 0.90)" },
+    "yosemite":         { "name": "Yosemite National Park", "fill": "#3FAF5A", "tint": "rgba(63, 175, 90, 0.55)",  "border": "#FFFFFF", "glow": "rgba(140, 240, 160, 0.90)" },
+    "tissaack":         { "name": "Half Dome (Tis-sa-ack)", "fill": "#E8577D", "tint": "rgba(232, 87, 125, 0.55)", "border": "#FFFFFF", "glow": "rgba(255, 150, 180, 0.90)" },
     "highlight":        { "name": "Highlight yellow",       "fill": "#FFE600", "tint": "rgba(255, 230, 0, 0.55)",  "border": "#FFE600", "glow": "rgba(255, 230, 0, 0.90)" }
   },
   "sovereign_codes": {
@@ -40,7 +44,9 @@
     "AND": "andorra",
     "GB1": "uk",
     "GBR": "uk",
-    "MAR": "morocco"
+    "MAR": "morocco",
+    "US1": "usa",
+    "USA": "usa"
   },
   "adm0_overrides": {
     "GIB": "gibraltar"
