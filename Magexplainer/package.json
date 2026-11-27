@@ -1,16 +1,13 @@
 {
-  "name": "magexplainer",
+  "name": "map-explainer-studio",
   "version": "1.0.0",
   "description": "GeoGlobe Tales-style vertical map explainer video engine built with Remotion and MapLibre GL JS.",
   "private": true,
   "scripts": {
     "studio": "remotion studio src/index.ts",
-    "render": "remotion render src/index.ts SpainsStrangestBorders out/spains-strangest-borders.mp4 --codec=h264 --pixel-format=yuv420p",
-    "render:still": "remotion still src/index.ts SpainsStrangestBorders out/preview.png --frame=60",
-    "render:italy": "remotion render src/index.ts ItalysStrangestBorders out/italys-strangest-borders.mp4 --codec=h264 --pixel-format=yuv420p",
-    "render:france": "remotion render src/index.ts FrancesStrangestBorders out/frances-strangest-borders.mp4 --codec=h264 --pixel-format=yuv420p",
-    "render:germany": "remotion render src/index.ts GermanysStrangestBorders out/germanys-strangest-borders.mp4 --codec=h264 --pixel-format=yuv420p",
-    "render:switzerland": "remotion render src/index.ts SwitzerlandsStrangestBorders out/switzerlands-strangest-borders.mp4 --codec=h264 --pixel-format=yuv420p",
+    "fetch-geo": "tsx scripts/fetch-geojson.ts",
+    "voice": "tsx scripts/generate-voice.ts",
+    "render": "tsx scripts/render.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
@@ -22,8 +19,10 @@
     "remotion": "^4.0.240"
   },
   "devDependencies": {
+    "@types/node": "^20.19.43",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
+    "tsx": "^4.23.15",
     "typescript": "^5.6.3"
   }
 }

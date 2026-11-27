@@ -3,6 +3,7 @@
     "target": "ES2022",
     "module": "ESNext",
     "moduleResolution": "Bundler",
+    "types": ["node"],
     "lib": [
       "DOM",
       "DOM.Iterable",
@@ -18,6 +19,7 @@
   },
   "include": [
     "src",
-    "remotion.config.ts"
+    "remotion.config.ts",
+    "scripts"
   ]
 }

@@ -1,4 +1,4 @@
-# Magexplainer
+# Map Explainer Studio (Magexplainer)
 
 A programmatic, **GeoGlobe Tales-style** vertical (`1080×1920 @ 30fps`) geography explainer video engine built with **Remotion** and **MapLibre GL JS**.
 
@@ -10,37 +10,63 @@ Pre-loaded with a full 96.6-second reference recreation of **Spain's Strangest B
 5. **United Kingdom & Gibraltar** — `706 km (438 mi)` dashed line, animated red arc to Gibraltar, and Europe/Africa continental split.
 6. **Ceuta, Melilla & Peñón de Vélez de la Gomera** — Morocco teal overlay, pulsing orange beacons, and the `85 m (279 ft)` shortest land border in the world.
 
+## Layout
+
+```
+Magexplainer/
+├── SKILL.md                  # Agent skill instructions (symlinked from .claude/skills/magexplainer)
+├── package.json
+├── remotion.config.ts        # public dir = projects/
+├── scripts/
+│   ├── fetch-geojson.ts      # Pulls country/enclave polygons from OSM/Natural Earth → geo.json
+│   ├── generate-voice.ts     # ElevenLabs TTS → voice.mp3 + word-level captions.json
+│   └── render.ts             # Orchestrates the full build → out/<slug>.mp4
+├── src/
+│   ├── Root.tsx              # Auto-registers one composition per project (1080x1920, 30fps)
+│   ├── MapVideo.tsx          # Master timeline reading storyboard.json
+│   ├── project.ts            # Project discovery + geo.json reference resolution
+│   └── components/
+│       ├── MapCanvas.tsx     # MapLibre camera interpolator + GeoJSON layers
+│       ├── CalloutLayer.tsx  # Animated arrows, flags, labels, badges, counters
+│       ├── AreaCompare.tsx   # Overlays one polygon onto another at true scale
+│       └── Captions.tsx      # Word-synced subtitle renderer
+└── projects/
+    ├── _shared/audio/        # Shared bgm / sfx
+    └── spain-borders/        # Reference project
+        ├── storyboard.json   # Scene timings, camera coords, overlays, script
+        ├── geo.json          # Real Llívia + NYC outlines (OSM)
+        ├── voice.mp3
+        └── captions.json
+```
+
+Other projects: `italy-borders`, `france-borders`, `germany-borders`, `switzerland-borders` (captions only, no voice yet).
+
 ## Quick Start
 
 ```bash
 npm install
-npm run studio
+npm run studio                          # scrub every project in Remotion Studio
+npm run render -- spain-borders         # → out/spain-borders.mp4 (H.264, 1080x1920@30)
+npm run render -- spain-borders --still 1540   # → out/spain-borders-1540.png
 ```
 
-Open the Remotion Studio URL in your browser to preview and scrub through the `SpainsStrangestBorders` composition.
-
-### Render to MP4 (`1080×1920 @ 30fps`, H.264)
-
-```bash
-npm run render
-```
-
-The output video is written to `out/spains-strangest-borders.mp4`.
-
-## Architecture
-
-- `src/engine/MapCanvas.tsx` — Deterministic MapLibre GL JS canvas using Remotion's `delayRender` / `continueRender` so every frame waits for satellite tiles and GeoJSON layers before capturing. Supports zero-API-key Esri Satellite + Carto Dark basemaps, diagonal hatched fills, glowing borders, and pulsing beacons.
-- `src/engine/camera.ts` — Smooth eased interpolation of `center`, `zoom`, `pitch`, `bearing`, and `basemap` between keyframes.
-- `src/engine/OverlayLayer.tsx` — React/SVG motion graphics (country labels, pin-and-stem markers, hand-drawn arrows, distance badges, counters, flags, and the Pheasant Island tug-of-war animation).
-- `src/engine/Captions.tsx` — Synced 2–4 word vertical captions.
-- `src/data/spainBordersStoryboard.ts` & `src/data/spainBordersGeo.ts` — Declarative storyboard timeline and GeoJSON shapes.
+On a headless server set `REMOTION_GL=swangle`; behind a TLS-intercepting proxy also set
+`REMOTION_BROWSER_EXECUTABLE` to a Chrome/Chromium that trusts the proxy CA.
 
 ## Creating Your Own Video
 
-1. Duplicate `src/data/spainBordersGeo.ts` and `src/data/spainBordersStoryboard.ts`.
-2. Define your `cameraKeyframes`, `polygons`, `lines`, `beacons`, `callouts`, and `captions`.
-3. Register a new `<Composition />` in `src/Root.tsx` pointing to `<GeoExplainerVideo />`.
-4. (Optional) Drop `narration.mp3`, `bgm.mp3`, and SFX clips into `public/audio/` and set `enableAudio={true}`.
+1. Copy `projects/spain-borders/storyboard.json` to `projects/<slug>/storyboard.json` and give it a new `id`.
+2. Edit `cameraKeyframes`, `polygons`, `areaCompares`, `lines`, `beacons`, `callouts`, `captions` (all times in frames @ 30fps).
+3. For real borders, add `geoSources` (Natural Earth country codes, OSM searches or ids), reference them as `"geo": "<id>"`, and run `npm run fetch-geo -- <slug>`.
+4. Narrate: `ELEVENLABS_API_KEY=… npm run voice -- <slug>` writes `voice.mp3` and word-level `captions.json`
+   (one TTS request per sentence, each placed at its caption cue; reports any drift). `--timing-only` skips audio.
+5. `npm run render -- <slug>`.
+
+See `SKILL.md` for the full storyboard reference and style rules.
+
+## Credits
+
+Satellite imagery © Esri, Maxar, Earthstar Geographics; dark basemap © CARTO; OSM-derived outlines © OpenStreetMap contributors (ODbL); country shapes from Natural Earth.
 
 ## License
 

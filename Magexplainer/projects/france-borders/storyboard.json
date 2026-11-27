@@ -1,0 +1,1029 @@
+{
+  "id": "FrancesStrangestBorders",
+  "title": "France's Strangest Borders",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 2430,
+  "cameraKeyframes": [
+    {
+      "frame": 0,
+      "center": [2.5, 46],
+      "zoom": 3.4,
+      "pitch": 12,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 75,
+      "center": [2.4, 46.5],
+      "zoom": 5.3,
+      "pitch": 18,
+      "bearing": -4,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 105,
+      "center": [2.5, 46.6],
+      "zoom": 5,
+      "pitch": 0,
+      "bearing": 0,
+      "basemap": "dark",
+      "easing": "easeOutQuart"
+    },
+    {
+      "frame": 288,
+      "center": [2.6, 46.6],
+      "zoom": 4.95,
+      "pitch": 0,
+      "bearing": 0,
+      "basemap": "dark"
+    },
+    {
+      "frame": 360,
+      "center": [6.8, 44],
+      "zoom": 7.8,
+      "pitch": 20,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 450,
+      "center": [7.4205, 43.7384],
+      "zoom": 13.6,
+      "pitch": 26,
+      "bearing": -8,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 795,
+      "center": [7.421, 43.7386],
+      "zoom": 13.3,
+      "pitch": 20,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 864,
+      "center": [-30, 33],
+      "zoom": 2.6,
+      "pitch": 0,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 936,
+      "center": [-32, 32],
+      "zoom": 2.7,
+      "pitch": 0,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1020,
+      "center": [-63.07, 18.065],
+      "zoom": 11.8,
+      "pitch": 24,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1395,
+      "center": [-63.07, 18.066],
+      "zoom": 11.6,
+      "pitch": 20,
+      "bearing": 4,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1440,
+      "center": [-58, 12],
+      "zoom": 3.6,
+      "pitch": 10,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1515,
+      "center": [-52.8, 3.8],
+      "zoom": 6.5,
+      "pitch": 16,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1905,
+      "center": [-52.7, 3.7],
+      "zoom": 6.35,
+      "pitch": 14,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 2070,
+      "center": [-51.82, 3.865],
+      "zoom": 13,
+      "pitch": 30,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 2430,
+      "center": [-51.82, 3.866],
+      "zoom": 13.4,
+      "pitch": 24,
+      "bearing": 6,
+      "basemap": "satellite"
+    }
+  ],
+  "polygons": [
+    {
+      "id": "france-hatch",
+      "startFrame": 30,
+      "endFrame": 315,
+      "fillColor": "#4F83D1",
+      "fillOpacity": 0.88,
+      "strokeColor": "#EFF6FF",
+      "strokeWidth": 4,
+      "glowColor": "#FACC15",
+      "hatched": true,
+      "coordinates": [[[2.55, 51.08], [3, 50.78], [4.2, 50.3], [4.85, 50.15], [4.85, 49.8], [5.47, 49.5], [5.82, 49.55], [6.37, 49.46], [7, 49.15], [8.23, 48.97], [7.6, 47.58], [6.95, 47.3], [6.1, 46.6], [6.02, 46.15], [6.8, 46.4], [7.04, 45.93], [6.63, 45.11], [7, 44.2], [7.53, 43.79], [7.44, 43.75], [7.25, 43.69], [6.6, 43.15], [5.38, 43.29], [4.2, 43.45], [3.04, 42.6], [3.2, 42.43], [1.73, 42.62], [0.7, 42.75], [-1.79, 43.36], [-1.25, 44.6], [-1.2, 45.6], [-2.2, 47.2], [-4.79, 48.4], [-3, 48.8], [-1.6, 48.65], [-1.6, 49.7], [0.2, 49.5], [1.5, 50.2], [1.6, 50.9], [2.55, 51.08]]]
+    },
+    {
+      "id": "corsica-hatch",
+      "startFrame": 30,
+      "endFrame": 315,
+      "fillColor": "#4F83D1",
+      "fillOpacity": 0.88,
+      "strokeColor": "#EFF6FF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[9.4, 43], [9.55, 42.1], [9.2, 41.38], [8.6, 41.7], [8.6, 42.3], [9, 42.65], [9.4, 43]]]
+    },
+    {
+      "id": "spain-hatch",
+      "startFrame": 144,
+      "endFrame": 315,
+      "fillColor": "#E87A24",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[-9.29, 43.01], [-7, 43.55], [-4.5, 43.45], [-1.79, 43.36], [0.7, 42.75], [3.2, 42.43], [2.15, 41.38], [0.5, 40.7], [-0.37, 39.47], [-0.7, 37.6], [-2.1, 36.7], [-5.35, 36.14], [-6.3, 36.5], [-7.4, 37.2], [-7.1, 38.8], [-6.9, 40.2], [-6.5, 41.9], [-8.87, 41.88], [-9.29, 43.01]]]
+    },
+    {
+      "id": "andorra-hatch",
+      "startFrame": 162,
+      "endFrame": 315,
+      "fillColor": "#22C55E",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[1.41, 42.56], [1.52, 42.65], [1.73, 42.62], [1.78, 42.51], [1.62, 42.43], [1.44, 42.45], [1.41, 42.56]]]
+    },
+    {
+      "id": "italy-mainland-hatch",
+      "startFrame": 180,
+      "endFrame": 315,
+      "fillColor": "#16A34A",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[7.53, 43.79], [7, 44.2], [6.63, 45.11], [7.04, 45.93], [7.86, 45.92], [8.44, 46.46], [9.04, 45.84], [9.54, 46.29], [10.45, 46.54], [10.47, 46.86], [11.5, 47], [12.2, 47], [12.73, 46.65], [13.71, 46.52], [13.62, 45.77], [13.77, 45.62], [12.3, 45.4], [12.4, 44.5], [13.6, 43.6], [14.7, 42.1], [16, 41.9], [17.2, 40.9], [18.5, 40.1], [17.2, 40.4], [16.6, 39.6], [17.1, 39], [16.1, 38], [15.65, 38], [15.8, 38.9], [15.6, 40.1], [14.3, 40.8], [13, 41.2], [12.2, 41.8], [11.1, 42.4], [10.5, 43], [10.2, 43.9], [9, 44.4], [8.2, 43.9], [7.53, 43.79]]]
+    },
+    {
+      "id": "italy-sicily-hatch",
+      "startFrame": 180,
+      "endFrame": 315,
+      "fillColor": "#16A34A",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[12.4, 37.8], [13.3, 38.2], [15.6, 38.3], [15.1, 37], [15.1, 36.7], [14.3, 37], [12.6, 37.6], [12.4, 37.8]]]
+    },
+    {
+      "id": "italy-sardinia-hatch",
+      "startFrame": 180,
+      "endFrame": 315,
+      "fillColor": "#16A34A",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[8.4, 40.9], [9.2, 41.25], [9.8, 40.5], [9.6, 39.2], [9, 39.1], [8.4, 39], [8.4, 39.9], [8.4, 40.9]]]
+    },
+    {
+      "id": "switzerland-hatch",
+      "startFrame": 216,
+      "endFrame": 315,
+      "fillColor": "#DC2626",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[6.02, 46.15], [6.1, 46.6], [6.95, 47.3], [7.6, 47.58], [8.6, 47.8], [9.5, 47.5], [9.6, 47.06], [10.47, 46.86], [10.45, 46.54], [9.54, 46.29], [9.04, 45.84], [8.44, 46.46], [7.86, 45.92], [7.04, 45.93], [6.8, 46.4], [6.02, 46.15]]]
+    },
+    {
+      "id": "germany-hatch",
+      "startFrame": 234,
+      "endFrame": 315,
+      "fillColor": "#F59E0B",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[6.37, 49.46], [7, 49.15], [8.23, 48.97], [7.6, 47.58], [8.6, 47.8], [9.5, 47.5], [10.5, 47.55], [13, 47.7], [13.8, 48.7], [12.1, 50.3], [14.8, 50.9], [14.2, 53.9], [9.9, 54.8], [8.6, 53.5], [7, 53.3], [6, 51.85], [6.1, 50.75], [6.4, 50.32], [6.13, 50.13], [6.5, 49.8], [6.37, 49.46]]]
+    },
+    {
+      "id": "luxembourg-hatch",
+      "startFrame": 252,
+      "endFrame": 315,
+      "fillColor": "#06B6D4",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[5.82, 49.55], [6.37, 49.46], [6.5, 49.8], [6.13, 50.13], [5.75, 50], [5.82, 49.55]]]
+    },
+    {
+      "id": "belgium-hatch",
+      "startFrame": 270,
+      "endFrame": 315,
+      "fillColor": "#EC4899",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[2.55, 51.08], [3.37, 51.37], [4.25, 51.37], [5, 51.45], [5.85, 51.15], [6.1, 50.75], [6.4, 50.32], [6.13, 50.13], [5.75, 50], [5.82, 49.55], [5.47, 49.5], [4.85, 49.8], [4.85, 50.15], [4.2, 50.3], [3, 50.78], [2.55, 51.08]]]
+    },
+    {
+      "id": "monaco-fill",
+      "startFrame": 435,
+      "endFrame": 810,
+      "fillColor": "#EF4444",
+      "fillOpacity": 0.62,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 4,
+      "glowColor": "#FACC15",
+      "coordinates": [[[7.4091, 43.7247], [7.4135, 43.7315], [7.419, 43.7365], [7.4265, 43.7435], [7.4335, 43.75], [7.4395, 43.7515], [7.439, 43.7485], [7.431, 43.741], [7.425, 43.734], [7.4205, 43.73], [7.416, 43.7255], [7.4091, 43.7247]]]
+    },
+    {
+      "id": "sxm-french",
+      "startFrame": 1035,
+      "endFrame": 1410,
+      "fillColor": "#4F83D1",
+      "fillOpacity": 0.55,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "coordinates": [[[-63.145, 18.07], [-63.11, 18.045], [-63.07, 18.055], [-63.016, 18.054], [-63.01, 18.08], [-63.03, 18.11], [-63.06, 18.12], [-63.09, 18.1], [-63.12, 18.09], [-63.145, 18.07]]]
+    },
+    {
+      "id": "sxm-dutch",
+      "startFrame": 1065,
+      "endFrame": 1410,
+      "fillColor": "#F97316",
+      "fillOpacity": 0.55,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "coordinates": [[[-63.11, 18.045], [-63.07, 18.055], [-63.016, 18.054], [-63.03, 18.03], [-63.06, 18.015], [-63.1, 18.02], [-63.11, 18.045]]]
+    },
+    {
+      "id": "french-guiana",
+      "startFrame": 1485,
+      "endFrame": 1995,
+      "fillColor": "#4F83D1",
+      "fillOpacity": 0.55,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 4,
+      "glowColor": "#FACC15",
+      "coordinates": [[[-54, 5.75], [-53, 5.45], [-52.33, 4.93], [-51.85, 4.6], [-51.62, 4.15], [-51.85, 3.85], [-52.3, 3.2], [-52.6, 2.5], [-52.95, 2.18], [-53.8, 2.3], [-54.6, 2.33], [-54.2, 3.2], [-54, 4], [-54.4, 4.7], [-54, 5.75]]]
+    },
+    {
+      "id": "suriname",
+      "startFrame": 1560,
+      "endFrame": 1995,
+      "fillColor": "#EAB308",
+      "fillOpacity": 0.45,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "coordinates": [[[-54, 5.75], [-54.4, 4.7], [-54, 4], [-54.2, 3.2], [-54.6, 2.33], [-56, 1.9], [-57, 3.3], [-58, 4], [-57.1, 5.9], [-55.9, 5.9], [-54, 5.75]]]
+    },
+    {
+      "id": "brazil",
+      "startFrame": 1635,
+      "endFrame": 1995,
+      "fillColor": "#22C55E",
+      "fillOpacity": 0.45,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "coordinates": [[[-51.62, 4.15], [-51.85, 3.85], [-52.3, 3.2], [-52.6, 2.5], [-52.95, 2.18], [-53.8, 2.3], [-54.6, 2.33], [-56.5, 1.9], [-55, -1], [-50, 0], [-50.5, 2], [-51.62, 4.15]]]
+    }
+  ],
+  "lines": [
+    {
+      "id": "paris-sxm-arc",
+      "startFrame": 855,
+      "endFrame": 990,
+      "color": "#FFFFFF",
+      "glowColor": "#EF4444",
+      "width": 5,
+      "drawRange": [864, 945],
+      "coordinates": [[2.35, 48.86], [-10, 47.5], [-22, 44.5], [-34, 39.5], [-45, 33], [-54, 25.5], [-63.07, 18.065]]
+    },
+    {
+      "id": "sxm-border",
+      "startFrame": 1080,
+      "endFrame": 1410,
+      "color": "#FEF08A",
+      "glowColor": "#FACC15",
+      "width": 7,
+      "drawRange": [1080, 1125],
+      "coordinates": [[-63.11, 18.045], [-63.07, 18.055], [-63.016, 18.054]]
+    },
+    {
+      "id": "fg-suriname-border",
+      "startFrame": 1560,
+      "endFrame": 1995,
+      "color": "#FFFFFF",
+      "width": 4,
+      "dashed": true,
+      "coordinates": [[-54.6, 2.33], [-54.2, 3.2], [-54, 4], [-54.4, 4.7], [-54, 5.75]]
+    },
+    {
+      "id": "fg-brazil-border",
+      "startFrame": 1725,
+      "endFrame": 2040,
+      "color": "#FEF08A",
+      "glowColor": "#EF4444",
+      "width": 7,
+      "drawRange": [1725, 1800],
+      "coordinates": [[-51.62, 4.15], [-51.85, 3.85], [-52.3, 3.2], [-52.6, 2.5], [-52.95, 2.18], [-53.8, 2.3], [-54.6, 2.33]]
+    }
+  ],
+  "beacons": [
+    {
+      "id": "andorra-beacon",
+      "lngLat": [1.58, 42.54],
+      "startFrame": 162,
+      "endFrame": 315,
+      "color": "#F97316",
+      "radius": 8
+    },
+    {
+      "id": "monaco-beacon-intro",
+      "lngLat": [7.4205, 43.7384],
+      "startFrame": 198,
+      "endFrame": 315,
+      "color": "#F97316",
+      "radius": 8
+    },
+    {
+      "id": "saint-georges-beacon",
+      "lngLat": [-51.805, 3.89],
+      "startFrame": 2085,
+      "endFrame": 2430,
+      "color": "#60A5FA",
+      "radius": 12
+    },
+    {
+      "id": "oiapoque-beacon",
+      "lngLat": [-51.835, 3.84],
+      "startFrame": 2145,
+      "endFrame": 2430,
+      "color": "#22C55E",
+      "radius": 12
+    }
+  ],
+  "callouts": [
+    {
+      "id": "hook-brazil",
+      "kind": "hookBanner",
+      "startFrame": 30,
+      "endFrame": 102,
+      "xPct": 50,
+      "yPct": 24,
+      "accentWord": "BRAZIL",
+      "text": "?!"
+    },
+    {
+      "id": "hook-arrow",
+      "kind": "curvedArrow",
+      "startFrame": 36,
+      "endFrame": 102,
+      "xPct": 56,
+      "yPct": 34,
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "lbl-france-intro",
+      "kind": "countryLabel",
+      "startFrame": 30,
+      "endFrame": 315,
+      "xPct": 50,
+      "yPct": 49,
+      "text": "FRANCE"
+    },
+    {
+      "id": "neighbor-counter",
+      "kind": "counter",
+      "startFrame": 144,
+      "endFrame": 315,
+      "xPct": 50,
+      "yPct": 17,
+      "counterSteps": [
+        {
+          "frame": 144,
+          "value": 1
+        },
+        {
+          "frame": 162,
+          "value": 2
+        },
+        {
+          "frame": 180,
+          "value": 3
+        },
+        {
+          "frame": 198,
+          "value": 4
+        },
+        {
+          "frame": 216,
+          "value": 5
+        },
+        {
+          "frame": 234,
+          "value": 6
+        },
+        {
+          "frame": 252,
+          "value": 7
+        },
+        {
+          "frame": 270,
+          "value": 8
+        }
+      ]
+    },
+    {
+      "id": "lbl-spain-intro",
+      "kind": "countryLabel",
+      "startFrame": 144,
+      "endFrame": 315,
+      "xPct": 26,
+      "yPct": 71,
+      "text": "SPAIN",
+      "scale": 0.6
+    },
+    {
+      "id": "lbl-andorra-intro",
+      "kind": "countryLabel",
+      "startFrame": 162,
+      "endFrame": 315,
+      "xPct": 42,
+      "yPct": 66,
+      "text": "ANDORRA",
+      "scale": 0.4
+    },
+    {
+      "id": "lbl-italy-intro",
+      "kind": "countryLabel",
+      "startFrame": 180,
+      "endFrame": 315,
+      "xPct": 82,
+      "yPct": 57,
+      "text": "ITALY",
+      "scale": 0.55
+    },
+    {
+      "id": "lbl-monaco-intro",
+      "kind": "countryLabel",
+      "startFrame": 198,
+      "endFrame": 315,
+      "xPct": 66,
+      "yPct": 63,
+      "text": "MONACO",
+      "scale": 0.4
+    },
+    {
+      "id": "lbl-switzerland-intro",
+      "kind": "countryLabel",
+      "startFrame": 216,
+      "endFrame": 315,
+      "xPct": 78,
+      "yPct": 47,
+      "text": "SWITZERLAND",
+      "scale": 0.4
+    },
+    {
+      "id": "lbl-germany-intro",
+      "kind": "countryLabel",
+      "startFrame": 234,
+      "endFrame": 315,
+      "xPct": 80,
+      "yPct": 37,
+      "text": "GERMANY",
+      "scale": 0.55
+    },
+    {
+      "id": "lbl-luxembourg-intro",
+      "kind": "countryLabel",
+      "startFrame": 252,
+      "endFrame": 315,
+      "xPct": 60,
+      "yPct": 41,
+      "text": "LUXEMBOURG",
+      "scale": 0.38
+    },
+    {
+      "id": "lbl-belgium-intro",
+      "kind": "countryLabel",
+      "startFrame": 270,
+      "endFrame": 315,
+      "xPct": 54,
+      "yPct": 34,
+      "text": "BELGIUM",
+      "scale": 0.45
+    },
+    {
+      "id": "pin-monaco",
+      "kind": "pinLabel",
+      "startFrame": 435,
+      "endFrame": 555,
+      "xPct": 50,
+      "yPct": 40,
+      "text": "Monaco"
+    },
+    {
+      "id": "flag-mc",
+      "kind": "flag",
+      "startFrame": 465,
+      "endFrame": 720,
+      "xPct": 72,
+      "yPct": 24,
+      "flagCode": "MC",
+      "rotationDeg": 8
+    },
+    {
+      "id": "flag-fr-monaco",
+      "kind": "flag",
+      "startFrame": 480,
+      "endFrame": 720,
+      "xPct": 26,
+      "yPct": 64,
+      "flagCode": "FR",
+      "rotationDeg": -8
+    },
+    {
+      "id": "area-monaco",
+      "kind": "distanceBadge",
+      "startFrame": 495,
+      "endFrame": 645,
+      "xPct": 50,
+      "yPct": 62,
+      "text": "2 km²",
+      "subtext": "(0.78 sq mi)"
+    },
+    {
+      "id": "pop-monaco",
+      "kind": "populationBadge",
+      "startFrame": 660,
+      "endFrame": 735,
+      "xPct": 50,
+      "yPct": 47,
+      "text": "38,000"
+    },
+    {
+      "id": "lbl-densest",
+      "kind": "countryLabel",
+      "startFrame": 735,
+      "endFrame": 810,
+      "xPct": 50,
+      "yPct": 62,
+      "text": "Densest country on Earth",
+      "scale": 0.55
+    },
+    {
+      "id": "dist-paris-sxm",
+      "kind": "distanceBadge",
+      "startFrame": 885,
+      "endFrame": 975,
+      "xPct": 50,
+      "yPct": 36,
+      "text": "6,700 km",
+      "subtext": "(4,200 mi)",
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "pin-sxm",
+      "kind": "pinLabel",
+      "startFrame": 990,
+      "endFrame": 1065,
+      "xPct": 50,
+      "yPct": 40,
+      "text": "Saint Martin"
+    },
+    {
+      "id": "lbl-sxm-france",
+      "kind": "countryLabel",
+      "startFrame": 1050,
+      "endFrame": 1395,
+      "xPct": 50,
+      "yPct": 40,
+      "text": "FRANCE",
+      "scale": 0.6
+    },
+    {
+      "id": "lbl-sxm-netherlands",
+      "kind": "countryLabel",
+      "startFrame": 1080,
+      "endFrame": 1395,
+      "xPct": 46,
+      "yPct": 62,
+      "text": "NETHERLANDS",
+      "scale": 0.55
+    },
+    {
+      "id": "flag-fr-sxm",
+      "kind": "flag",
+      "startFrame": 1065,
+      "endFrame": 1260,
+      "xPct": 74,
+      "yPct": 26,
+      "flagCode": "FR",
+      "rotationDeg": 8
+    },
+    {
+      "id": "flag-nl-sxm",
+      "kind": "flag",
+      "startFrame": 1095,
+      "endFrame": 1260,
+      "xPct": 24,
+      "yPct": 66,
+      "flagCode": "NL",
+      "rotationDeg": -8
+    },
+    {
+      "id": "counter-sxm",
+      "kind": "counter",
+      "startFrame": 1125,
+      "endFrame": 1260,
+      "xPct": 50,
+      "yPct": 17,
+      "counterSteps": [
+        {
+          "frame": 1125,
+          "value": 8
+        },
+        {
+          "frame": 1155,
+          "value": 9
+        }
+      ]
+    },
+    {
+      "id": "lbl-fg",
+      "kind": "countryLabel",
+      "startFrame": 1500,
+      "endFrame": 1710,
+      "xPct": 45,
+      "yPct": 46,
+      "text": "FRENCH GUIANA",
+      "scale": 0.6
+    },
+    {
+      "id": "lbl-suriname",
+      "kind": "countryLabel",
+      "startFrame": 1560,
+      "endFrame": 1995,
+      "xPct": 17,
+      "yPct": 44,
+      "text": "SURINAME",
+      "scale": 0.5
+    },
+    {
+      "id": "lbl-brazil",
+      "kind": "countryLabel",
+      "startFrame": 1635,
+      "endFrame": 1995,
+      "xPct": 54,
+      "yPct": 68,
+      "text": "BRAZIL",
+      "scale": 0.7
+    },
+    {
+      "id": "counter-fg",
+      "kind": "counter",
+      "startFrame": 1560,
+      "endFrame": 1725,
+      "xPct": 50,
+      "yPct": 17,
+      "counterSteps": [
+        {
+          "frame": 1560,
+          "value": 10
+        },
+        {
+          "frame": 1635,
+          "value": 11
+        }
+      ]
+    },
+    {
+      "id": "dist-fg-brazil",
+      "kind": "distanceBadge",
+      "startFrame": 1755,
+      "endFrame": 1905,
+      "xPct": 66,
+      "yPct": 56,
+      "text": "730 km",
+      "subtext": "(454 mi)",
+      "color": "#FFFFFF",
+      "rotationDeg": -40
+    },
+    {
+      "id": "lbl-vs-spain",
+      "kind": "countryLabel",
+      "startFrame": 1815,
+      "endFrame": 1905,
+      "xPct": 50,
+      "yPct": 30,
+      "text": "Spain border: 623 km",
+      "scale": 0.5
+    },
+    {
+      "id": "hook-longest",
+      "kind": "hookBanner",
+      "startFrame": 1905,
+      "endFrame": 2055,
+      "xPct": 50,
+      "yPct": 26,
+      "accentWord": "LONGEST",
+      "text": "border: Brazil"
+    },
+    {
+      "id": "flag-br",
+      "kind": "flag",
+      "startFrame": 1935,
+      "endFrame": 2055,
+      "xPct": 78,
+      "yPct": 80,
+      "flagCode": "BR",
+      "rotationDeg": -6
+    },
+    {
+      "id": "pin-saint-georges",
+      "kind": "pinLabel",
+      "startFrame": 2100,
+      "endFrame": 2430,
+      "xPct": 66,
+      "yPct": 33,
+      "text": "Saint-Georges",
+      "scale": 0.65
+    },
+    {
+      "id": "pin-oiapoque",
+      "kind": "pinLabel",
+      "startFrame": 2160,
+      "endFrame": 2430,
+      "xPct": 31,
+      "yPct": 66,
+      "text": "Oiapoque",
+      "scale": 0.65
+    },
+    {
+      "id": "flag-fr-oyapock",
+      "kind": "flag",
+      "startFrame": 2205,
+      "endFrame": 2430,
+      "xPct": 80,
+      "yPct": 22,
+      "flagCode": "FR",
+      "rotationDeg": 8
+    },
+    {
+      "id": "flag-br-oyapock",
+      "kind": "flag",
+      "startFrame": 2250,
+      "endFrame": 2430,
+      "xPct": 18,
+      "yPct": 50,
+      "flagCode": "BR",
+      "rotationDeg": -8
+    }
+  ],
+  "captions": [
+    {
+      "startFrame": 0,
+      "endFrame": 30,
+      "text": "Did you know"
+    },
+    {
+      "startFrame": 30,
+      "endFrame": 66,
+      "text": "France's longest border"
+    },
+    {
+      "startFrame": 66,
+      "endFrame": 102,
+      "text": "is with Brazil?"
+    },
+    {
+      "startFrame": 102,
+      "endFrame": 144,
+      "text": "In Europe, France has eight neighbors:"
+    },
+    {
+      "startFrame": 144,
+      "endFrame": 192,
+      "text": "Spain, Andorra, Italy, Monaco,"
+    },
+    {
+      "startFrame": 192,
+      "endFrame": 240,
+      "text": "Switzerland, Germany,"
+    },
+    {
+      "startFrame": 240,
+      "endFrame": 288,
+      "text": "Luxembourg and Belgium."
+    },
+    {
+      "startFrame": 288,
+      "endFrame": 360,
+      "text": "But its strangest borders hide in the corners."
+    },
+    {
+      "startFrame": 360,
+      "endFrame": 420,
+      "text": "On the Riviera sits Monaco,"
+    },
+    {
+      "startFrame": 420,
+      "endFrame": 495,
+      "text": "wrapped by France on every side but the sea."
+    },
+    {
+      "startFrame": 495,
+      "endFrame": 570,
+      "text": "At just 2 square kilometers,"
+    },
+    {
+      "startFrame": 570,
+      "endFrame": 660,
+      "text": "it's the second-smallest country in the world,"
+    },
+    {
+      "startFrame": 660,
+      "endFrame": 735,
+      "text": "yet home to about 38,000 people —"
+    },
+    {
+      "startFrame": 735,
+      "endFrame": 810,
+      "text": "the most densely populated country on Earth."
+    },
+    {
+      "startFrame": 810,
+      "endFrame": 885,
+      "text": "Now cross the Atlantic."
+    },
+    {
+      "startFrame": 885,
+      "endFrame": 960,
+      "text": "6,700 kilometers from Paris"
+    },
+    {
+      "startFrame": 960,
+      "endFrame": 1035,
+      "text": "lies the island of Saint Martin,"
+    },
+    {
+      "startFrame": 1035,
+      "endFrame": 1125,
+      "text": "split between France and the Netherlands."
+    },
+    {
+      "startFrame": 1125,
+      "endFrame": 1200,
+      "text": "That gives France a land border with the Dutch"
+    },
+    {
+      "startFrame": 1200,
+      "endFrame": 1260,
+      "text": "that it doesn't have in Europe."
+    },
+    {
+      "startFrame": 1260,
+      "endFrame": 1335,
+      "text": "Legend says the border was settled by a walking race:"
+    },
+    {
+      "startFrame": 1335,
+      "endFrame": 1410,
+      "text": "the Frenchman drank wine, the Dutchman gin."
+    },
+    {
+      "startFrame": 1410,
+      "endFrame": 1485,
+      "text": "Further south, on the edge of the Amazon,"
+    },
+    {
+      "startFrame": 1485,
+      "endFrame": 1560,
+      "text": "is French Guiana — a full part of France."
+    },
+    {
+      "startFrame": 1560,
+      "endFrame": 1635,
+      "text": "It borders Suriname to the west"
+    },
+    {
+      "startFrame": 1635,
+      "endFrame": 1725,
+      "text": "and Brazil to the south and east."
+    },
+    {
+      "startFrame": 1725,
+      "endFrame": 1815,
+      "text": "That border runs about 730 kilometers,"
+    },
+    {
+      "startFrame": 1815,
+      "endFrame": 1905,
+      "text": "longer than France's border with Spain."
+    },
+    {
+      "startFrame": 1905,
+      "endFrame": 1995,
+      "text": "So France's longest land border"
+    },
+    {
+      "startFrame": 1995,
+      "endFrame": 2070,
+      "text": "is with Brazil."
+    },
+    {
+      "startFrame": 2070,
+      "endFrame": 2160,
+      "text": "Here on the Oyapock River,"
+    },
+    {
+      "startFrame": 2160,
+      "endFrame": 2250,
+      "text": "a bridge links the French town of Saint-Georges"
+    },
+    {
+      "startFrame": 2250,
+      "endFrame": 2340,
+      "text": "to Oiapoque in Brazil —"
+    },
+    {
+      "startFrame": 2340,
+      "endFrame": 2430,
+      "text": "where the European Union meets South America."
+    }
+  ],
+  "audio": {
+    "bgm": {
+      "src": "_shared/audio/bgm.mp3",
+      "startFrame": 0,
+      "volume": 0.18
+    },
+    "sfx": [
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 60,
+        "volume": 0.5
+      },
+      {
+        "src": "_shared/audio/sfx/pop.mp3",
+        "startFrame": 144,
+        "volume": 0.55
+      },
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 390,
+        "volume": 0.5
+      },
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 840,
+        "volume": 0.5
+      },
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 1440,
+        "volume": 0.5
+      },
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 2025,
+        "volume": 0.5
+      }
+    ]
+  }
+}

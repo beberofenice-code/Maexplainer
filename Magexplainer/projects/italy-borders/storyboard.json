@@ -1,0 +1,924 @@
+{
+  "id": "ItalysStrangestBorders",
+  "title": "Italy's Strangest Borders",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 2340,
+  "cameraKeyframes": [
+    {
+      "frame": 0,
+      "center": [12.5, 42],
+      "zoom": 3.4,
+      "pitch": 12,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 75,
+      "center": [12, 42.8],
+      "zoom": 5.3,
+      "pitch": 18,
+      "bearing": -4,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 105,
+      "center": [11.8, 43.2],
+      "zoom": 5,
+      "pitch": 0,
+      "bearing": 0,
+      "basemap": "dark",
+      "easing": "easeOutQuart"
+    },
+    {
+      "frame": 285,
+      "center": [11.9, 43.3],
+      "zoom": 4.95,
+      "pitch": 0,
+      "bearing": 0,
+      "basemap": "dark"
+    },
+    {
+      "frame": 306,
+      "center": [12.2, 42.3],
+      "zoom": 6.5,
+      "pitch": 20,
+      "bearing": -4,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 375,
+      "center": [12.48, 41.9],
+      "zoom": 10.6,
+      "pitch": 22,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 435,
+      "center": [12.4534, 41.9029],
+      "zoom": 14.6,
+      "pitch": 26,
+      "bearing": 8,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 720,
+      "center": [12.4536, 41.9031],
+      "zoom": 14.3,
+      "pitch": 20,
+      "bearing": 2,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 765,
+      "center": [12.3, 43.3],
+      "zoom": 7.5,
+      "pitch": 18,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 840,
+      "center": [12.457, 43.942],
+      "zoom": 11.6,
+      "pitch": 24,
+      "bearing": -6,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1185,
+      "center": [12.459, 43.941],
+      "zoom": 11.25,
+      "pitch": 20,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1230,
+      "center": [8.95, 46.2],
+      "zoom": 7.2,
+      "pitch": 18,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1320,
+      "center": [8.9705, 45.9685],
+      "zoom": 13.6,
+      "pitch": 26,
+      "bearing": 6,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1725,
+      "center": [8.975, 45.968],
+      "zoom": 13.2,
+      "pitch": 20,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1770,
+      "center": [8.3, 46.2],
+      "zoom": 7,
+      "pitch": 20,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1845,
+      "center": [7.6586, 45.9763],
+      "zoom": 12.4,
+      "pitch": 40,
+      "bearing": -10,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1995,
+      "center": [7.7083, 45.9357],
+      "zoom": 15.4,
+      "pitch": 34,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 2340,
+      "center": [7.7084, 45.9356],
+      "zoom": 15.9,
+      "pitch": 28,
+      "bearing": 6,
+      "basemap": "satellite"
+    }
+  ],
+  "polygons": [
+    {
+      "id": "italy-mainland-hatch",
+      "startFrame": 30,
+      "endFrame": 294,
+      "fillColor": "#16A34A",
+      "fillOpacity": 0.88,
+      "strokeColor": "#F0FDF4",
+      "strokeWidth": 4,
+      "glowColor": "#FACC15",
+      "hatched": true,
+      "coordinates": [[[7.53, 43.79], [7, 44.2], [6.63, 45.11], [7.04, 45.93], [7.86, 45.92], [8.44, 46.46], [9.04, 45.84], [9.54, 46.29], [10.45, 46.54], [10.47, 46.86], [11.5, 47], [12.2, 47], [12.73, 46.65], [13.71, 46.52], [13.62, 45.77], [13.77, 45.62], [12.3, 45.4], [12.4, 44.5], [13.6, 43.6], [14.7, 42.1], [16, 41.9], [17.2, 40.9], [18.5, 40.1], [17.2, 40.4], [16.6, 39.6], [17.1, 39], [16.1, 38], [15.65, 38], [15.8, 38.9], [15.6, 40.1], [14.3, 40.8], [13, 41.2], [12.2, 41.8], [11.1, 42.4], [10.5, 43], [10.2, 43.9], [9, 44.4], [8.2, 43.9], [7.53, 43.79]]]
+    },
+    {
+      "id": "italy-sicily-hatch",
+      "startFrame": 30,
+      "endFrame": 294,
+      "fillColor": "#16A34A",
+      "fillOpacity": 0.88,
+      "strokeColor": "#F0FDF4",
+      "strokeWidth": 4,
+      "glowColor": "#FACC15",
+      "hatched": true,
+      "coordinates": [[[12.4, 37.8], [13.3, 38.2], [15.6, 38.3], [15.1, 37], [15.1, 36.7], [14.3, 37], [12.6, 37.6], [12.4, 37.8]]]
+    },
+    {
+      "id": "italy-sardinia-hatch",
+      "startFrame": 30,
+      "endFrame": 294,
+      "fillColor": "#16A34A",
+      "fillOpacity": 0.88,
+      "strokeColor": "#F0FDF4",
+      "strokeWidth": 4,
+      "glowColor": "#FACC15",
+      "hatched": true,
+      "coordinates": [[[8.4, 40.9], [9.2, 41.25], [9.8, 40.5], [9.6, 39.2], [9, 39.1], [8.4, 39], [8.4, 39.9], [8.4, 40.9]]]
+    },
+    {
+      "id": "france-hatch",
+      "startFrame": 144,
+      "endFrame": 294,
+      "fillColor": "#4F83D1",
+      "fillOpacity": 0.85,
+      "strokeColor": "#EFF6FF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[7.53, 43.79], [7, 44.2], [6.63, 45.11], [7.04, 45.93], [6.8, 46.4], [6.02, 46.15], [6.1, 46.6], [6.95, 47.3], [7.6, 47.58], [8.23, 48.97], [2.55, 51.08], [-1.6, 49.7], [-4.79, 48.4], [-2.5, 47.5], [-1.2, 45.6], [-1.79, 43.36], [0.7, 42.75], [3.2, 42.43], [5.38, 43.29], [7.53, 43.79]]]
+    },
+    {
+      "id": "switzerland-hatch",
+      "startFrame": 168,
+      "endFrame": 294,
+      "fillColor": "#DC2626",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[6.02, 46.15], [6.1, 46.6], [6.95, 47.3], [7.6, 47.58], [8.6, 47.8], [9.5, 47.5], [9.6, 47.06], [10.47, 46.86], [10.45, 46.54], [9.54, 46.29], [9.04, 45.84], [8.44, 46.46], [7.86, 45.92], [7.04, 45.93], [6.8, 46.4], [6.02, 46.15]]]
+    },
+    {
+      "id": "austria-hatch",
+      "startFrame": 192,
+      "endFrame": 294,
+      "fillColor": "#F97316",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[9.55, 47.27], [9.6, 47.06], [10.47, 46.86], [11.5, 47], [12.2, 47], [12.73, 46.65], [13.71, 46.52], [14.6, 46.6], [16, 46.8], [16.9, 48], [17.1, 48.3], [16.9, 48.6], [15, 49], [13.8, 48.7], [13, 47.7], [12.2, 47.7], [10.5, 47.55], [9.55, 47.27]]]
+    },
+    {
+      "id": "slovenia-hatch",
+      "startFrame": 216,
+      "endFrame": 294,
+      "fillColor": "#A855F7",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[13.71, 46.52], [14.6, 46.6], [16, 46.8], [16.6, 46.5], [15.6, 46], [15.3, 45.5], [13.6, 45.45], [13.77, 45.62], [13.62, 45.77], [13.71, 46.52]]]
+    },
+    {
+      "id": "italy-mainland-tint",
+      "startFrame": 294,
+      "endFrame": 1200,
+      "fillColor": "#16A34A",
+      "fillOpacity": 0.4,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "coordinates": [[[7.53, 43.79], [7, 44.2], [6.63, 45.11], [7.04, 45.93], [7.86, 45.92], [8.44, 46.46], [9.04, 45.84], [9.54, 46.29], [10.45, 46.54], [10.47, 46.86], [11.5, 47], [12.2, 47], [12.73, 46.65], [13.71, 46.52], [13.62, 45.77], [13.77, 45.62], [12.3, 45.4], [12.4, 44.5], [13.6, 43.6], [14.7, 42.1], [16, 41.9], [17.2, 40.9], [18.5, 40.1], [17.2, 40.4], [16.6, 39.6], [17.1, 39], [16.1, 38], [15.65, 38], [15.8, 38.9], [15.6, 40.1], [14.3, 40.8], [13, 41.2], [12.2, 41.8], [11.1, 42.4], [10.5, 43], [10.2, 43.9], [9, 44.4], [8.2, 43.9], [7.53, 43.79]]]
+    },
+    {
+      "id": "italy-sicily-tint",
+      "startFrame": 294,
+      "endFrame": 1200,
+      "fillColor": "#16A34A",
+      "fillOpacity": 0.4,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "coordinates": [[[12.4, 37.8], [13.3, 38.2], [15.6, 38.3], [15.1, 37], [15.1, 36.7], [14.3, 37], [12.6, 37.6], [12.4, 37.8]]]
+    },
+    {
+      "id": "italy-sardinia-tint",
+      "startFrame": 294,
+      "endFrame": 1200,
+      "fillColor": "#16A34A",
+      "fillOpacity": 0.4,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "coordinates": [[[8.4, 40.9], [9.2, 41.25], [9.8, 40.5], [9.6, 39.2], [9, 39.1], [8.4, 39], [8.4, 39.9], [8.4, 40.9]]]
+    },
+    {
+      "id": "switzerland-tint",
+      "startFrame": 1200,
+      "endFrame": 1305,
+      "fillColor": "#DC2626",
+      "fillOpacity": 0.4,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "coordinates": [[[6.02, 46.15], [6.1, 46.6], [6.95, 47.3], [7.6, 47.58], [8.6, 47.8], [9.5, 47.5], [9.6, 47.06], [10.47, 46.86], [10.45, 46.54], [9.54, 46.29], [9.04, 45.84], [8.44, 46.46], [7.86, 45.92], [7.04, 45.93], [6.8, 46.4], [6.02, 46.15]]]
+    },
+    {
+      "id": "vatican-fill",
+      "startFrame": 420,
+      "endFrame": 750,
+      "fillColor": "#FACC15",
+      "fillOpacity": 0.7,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 5,
+      "glowColor": "#FACC15",
+      "coordinates": [[[12.4457, 41.9007], [12.4469, 41.9043], [12.4497, 41.9065], [12.4535, 41.9072], [12.456, 41.9071], [12.4584, 41.9025], [12.454, 41.9003], [12.4497, 41.8998], [12.4457, 41.9007]]]
+    },
+    {
+      "id": "san-marino-fill",
+      "startFrame": 810,
+      "endFrame": 1200,
+      "fillColor": "#38BDF8",
+      "fillOpacity": 0.68,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 4,
+      "glowColor": "#FACC15",
+      "coordinates": [[[12.4, 43.96], [12.43, 43.985], [12.47, 43.99], [12.51, 43.98], [12.52, 43.95], [12.51, 43.92], [12.49, 43.895], [12.45, 43.893], [12.42, 43.905], [12.4, 43.93], [12.4, 43.96]]]
+    },
+    {
+      "id": "campione-fill",
+      "startFrame": 1320,
+      "endFrame": 1740,
+      "fillColor": "#16A34A",
+      "fillOpacity": 0.75,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 4,
+      "glowColor": "#FACC15",
+      "coordinates": [[[8.962, 45.976], [8.969, 45.979], [8.976, 45.978], [8.982, 45.968], [8.979, 45.961], [8.972, 45.957], [8.964, 45.962], [8.962, 45.976]]]
+    }
+  ],
+  "lines": [
+    {
+      "id": "campione-distance",
+      "startFrame": 1500,
+      "endFrame": 1650,
+      "color": "#FFFFFF",
+      "width": 5,
+      "dashed": true,
+      "drawRange": [1500, 1536],
+      "coordinates": [[8.982, 45.97], [8.995, 45.972]]
+    },
+    {
+      "id": "alpine-border-old",
+      "startFrame": 1860,
+      "endFrame": 2340,
+      "color": "#FFFFFF",
+      "width": 5,
+      "dashed": true,
+      "coordinates": [[7.6586, 45.9763], [7.676, 45.962], [7.69, 45.948], [7.7, 45.9405], [7.7083, 45.9372], [7.718, 45.9335], [7.73, 45.93]]
+    },
+    {
+      "id": "alpine-border-new",
+      "startFrame": 2100,
+      "endFrame": 2340,
+      "color": "#FEF08A",
+      "glowColor": "#EF4444",
+      "width": 8,
+      "drawRange": [2100, 2175],
+      "coordinates": [[7.6586, 45.9763], [7.676, 45.9612], [7.69, 45.9466], [7.7, 45.939], [7.7083, 45.9346], [7.718, 45.9318], [7.73, 45.9288]]
+    }
+  ],
+  "beacons": [
+    {
+      "id": "vatican-beacon-intro",
+      "lngLat": [12.4534, 41.9029],
+      "startFrame": 252,
+      "endFrame": 294,
+      "color": "#F97316",
+      "radius": 10
+    },
+    {
+      "id": "san-marino-beacon-intro",
+      "lngLat": [12.457, 43.942],
+      "startFrame": 258,
+      "endFrame": 294,
+      "color": "#F97316",
+      "radius": 10
+    },
+    {
+      "id": "vatican-beacon-rome",
+      "lngLat": [12.4534, 41.9029],
+      "startFrame": 345,
+      "endFrame": 420,
+      "color": "#F97316",
+      "radius": 12
+    },
+    {
+      "id": "refuge-beacon",
+      "lngLat": [7.7083, 45.9357],
+      "startFrame": 1995,
+      "endFrame": 2340,
+      "color": "#F97316",
+      "radius": 12
+    }
+  ],
+  "callouts": [
+    {
+      "id": "lbl-italy-intro",
+      "kind": "countryLabel",
+      "startFrame": 30,
+      "endFrame": 294,
+      "xPct": 63,
+      "yPct": 60,
+      "text": "ITALY"
+    },
+    {
+      "id": "hook-hidden",
+      "kind": "hookBanner",
+      "startFrame": 30,
+      "endFrame": 102,
+      "xPct": 50,
+      "yPct": 24,
+      "accentWord": "2",
+      "text": "hidden countries"
+    },
+    {
+      "id": "hook-arrow",
+      "kind": "curvedArrow",
+      "startFrame": 36,
+      "endFrame": 102,
+      "xPct": 56,
+      "yPct": 34,
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "neighbor-counter",
+      "kind": "counter",
+      "startFrame": 144,
+      "endFrame": 294,
+      "xPct": 50,
+      "yPct": 18,
+      "counterSteps": [
+        {
+          "frame": 144,
+          "value": 1
+        },
+        {
+          "frame": 168,
+          "value": 2
+        },
+        {
+          "frame": 192,
+          "value": 3
+        },
+        {
+          "frame": 216,
+          "value": 4
+        },
+        {
+          "frame": 258,
+          "value": 6
+        }
+      ]
+    },
+    {
+      "id": "lbl-france-intro",
+      "kind": "countryLabel",
+      "startFrame": 144,
+      "endFrame": 294,
+      "xPct": 18,
+      "yPct": 46,
+      "text": "FRANCE",
+      "scale": 0.6
+    },
+    {
+      "id": "lbl-switzerland-intro",
+      "kind": "countryLabel",
+      "startFrame": 168,
+      "endFrame": 294,
+      "xPct": 33,
+      "yPct": 37,
+      "text": "SWITZERLAND",
+      "scale": 0.48
+    },
+    {
+      "id": "lbl-austria-intro",
+      "kind": "countryLabel",
+      "startFrame": 192,
+      "endFrame": 294,
+      "xPct": 60,
+      "yPct": 34,
+      "text": "AUSTRIA",
+      "scale": 0.55
+    },
+    {
+      "id": "lbl-slovenia-intro",
+      "kind": "countryLabel",
+      "startFrame": 216,
+      "endFrame": 294,
+      "xPct": 74,
+      "yPct": 42,
+      "text": "SLOVENIA",
+      "scale": 0.48
+    },
+    {
+      "id": "pin-rome",
+      "kind": "pinLabel",
+      "startFrame": 354,
+      "endFrame": 414,
+      "xPct": 50,
+      "yPct": 44,
+      "text": "Rome"
+    },
+    {
+      "id": "pin-vatican",
+      "kind": "pinLabel",
+      "startFrame": 444,
+      "endFrame": 540,
+      "xPct": 50,
+      "yPct": 40,
+      "text": "Vatican City"
+    },
+    {
+      "id": "flag-va",
+      "kind": "flag",
+      "startFrame": 465,
+      "endFrame": 690,
+      "xPct": 72,
+      "yPct": 24,
+      "flagCode": "VA",
+      "rotationDeg": 8
+    },
+    {
+      "id": "flag-it-rome",
+      "kind": "flag",
+      "startFrame": 495,
+      "endFrame": 690,
+      "xPct": 26,
+      "yPct": 64,
+      "flagCode": "IT",
+      "rotationDeg": -8
+    },
+    {
+      "id": "area-vatican",
+      "kind": "distanceBadge",
+      "startFrame": 540,
+      "endFrame": 624,
+      "xPct": 50,
+      "yPct": 60,
+      "text": "0.44 km²",
+      "subtext": "(0.17 sq mi)"
+    },
+    {
+      "id": "pop-vatican",
+      "kind": "populationBadge",
+      "startFrame": 624,
+      "endFrame": 735,
+      "xPct": 50,
+      "yPct": 47,
+      "text": "< 1,000"
+    },
+    {
+      "id": "pin-san-marino",
+      "kind": "pinLabel",
+      "startFrame": 780,
+      "endFrame": 930,
+      "xPct": 50,
+      "yPct": 40,
+      "text": "San Marino"
+    },
+    {
+      "id": "flag-sm",
+      "kind": "flag",
+      "startFrame": 855,
+      "endFrame": 1080,
+      "xPct": 70,
+      "yPct": 22,
+      "flagCode": "SM",
+      "rotationDeg": 6
+    },
+    {
+      "id": "flag-it-sm",
+      "kind": "flag",
+      "startFrame": 885,
+      "endFrame": 1080,
+      "xPct": 26,
+      "yPct": 66,
+      "flagCode": "IT",
+      "rotationDeg": -6
+    },
+    {
+      "id": "pop-san-marino",
+      "kind": "populationBadge",
+      "startFrame": 930,
+      "endFrame": 1020,
+      "xPct": 50,
+      "yPct": 47,
+      "text": "34,000"
+    },
+    {
+      "id": "area-san-marino",
+      "kind": "distanceBadge",
+      "startFrame": 1020,
+      "endFrame": 1110,
+      "xPct": 50,
+      "yPct": 60,
+      "text": "61 km²",
+      "subtext": "(24 sq mi)"
+    },
+    {
+      "id": "lbl-301ad",
+      "kind": "countryLabel",
+      "startFrame": 1110,
+      "endFrame": 1194,
+      "xPct": 50,
+      "yPct": 62,
+      "text": "Since 301 AD",
+      "scale": 0.8
+    },
+    {
+      "id": "lbl-switzerland",
+      "kind": "countryLabel",
+      "startFrame": 1215,
+      "endFrame": 1290,
+      "xPct": 46,
+      "yPct": 36,
+      "text": "SWITZERLAND",
+      "scale": 0.6
+    },
+    {
+      "id": "campione-qmarks",
+      "kind": "questionMarks",
+      "startFrame": 1260,
+      "endFrame": 1326,
+      "xPct": 50,
+      "yPct": 49
+    },
+    {
+      "id": "pin-campione",
+      "kind": "pinLabel",
+      "startFrame": 1335,
+      "endFrame": 1500,
+      "xPct": 50,
+      "yPct": 40,
+      "text": "Campione d'Italia",
+      "scale": 0.7
+    },
+    {
+      "id": "flag-it-campione",
+      "kind": "flag",
+      "startFrame": 1380,
+      "endFrame": 1560,
+      "xPct": 30,
+      "yPct": 24,
+      "flagCode": "IT",
+      "rotationDeg": -8
+    },
+    {
+      "id": "flag-ch-campione",
+      "kind": "flag",
+      "startFrame": 1425,
+      "endFrame": 1560,
+      "xPct": 72,
+      "yPct": 64,
+      "flagCode": "CH",
+      "rotationDeg": 8
+    },
+    {
+      "id": "dist-campione",
+      "kind": "distanceBadge",
+      "startFrame": 1515,
+      "endFrame": 1650,
+      "xPct": 72,
+      "yPct": 42,
+      "text": "< 1 km",
+      "subtext": "(0.6 mi)"
+    },
+    {
+      "id": "lbl-exclave",
+      "kind": "countryLabel",
+      "startFrame": 1590,
+      "endFrame": 1734,
+      "xPct": 50,
+      "yPct": 62,
+      "text": "Exclave",
+      "scale": 0.8
+    },
+    {
+      "id": "lbl-alps",
+      "kind": "countryLabel",
+      "startFrame": 1770,
+      "endFrame": 1830,
+      "xPct": 46,
+      "yPct": 46,
+      "text": "THE ALPS",
+      "scale": 0.8
+    },
+    {
+      "id": "pin-matterhorn",
+      "kind": "pinLabel",
+      "startFrame": 1845,
+      "endFrame": 1950,
+      "xPct": 50,
+      "yPct": 40,
+      "text": "Matterhorn"
+    },
+    {
+      "id": "pin-refuge",
+      "kind": "pinLabel",
+      "startFrame": 2004,
+      "endFrame": 2094,
+      "xPct": 50,
+      "yPct": 42,
+      "text": "Rifugio Guide del Cervino",
+      "scale": 0.6
+    },
+    {
+      "id": "flag-ch-alps",
+      "kind": "flag",
+      "startFrame": 2025,
+      "endFrame": 2175,
+      "xPct": 68,
+      "yPct": 28,
+      "flagCode": "CH",
+      "rotationDeg": 8
+    },
+    {
+      "id": "flag-it-alps",
+      "kind": "flag",
+      "startFrame": 2025,
+      "endFrame": 2175,
+      "xPct": 30,
+      "yPct": 66,
+      "flagCode": "IT",
+      "rotationDeg": -8
+    },
+    {
+      "id": "dist-border-shift",
+      "kind": "distanceBadge",
+      "startFrame": 2190,
+      "endFrame": 2340,
+      "xPct": 28,
+      "yPct": 62,
+      "text": "~100 m",
+      "subtext": "(330 ft)",
+      "color": "#FFFFFF"
+    }
+  ],
+  "captions": [
+    {
+      "startFrame": 0,
+      "endFrame": 30,
+      "text": "Did you know"
+    },
+    {
+      "startFrame": 30,
+      "endFrame": 66,
+      "text": "Italy hides"
+    },
+    {
+      "startFrame": 66,
+      "endFrame": 102,
+      "text": "two countries inside it?"
+    },
+    {
+      "startFrame": 102,
+      "endFrame": 144,
+      "text": "On the map, its borders look simple:"
+    },
+    {
+      "startFrame": 144,
+      "endFrame": 186,
+      "text": "France, Switzerland,"
+    },
+    {
+      "startFrame": 186,
+      "endFrame": 228,
+      "text": "Austria and Slovenia."
+    },
+    {
+      "startFrame": 228,
+      "endFrame": 288,
+      "text": "But there are two more neighbors"
+    },
+    {
+      "startFrame": 288,
+      "endFrame": 345,
+      "text": "hiding completely inside Italy."
+    },
+    {
+      "startFrame": 345,
+      "endFrame": 405,
+      "text": "The first is in the heart of Rome:"
+    },
+    {
+      "startFrame": 405,
+      "endFrame": 465,
+      "text": "Vatican City,"
+    },
+    {
+      "startFrame": 465,
+      "endFrame": 540,
+      "text": "the smallest country in the world."
+    },
+    {
+      "startFrame": 540,
+      "endFrame": 615,
+      "text": "It covers just 0.44 square kilometers"
+    },
+    {
+      "startFrame": 615,
+      "endFrame": 690,
+      "text": "and has fewer than 1,000 residents."
+    },
+    {
+      "startFrame": 690,
+      "endFrame": 765,
+      "text": "The second lies further north:"
+    },
+    {
+      "startFrame": 765,
+      "endFrame": 840,
+      "text": "the Republic of San Marino,"
+    },
+    {
+      "startFrame": 840,
+      "endFrame": 930,
+      "text": "a mountaintop state completely surrounded by Italy."
+    },
+    {
+      "startFrame": 930,
+      "endFrame": 1020,
+      "text": "Home to about 34,000 people,"
+    },
+    {
+      "startFrame": 1020,
+      "endFrame": 1110,
+      "text": "it covers just 61 square kilometers"
+    },
+    {
+      "startFrame": 1110,
+      "endFrame": 1200,
+      "text": "and traces its founding back to 301 AD."
+    },
+    {
+      "startFrame": 1200,
+      "endFrame": 1275,
+      "text": "Italy also plays the trick in reverse."
+    },
+    {
+      "startFrame": 1275,
+      "endFrame": 1335,
+      "text": "On the shore of Lake Lugano"
+    },
+    {
+      "startFrame": 1335,
+      "endFrame": 1410,
+      "text": "lies Campione d'Italia —"
+    },
+    {
+      "startFrame": 1410,
+      "endFrame": 1500,
+      "text": "an Italian town completely surrounded by Switzerland,"
+    },
+    {
+      "startFrame": 1500,
+      "endFrame": 1590,
+      "text": "less than a kilometer from the rest of Italy."
+    },
+    {
+      "startFrame": 1590,
+      "endFrame": 1665,
+      "text": "For decades it used Swiss francs"
+    },
+    {
+      "startFrame": 1665,
+      "endFrame": 1740,
+      "text": "and even Swiss license plates."
+    },
+    {
+      "startFrame": 1740,
+      "endFrame": 1830,
+      "text": "But Italy's strangest border is in the Alps."
+    },
+    {
+      "startFrame": 1830,
+      "endFrame": 1920,
+      "text": "Near the Matterhorn,"
+    },
+    {
+      "startFrame": 1920,
+      "endFrame": 2010,
+      "text": "the border follows the glacier's watershed."
+    },
+    {
+      "startFrame": 2010,
+      "endFrame": 2100,
+      "text": "As the glaciers melt, the watershed moves —"
+    },
+    {
+      "startFrame": 2100,
+      "endFrame": 2190,
+      "text": "and so does the border."
+    },
+    {
+      "startFrame": 2190,
+      "endFrame": 2265,
+      "text": "Here it shifted about 100 meters,"
+    },
+    {
+      "startFrame": 2265,
+      "endFrame": 2340,
+      "text": "putting most of this Italian mountain hut in Switzerland."
+    }
+  ],
+  "audio": {
+    "bgm": {
+      "src": "_shared/audio/bgm.mp3",
+      "startFrame": 0,
+      "volume": 0.18
+    },
+    "sfx": [
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 60,
+        "volume": 0.5
+      },
+      {
+        "src": "_shared/audio/sfx/pop.mp3",
+        "startFrame": 144,
+        "volume": 0.55
+      },
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 375,
+        "volume": 0.5
+      },
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 780,
+        "volume": 0.5
+      },
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 1260,
+        "volume": 0.5
+      },
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 1800,
+        "volume": 0.5
+      }
+    ]
+  }
+}

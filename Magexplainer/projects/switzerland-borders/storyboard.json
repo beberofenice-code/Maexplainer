@@ -1,0 +1,894 @@
+{
+  "id": "SwitzerlandsStrangestBorders",
+  "title": "Switzerland's Strangest Borders",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 2340,
+  "cameraKeyframes": [
+    {
+      "frame": 0,
+      "center": [8.2, 46.6],
+      "zoom": 4.2,
+      "pitch": 12,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 75,
+      "center": [8.2, 46.8],
+      "zoom": 6.3,
+      "pitch": 18,
+      "bearing": -4,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 105,
+      "center": [8.3, 46.8],
+      "zoom": 6,
+      "pitch": 0,
+      "bearing": 0,
+      "basemap": "dark",
+      "easing": "easeOutQuart"
+    },
+    {
+      "frame": 252,
+      "center": [8.35, 46.8],
+      "zoom": 5.95,
+      "pitch": 0,
+      "bearing": 0,
+      "basemap": "dark"
+    },
+    {
+      "frame": 315,
+      "center": [9.3, 47.1],
+      "zoom": 8.4,
+      "pitch": 18,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 390,
+      "center": [9.54, 47.16],
+      "zoom": 10.6,
+      "pitch": 22,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 615,
+      "center": [9.53, 47.15],
+      "zoom": 10.4,
+      "pitch": 20,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 690,
+      "center": [9.475, 47.08],
+      "zoom": 12.2,
+      "pitch": 26,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 900,
+      "center": [9.476, 47.08],
+      "zoom": 12,
+      "pitch": 22,
+      "bearing": 4,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 960,
+      "center": [9.4, 47.63],
+      "zoom": 9.4,
+      "pitch": 18,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1260,
+      "center": [9.42, 47.63],
+      "zoom": 9.3,
+      "pitch": 16,
+      "bearing": 3,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1305,
+      "center": [8.8, 46.9],
+      "zoom": 7,
+      "pitch": 10,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1575,
+      "center": [8.8, 46.88],
+      "zoom": 6.95,
+      "pitch": 10,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1620,
+      "center": [6.3, 46.6],
+      "zoom": 8.2,
+      "pitch": 16,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1710,
+      "center": [6.0745, 46.4645],
+      "zoom": 15.5,
+      "pitch": 30,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 2340,
+      "center": [6.0745, 46.4645],
+      "zoom": 16.2,
+      "pitch": 26,
+      "bearing": 6,
+      "basemap": "satellite"
+    }
+  ],
+  "polygons": [
+    {
+      "id": "switzerland-hatch",
+      "startFrame": 30,
+      "endFrame": 315,
+      "fillColor": "#DC2626",
+      "fillOpacity": 0.88,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 4,
+      "glowColor": "#FACC15",
+      "hatched": true,
+      "coordinates": [[[6.02, 46.15], [6.1, 46.6], [6.95, 47.3], [7.6, 47.58], [8.6, 47.8], [9.5, 47.5], [9.6, 47.06], [10.47, 46.86], [10.45, 46.54], [9.54, 46.29], [9.04, 45.84], [8.44, 46.46], [7.86, 45.92], [7.04, 45.93], [6.8, 46.4], [6.02, 46.15]]]
+    },
+    {
+      "id": "france-hatch",
+      "startFrame": 138,
+      "endFrame": 315,
+      "fillColor": "#4F83D1",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[2.55, 51.08], [3, 50.78], [4.2, 50.3], [4.85, 50.15], [4.85, 49.8], [5.47, 49.5], [5.82, 49.55], [6.37, 49.46], [7, 49.15], [8.23, 48.97], [7.6, 47.58], [6.95, 47.3], [6.1, 46.6], [6.02, 46.15], [6.8, 46.4], [7.04, 45.93], [6.63, 45.11], [7, 44.2], [7.53, 43.79], [7.44, 43.75], [7.25, 43.69], [6.6, 43.15], [5.38, 43.29], [4.2, 43.45], [3.04, 42.6], [3.2, 42.43], [1.73, 42.62], [0.7, 42.75], [-1.79, 43.36], [-1.25, 44.6], [-1.2, 45.6], [-2.2, 47.2], [-4.79, 48.4], [-3, 48.8], [-1.6, 48.65], [-1.6, 49.7], [0.2, 49.5], [1.5, 50.2], [1.6, 50.9], [2.55, 51.08]]]
+    },
+    {
+      "id": "germany-hatch",
+      "startFrame": 156,
+      "endFrame": 315,
+      "fillColor": "#F59E0B",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[6.37, 49.46], [7, 49.15], [8.23, 48.97], [7.6, 47.58], [8.6, 47.8], [9.5, 47.5], [10.2, 47.4], [10.7, 47.55], [12.2, 47.65], [13, 47.75], [13.8, 48.77], [12.5, 49.5], [12.1, 50.3], [13.5, 50.6], [14.82, 50.87], [14.6, 52.3], [14.2, 53.9], [13.4, 54.4], [11, 54], [10.9, 54.4], [9.9, 54.8], [8.6, 54.9], [8.9, 54], [8.6, 53.5], [7.2, 53.6], [7.2, 53.25], [7, 52.25], [6, 51.85], [6.1, 50.75], [6.4, 50.32], [6.13, 50.13], [6.5, 49.8], [6.37, 49.46]]]
+    },
+    {
+      "id": "austria-hatch",
+      "startFrame": 174,
+      "endFrame": 315,
+      "fillColor": "#F97316",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[9.55, 47.27], [9.6, 47.06], [10.47, 46.86], [11.5, 47], [12.2, 47], [12.73, 46.65], [13.71, 46.52], [14.6, 46.6], [16, 46.8], [16.9, 48], [17.1, 48.3], [16.9, 48.6], [15, 49], [13.8, 48.7], [13, 47.7], [12.2, 47.7], [10.5, 47.55], [9.55, 47.27]]]
+    },
+    {
+      "id": "liechtenstein-hatch",
+      "startFrame": 192,
+      "endFrame": 315,
+      "fillColor": "#2563EB",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[9.475, 47.055], [9.53, 47.05], [9.61, 47.06], [9.635, 47.13], [9.6, 47.17], [9.57, 47.21], [9.555, 47.27], [9.53, 47.275], [9.5, 47.22], [9.49, 47.17], [9.475, 47.1], [9.475, 47.055]]]
+    },
+    {
+      "id": "italy-hatch",
+      "startFrame": 210,
+      "endFrame": 315,
+      "fillColor": "#16A34A",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[7.53, 43.79], [7, 44.2], [6.63, 45.11], [7.04, 45.93], [7.86, 45.92], [8.44, 46.46], [9.04, 45.84], [9.54, 46.29], [10.45, 46.54], [10.47, 46.86], [11.5, 47], [12.2, 47], [12.73, 46.65], [13.71, 46.52], [13.62, 45.77], [13.77, 45.62], [12.3, 45.4], [12.4, 44.5], [13.6, 43.6], [14.7, 42.1], [16, 41.9], [17.2, 40.9], [18.5, 40.1], [17.2, 40.4], [16.6, 39.6], [17.1, 39], [16.1, 38], [15.65, 38], [15.8, 38.9], [15.6, 40.1], [14.3, 40.8], [13, 41.2], [12.2, 41.8], [11.1, 42.4], [10.5, 43], [10.2, 43.9], [9, 44.4], [8.2, 43.9], [7.53, 43.79]]]
+    },
+    {
+      "id": "liechtenstein-fill",
+      "startFrame": 375,
+      "endFrame": 630,
+      "fillColor": "#2563EB",
+      "fillOpacity": 0.5,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 4,
+      "glowColor": "#FACC15",
+      "coordinates": [[[9.475, 47.055], [9.53, 47.05], [9.61, 47.06], [9.635, 47.13], [9.6, 47.17], [9.57, 47.21], [9.555, 47.27], [9.53, 47.275], [9.5, 47.22], [9.49, 47.17], [9.475, 47.1], [9.475, 47.055]]]
+    },
+    {
+      "id": "lake-constance",
+      "startFrame": 960,
+      "endFrame": 1275,
+      "fillColor": "#38BDF8",
+      "fillOpacity": 0.45,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "glowColor": "#FACC15",
+      "coordinates": [[[9.18, 47.665], [9.05, 47.8], [9.1, 47.82], [9.27, 47.71], [9.48, 47.655], [9.62, 47.58], [9.74, 47.54], [9.72, 47.49], [9.62, 47.47], [9.53, 47.5], [9.37, 47.56], [9.27, 47.62], [9.18, 47.665]]]
+    },
+    {
+      "id": "switzerland-tint",
+      "startFrame": 1290,
+      "endFrame": 1590,
+      "fillColor": "#DC2626",
+      "fillOpacity": 0.3,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "coordinates": [[[6.02, 46.15], [6.1, 46.6], [6.95, 47.3], [7.6, 47.58], [8.6, 47.8], [9.5, 47.5], [9.6, 47.06], [10.47, 46.86], [10.45, 46.54], [9.54, 46.29], [9.04, 45.84], [8.44, 46.46], [7.86, 45.92], [7.04, 45.93], [6.8, 46.4], [6.02, 46.15]]]
+    },
+    {
+      "id": "busingen-fill",
+      "startFrame": 1335,
+      "endFrame": 1590,
+      "fillColor": "#F59E0B",
+      "fillOpacity": 0.9,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 2,
+      "coordinates": [[[8.655, 47.7], [8.665, 47.708], [8.685, 47.712], [8.705, 47.708], [8.725, 47.703], [8.735, 47.695], [8.72, 47.689], [8.7, 47.688], [8.68, 47.69], [8.665, 47.692], [8.655, 47.7]]]
+    },
+    {
+      "id": "campione-fill",
+      "startFrame": 1410,
+      "endFrame": 1590,
+      "fillColor": "#16A34A",
+      "fillOpacity": 0.9,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 2,
+      "coordinates": [[[8.962, 45.976], [8.969, 45.979], [8.976, 45.978], [8.982, 45.968], [8.979, 45.961], [8.972, 45.957], [8.964, 45.962], [8.962, 45.976]]]
+    }
+  ],
+  "lines": [
+    {
+      "id": "invasion-route",
+      "startFrame": 705,
+      "endFrame": 915,
+      "color": "#FFFFFF",
+      "glowColor": "#EF4444",
+      "width": 6,
+      "dashed": true,
+      "drawRange": [705, 780],
+      "coordinates": [[9.455, 47.081], [9.475, 47.08], [9.495, 47.079]]
+    },
+    {
+      "id": "la-cure-border",
+      "startFrame": 1770,
+      "endFrame": 2340,
+      "color": "#FEF08A",
+      "glowColor": "#EF4444",
+      "width": 8,
+      "drawRange": [1770, 1860],
+      "coordinates": [[6.0715, 46.4615], [6.0745, 46.4645], [6.0775, 46.4675]]
+    }
+  ],
+  "beacons": [
+    {
+      "id": "liechtenstein-beacon-intro",
+      "lngLat": [9.54, 47.16],
+      "startFrame": 192,
+      "endFrame": 315,
+      "color": "#F97316",
+      "radius": 8
+    },
+    {
+      "id": "invasion-beacon",
+      "lngLat": [9.495, 47.079],
+      "startFrame": 780,
+      "endFrame": 915,
+      "color": "#EF4444",
+      "radius": 12
+    },
+    {
+      "id": "busingen-beacon",
+      "lngLat": [8.695, 47.699],
+      "startFrame": 1335,
+      "endFrame": 1590,
+      "color": "#F97316",
+      "radius": 10
+    },
+    {
+      "id": "campione-beacon",
+      "lngLat": [8.9705, 45.9685],
+      "startFrame": 1410,
+      "endFrame": 1590,
+      "color": "#F97316",
+      "radius": 10
+    },
+    {
+      "id": "hotel-beacon",
+      "lngLat": [6.0745, 46.4645],
+      "startFrame": 1725,
+      "endFrame": 2340,
+      "color": "#F97316",
+      "radius": 12
+    }
+  ],
+  "callouts": [
+    {
+      "id": "hook-bed",
+      "kind": "hookBanner",
+      "startFrame": 30,
+      "endFrame": 102,
+      "xPct": 50,
+      "yPct": 24,
+      "accentWord": "2",
+      "text": "countries, 1 bed"
+    },
+    {
+      "id": "hook-arrow",
+      "kind": "curvedArrow",
+      "startFrame": 36,
+      "endFrame": 102,
+      "xPct": 56,
+      "yPct": 34,
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "lbl-switzerland-intro",
+      "kind": "countryLabel",
+      "startFrame": 30,
+      "endFrame": 315,
+      "xPct": 44,
+      "yPct": 49,
+      "text": "SWITZERLAND",
+      "scale": 0.7
+    },
+    {
+      "id": "neighbor-counter",
+      "kind": "counter",
+      "startFrame": 138,
+      "endFrame": 315,
+      "xPct": 50,
+      "yPct": 17,
+      "counterSteps": [
+        {
+          "frame": 138,
+          "value": 1
+        },
+        {
+          "frame": 156,
+          "value": 2
+        },
+        {
+          "frame": 174,
+          "value": 3
+        },
+        {
+          "frame": 192,
+          "value": 4
+        },
+        {
+          "frame": 210,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "id": "lbl-france-intro",
+      "kind": "countryLabel",
+      "startFrame": 138,
+      "endFrame": 315,
+      "xPct": 14,
+      "yPct": 30,
+      "text": "FRANCE",
+      "scale": 0.6
+    },
+    {
+      "id": "lbl-germany-intro",
+      "kind": "countryLabel",
+      "startFrame": 156,
+      "endFrame": 315,
+      "xPct": 50,
+      "yPct": 34,
+      "text": "GERMANY",
+      "scale": 0.6
+    },
+    {
+      "id": "lbl-austria-intro",
+      "kind": "countryLabel",
+      "startFrame": 174,
+      "endFrame": 315,
+      "xPct": 80,
+      "yPct": 49,
+      "text": "AUSTRIA",
+      "scale": 0.55
+    },
+    {
+      "id": "lbl-liechtenstein-intro",
+      "kind": "countryLabel",
+      "startFrame": 192,
+      "endFrame": 315,
+      "xPct": 72,
+      "yPct": 42,
+      "text": "LIECHTENSTEIN",
+      "scale": 0.36
+    },
+    {
+      "id": "lbl-italy-intro",
+      "kind": "countryLabel",
+      "startFrame": 210,
+      "endFrame": 315,
+      "xPct": 56,
+      "yPct": 62,
+      "text": "ITALY",
+      "scale": 0.6
+    },
+    {
+      "id": "pin-liechtenstein",
+      "kind": "pinLabel",
+      "startFrame": 390,
+      "endFrame": 510,
+      "xPct": 52,
+      "yPct": 36,
+      "text": "Liechtenstein",
+      "scale": 0.8
+    },
+    {
+      "id": "flag-li",
+      "kind": "flag",
+      "startFrame": 420,
+      "endFrame": 615,
+      "xPct": 74,
+      "yPct": 24,
+      "flagCode": "LI",
+      "rotationDeg": 8
+    },
+    {
+      "id": "flag-ch-li",
+      "kind": "flag",
+      "startFrame": 435,
+      "endFrame": 615,
+      "xPct": 22,
+      "yPct": 62,
+      "flagCode": "CH",
+      "rotationDeg": -8
+    },
+    {
+      "id": "pop-liechtenstein",
+      "kind": "populationBadge",
+      "startFrame": 465,
+      "endFrame": 540,
+      "xPct": 52,
+      "yPct": 47,
+      "text": "40,000"
+    },
+    {
+      "id": "lbl-swiss-franc",
+      "kind": "countryLabel",
+      "startFrame": 540,
+      "endFrame": 615,
+      "xPct": 50,
+      "yPct": 62,
+      "text": "Uses the Swiss franc",
+      "scale": 0.55
+    },
+    {
+      "id": "hook-2007",
+      "kind": "hookBanner",
+      "startFrame": 615,
+      "endFrame": 690,
+      "xPct": 50,
+      "yPct": 24,
+      "accentWord": "2007",
+      "text": ""
+    },
+    {
+      "id": "lbl-170-soldiers",
+      "kind": "countryLabel",
+      "startFrame": 705,
+      "endFrame": 780,
+      "xPct": 50,
+      "yPct": 36,
+      "text": "170 soldiers",
+      "scale": 0.7
+    },
+    {
+      "id": "dist-invasion",
+      "kind": "distanceBadge",
+      "startFrame": 735,
+      "endFrame": 840,
+      "xPct": 50,
+      "yPct": 62,
+      "text": "1.5 km",
+      "subtext": "(0.9 mi)"
+    },
+    {
+      "id": "hook-oops",
+      "kind": "hookBanner",
+      "startFrame": 765,
+      "endFrame": 840,
+      "xPct": 50,
+      "yPct": 24,
+      "accentWord": "OOPS!",
+      "text": ""
+    },
+    {
+      "id": "lbl-no-army",
+      "kind": "countryLabel",
+      "startFrame": 840,
+      "endFrame": 915,
+      "xPct": 50,
+      "yPct": 36,
+      "text": "No army to object",
+      "scale": 0.6
+    },
+    {
+      "id": "lake-qmarks",
+      "kind": "questionMarks",
+      "startFrame": 975,
+      "endFrame": 1080,
+      "xPct": 50,
+      "yPct": 48
+    },
+    {
+      "id": "flag-de-lake",
+      "kind": "flag",
+      "startFrame": 990,
+      "endFrame": 1260,
+      "xPct": 40,
+      "yPct": 30,
+      "flagCode": "DE",
+      "rotationDeg": -6
+    },
+    {
+      "id": "flag-ch-lake",
+      "kind": "flag",
+      "startFrame": 1008,
+      "endFrame": 1260,
+      "xPct": 30,
+      "yPct": 64,
+      "flagCode": "CH",
+      "rotationDeg": 6
+    },
+    {
+      "id": "flag-at-lake",
+      "kind": "flag",
+      "startFrame": 1026,
+      "endFrame": 1260,
+      "xPct": 84,
+      "yPct": 66,
+      "flagCode": "AT",
+      "rotationDeg": -6
+    },
+    {
+      "id": "hook-no-border",
+      "kind": "hookBanner",
+      "startFrame": 1080,
+      "endFrame": 1260,
+      "xPct": 50,
+      "yPct": 20,
+      "accentWord": "NO",
+      "text": "border"
+    },
+    {
+      "id": "pin-busingen",
+      "kind": "pinLabel",
+      "startFrame": 1335,
+      "endFrame": 1575,
+      "xPct": 48,
+      "yPct": 33,
+      "text": "Büsingen",
+      "scale": 0.6
+    },
+    {
+      "id": "flag-de-busingen",
+      "kind": "flag",
+      "startFrame": 1350,
+      "endFrame": 1575,
+      "xPct": 76,
+      "yPct": 30,
+      "flagCode": "DE",
+      "rotationDeg": 6
+    },
+    {
+      "id": "pin-campione",
+      "kind": "pinLabel",
+      "startFrame": 1410,
+      "endFrame": 1575,
+      "xPct": 53,
+      "yPct": 57,
+      "text": "Campione d'Italia",
+      "scale": 0.6
+    },
+    {
+      "id": "flag-it-campione",
+      "kind": "flag",
+      "startFrame": 1425,
+      "endFrame": 1575,
+      "xPct": 22,
+      "yPct": 60,
+      "flagCode": "IT",
+      "rotationDeg": -6
+    },
+    {
+      "id": "pin-hotel",
+      "kind": "pinLabel",
+      "startFrame": 1710,
+      "endFrame": 1830,
+      "xPct": 50,
+      "yPct": 42,
+      "text": "Hôtel Arbez",
+      "scale": 0.8
+    },
+    {
+      "id": "lbl-1862",
+      "kind": "countryLabel",
+      "startFrame": 1740,
+      "endFrame": 1830,
+      "xPct": 50,
+      "yPct": 24,
+      "text": "Treaty of 1862",
+      "scale": 0.6
+    },
+    {
+      "id": "lbl-france-hotel",
+      "kind": "countryLabel",
+      "startFrame": 1830,
+      "endFrame": 2340,
+      "xPct": 26,
+      "yPct": 40,
+      "text": "FRANCE",
+      "scale": 0.6
+    },
+    {
+      "id": "lbl-switzerland-hotel",
+      "kind": "countryLabel",
+      "startFrame": 1845,
+      "endFrame": 2340,
+      "xPct": 72,
+      "yPct": 58,
+      "text": "SWITZERLAND",
+      "scale": 0.5
+    },
+    {
+      "id": "flag-fr-hotel",
+      "kind": "flag",
+      "startFrame": 1860,
+      "endFrame": 2130,
+      "xPct": 24,
+      "yPct": 28,
+      "flagCode": "FR",
+      "rotationDeg": -8
+    },
+    {
+      "id": "flag-ch-hotel",
+      "kind": "flag",
+      "startFrame": 1875,
+      "endFrame": 2130,
+      "xPct": 76,
+      "yPct": 66,
+      "flagCode": "CH",
+      "rotationDeg": 8
+    },
+    {
+      "id": "hook-one-bed",
+      "kind": "hookBanner",
+      "startFrame": 2130,
+      "endFrame": 2340,
+      "xPct": 50,
+      "yPct": 22,
+      "accentWord": "2",
+      "text": "countries, 1 bed"
+    }
+  ],
+  "captions": [
+    {
+      "startFrame": 0,
+      "endFrame": 30,
+      "text": "Did you know"
+    },
+    {
+      "startFrame": 30,
+      "endFrame": 66,
+      "text": "you can sleep in two countries"
+    },
+    {
+      "startFrame": 66,
+      "endFrame": 102,
+      "text": "at the same time?"
+    },
+    {
+      "startFrame": 102,
+      "endFrame": 138,
+      "text": "Switzerland has five neighbors:"
+    },
+    {
+      "startFrame": 138,
+      "endFrame": 174,
+      "text": "France, Germany,"
+    },
+    {
+      "startFrame": 174,
+      "endFrame": 210,
+      "text": "Austria, Liechtenstein"
+    },
+    {
+      "startFrame": 210,
+      "endFrame": 252,
+      "text": "and Italy."
+    },
+    {
+      "startFrame": 252,
+      "endFrame": 315,
+      "text": "But its borders hide some strange surprises."
+    },
+    {
+      "startFrame": 315,
+      "endFrame": 390,
+      "text": "Liechtenstein is one of the world's smallest countries,"
+    },
+    {
+      "startFrame": 390,
+      "endFrame": 465,
+      "text": "squeezed between Switzerland and Austria."
+    },
+    {
+      "startFrame": 465,
+      "endFrame": 540,
+      "text": "Its 40,000 people use the Swiss franc,"
+    },
+    {
+      "startFrame": 540,
+      "endFrame": 615,
+      "text": "and Switzerland even runs its customs."
+    },
+    {
+      "startFrame": 615,
+      "endFrame": 690,
+      "text": "They're so close that in 2007,"
+    },
+    {
+      "startFrame": 690,
+      "endFrame": 765,
+      "text": "about 170 Swiss soldiers got lost on a night march"
+    },
+    {
+      "startFrame": 765,
+      "endFrame": 840,
+      "text": "and accidentally invaded Liechtenstein."
+    },
+    {
+      "startFrame": 840,
+      "endFrame": 915,
+      "text": "Nobody minded — Liechtenstein doesn't even have an army."
+    },
+    {
+      "startFrame": 915,
+      "endFrame": 990,
+      "text": "Further north lies Lake Constance,"
+    },
+    {
+      "startFrame": 990,
+      "endFrame": 1065,
+      "text": "shared by Switzerland, Germany and Austria."
+    },
+    {
+      "startFrame": 1065,
+      "endFrame": 1155,
+      "text": "Yet the three never agreed where the borders on the lake are."
+    },
+    {
+      "startFrame": 1155,
+      "endFrame": 1260,
+      "text": "It's one of the only places in Europe with no official border."
+    },
+    {
+      "startFrame": 1260,
+      "endFrame": 1335,
+      "text": "Switzerland also swallows two foreign towns:"
+    },
+    {
+      "startFrame": 1335,
+      "endFrame": 1410,
+      "text": "Büsingen, which belongs to Germany,"
+    },
+    {
+      "startFrame": 1410,
+      "endFrame": 1485,
+      "text": "and Campione d'Italia, which belongs to Italy."
+    },
+    {
+      "startFrame": 1485,
+      "endFrame": 1575,
+      "text": "Both sit inside Switzerland — but neither is Swiss."
+    },
+    {
+      "startFrame": 1575,
+      "endFrame": 1650,
+      "text": "But the strangest border runs through a hotel."
+    },
+    {
+      "startFrame": 1650,
+      "endFrame": 1740,
+      "text": "In the village of La Cure stands the Hôtel Arbez."
+    },
+    {
+      "startFrame": 1740,
+      "endFrame": 1830,
+      "text": "When a treaty moved the border in 1862,"
+    },
+    {
+      "startFrame": 1830,
+      "endFrame": 1920,
+      "text": "a building went up right on the new line."
+    },
+    {
+      "startFrame": 1920,
+      "endFrame": 2025,
+      "text": "Today the French–Swiss border runs straight through it."
+    },
+    {
+      "startFrame": 2025,
+      "endFrame": 2130,
+      "text": "In one room, the bed sits right on the border,"
+    },
+    {
+      "startFrame": 2130,
+      "endFrame": 2235,
+      "text": "so guests sleep with their head in France"
+    },
+    {
+      "startFrame": 2235,
+      "endFrame": 2340,
+      "text": "and their feet in Switzerland."
+    }
+  ],
+  "audio": {
+    "bgm": {
+      "src": "_shared/audio/bgm.mp3",
+      "startFrame": 0,
+      "volume": 0.18
+    },
+    "sfx": [
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 60,
+        "volume": 0.5
+      },
+      {
+        "src": "_shared/audio/sfx/pop.mp3",
+        "startFrame": 138,
+        "volume": 0.55
+      },
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 345,
+        "volume": 0.5
+      },
+      {
+        "src": "_shared/audio/sfx/pop.mp3",
+        "startFrame": 765,
+        "volume": 0.55
+      },
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 930,
+        "volume": 0.5
+      },
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 1650,
+        "volume": 0.5
+      }
+    ]
+  }
+}

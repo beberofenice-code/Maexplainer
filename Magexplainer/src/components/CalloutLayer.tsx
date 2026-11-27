@@ -143,7 +143,7 @@ const FlagGraphic: React.FC<{ code: NonNullable<CalloutItem["flagCode"]>; width?
   );
 };
 
-export const OverlayLayer: React.FC<{ callouts: CalloutItem[] }> = ({ callouts }) => {
+export const CalloutLayer: React.FC<{ callouts: CalloutItem[] }> = ({ callouts }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 

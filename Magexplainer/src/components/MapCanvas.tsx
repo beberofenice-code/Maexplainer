@@ -2,13 +2,110 @@ import React, { useEffect, useRef, useState } from "react";
 import maplibregl, { Map as MapLibreMap, StyleSpecification } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { continueRender, delayRender, useCurrentFrame } from "remotion";
-import { interpolateCamera } from "./camera";
+import { areaComparePolygons } from "./AreaCompare";
 import {
+  BasemapMode,
   BeaconConfig,
+  CameraKeyframe,
+  EasingName,
   LineOverlayConfig,
   PolygonOverlayConfig,
   StoryboardConfig,
 } from "../types/scene";
+
+// ---------------------------------------------------------------------------
+// Camera interpolation between storyboard keyframes
+// ---------------------------------------------------------------------------
+
+export interface CameraState {
+  center: [number, number];
+  zoom: number;
+  pitch: number;
+  bearing: number;
+  basemap: BasemapMode;
+}
+
+const applyEasing = (t: number, easing: EasingName = "easeInOutCubic"): number => {
+  const clamped = Math.max(0, Math.min(1, t));
+  switch (easing) {
+    case "linear":
+      return clamped;
+    case "easeOutQuart":
+      return 1 - Math.pow(1 - clamped, 4);
+    case "easeInOutQuart":
+      return clamped < 0.5
+        ? 8 * clamped * clamped * clamped * clamped
+        : 1 - Math.pow(-2 * clamped + 2, 4) / 2;
+    case "easeInOutCubic":
+    default:
+      return clamped < 0.5
+        ? 4 * clamped * clamped * clamped
+        : 1 - Math.pow(-2 * clamped + 2, 3) / 2;
+  }
+};
+
+const lerp = (a: number, b: number, t: number): number => a + (b - a) * t;
+
+export const interpolateCamera = (
+  frame: number,
+  keyframes: CameraKeyframe[]
+): CameraState => {
+  if (keyframes.length === 0) {
+    return { center: [0, 20], zoom: 2, pitch: 0, bearing: 0, basemap: "satellite" };
+  }
+  const sorted = [...keyframes].sort((a, b) => a.frame - b.frame);
+
+  if (frame <= sorted[0].frame) {
+    const first = sorted[0];
+    return {
+      center: first.center,
+      zoom: first.zoom,
+      pitch: first.pitch ?? 0,
+      bearing: first.bearing ?? 0,
+      basemap: first.basemap ?? "satellite",
+    };
+  }
+
+  const last = sorted[sorted.length - 1];
+  if (frame >= last.frame) {
+    return {
+      center: last.center,
+      zoom: last.zoom,
+      pitch: last.pitch ?? 0,
+      bearing: last.bearing ?? 0,
+      basemap: last.basemap ?? "satellite",
+    };
+  }
+
+  for (let i = 0; i < sorted.length - 1; i++) {
+    const a = sorted[i];
+    const b = sorted[i + 1];
+    if (frame >= a.frame && frame <= b.frame) {
+      const span = Math.max(1, b.frame - a.frame);
+      const rawT = (frame - a.frame) / span;
+      const t = applyEasing(rawT, b.easing ?? "easeInOutCubic");
+      return {
+        center: [lerp(a.center[0], b.center[0], t), lerp(a.center[1], b.center[1], t)],
+        zoom: lerp(a.zoom, b.zoom, t),
+        pitch: lerp(a.pitch ?? 0, b.pitch ?? 0, t),
+        bearing: lerp(a.bearing ?? 0, b.bearing ?? 0, t),
+        basemap: rawT < 0.5 ? (a.basemap ?? "satellite") : (b.basemap ?? a.basemap ?? "satellite"),
+      };
+    }
+  }
+
+  return {
+    center: last.center,
+    zoom: last.zoom,
+    pitch: last.pitch ?? 0,
+    bearing: last.bearing ?? 0,
+    basemap: last.basemap ?? "satellite",
+  };
+};
+
+// ---------------------------------------------------------------------------
+// MapLibre style + GeoJSON layers
+// ---------------------------------------------------------------------------
 
 const BASE_STYLE: StyleSpecification = {
   version: 8,
@@ -65,11 +162,14 @@ function createHatchImageData(baseHex: string): ImageData {
   return ctx.getImageData(0, 0, size, size);
 }
 
-function buildPolygonGeoJSON(polygons: PolygonOverlayConfig[], frame: number) {
+function buildPolygonGeoJSON(storyboard: StoryboardConfig, frame: number) {
+  const polygons = [
+    ...storyboard.polygons.filter((p) => frame >= p.startFrame && frame <= p.endFrame),
+    ...areaComparePolygons(storyboard.areaCompares, frame),
+  ];
   const features = polygons
-    .filter((p) => frame >= p.startFrame && frame <= p.endFrame)
     .map((p) => {
-      let coords = p.coordinates;
+      let parts = p.multiCoordinates ?? (p.coordinates ? [p.coordinates] : []);
       if (p.slideFromOffset) {
         const { startFrame, endFrame, dLng, dLat } = p.slideFromOffset;
         const progress = Math.max(
@@ -79,8 +179,8 @@ function buildPolygonGeoJSON(polygons: PolygonOverlayConfig[], frame: number) {
         const eased = 1 - Math.pow(1 - progress, 3);
         const curLng = dLng * (1 - eased);
         const curLat = dLat * (1 - eased);
-        coords = p.coordinates.map((ring) =>
-          ring.map(([lng, lat]) => [lng + curLng, lat + curLat] as [number, number])
+        parts = parts.map((rings) =>
+          rings.map((ring) => ring.map(([lng, lat]) => [lng + curLng, lat + curLat] as [number, number]))
         );
       }
       return {
@@ -96,8 +196,8 @@ function buildPolygonGeoJSON(polygons: PolygonOverlayConfig[], frame: number) {
           hatchImage: `hatch-${p.fillColor.replace("#", "")}`,
         },
         geometry: {
-          type: "Polygon" as const,
-          coordinates: coords,
+          type: "MultiPolygon" as const,
+          coordinates: parts,
         },
       };
     });
@@ -109,7 +209,7 @@ function buildLineGeoJSON(lines: LineOverlayConfig[], frame: number) {
   const features = lines
     .filter((l) => frame >= l.startFrame && frame <= l.endFrame)
     .map((l) => {
-      let coords = l.coordinates;
+      let coords = l.coordinates ?? [];
       if (l.drawRange && coords.length >= 2) {
         const [s, e] = l.drawRange;
         const t = Math.max(0, Math.min(1, (frame - s) / Math.max(1, e - s)));
@@ -182,7 +282,9 @@ export const MapCanvas: React.FC<{ storyboard: StoryboardConfig }> = ({ storyboa
 
     map.on("load", () => {
       const uniqueHatchColors = new Set(
-        storyboard.polygons.filter((p) => p.hatched).map((p) => p.fillColor)
+        [...storyboard.polygons, ...(storyboard.areaCompares ?? [])]
+          .filter((p) => p.hatched)
+          .map((p) => p.fillColor)
       );
       uniqueHatchColors.forEach((hex) => {
         const imageName = `hatch-${hex.replace("#", "")}`;
@@ -193,7 +295,7 @@ export const MapCanvas: React.FC<{ storyboard: StoryboardConfig }> = ({ storyboa
 
       map.addSource("story-polygons", {
         type: "geojson",
-        data: buildPolygonGeoJSON(storyboard.polygons, 0),
+        data: buildPolygonGeoJSON(storyboard, 0),
       });
       map.addSource("story-lines", {
         type: "geojson",
@@ -348,7 +450,7 @@ export const MapCanvas: React.FC<{ storyboard: StoryboardConfig }> = ({ storyboa
     map.setPaintProperty("basemap-dark", "raster-opacity", cam.basemap === "dark" ? 1 : 0);
 
     const polySource = map.getSource("story-polygons") as maplibregl.GeoJSONSource | undefined;
-    polySource?.setData(buildPolygonGeoJSON(storyboard.polygons, frame));
+    polySource?.setData(buildPolygonGeoJSON(storyboard, frame));
 
     const lineSource = map.getSource("story-lines") as maplibregl.GeoJSONSource | undefined;
     lineSource?.setData(buildLineGeoJSON(storyboard.lines, frame));

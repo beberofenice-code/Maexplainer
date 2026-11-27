@@ -1,0 +1,1008 @@
+{
+  "id": "GermanysStrangestBorders",
+  "title": "Germany's Strangest Borders",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 2400,
+  "cameraKeyframes": [
+    {
+      "frame": 0,
+      "center": [10.4, 50.5],
+      "zoom": 3.6,
+      "pitch": 12,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 75,
+      "center": [10.4, 50.9],
+      "zoom": 5.5,
+      "pitch": 18,
+      "bearing": -4,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 105,
+      "center": [10.4, 51],
+      "zoom": 5.2,
+      "pitch": 0,
+      "bearing": 0,
+      "basemap": "dark",
+      "easing": "easeOutQuart"
+    },
+    {
+      "frame": 282,
+      "center": [10.5, 51],
+      "zoom": 5.15,
+      "pitch": 0,
+      "bearing": 0,
+      "basemap": "dark"
+    },
+    {
+      "frame": 330,
+      "center": [8.5, 47.9],
+      "zoom": 8,
+      "pitch": 18,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 420,
+      "center": [8.695, 47.699],
+      "zoom": 12.4,
+      "pitch": 24,
+      "bearing": -6,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 810,
+      "center": [8.697, 47.699],
+      "zoom": 12.1,
+      "pitch": 20,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 840,
+      "center": [10.1, 47.55],
+      "zoom": 8.4,
+      "pitch": 18,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 915,
+      "center": [10.2, 47.35],
+      "zoom": 11.2,
+      "pitch": 26,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1155,
+      "center": [10.2, 47.352],
+      "zoom": 11,
+      "pitch": 22,
+      "bearing": 4,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1245,
+      "center": [10.45, 47.577],
+      "zoom": 13.2,
+      "pitch": 26,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1560,
+      "center": [10.451, 47.577],
+      "zoom": 13,
+      "pitch": 22,
+      "bearing": -4,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1590,
+      "center": [6.4, 50.7],
+      "zoom": 8.2,
+      "pitch": 14,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1680,
+      "center": [6.2, 50.59],
+      "zoom": 11,
+      "pitch": 10,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 2025,
+      "center": [6.2, 50.592],
+      "zoom": 10.9,
+      "pitch": 10,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 2130,
+      "center": [6.212, 50.567],
+      "zoom": 13.6,
+      "pitch": 24,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 2400,
+      "center": [6.2125, 50.5672],
+      "zoom": 13.9,
+      "pitch": 20,
+      "bearing": 4,
+      "basemap": "satellite"
+    }
+  ],
+  "polygons": [
+    {
+      "id": "germany-hatch",
+      "startFrame": 30,
+      "endFrame": 306,
+      "fillColor": "#F59E0B",
+      "fillOpacity": 0.88,
+      "strokeColor": "#FFFBEB",
+      "strokeWidth": 4,
+      "glowColor": "#FACC15",
+      "hatched": true,
+      "coordinates": [[[6.37, 49.46], [7, 49.15], [8.23, 48.97], [7.6, 47.58], [8.6, 47.8], [9.5, 47.5], [10.2, 47.4], [10.7, 47.55], [12.2, 47.65], [13, 47.75], [13.8, 48.77], [12.5, 49.5], [12.1, 50.3], [13.5, 50.6], [14.82, 50.87], [14.6, 52.3], [14.2, 53.9], [13.4, 54.4], [11, 54], [10.9, 54.4], [9.9, 54.8], [8.6, 54.9], [8.9, 54], [8.6, 53.5], [7.2, 53.6], [7.2, 53.25], [7, 52.25], [6, 51.85], [6.1, 50.75], [6.4, 50.32], [6.13, 50.13], [6.5, 49.8], [6.37, 49.46]]]
+    },
+    {
+      "id": "denmark-hatch",
+      "startFrame": 138,
+      "endFrame": 306,
+      "fillColor": "#0EA5E9",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[8.6, 54.9], [9.9, 54.8], [10.5, 55], [10.3, 56.2], [10.6, 57.7], [8.6, 57.1], [8.1, 56], [8.6, 54.9]]]
+    },
+    {
+      "id": "poland-hatch",
+      "startFrame": 153,
+      "endFrame": 306,
+      "fillColor": "#E11D48",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[14.82, 50.87], [16.3, 50.65], [18.9, 49.5], [22.6, 49.1], [24.1, 50.8], [23.6, 52.7], [23.5, 53.9], [22.8, 54.36], [19.6, 54.45], [18.5, 54.8], [16.5, 54.55], [14.2, 53.9], [14.6, 52.3], [14.82, 50.87]]]
+    },
+    {
+      "id": "czechia-hatch",
+      "startFrame": 168,
+      "endFrame": 306,
+      "fillColor": "#8B5CF6",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[13.8, 48.77], [14.7, 48.6], [16.9, 48.6], [18.9, 49.5], [16.3, 50.65], [14.82, 50.87], [13.5, 50.6], [12.1, 50.3], [12.5, 49.5], [13.8, 48.77]]]
+    },
+    {
+      "id": "austria-hatch",
+      "startFrame": 183,
+      "endFrame": 306,
+      "fillColor": "#F97316",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[9.55, 47.27], [9.6, 47.06], [10.47, 46.86], [11.5, 47], [12.2, 47], [12.73, 46.65], [13.71, 46.52], [14.6, 46.6], [16, 46.8], [16.9, 48], [17.1, 48.3], [16.9, 48.6], [15, 49], [13.8, 48.7], [13, 47.7], [12.2, 47.7], [10.5, 47.55], [9.55, 47.27]]]
+    },
+    {
+      "id": "switzerland-hatch",
+      "startFrame": 198,
+      "endFrame": 306,
+      "fillColor": "#DC2626",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[6.02, 46.15], [6.1, 46.6], [6.95, 47.3], [7.6, 47.58], [8.6, 47.8], [9.5, 47.5], [9.6, 47.06], [10.47, 46.86], [10.45, 46.54], [9.54, 46.29], [9.04, 45.84], [8.44, 46.46], [7.86, 45.92], [7.04, 45.93], [6.8, 46.4], [6.02, 46.15]]]
+    },
+    {
+      "id": "france-hatch",
+      "startFrame": 213,
+      "endFrame": 306,
+      "fillColor": "#4F83D1",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[2.55, 51.08], [3, 50.78], [4.2, 50.3], [4.85, 50.15], [4.85, 49.8], [5.47, 49.5], [5.82, 49.55], [6.37, 49.46], [7, 49.15], [8.23, 48.97], [7.6, 47.58], [6.95, 47.3], [6.1, 46.6], [6.02, 46.15], [6.8, 46.4], [7.04, 45.93], [6.63, 45.11], [7, 44.2], [7.53, 43.79], [7.44, 43.75], [7.25, 43.69], [6.6, 43.15], [5.38, 43.29], [4.2, 43.45], [3.04, 42.6], [3.2, 42.43], [1.73, 42.62], [0.7, 42.75], [-1.79, 43.36], [-1.25, 44.6], [-1.2, 45.6], [-2.2, 47.2], [-4.79, 48.4], [-3, 48.8], [-1.6, 48.65], [-1.6, 49.7], [0.2, 49.5], [1.5, 50.2], [1.6, 50.9], [2.55, 51.08]]]
+    },
+    {
+      "id": "luxembourg-hatch",
+      "startFrame": 228,
+      "endFrame": 306,
+      "fillColor": "#06B6D4",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[5.82, 49.55], [6.37, 49.46], [6.5, 49.8], [6.13, 50.13], [5.75, 50], [5.82, 49.55]]]
+    },
+    {
+      "id": "belgium-hatch",
+      "startFrame": 243,
+      "endFrame": 306,
+      "fillColor": "#EC4899",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[2.55, 51.08], [3.37, 51.37], [4.25, 51.37], [5, 51.45], [5.85, 51.15], [6.1, 50.75], [6.4, 50.32], [6.13, 50.13], [5.75, 50], [5.82, 49.55], [5.47, 49.5], [4.85, 49.8], [4.85, 50.15], [4.2, 50.3], [3, 50.78], [2.55, 51.08]]]
+    },
+    {
+      "id": "netherlands-hatch",
+      "startFrame": 258,
+      "endFrame": 306,
+      "fillColor": "#F97316",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[3.37, 51.37], [4.25, 51.37], [5, 51.45], [5.85, 51.15], [6.1, 50.75], [6, 51.85], [7, 52.25], [7.2, 53.25], [6.9, 53.45], [5, 53.3], [4.6, 52.4], [4, 51.9], [3.37, 51.37]]]
+    },
+    {
+      "id": "busingen-fill",
+      "startFrame": 405,
+      "endFrame": 825,
+      "fillColor": "#F59E0B",
+      "fillOpacity": 0.62,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 4,
+      "glowColor": "#FACC15",
+      "coordinates": [[[8.655, 47.7], [8.665, 47.708], [8.685, 47.712], [8.705, 47.708], [8.725, 47.703], [8.735, 47.695], [8.72, 47.689], [8.7, 47.688], [8.68, 47.69], [8.665, 47.692], [8.655, 47.7]]]
+    },
+    {
+      "id": "kleinwalsertal-fill",
+      "startFrame": 900,
+      "endFrame": 1185,
+      "fillColor": "#DC2626",
+      "fillOpacity": 0.55,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 4,
+      "glowColor": "#FACC15",
+      "coordinates": [[[10.22, 47.375], [10.24, 47.35], [10.21, 47.31], [10.16, 47.27], [10.1, 47.27], [10.07, 47.3], [10.1, 47.34], [10.16, 47.37], [10.22, 47.375]]]
+    },
+    {
+      "id": "jungholz-fill",
+      "startFrame": 1215,
+      "endFrame": 1575,
+      "fillColor": "#DC2626",
+      "fillOpacity": 0.55,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 4,
+      "glowColor": "#FACC15",
+      "coordinates": [[[10.425, 47.567], [10.4388, 47.5617], [10.46, 47.566], [10.475, 47.578], [10.465, 47.592], [10.445, 47.592], [10.43, 47.585], [10.425, 47.567]]]
+    },
+    {
+      "id": "mutzenich-fill",
+      "startFrame": 2085,
+      "endFrame": 2400,
+      "fillColor": "#F59E0B",
+      "fillOpacity": 0.6,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 4,
+      "glowColor": "#FACC15",
+      "coordinates": [[[6.195, 50.582], [6.216, 50.587], [6.228, 50.568], [6.236, 50.552], [6.215, 50.548], [6.195, 50.556], [6.188, 50.57], [6.195, 50.582]]]
+    }
+  ],
+  "lines": [
+    {
+      "id": "busingen-gap",
+      "startFrame": 570,
+      "endFrame": 705,
+      "color": "#FFFFFF",
+      "width": 5,
+      "dashed": true,
+      "drawRange": [570, 600],
+      "coordinates": [[8.735, 47.695], [8.744, 47.697]]
+    },
+    {
+      "id": "kleinwalsertal-road",
+      "startFrame": 1065,
+      "endFrame": 1185,
+      "color": "#FEF08A",
+      "glowColor": "#FACC15",
+      "width": 6,
+      "drawRange": [1065, 1110],
+      "coordinates": [[10.28, 47.41], [10.24, 47.385], [10.21, 47.36], [10.18, 47.34], [10.15, 47.32]]
+    },
+    {
+      "id": "vennbahn",
+      "startFrame": 1695,
+      "endFrame": 2400,
+      "color": "#FFFFFF",
+      "glowColor": "#EC4899",
+      "width": 7,
+      "drawRange": [1710, 1800],
+      "coordinates": [[6.1, 50.71], [6.15, 50.67], [6.18, 50.64], [6.2, 50.615], [6.215, 50.595], [6.232, 50.568], [6.245, 50.545], [6.255, 50.52], [6.265, 50.49], [6.26, 50.465]]
+    }
+  ],
+  "beacons": [
+    {
+      "id": "sorgschrofen-beacon",
+      "lngLat": [10.4388, 47.5617],
+      "startFrame": 1335,
+      "endFrame": 1575,
+      "color": "#F97316",
+      "radius": 12
+    },
+    {
+      "id": "enclave-roetgener-wald",
+      "lngLat": [6.135, 50.665],
+      "startFrame": 1920,
+      "endFrame": 2100,
+      "color": "#F59E0B",
+      "radius": 9
+    },
+    {
+      "id": "enclave-munsterbildchen",
+      "lngLat": [6.165, 50.64],
+      "startFrame": 1944,
+      "endFrame": 2100,
+      "color": "#F59E0B",
+      "radius": 9
+    },
+    {
+      "id": "enclave-ruitzerwald",
+      "lngLat": [6.188, 50.612],
+      "startFrame": 1968,
+      "endFrame": 2100,
+      "color": "#F59E0B",
+      "radius": 9
+    },
+    {
+      "id": "enclave-mutzenich",
+      "lngLat": [6.212, 50.567],
+      "startFrame": 1992,
+      "endFrame": 2100,
+      "color": "#F59E0B",
+      "radius": 9
+    },
+    {
+      "id": "enclave-ruckschlag",
+      "lngLat": [6.24, 50.522],
+      "startFrame": 2016,
+      "endFrame": 2100,
+      "color": "#F59E0B",
+      "radius": 9
+    }
+  ],
+  "callouts": [
+    {
+      "id": "hook-nine",
+      "kind": "hookBanner",
+      "startFrame": 30,
+      "endFrame": 102,
+      "xPct": 50,
+      "yPct": 24,
+      "accentWord": "9",
+      "text": "neighbors"
+    },
+    {
+      "id": "hook-arrow",
+      "kind": "curvedArrow",
+      "startFrame": 36,
+      "endFrame": 102,
+      "xPct": 56,
+      "yPct": 34,
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "lbl-germany-intro",
+      "kind": "countryLabel",
+      "startFrame": 30,
+      "endFrame": 306,
+      "xPct": 50,
+      "yPct": 47,
+      "text": "GERMANY",
+      "scale": 0.85
+    },
+    {
+      "id": "neighbor-counter",
+      "kind": "counter",
+      "startFrame": 138,
+      "endFrame": 306,
+      "xPct": 50,
+      "yPct": 17,
+      "counterSteps": [
+        {
+          "frame": 138,
+          "value": 1
+        },
+        {
+          "frame": 153,
+          "value": 2
+        },
+        {
+          "frame": 168,
+          "value": 3
+        },
+        {
+          "frame": 183,
+          "value": 4
+        },
+        {
+          "frame": 198,
+          "value": 5
+        },
+        {
+          "frame": 213,
+          "value": 6
+        },
+        {
+          "frame": 228,
+          "value": 7
+        },
+        {
+          "frame": 243,
+          "value": 8
+        },
+        {
+          "frame": 258,
+          "value": 9
+        }
+      ]
+    },
+    {
+      "id": "lbl-denmark-intro",
+      "kind": "countryLabel",
+      "startFrame": 138,
+      "endFrame": 306,
+      "xPct": 45,
+      "yPct": 29,
+      "text": "DENMARK",
+      "scale": 0.5
+    },
+    {
+      "id": "lbl-poland-intro",
+      "kind": "countryLabel",
+      "startFrame": 153,
+      "endFrame": 306,
+      "xPct": 86,
+      "yPct": 44,
+      "text": "POLAND",
+      "scale": 0.45
+    },
+    {
+      "id": "lbl-czechia-intro",
+      "kind": "countryLabel",
+      "startFrame": 168,
+      "endFrame": 306,
+      "xPct": 76,
+      "yPct": 55,
+      "text": "CZECHIA",
+      "scale": 0.45
+    },
+    {
+      "id": "lbl-austria-intro",
+      "kind": "countryLabel",
+      "startFrame": 183,
+      "endFrame": 306,
+      "xPct": 66,
+      "yPct": 65,
+      "text": "AUSTRIA",
+      "scale": 0.5
+    },
+    {
+      "id": "lbl-switzerland-intro",
+      "kind": "countryLabel",
+      "startFrame": 198,
+      "endFrame": 306,
+      "xPct": 38,
+      "yPct": 69,
+      "text": "SWITZERLAND",
+      "scale": 0.42
+    },
+    {
+      "id": "lbl-france-intro",
+      "kind": "countryLabel",
+      "startFrame": 213,
+      "endFrame": 306,
+      "xPct": 18,
+      "yPct": 63,
+      "text": "FRANCE",
+      "scale": 0.55
+    },
+    {
+      "id": "lbl-luxembourg-intro",
+      "kind": "countryLabel",
+      "startFrame": 228,
+      "endFrame": 306,
+      "xPct": 30,
+      "yPct": 57,
+      "text": "LUXEMBOURG",
+      "scale": 0.35
+    },
+    {
+      "id": "lbl-belgium-intro",
+      "kind": "countryLabel",
+      "startFrame": 243,
+      "endFrame": 306,
+      "xPct": 20,
+      "yPct": 51,
+      "text": "BELGIUM",
+      "scale": 0.45
+    },
+    {
+      "id": "lbl-netherlands-intro",
+      "kind": "countryLabel",
+      "startFrame": 258,
+      "endFrame": 306,
+      "xPct": 24,
+      "yPct": 42,
+      "text": "NETHERLANDS",
+      "scale": 0.45
+    },
+    {
+      "id": "pin-busingen",
+      "kind": "pinLabel",
+      "startFrame": 420,
+      "endFrame": 555,
+      "xPct": 50,
+      "yPct": 40,
+      "text": "Büsingen",
+      "scale": 0.8
+    },
+    {
+      "id": "flag-de-busingen",
+      "kind": "flag",
+      "startFrame": 450,
+      "endFrame": 660,
+      "xPct": 72,
+      "yPct": 24,
+      "flagCode": "DE",
+      "rotationDeg": 8
+    },
+    {
+      "id": "flag-ch-busingen",
+      "kind": "flag",
+      "startFrame": 480,
+      "endFrame": 660,
+      "xPct": 26,
+      "yPct": 64,
+      "flagCode": "CH",
+      "rotationDeg": -8
+    },
+    {
+      "id": "pop-busingen",
+      "kind": "populationBadge",
+      "startFrame": 555,
+      "endFrame": 630,
+      "xPct": 50,
+      "yPct": 47,
+      "text": "1,500"
+    },
+    {
+      "id": "dist-busingen",
+      "kind": "distanceBadge",
+      "startFrame": 585,
+      "endFrame": 705,
+      "xPct": 80,
+      "yPct": 44,
+      "text": "700 m",
+      "subtext": "(0.4 mi)"
+    },
+    {
+      "id": "lbl-swiss-francs",
+      "kind": "countryLabel",
+      "startFrame": 645,
+      "endFrame": 726,
+      "xPct": 50,
+      "yPct": 62,
+      "text": "Pays in Swiss francs",
+      "scale": 0.55
+    },
+    {
+      "id": "lbl-swiss-customs",
+      "kind": "countryLabel",
+      "startFrame": 726,
+      "endFrame": 810,
+      "xPct": 50,
+      "yPct": 62,
+      "text": "Swiss customs zone",
+      "scale": 0.55
+    },
+    {
+      "id": "pin-kleinwalsertal",
+      "kind": "pinLabel",
+      "startFrame": 915,
+      "endFrame": 1065,
+      "xPct": 38,
+      "yPct": 50,
+      "text": "Kleinwalsertal",
+      "scale": 0.7
+    },
+    {
+      "id": "flag-at-kwt",
+      "kind": "flag",
+      "startFrame": 930,
+      "endFrame": 1155,
+      "xPct": 22,
+      "yPct": 30,
+      "flagCode": "AT",
+      "rotationDeg": -8
+    },
+    {
+      "id": "lbl-no-road",
+      "kind": "countryLabel",
+      "startFrame": 990,
+      "endFrame": 1065,
+      "xPct": 50,
+      "yPct": 22,
+      "text": "No road to Austria",
+      "scale": 0.55
+    },
+    {
+      "id": "pin-oberstdorf",
+      "kind": "pinLabel",
+      "startFrame": 1065,
+      "endFrame": 1164,
+      "xPct": 68,
+      "yPct": 31,
+      "text": "Oberstdorf",
+      "scale": 0.55
+    },
+    {
+      "id": "flag-de-kwt",
+      "kind": "flag",
+      "startFrame": 1074,
+      "endFrame": 1164,
+      "xPct": 78,
+      "yPct": 58,
+      "flagCode": "DE",
+      "rotationDeg": 8
+    },
+    {
+      "id": "pin-jungholz",
+      "kind": "pinLabel",
+      "startFrame": 1245,
+      "endFrame": 1335,
+      "xPct": 50,
+      "yPct": 40,
+      "text": "Jungholz",
+      "scale": 0.8
+    },
+    {
+      "id": "flag-at-jungholz",
+      "kind": "flag",
+      "startFrame": 1254,
+      "endFrame": 1380,
+      "xPct": 72,
+      "yPct": 24,
+      "flagCode": "AT",
+      "rotationDeg": 8
+    },
+    {
+      "id": "flag-de-jungholz",
+      "kind": "flag",
+      "startFrame": 1275,
+      "endFrame": 1560,
+      "xPct": 76,
+      "yPct": 62,
+      "flagCode": "DE",
+      "rotationDeg": -6
+    },
+    {
+      "id": "pin-sorgschrofen",
+      "kind": "pinLabel",
+      "startFrame": 1350,
+      "endFrame": 1560,
+      "xPct": 36,
+      "yPct": 58,
+      "text": "Sorgschrofen",
+      "scale": 0.55
+    },
+    {
+      "id": "lbl-one-point",
+      "kind": "hookBanner",
+      "startFrame": 1365,
+      "endFrame": 1560,
+      "xPct": 50,
+      "yPct": 24,
+      "accentWord": "1",
+      "text": "point"
+    },
+    {
+      "id": "pin-vennbahn",
+      "kind": "pinLabel",
+      "startFrame": 1740,
+      "endFrame": 1905,
+      "xPct": 58,
+      "yPct": 44,
+      "text": "Vennbahn",
+      "scale": 0.7
+    },
+    {
+      "id": "flag-be-vennbahn",
+      "kind": "flag",
+      "startFrame": 1770,
+      "endFrame": 1980,
+      "xPct": 72,
+      "yPct": 28,
+      "flagCode": "BE",
+      "rotationDeg": 8
+    },
+    {
+      "id": "flag-de-vennbahn",
+      "kind": "flag",
+      "startFrame": 1815,
+      "endFrame": 1980,
+      "xPct": 26,
+      "yPct": 62,
+      "flagCode": "DE",
+      "rotationDeg": -8
+    },
+    {
+      "id": "enclave-counter",
+      "kind": "counter",
+      "startFrame": 1920,
+      "endFrame": 2100,
+      "xPct": 50,
+      "yPct": 17,
+      "counterSteps": [
+        {
+          "frame": 1920,
+          "value": 1
+        },
+        {
+          "frame": 1944,
+          "value": 2
+        },
+        {
+          "frame": 1968,
+          "value": 3
+        },
+        {
+          "frame": 1992,
+          "value": 4
+        },
+        {
+          "frame": 2016,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "id": "pin-mutzenich",
+      "kind": "pinLabel",
+      "startFrame": 2115,
+      "endFrame": 2280,
+      "xPct": 46,
+      "yPct": 40,
+      "text": "Mützenich",
+      "scale": 0.8
+    },
+    {
+      "id": "lbl-belgium-rail",
+      "kind": "countryLabel",
+      "startFrame": 2160,
+      "endFrame": 2400,
+      "xPct": 84,
+      "yPct": 30,
+      "text": "BELGIUM",
+      "scale": 0.5
+    },
+    {
+      "id": "lbl-enclave",
+      "kind": "countryLabel",
+      "startFrame": 2280,
+      "endFrame": 2400,
+      "xPct": 46,
+      "yPct": 62,
+      "text": "German enclave",
+      "scale": 0.6
+    }
+  ],
+  "captions": [
+    {
+      "startFrame": 0,
+      "endFrame": 30,
+      "text": "Did you know"
+    },
+    {
+      "startFrame": 30,
+      "endFrame": 66,
+      "text": "Germany has nine neighbors —"
+    },
+    {
+      "startFrame": 66,
+      "endFrame": 102,
+      "text": "more than any other EU country?"
+    },
+    {
+      "startFrame": 102,
+      "endFrame": 138,
+      "text": "Let's count them:"
+    },
+    {
+      "startFrame": 138,
+      "endFrame": 183,
+      "text": "Denmark, Poland, Czechia,"
+    },
+    {
+      "startFrame": 183,
+      "endFrame": 228,
+      "text": "Austria, Switzerland, France,"
+    },
+    {
+      "startFrame": 228,
+      "endFrame": 282,
+      "text": "Luxembourg, Belgium and the Netherlands."
+    },
+    {
+      "startFrame": 282,
+      "endFrame": 345,
+      "text": "But its strangest borders are tiny."
+    },
+    {
+      "startFrame": 345,
+      "endFrame": 420,
+      "text": "On the Rhine, near Schaffhausen,"
+    },
+    {
+      "startFrame": 420,
+      "endFrame": 495,
+      "text": "lies Büsingen — a German village"
+    },
+    {
+      "startFrame": 495,
+      "endFrame": 570,
+      "text": "completely surrounded by Switzerland."
+    },
+    {
+      "startFrame": 570,
+      "endFrame": 645,
+      "text": "It's only 700 meters from the rest of Germany,"
+    },
+    {
+      "startFrame": 645,
+      "endFrame": 720,
+      "text": "yet it pays in Swiss francs"
+    },
+    {
+      "startFrame": 720,
+      "endFrame": 810,
+      "text": "and sits inside Swiss customs territory."
+    },
+    {
+      "startFrame": 810,
+      "endFrame": 885,
+      "text": "Germany also traps pieces of Austria."
+    },
+    {
+      "startFrame": 885,
+      "endFrame": 975,
+      "text": "The Kleinwalsertal valley is Austrian,"
+    },
+    {
+      "startFrame": 975,
+      "endFrame": 1065,
+      "text": "but mountains cut it off from the rest of Austria."
+    },
+    {
+      "startFrame": 1065,
+      "endFrame": 1155,
+      "text": "The only road in comes from Oberstdorf, in Germany."
+    },
+    {
+      "startFrame": 1155,
+      "endFrame": 1245,
+      "text": "Nearby, the Austrian village of Jungholz"
+    },
+    {
+      "startFrame": 1245,
+      "endFrame": 1335,
+      "text": "is almost completely surrounded by Germany."
+    },
+    {
+      "startFrame": 1335,
+      "endFrame": 1440,
+      "text": "It touches Austria at just one point:"
+    },
+    {
+      "startFrame": 1440,
+      "endFrame": 1560,
+      "text": "the summit of the Sorgschrofen mountain."
+    },
+    {
+      "startFrame": 1560,
+      "endFrame": 1650,
+      "text": "But the strangest border of all is near Aachen."
+    },
+    {
+      "startFrame": 1650,
+      "endFrame": 1740,
+      "text": "After World War I, a railway called the Vennbahn"
+    },
+    {
+      "startFrame": 1740,
+      "endFrame": 1830,
+      "text": "was handed to Belgium — along with the land under it."
+    },
+    {
+      "startFrame": 1830,
+      "endFrame": 1920,
+      "text": "That thin Belgian strip runs right through Germany,"
+    },
+    {
+      "startFrame": 1920,
+      "endFrame": 2010,
+      "text": "cutting off five pieces of German land."
+    },
+    {
+      "startFrame": 2010,
+      "endFrame": 2100,
+      "text": "They became German enclaves surrounded by Belgium."
+    },
+    {
+      "startFrame": 2100,
+      "endFrame": 2190,
+      "text": "The largest is the village of Mützenich,"
+    },
+    {
+      "startFrame": 2190,
+      "endFrame": 2295,
+      "text": "where crossing the old railway means leaving Germany."
+    },
+    {
+      "startFrame": 2295,
+      "endFrame": 2400,
+      "text": "The trains are gone — it's a bike path now — but the border remains."
+    }
+  ],
+  "audio": {
+    "bgm": {
+      "src": "_shared/audio/bgm.mp3",
+      "startFrame": 0,
+      "volume": 0.18
+    },
+    "sfx": [
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 60,
+        "volume": 0.5
+      },
+      {
+        "src": "_shared/audio/sfx/pop.mp3",
+        "startFrame": 138,
+        "volume": 0.55
+      },
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 360,
+        "volume": 0.5
+      },
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 855,
+        "volume": 0.5
+      },
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 1605,
+        "volume": 0.5
+      },
+      {
+        "src": "_shared/audio/sfx/pop.mp3",
+        "startFrame": 1920,
+        "volume": 0.55
+      }
+    ]
+  }
+}

@@ -1,0 +1,971 @@
+{
+  "id": "SpainsStrangestBorders",
+  "title": "Spain's Strangest Borders",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 2898,
+  "voice": { "voiceId": "JBFqnCBsd6RMkjVDRZzb", "modelId": "eleven_multilingual_v2", "speed": 1.12 },
+  "geoSources": {
+    "llivia": { "osm": "Llívia, Girona, Catalonia, Spain", "simplify": 0.0003 },
+    "nyc": { "osmId": "R175905", "simplify": 0.003 }
+  },
+  "cameraKeyframes": [
+    {
+      "frame": 0,
+      "center": [-4.5, 39],
+      "zoom": 3.1,
+      "pitch": 12,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 75,
+      "center": [-3.7, 40.3],
+      "zoom": 4.9,
+      "pitch": 18,
+      "bearing": -4,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 105,
+      "center": [-3.2, 40.8],
+      "zoom": 4.5,
+      "pitch": 0,
+      "bearing": 0,
+      "basemap": "dark",
+      "easing": "easeOutQuart"
+    },
+    {
+      "frame": 285,
+      "center": [-2.2, 41.2],
+      "zoom": 4.4,
+      "pitch": 0,
+      "bearing": 0,
+      "basemap": "dark"
+    },
+    {
+      "frame": 306,
+      "center": [0.2, 43.2],
+      "zoom": 5.7,
+      "pitch": 22,
+      "bearing": -6,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 405,
+      "center": [1.97, 42.46],
+      "zoom": 11.4,
+      "pitch": 24,
+      "bearing": 4,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 630,
+      "center": [1.96, 42.45],
+      "zoom": 10.6,
+      "pitch": 18,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 765,
+      "center": [-1.77, 43.34],
+      "zoom": 8.5,
+      "pitch": 20,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 855,
+      "center": [-1.7662, 43.3427],
+      "zoom": 16.2,
+      "pitch": 28,
+      "bearing": -12,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1245,
+      "center": [-1.7662, 43.3427],
+      "zoom": 16,
+      "pitch": 22,
+      "bearing": -8,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1335,
+      "center": [1.56, 42.54],
+      "zoom": 6.4,
+      "pitch": 18,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1410,
+      "center": [1.56, 42.54],
+      "zoom": 9.8,
+      "pitch": 24,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1554,
+      "center": [1.56, 42.54],
+      "zoom": 9.5,
+      "pitch": 20,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1635,
+      "center": [-2.5, 46.5],
+      "zoom": 4.1,
+      "pitch": 15,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 1815,
+      "center": [-5.35, 36.14],
+      "zoom": 12.2,
+      "pitch": 26,
+      "bearing": -10,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 2040,
+      "center": [-5.4, 36.05],
+      "zoom": 7.4,
+      "pitch": 18,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 2175,
+      "center": [-3.5, 36.5],
+      "zoom": 3.1,
+      "pitch": 10,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 2370,
+      "center": [-4.3, 35.8],
+      "zoom": 5.5,
+      "pitch": 20,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 2535,
+      "center": [-4.2, 35.4],
+      "zoom": 7.6,
+      "pitch": 22,
+      "bearing": 0,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 2655,
+      "center": [-4.3005, 35.1718],
+      "zoom": 16.4,
+      "pitch": 24,
+      "bearing": 6,
+      "basemap": "satellite"
+    },
+    {
+      "frame": 2898,
+      "center": [-4.3002, 35.1714],
+      "zoom": 17.2,
+      "pitch": 20,
+      "bearing": 10,
+      "basemap": "satellite"
+    }
+  ],
+  "polygons": [
+    {
+      "id": "spain-hatch",
+      "startFrame": 30,
+      "endFrame": 294,
+      "fillColor": "#E87A24",
+      "fillOpacity": 0.88,
+      "strokeColor": "#FFF7ED",
+      "strokeWidth": 4,
+      "glowColor": "#FACC15",
+      "hatched": true,
+      "coordinates": [[[-9.29, 43.01], [-7, 43.55], [-4.5, 43.45], [-1.79, 43.36], [0.7, 42.75], [3.2, 42.43], [2.15, 41.38], [0.5, 40.7], [-0.37, 39.47], [-0.7, 37.6], [-2.1, 36.7], [-5.35, 36.14], [-6.3, 36.5], [-7.4, 37.2], [-7.1, 38.8], [-6.9, 40.2], [-6.5, 41.9], [-8.87, 41.88], [-9.29, 43.01]]]
+    },
+    {
+      "id": "france-hatch",
+      "startFrame": 165,
+      "endFrame": 294,
+      "fillColor": "#4F83D1",
+      "fillOpacity": 0.85,
+      "strokeColor": "#EFF6FF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[-4.79, 48.4], [-1.6, 49.7], [2.55, 51.08], [8.23, 48.97], [7.55, 47.58], [6.8, 45.8], [7.65, 43.78], [5.38, 43.29], [3.2, 42.43], [0.7, 42.75], [-1.79, 43.36], [-1.2, 45.6], [-2.5, 47.5], [-4.79, 48.4]]]
+    },
+    {
+      "id": "portugal-hatch",
+      "startFrame": 195,
+      "endFrame": 294,
+      "fillColor": "#2E9E5B",
+      "fillOpacity": 0.85,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "hatched": true,
+      "coordinates": [[[-8.87, 41.88], [-6.5, 41.9], [-6.9, 40.2], [-7.1, 38.8], [-7.4, 37.2], [-8.99, 37.02], [-9.5, 38.75], [-8.9, 40.6], [-8.87, 41.88]]]
+    },
+    {
+      "id": "spain-tint",
+      "startFrame": 294,
+      "endFrame": 2610,
+      "fillColor": "#E87A24",
+      "fillOpacity": 0.45,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "coordinates": [[[-9.29, 43.01], [-7, 43.55], [-4.5, 43.45], [-1.79, 43.36], [0.7, 42.75], [3.2, 42.43], [2.15, 41.38], [0.5, 40.7], [-0.37, 39.47], [-0.7, 37.6], [-2.1, 36.7], [-5.35, 36.14], [-6.3, 36.5], [-7.4, 37.2], [-7.1, 38.8], [-6.9, 40.2], [-6.5, 41.9], [-8.87, 41.88], [-9.29, 43.01]]]
+    },
+    {
+      "id": "france-tint",
+      "startFrame": 294,
+      "endFrame": 1770,
+      "fillColor": "#4F83D1",
+      "fillOpacity": 0.42,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 2.5,
+      "coordinates": [[[-4.79, 48.4], [-1.6, 49.7], [2.55, 51.08], [8.23, 48.97], [7.55, 47.58], [6.8, 45.8], [7.65, 43.78], [5.38, 43.29], [3.2, 42.43], [0.7, 42.75], [-1.79, 43.36], [-1.2, 45.6], [-2.5, 47.5], [-4.79, 48.4]]]
+    },
+    {
+      "id": "llivia-enclave",
+      "startFrame": 405,
+      "endFrame": 705,
+      "fillColor": "#E87A24",
+      "fillOpacity": 0.72,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 4,
+      "glowColor": "#FACC15",
+      "geo": "llivia"
+    },
+    {
+      "id": "pheasant-spanish-half",
+      "startFrame": 1050,
+      "endFrame": 1140,
+      "fillColor": "#E87A24",
+      "fillOpacity": 0.65,
+      "strokeColor": "#FACC15",
+      "strokeWidth": 4,
+      "coordinates": [[[-1.7676, 43.3426], [-1.7652, 43.3431], [-1.7647, 43.3428], [-1.7672, 43.3422], [-1.7676, 43.3426]]]
+    },
+    {
+      "id": "pheasant-french-half",
+      "startFrame": 1140,
+      "endFrame": 1260,
+      "fillColor": "#4F83D1",
+      "fillOpacity": 0.65,
+      "strokeColor": "#FACC15",
+      "strokeWidth": 4,
+      "coordinates": [[[-1.7676, 43.3426], [-1.7652, 43.3431], [-1.7647, 43.3428], [-1.7672, 43.3422], [-1.7676, 43.3426]]]
+    },
+    {
+      "id": "andorra-fill",
+      "startFrame": 1320,
+      "endFrame": 1575,
+      "fillColor": "#22C55E",
+      "fillOpacity": 0.62,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 4,
+      "coordinates": [[[1.41, 42.56], [1.52, 42.65], [1.73, 42.62], [1.78, 42.51], [1.62, 42.43], [1.44, 42.45], [1.41, 42.56]]]
+    },
+    {
+      "id": "uk-fill",
+      "startFrame": 1620,
+      "endFrame": 1815,
+      "fillColor": "#DC2626",
+      "fillOpacity": 0.62,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "coordinates": [[[-5.6, 50.06], [-3.2, 51.4], [-4.8, 54.6], [-5.2, 58.6], [-1.8, 57.6], [-1.4, 55], [1.75, 52.5], [1.4, 51.1], [-1.1, 50.7], [-5.6, 50.06]]]
+    },
+    {
+      "id": "gibraltar-fill",
+      "startFrame": 1800,
+      "endFrame": 2040,
+      "fillColor": "#DC2626",
+      "fillOpacity": 0.68,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3,
+      "coordinates": [[[-5.358, 36.155], [-5.338, 36.155], [-5.339, 36.11], [-5.355, 36.112], [-5.358, 36.155]]]
+    },
+    {
+      "id": "morocco-fill",
+      "startFrame": 2385,
+      "endFrame": 2898,
+      "fillColor": "#2DD4BF",
+      "fillOpacity": 0.45,
+      "strokeColor": "#CCFBF1",
+      "strokeWidth": 3,
+      "coordinates": [[[-5.8, 35.78], [-2.2, 35.1], [-1.6, 32.5], [-4, 29.8], [-9.8, 29.5], [-9.6, 31.5], [-7.6, 33.6], [-5.8, 35.78]]]
+    },
+    {
+      "id": "penon-fill",
+      "startFrame": 2685,
+      "endFrame": 2898,
+      "fillColor": "#E87A24",
+      "fillOpacity": 0.52,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 4,
+      "coordinates": [[[-4.3016, 35.1726], [-4.2994, 35.1728], [-4.299, 35.1714], [-4.3012, 35.1712], [-4.3016, 35.1726]]]
+    }
+  ],
+  "lines": [
+    {
+      "id": "pyrenees-glow",
+      "startFrame": 315,
+      "endFrame": 405,
+      "color": "#FFFFFF",
+      "glowColor": "#FACC15",
+      "width": 5,
+      "drawRange": [315, 354],
+      "coordinates": [[-1.79, 43.36], [-0.9, 42.98], [0.1, 42.7], [1.1, 42.65], [2.1, 42.42], [3.2, 42.43]]
+    },
+    {
+      "id": "llivia-distance",
+      "startFrame": 495,
+      "endFrame": 585,
+      "color": "#FACC15",
+      "width": 6,
+      "dashed": true,
+      "coordinates": [[1.965, 42.452], [1.948, 42.435]]
+    },
+    {
+      "id": "pheasant-border-es",
+      "startFrame": 1050,
+      "endFrame": 1140,
+      "color": "#FACC15",
+      "glowColor": "#FACC15",
+      "width": 6,
+      "coordinates": [[-1.771, 43.342], [-1.7676, 43.3431], [-1.7647, 43.3434], [-1.761, 43.3438]]
+    },
+    {
+      "id": "pheasant-border-fr",
+      "startFrame": 1140,
+      "endFrame": 1260,
+      "color": "#FACC15",
+      "glowColor": "#FACC15",
+      "width": 6,
+      "coordinates": [[-1.771, 43.3418], [-1.7676, 43.342], [-1.7647, 43.3424], [-1.761, 43.3434]]
+    },
+    {
+      "id": "uk-spain-distance",
+      "startFrame": 1665,
+      "endFrame": 1800,
+      "color": "#FFFFFF",
+      "width": 5,
+      "dashed": true,
+      "coordinates": [[-5.1, 50], [-6.8, 43.6]]
+    },
+    {
+      "id": "uk-gibraltar-arc",
+      "startFrame": 1734,
+      "endFrame": 1815,
+      "color": "#FFFFFF",
+      "glowColor": "#EF4444",
+      "width": 6,
+      "drawRange": [1734, 1788],
+      "coordinates": [[-3.5, 52], [-4.8, 48], [-5.4, 44], [-5.5, 40], [-5.35, 36.14]]
+    },
+    {
+      "id": "penon-85m-border",
+      "startFrame": 2760,
+      "endFrame": 2898,
+      "color": "#FEF08A",
+      "glowColor": "#FACC15",
+      "width": 10,
+      "coordinates": [[-4.3005, 35.1711], [-4.2996, 35.1713]]
+    }
+  ],
+  "beacons": [
+    {
+      "id": "ceuta-beacon",
+      "lngLat": [-5.316, 35.889],
+      "startFrame": 2355,
+      "endFrame": 2595,
+      "color": "#F97316",
+      "radius": 10
+    },
+    {
+      "id": "penon-beacon",
+      "lngLat": [-4.3, 35.172],
+      "startFrame": 2370,
+      "endFrame": 2595,
+      "color": "#F97316",
+      "radius": 10
+    },
+    {
+      "id": "melilla-beacon",
+      "lngLat": [-2.938, 35.292],
+      "startFrame": 2385,
+      "endFrame": 2595,
+      "color": "#F97316",
+      "radius": 10
+    }
+  ],
+  "areaCompares": [
+    {
+      "id": "nyc-over-andorra",
+      "geo": "nyc",
+      "targetCenter": [1.57, 42.55],
+      "startFrame": 1485,
+      "endFrame": 1560,
+      "slide": { "startFrame": 1485, "endFrame": 1524 },
+      "fillColor": "#38BDF8",
+      "fillOpacity": 0.5,
+      "strokeColor": "#FFFFFF",
+      "strokeWidth": 3
+    }
+  ],
+  "callouts": [
+    {
+      "id": "lbl-spain-intro",
+      "kind": "countryLabel",
+      "startFrame": 30,
+      "endFrame": 294,
+      "xPct": 48,
+      "yPct": 50,
+      "text": "SPAIN"
+    },
+    {
+      "id": "hook-not-simple",
+      "kind": "hookBanner",
+      "startFrame": 60,
+      "endFrame": 102,
+      "xPct": 62,
+      "yPct": 26,
+      "accentWord": "NOT",
+      "text": "as simple as it looks"
+    },
+    {
+      "id": "hook-arrow",
+      "kind": "curvedArrow",
+      "startFrame": 63,
+      "endFrame": 102,
+      "xPct": 56,
+      "yPct": 36,
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "neighbor-counter",
+      "kind": "counter",
+      "startFrame": 144,
+      "endFrame": 294,
+      "xPct": 48,
+      "yPct": 19,
+      "counterSteps": [
+        {
+          "frame": 144,
+          "value": 1
+        },
+        {
+          "frame": 180,
+          "value": 2
+        },
+        {
+          "frame": 228,
+          "value": 4
+        },
+        {
+          "frame": 258,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "id": "lbl-france-intro",
+      "kind": "countryLabel",
+      "startFrame": 168,
+      "endFrame": 294,
+      "xPct": 60,
+      "yPct": 37,
+      "text": "FRANCE",
+      "scale": 0.72
+    },
+    {
+      "id": "lbl-portugal-intro",
+      "kind": "countryLabel",
+      "startFrame": 195,
+      "endFrame": 294,
+      "xPct": 28,
+      "yPct": 49,
+      "text": "PORTUGAL",
+      "scale": 0.56
+    },
+    {
+      "id": "pyrenees-qmarks",
+      "kind": "questionMarks",
+      "startFrame": 330,
+      "endFrame": 390,
+      "xPct": 50,
+      "yPct": 49
+    },
+    {
+      "id": "pin-llivia",
+      "kind": "pinLabel",
+      "startFrame": 420,
+      "endFrame": 615,
+      "xPct": 52,
+      "yPct": 38,
+      "text": "Llivia"
+    },
+    {
+      "id": "flag-fr-llivia",
+      "kind": "flag",
+      "startFrame": 465,
+      "endFrame": 615,
+      "xPct": 68,
+      "yPct": 19,
+      "flagCode": "FR"
+    },
+    {
+      "id": "flag-es-llivia",
+      "kind": "flag",
+      "startFrame": 540,
+      "endFrame": 615,
+      "xPct": 28,
+      "yPct": 73,
+      "flagCode": "ES"
+    },
+    {
+      "id": "dist-llivia",
+      "kind": "distanceBadge",
+      "startFrame": 495,
+      "endFrame": 585,
+      "xPct": 54,
+      "yPct": 58,
+      "text": "2 km",
+      "subtext": "(1.24 mi)",
+      "rotationDeg": 18
+    },
+    {
+      "id": "lbl-enclave",
+      "kind": "countryLabel",
+      "startFrame": 636,
+      "endFrame": 705,
+      "xPct": 62,
+      "yPct": 37,
+      "text": "Enclave",
+      "scale": 0.78
+    },
+    {
+      "id": "pin-pheasant",
+      "kind": "pinLabel",
+      "startFrame": 780,
+      "endFrame": 840,
+      "xPct": 50,
+      "yPct": 46,
+      "text": "Pheasant Island"
+    },
+    {
+      "id": "pheasant-tug",
+      "kind": "pheasantTugOfWar",
+      "startFrame": 870,
+      "endFrame": 1035,
+      "xPct": 50,
+      "yPct": 50
+    },
+    {
+      "id": "flag-fr-pheasant",
+      "kind": "flag",
+      "startFrame": 1038,
+      "endFrame": 1245,
+      "xPct": 50,
+      "yPct": 34,
+      "flagCode": "FR"
+    },
+    {
+      "id": "flag-es-pheasant",
+      "kind": "flag",
+      "startFrame": 1038,
+      "endFrame": 1245,
+      "xPct": 50,
+      "yPct": 66,
+      "flagCode": "ES"
+    },
+    {
+      "id": "pin-andorra",
+      "kind": "pinLabel",
+      "startFrame": 1326,
+      "endFrame": 1482,
+      "xPct": 50,
+      "yPct": 41,
+      "text": "Andorra"
+    },
+    {
+      "id": "pop-andorra",
+      "kind": "populationBadge",
+      "startFrame": 1428,
+      "endFrame": 1482,
+      "xPct": 50,
+      "yPct": 47,
+      "text": "80,000"
+    },
+    {
+      "id": "lbl-nyc",
+      "kind": "countryLabel",
+      "startFrame": 1500,
+      "endFrame": 1560,
+      "xPct": 50,
+      "yPct": 37,
+      "text": "New York",
+      "scale": 0.78
+    },
+    {
+      "id": "lbl-uk",
+      "kind": "countryLabel",
+      "startFrame": 1626,
+      "endFrame": 1785,
+      "xPct": 50,
+      "yPct": 32,
+      "text": "UNITED KINGDOM",
+      "scale": 0.62
+    },
+    {
+      "id": "dist-uk-es",
+      "kind": "distanceBadge",
+      "startFrame": 1674,
+      "endFrame": 1794,
+      "xPct": 33,
+      "yPct": 45,
+      "text": "706 km",
+      "subtext": "(438 mi)",
+      "color": "#FFFFFF",
+      "rotationDeg": -72
+    },
+    {
+      "id": "pin-gibraltar",
+      "kind": "pinLabel",
+      "startFrame": 1845,
+      "endFrame": 1914,
+      "xPct": 50,
+      "yPct": 46,
+      "text": "Gibraltar"
+    },
+    {
+      "id": "flag-es-gib",
+      "kind": "flag",
+      "startFrame": 1914,
+      "endFrame": 2004,
+      "xPct": 44,
+      "yPct": 43,
+      "flagCode": "ES",
+      "rotationDeg": -10
+    },
+    {
+      "id": "flag-uk-gib",
+      "kind": "flag",
+      "startFrame": 1914,
+      "endFrame": 2004,
+      "xPct": 54,
+      "yPct": 51,
+      "flagCode": "UK",
+      "rotationDeg": 8
+    },
+    {
+      "id": "lbl-europe",
+      "kind": "countryLabel",
+      "startFrame": 2166,
+      "endFrame": 2220,
+      "xPct": 52,
+      "yPct": 41,
+      "text": "Europe",
+      "scale": 0.85
+    },
+    {
+      "id": "lbl-africa",
+      "kind": "countryLabel",
+      "startFrame": 2172,
+      "endFrame": 2220,
+      "xPct": 46,
+      "yPct": 54,
+      "text": "Africa",
+      "scale": 0.85
+    },
+    {
+      "id": "lbl-morocco",
+      "kind": "countryLabel",
+      "startFrame": 2415,
+      "endFrame": 2514,
+      "xPct": 36,
+      "yPct": 60,
+      "text": "MOROCCO",
+      "scale": 0.65
+    },
+    {
+      "id": "pin-ceuta",
+      "kind": "pinLabel",
+      "startFrame": 2514,
+      "endFrame": 2604,
+      "xPct": 26,
+      "yPct": 37,
+      "text": "Ceuta",
+      "scale": 0.82
+    },
+    {
+      "id": "pin-melilla",
+      "kind": "pinLabel",
+      "startFrame": 2526,
+      "endFrame": 2604,
+      "xPct": 78,
+      "yPct": 37,
+      "text": "Melilla",
+      "scale": 0.82
+    },
+    {
+      "id": "pin-penon",
+      "kind": "pinLabel",
+      "startFrame": 2565,
+      "endFrame": 2670,
+      "xPct": 52,
+      "yPct": 44,
+      "text": "Peñón de Vélez de la Gomera",
+      "scale": 0.62
+    },
+    {
+      "id": "flag-es-penon",
+      "kind": "flag",
+      "startFrame": 2646,
+      "endFrame": 2898,
+      "xPct": 38,
+      "yPct": 48,
+      "flagCode": "ES",
+      "rotationDeg": 18
+    },
+    {
+      "id": "dist-85m",
+      "kind": "distanceBadge",
+      "startFrame": 2826,
+      "endFrame": 2898,
+      "xPct": 54,
+      "yPct": 54,
+      "text": "85 m",
+      "subtext": "(279 ft)",
+      "color": "#FFFFFF"
+    }
+  ],
+  "captions": [
+    {
+      "startFrame": 0,
+      "endFrame": 30,
+      "text": "Did you know"
+    },
+    {
+      "startFrame": 30,
+      "endFrame": 60,
+      "text": "Spain is the country"
+    },
+    {
+      "startFrame": 60,
+      "endFrame": 96,
+      "text": "with the strangest borders?"
+    },
+    {
+      "startFrame": 96,
+      "endFrame": 135,
+      "text": "On the map, it looks like Spain"
+    },
+    {
+      "startFrame": 135,
+      "endFrame": 180,
+      "text": "has only two land neighbors,"
+    },
+    {
+      "startFrame": 180,
+      "endFrame": 216,
+      "text": "France and Portugal,"
+    },
+    {
+      "startFrame": 216,
+      "endFrame": 270,
+      "text": "but in reality there are many more."
+    },
+    {
+      "startFrame": 270,
+      "endFrame": 330,
+      "text": "Just the border with France"
+    },
+    {
+      "startFrame": 330,
+      "endFrame": 390,
+      "text": "creates a few unusual oddities."
+    },
+    {
+      "startFrame": 390,
+      "endFrame": 450,
+      "text": "For example, the town of Llivia,"
+    },
+    {
+      "startFrame": 450,
+      "endFrame": 510,
+      "text": "which lies entirely within French territory,"
+    },
+    {
+      "startFrame": 510,
+      "endFrame": 570,
+      "text": "only 2 kilometers from the border,"
+    },
+    {
+      "startFrame": 570,
+      "endFrame": 630,
+      "text": "but it is Spanish territory."
+    },
+    {
+      "startFrame": 630,
+      "endFrame": 690,
+      "text": "This phenomenon is called an enclave."
+    },
+    {
+      "startFrame": 690,
+      "endFrame": 765,
+      "text": "Further west, you'll find an even more surprising case:"
+    },
+    {
+      "startFrame": 765,
+      "endFrame": 825,
+      "text": "Pheasant Island."
+    },
+    {
+      "startFrame": 825,
+      "endFrame": 915,
+      "text": "Spain and France couldn't agree on how to divide it"
+    },
+    {
+      "startFrame": 915,
+      "endFrame": 990,
+      "text": "because the border ran right through the middle,"
+    },
+    {
+      "startFrame": 990,
+      "endFrame": 1050,
+      "text": "so they decided to take turns owning it."
+    },
+    {
+      "startFrame": 1050,
+      "endFrame": 1140,
+      "text": "For the first half of the year it belongs to Spain,"
+    },
+    {
+      "startFrame": 1140,
+      "endFrame": 1245,
+      "text": "and for the second half, the border shifts to France."
+    },
+    {
+      "startFrame": 1245,
+      "endFrame": 1335,
+      "text": "There is also another neighbor hidden between them: Andorra."
+    },
+    {
+      "startFrame": 1335,
+      "endFrame": 1455,
+      "text": "One of the smallest countries, with a population of 80,000"
+    },
+    {
+      "startFrame": 1455,
+      "endFrame": 1560,
+      "text": "and almost half the size of New York City."
+    },
+    {
+      "startFrame": 1560,
+      "endFrame": 1665,
+      "text": "Spain has another hidden neighbor: the United Kingdom."
+    },
+    {
+      "startFrame": 1665,
+      "endFrame": 1815,
+      "text": "Britain holds an overseas territory at the tip of Iberia:"
+    },
+    {
+      "startFrame": 1815,
+      "endFrame": 1995,
+      "text": "Gibraltar — a centuries-old dispute between Spain and the UK"
+    },
+    {
+      "startFrame": 1995,
+      "endFrame": 2130,
+      "text": "controlling access to the Mediterranean via the Strait of Gibraltar."
+    },
+    {
+      "startFrame": 2130,
+      "endFrame": 2235,
+      "text": "The strait divides two continents: Europe and Africa."
+    },
+    {
+      "startFrame": 2235,
+      "endFrame": 2355,
+      "text": "Yet Spain is the only European country with a land border in Africa,"
+    },
+    {
+      "startFrame": 2355,
+      "endFrame": 2475,
+      "text": "thanks to three Spanish enclaves bordering Morocco."
+    },
+    {
+      "startFrame": 2475,
+      "endFrame": 2580,
+      "text": "Two are the cities of Ceuta and Melilla,"
+    },
+    {
+      "startFrame": 2580,
+      "endFrame": 2715,
+      "text": "and the third is Peñón de Vélez de la Gomera, once an island"
+    },
+    {
+      "startFrame": 2715,
+      "endFrame": 2820,
+      "text": "connected to the mainland by a narrow isthmus,"
+    },
+    {
+      "startFrame": 2820,
+      "endFrame": 2898,
+      "text": "creating the shortest land border in the world — just 85 meters long."
+    }
+  ],
+  "audio": {
+    "bgm": {
+      "src": "_shared/audio/bgm.mp3",
+      "startFrame": 0,
+      "volume": 0.18
+    },
+    "sfx": [
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 60,
+        "volume": 0.5
+      },
+      {
+        "src": "_shared/audio/sfx/pop.mp3",
+        "startFrame": 144,
+        "volume": 0.55
+      },
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 390,
+        "volume": 0.5
+      },
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 825,
+        "volume": 0.5
+      },
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 1740,
+        "volume": 0.5
+      },
+      {
+        "src": "_shared/audio/sfx/whoosh.mp3",
+        "startFrame": 2610,
+        "volume": 0.5
+      }
+    ]
+  }
+}
