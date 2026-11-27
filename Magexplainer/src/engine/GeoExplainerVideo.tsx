@@ -6,10 +6,10 @@ import { OverlayLayer } from "./OverlayLayer";
 import { Captions } from "./Captions";
 import { AudioTrack } from "./AudioTrack";
 
-export interface GeoExplainerVideoProps {
+export type GeoExplainerVideoProps = {
   storyboard: StoryboardConfig;
   enableAudio?: boolean;
-}
+};
 
 export const GeoExplainerVideo: React.FC<GeoExplainerVideoProps> = ({
   storyboard,

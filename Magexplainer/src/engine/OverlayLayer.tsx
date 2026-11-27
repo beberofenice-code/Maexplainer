@@ -61,6 +61,35 @@ const FlagGraphic: React.FC<{ code: NonNullable<CalloutItem["flagCode"]>; width?
           />
         </>
       )}
+      {code === "IT" && (
+        <>
+          <rect width="47" height="91" x="0" fill="#009246" />
+          <rect width="46" height="91" x="47" fill="#FFFFFF" />
+          <rect width="47" height="91" x="93" fill="#CE2B37" />
+        </>
+      )}
+      {code === "CH" && (
+        <>
+          <rect width="140" height="91" fill="#DA291C" />
+          <rect x="62" y="20" width="16" height="51" fill="#FFFFFF" />
+          <rect x="44.5" y="37.5" width="51" height="16" fill="#FFFFFF" />
+        </>
+      )}
+      {code === "SM" && (
+        <>
+          <rect width="140" height="45.5" y="0" fill="#FFFFFF" />
+          <rect width="140" height="45.5" y="45.5" fill="#5EB6E4" />
+          <circle cx="70" cy="45.5" r="13" fill="#F1BF00" stroke="#9A7B00" strokeWidth="2" />
+        </>
+      )}
+      {code === "VA" && (
+        <>
+          <rect width="70" height="91" x="0" fill="#FFE000" />
+          <rect width="70" height="91" x="70" fill="#FFFFFF" />
+          <path d="M92,62 L118,30 M92,30 L118,62" stroke="#C9A227" strokeWidth="6" strokeLinecap="round" />
+          <circle cx="105" cy="24" r="6" fill="none" stroke="#C9A227" strokeWidth="3" />
+        </>
+      )}
     </svg>
   );
 };

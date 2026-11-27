@@ -323,6 +323,18 @@ export const MapCanvas: React.FC<{ storyboard: StoryboardConfig }> = ({ storyboa
     if (!mapReady || !map) return;
 
     const frameHandle = delayRender(`Rendering map frame ${frame}`);
+
+    // The container can measure 0x0 when MapLibre initialises (it then falls back
+    // to a 400x300 canvas), so keep the canvas matched to the container size.
+    const container = containerRef.current;
+    const canvas = map.getCanvas();
+    if (
+      container &&
+      (canvas.clientWidth !== container.clientWidth || canvas.clientHeight !== container.clientHeight)
+    ) {
+      map.resize();
+    }
+
     const cam = interpolateCamera(frame, storyboard.cameraKeyframes);
 
     map.jumpTo({
