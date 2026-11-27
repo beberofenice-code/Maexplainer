@@ -1,0 +1,911 @@
+{
+ "fps": 30,
+ "total_s": 49.643,
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 5.0,
+   "vo_start": 0.3,
+   "vo_end": 4.204
+  },
+  {
+   "id": "neighbors",
+   "start": 5.0,
+   "end": 12.643,
+   "vo_start": 5.18,
+   "vo_end": 12.143
+  },
+  {
+   "id": "llivia",
+   "start": 12.643,
+   "end": 19.143,
+   "vo_start": 12.823,
+   "vo_end": 17.792
+  },
+  {
+   "id": "pheasant",
+   "start": 19.143,
+   "end": 25.643,
+   "vo_start": 19.323,
+   "vo_end": 23.875
+  },
+  {
+   "id": "andorra",
+   "start": 25.643,
+   "end": 31.643,
+   "vo_start": 25.823,
+   "vo_end": 29.448
+  },
+  {
+   "id": "gibraltar",
+   "start": 31.643,
+   "end": 38.643,
+   "vo_start": 31.823,
+   "vo_end": 36.841
+  },
+  {
+   "id": "africa",
+   "start": 38.643,
+   "end": 49.643,
+   "vo_start": 38.823,
+   "vo_end": 47.92
+  }
+ ],
+ "words": [
+  {
+   "word": "This",
+   "start": 0.3,
+   "end": 0.521,
+   "scene": "hook"
+  },
+  {
+   "word": "is",
+   "start": 0.579,
+   "end": 0.66,
+   "scene": "hook"
+  },
+  {
+   "word": "Spain,",
+   "start": 0.706,
+   "end": 1.298,
+   "scene": "hook"
+  },
+  {
+   "word": "and",
+   "start": 1.624,
+   "end": 1.786,
+   "scene": "hook"
+  },
+  {
+   "word": "it",
+   "start": 1.844,
+   "end": 1.914,
+   "scene": "hook"
+  },
+  {
+   "word": "has",
+   "start": 1.972,
+   "end": 2.204,
+   "scene": "hook"
+  },
+  {
+   "word": "some",
+   "start": 2.262,
+   "end": 2.413,
+   "scene": "hook"
+  },
+  {
+   "word": "of",
+   "start": 2.448,
+   "end": 2.494,
+   "scene": "hook"
+  },
+  {
+   "word": "the",
+   "start": 2.541,
+   "end": 2.61,
+   "scene": "hook"
+  },
+  {
+   "word": "strangest",
+   "start": 2.692,
+   "end": 3.214,
+   "scene": "hook"
+  },
+  {
+   "word": "borders",
+   "start": 3.261,
+   "end": 3.562,
+   "scene": "hook"
+  },
+  {
+   "word": "on",
+   "start": 3.597,
+   "end": 3.655,
+   "scene": "hook"
+  },
+  {
+   "word": "the",
+   "start": 3.69,
+   "end": 3.76,
+   "scene": "hook"
+  },
+  {
+   "word": "planet.",
+   "start": 3.795,
+   "end": 4.758,
+   "scene": "hook"
+  },
+  {
+   "word": "It",
+   "start": 5.18,
+   "end": 5.343,
+   "scene": "neighbors"
+  },
+  {
+   "word": "touches",
+   "start": 5.389,
+   "end": 5.702,
+   "scene": "neighbors"
+  },
+  {
+   "word": "five",
+   "start": 5.772,
+   "end": 6.051,
+   "scene": "neighbors"
+  },
+  {
+   "word": "countries:",
+   "start": 6.086,
+   "end": 6.689,
+   "scene": "neighbors"
+  },
+  {
+   "word": "France,",
+   "start": 7.014,
+   "end": 7.606,
+   "scene": "neighbors"
+  },
+  {
+   "word": "Portugal,",
+   "start": 7.932,
+   "end": 8.779,
+   "scene": "neighbors"
+  },
+  {
+   "word": "Andorra,",
+   "start": 9.104,
+   "end": 10.01,
+   "scene": "neighbors"
+  },
+  {
+   "word": "Morocco,",
+   "start": 10.288,
+   "end": 11.089,
+   "scene": "neighbors"
+  },
+  {
+   "word": "and",
+   "start": 11.264,
+   "end": 11.415,
+   "scene": "neighbors"
+  },
+  {
+   "word": "even",
+   "start": 11.473,
+   "end": 11.658,
+   "scene": "neighbors"
+  },
+  {
+   "word": "Britain.",
+   "start": 11.716,
+   "end": 12.889,
+   "scene": "neighbors"
+  },
+  {
+   "word": "High",
+   "start": 12.823,
+   "end": 13.078,
+   "scene": "llivia"
+  },
+  {
+   "word": "in",
+   "start": 13.113,
+   "end": 13.16,
+   "scene": "llivia"
+  },
+  {
+   "word": "the",
+   "start": 13.183,
+   "end": 13.253,
+   "scene": "llivia"
+  },
+  {
+   "word": "Pyrenees",
+   "start": 13.299,
+   "end": 13.833,
+   "scene": "llivia"
+  },
+  {
+   "word": "sits",
+   "start": 14.042,
+   "end": 14.263,
+   "scene": "llivia"
+  },
+  {
+   "word": "Llívia,",
+   "start": 14.344,
+   "end": 14.855,
+   "scene": "llivia"
+  },
+  {
+   "word": "a",
+   "start": 14.936,
+   "end": 15.006,
+   "scene": "llivia"
+  },
+  {
+   "word": "Spanish",
+   "start": 15.075,
+   "end": 15.47,
+   "scene": "llivia"
+  },
+  {
+   "word": "town",
+   "start": 15.517,
+   "end": 15.737,
+   "scene": "llivia"
+  },
+  {
+   "word": "completely",
+   "start": 15.795,
+   "end": 16.248,
+   "scene": "llivia"
+  },
+  {
+   "word": "surrounded",
+   "start": 16.283,
+   "end": 16.666,
+   "scene": "llivia"
+  },
+  {
+   "word": "by",
+   "start": 16.701,
+   "end": 16.794,
+   "scene": "llivia"
+  },
+  {
+   "word": "France.",
+   "start": 16.863,
+   "end": 17.792,
+   "scene": "llivia"
+  },
+  {
+   "word": "On",
+   "start": 19.323,
+   "end": 19.486,
+   "scene": "pheasant"
+  },
+  {
+   "word": "the",
+   "start": 19.52,
+   "end": 19.59,
+   "scene": "pheasant"
+  },
+  {
+   "word": "Bidasoa",
+   "start": 19.648,
+   "end": 20.263,
+   "scene": "pheasant"
+  },
+  {
+   "word": "river,",
+   "start": 20.345,
+   "end": 20.844,
+   "scene": "pheasant"
+  },
+  {
+   "word": "tiny",
+   "start": 21.018,
+   "end": 21.401,
+   "scene": "pheasant"
+  },
+  {
+   "word": "Pheasant",
+   "start": 21.459,
+   "end": 21.784,
+   "scene": "pheasant"
+  },
+  {
+   "word": "Island",
+   "start": 21.831,
+   "end": 22.121,
+   "scene": "pheasant"
+  },
+  {
+   "word": "changes",
+   "start": 22.179,
+   "end": 22.551,
+   "scene": "pheasant"
+  },
+  {
+   "word": "countries",
+   "start": 22.609,
+   "end": 22.969,
+   "scene": "pheasant"
+  },
+  {
+   "word": "every",
+   "start": 23.027,
+   "end": 23.189,
+   "scene": "pheasant"
+  },
+  {
+   "word": "six",
+   "start": 23.224,
+   "end": 23.41,
+   "scene": "pheasant"
+  },
+  {
+   "word": "months.",
+   "start": 23.479,
+   "end": 24.339,
+   "scene": "pheasant"
+  },
+  {
+   "word": "Andorra,",
+   "start": 25.823,
+   "end": 26.403,
+   "scene": "andorra"
+  },
+  {
+   "word": "wedged",
+   "start": 26.438,
+   "end": 26.659,
+   "scene": "andorra"
+  },
+  {
+   "word": "between",
+   "start": 26.694,
+   "end": 27.007,
+   "scene": "andorra"
+  },
+  {
+   "word": "Spain",
+   "start": 27.065,
+   "end": 27.344,
+   "scene": "andorra"
+  },
+  {
+   "word": "and",
+   "start": 27.39,
+   "end": 27.46,
+   "scene": "andorra"
+  },
+  {
+   "word": "France,",
+   "start": 27.518,
+   "end": 27.89,
+   "scene": "andorra"
+  },
+  {
+   "word": "is",
+   "start": 27.913,
+   "end": 28.017,
+   "scene": "andorra"
+  },
+  {
+   "word": "smaller",
+   "start": 28.075,
+   "end": 28.435,
+   "scene": "andorra"
+  },
+  {
+   "word": "than",
+   "start": 28.47,
+   "end": 28.586,
+   "scene": "andorra"
+  },
+  {
+   "word": "New",
+   "start": 28.621,
+   "end": 28.702,
+   "scene": "andorra"
+  },
+  {
+   "word": "York",
+   "start": 28.737,
+   "end": 28.934,
+   "scene": "andorra"
+  },
+  {
+   "word": "City.",
+   "start": 28.981,
+   "end": 29.817,
+   "scene": "andorra"
+  },
+  {
+   "word": "In",
+   "start": 31.823,
+   "end": 31.962,
+   "scene": "gibraltar"
+  },
+  {
+   "word": "the",
+   "start": 31.997,
+   "end": 32.067,
+   "scene": "gibraltar"
+  },
+  {
+   "word": "far",
+   "start": 32.113,
+   "end": 32.322,
+   "scene": "gibraltar"
+  },
+  {
+   "word": "south,",
+   "start": 32.415,
+   "end": 32.821,
+   "scene": "gibraltar"
+  },
+  {
+   "word": "Gibraltar",
+   "start": 32.868,
+   "end": 33.332,
+   "scene": "gibraltar"
+  },
+  {
+   "word": "is",
+   "start": 33.39,
+   "end": 33.448,
+   "scene": "gibraltar"
+  },
+  {
+   "word": "still",
+   "start": 33.472,
+   "end": 33.657,
+   "scene": "gibraltar"
+  },
+  {
+   "word": "British,",
+   "start": 33.704,
+   "end": 34.203,
+   "scene": "gibraltar"
+  },
+  {
+   "word": "over",
+   "start": 34.586,
+   "end": 34.795,
+   "scene": "gibraltar"
+  },
+  {
+   "word": "seventeen",
+   "start": 34.865,
+   "end": 35.399,
+   "scene": "gibraltar"
+  },
+  {
+   "word": "hundred",
+   "start": 35.469,
+   "end": 35.701,
+   "scene": "gibraltar"
+  },
+  {
+   "word": "kilometres",
+   "start": 35.747,
+   "end": 36.212,
+   "scene": "gibraltar"
+  },
+  {
+   "word": "from",
+   "start": 36.235,
+   "end": 36.374,
+   "scene": "gibraltar"
+  },
+  {
+   "word": "London.",
+   "start": 36.432,
+   "end": 37.256,
+   "scene": "gibraltar"
+  },
+  {
+   "word": "And",
+   "start": 38.823,
+   "end": 38.997,
+   "scene": "africa"
+  },
+  {
+   "word": "across",
+   "start": 39.044,
+   "end": 39.427,
+   "scene": "africa"
+  },
+  {
+   "word": "the",
+   "start": 39.473,
+   "end": 39.543,
+   "scene": "africa"
+  },
+  {
+   "word": "sea",
+   "start": 39.601,
+   "end": 39.752,
+   "scene": "africa"
+  },
+  {
+   "word": "in",
+   "start": 39.798,
+   "end": 39.868,
+   "scene": "africa"
+  },
+  {
+   "word": "Africa,",
+   "start": 39.938,
+   "end": 40.472,
+   "scene": "africa"
+  },
+  {
+   "word": "Spain",
+   "start": 40.646,
+   "end": 40.982,
+   "scene": "africa"
+  },
+  {
+   "word": "still",
+   "start": 41.052,
+   "end": 41.284,
+   "scene": "africa"
+  },
+  {
+   "word": "holds",
+   "start": 41.354,
+   "end": 41.563,
+   "scene": "africa"
+  },
+  {
+   "word": "Ceuta,",
+   "start": 41.598,
+   "end": 42.178,
+   "scene": "africa"
+  },
+  {
+   "word": "Melilla,",
+   "start": 42.503,
+   "end": 43.13,
+   "scene": "africa"
+  },
+  {
+   "word": "and",
+   "start": 43.188,
+   "end": 43.316,
+   "scene": "africa"
+  },
+  {
+   "word": "the",
+   "start": 43.363,
+   "end": 43.432,
+   "scene": "africa"
+  },
+  {
+   "word": "tiny",
+   "start": 43.479,
+   "end": 43.78,
+   "scene": "africa"
+  },
+  {
+   "word": "Peñón",
+   "start": 43.85,
+   "end": 44.21,
+   "scene": "africa"
+  },
+  {
+   "word": "de",
+   "start": 44.268,
+   "end": 44.326,
+   "scene": "africa"
+  },
+  {
+   "word": "Vélez,",
+   "start": 44.384,
+   "end": 44.976,
+   "scene": "africa"
+  },
+  {
+   "word": "whose",
+   "start": 45.22,
+   "end": 45.487,
+   "scene": "africa"
+  },
+  {
+   "word": "border",
+   "start": 45.534,
+   "end": 45.835,
+   "scene": "africa"
+  },
+  {
+   "word": "is",
+   "start": 45.905,
+   "end": 45.998,
+   "scene": "africa"
+  },
+  {
+   "word": "just",
+   "start": 46.114,
+   "end": 46.381,
+   "scene": "africa"
+  },
+  {
+   "word": "eighty-five",
+   "start": 46.497,
+   "end": 46.985,
+   "scene": "africa"
+  },
+  {
+   "word": "metres",
+   "start": 47.02,
+   "end": 47.252,
+   "scene": "africa"
+  },
+  {
+   "word": "long.",
+   "start": 47.31,
+   "end": 47.925,
+   "scene": "africa"
+  }
+ ],
+ "provider": "elevenlabs",
+ "sfx": [
+  {
+   "name": "whoosh_deep",
+   "t": 0.0,
+   "gain_db": -2,
+   "scene": "hook",
+   "source": "scene.sfx"
+  },
+  {
+   "name": "paper_slide",
+   "t": 2.692,
+   "gain_db": -6.0,
+   "scene": "hook",
+   "source": "CalloutArrow"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 3.795,
+   "gain_db": -6.0,
+   "scene": "hook",
+   "source": "QuestionMarks"
+  },
+  {
+   "name": "whoosh_deep",
+   "t": 5.0,
+   "gain_db": -4.0,
+   "scene": "neighbors",
+   "source": "transition"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 7.014,
+   "gain_db": -6.0,
+   "scene": "neighbors",
+   "source": "Counter.step"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 7.932,
+   "gain_db": -6.0,
+   "scene": "neighbors",
+   "source": "Counter.step"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 9.104,
+   "gain_db": -6.0,
+   "scene": "neighbors",
+   "source": "Counter.step"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 10.288,
+   "gain_db": -6.0,
+   "scene": "neighbors",
+   "source": "Counter.step"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 11.716,
+   "gain_db": -6.0,
+   "scene": "neighbors",
+   "source": "Counter.step"
+  },
+  {
+   "name": "whoosh_deep",
+   "t": 12.643,
+   "gain_db": -4.0,
+   "scene": "llivia",
+   "source": "transition"
+  },
+  {
+   "name": "chime_reveal",
+   "t": 13.299,
+   "gain_db": -6.0,
+   "scene": "llivia",
+   "source": "GlowingBorderBar"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 14.544,
+   "gain_db": -6.0,
+   "scene": "llivia",
+   "source": "HotspotPin"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 16.283,
+   "gain_db": -6.0,
+   "scene": "llivia",
+   "source": "QuestionMarks"
+  },
+  {
+   "name": "paper_slide",
+   "t": 17.363,
+   "gain_db": -6.0,
+   "scene": "llivia",
+   "source": "DistanceRuler"
+  },
+  {
+   "name": "whoosh_deep",
+   "t": 19.143,
+   "gain_db": -4.0,
+   "scene": "pheasant",
+   "source": "transition"
+  },
+  {
+   "name": "border_flip",
+   "t": 21.751,
+   "gain_db": -6.0,
+   "scene": "pheasant",
+   "source": "ShiftingBorderSpline.flip"
+  },
+  {
+   "name": "tug_stretch",
+   "t": 21.959,
+   "gain_db": -6.0,
+   "scene": "pheasant",
+   "source": "FlagWithTugArms"
+  },
+  {
+   "name": "border_flip",
+   "t": 23.018,
+   "gain_db": -6.0,
+   "scene": "pheasant",
+   "source": "ShiftingBorderSpline.flip"
+  },
+  {
+   "name": "chime_reveal",
+   "t": 23.224,
+   "gain_db": -6.0,
+   "scene": "pheasant",
+   "source": "StatBadge"
+  },
+  {
+   "name": "border_flip",
+   "t": 24.285,
+   "gain_db": -6.0,
+   "scene": "pheasant",
+   "source": "ShiftingBorderSpline.flip"
+  },
+  {
+   "name": "border_flip",
+   "t": 25.551,
+   "gain_db": -6.0,
+   "scene": "pheasant",
+   "source": "ShiftingBorderSpline.flip"
+  },
+  {
+   "name": "whoosh_deep",
+   "t": 25.643,
+   "gain_db": -4.0,
+   "scene": "andorra",
+   "source": "transition"
+  },
+  {
+   "name": "chime_reveal",
+   "t": 26.438,
+   "gain_db": -6.0,
+   "scene": "andorra",
+   "source": "StatBadge"
+  },
+  {
+   "name": "paper_slide",
+   "t": 28.621,
+   "gain_db": -6.0,
+   "scene": "andorra",
+   "source": "TrueScaleCityCompare"
+  },
+  {
+   "name": "chime_reveal",
+   "t": 29.181,
+   "gain_db": -6.0,
+   "scene": "andorra",
+   "source": "StatBadge"
+  },
+  {
+   "name": "whoosh_deep",
+   "t": 31.643,
+   "gain_db": -4.0,
+   "scene": "gibraltar",
+   "source": "transition"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 33.704,
+   "gain_db": -6.0,
+   "scene": "gibraltar",
+   "source": "HotspotPin"
+  },
+  {
+   "name": "whoosh_deep",
+   "t": 36.732,
+   "gain_db": -6.0,
+   "scene": "gibraltar",
+   "source": "TravelArc"
+  },
+  {
+   "name": "whoosh_deep",
+   "t": 38.643,
+   "gain_db": -4.0,
+   "scene": "africa",
+   "source": "transition"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 41.354,
+   "gain_db": -6.0,
+   "scene": "africa",
+   "source": "QuestionMarks"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 41.598,
+   "gain_db": -6.0,
+   "scene": "africa",
+   "source": "HotspotPin"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 42.503,
+   "gain_db": -6.0,
+   "scene": "africa",
+   "source": "HotspotPin"
+  },
+  {
+   "name": "whoosh_deep",
+   "t": 43.85,
+   "gain_db": -5.0,
+   "scene": "africa",
+   "source": "mode_cut"
+  },
+  {
+   "name": "chime_reveal",
+   "t": 46.497,
+   "gain_db": -6.0,
+   "scene": "africa",
+   "source": "GlowingBorderBar"
+  },
+  {
+   "name": "chime_reveal",
+   "t": 46.697,
+   "gain_db": -6.0,
+   "scene": "africa",
+   "source": "StatBadge"
+  }
+ ],
+ "audio": {
+  "mix": "assets/audio/mix.wav",
+  "integrated_lufs": -15.0,
+  "true_peak_dbfs": -1.5,
+  "target_lufs": -15
+ }
+}

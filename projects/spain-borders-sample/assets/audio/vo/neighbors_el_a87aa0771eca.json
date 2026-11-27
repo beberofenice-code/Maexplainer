@@ -1,0 +1,57 @@
+[
+ {
+  "word": "It",
+  "start": 0.0,
+  "end": 0.163
+ },
+ {
+  "word": "touches",
+  "start": 0.209,
+  "end": 0.522
+ },
+ {
+  "word": "five",
+  "start": 0.592,
+  "end": 0.871
+ },
+ {
+  "word": "countries:",
+  "start": 0.906,
+  "end": 1.509
+ },
+ {
+  "word": "France,",
+  "start": 1.834,
+  "end": 2.426
+ },
+ {
+  "word": "Portugal,",
+  "start": 2.752,
+  "end": 3.599
+ },
+ {
+  "word": "Andorra,",
+  "start": 3.924,
+  "end": 4.83
+ },
+ {
+  "word": "Morocco,",
+  "start": 5.108,
+  "end": 5.909
+ },
+ {
+  "word": "and",
+  "start": 6.084,
+  "end": 6.235
+ },
+ {
+  "word": "even",
+  "start": 6.293,
+  "end": 6.478
+ },
+ {
+  "word": "Britain.",
+  "start": 6.536,
+  "end": 7.709
+ }
+]
