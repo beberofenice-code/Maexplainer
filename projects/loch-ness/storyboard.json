@@ -1,0 +1,954 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "slug": "loch-ness",
+    "title": "Loch Ness",
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "lufs": -15,
+    "max_tile_zoom": 17,
+    "voice": {
+      "provider": "auto",
+      "elevenlabs_voice": "Brian",
+      "elevenlabs_model": "eleven_v4",
+      "stability": 0.5,
+      "similarity_boost": 0.8,
+      "style": 0.3,
+      "edge_voice": "en-US-AndrewNeural",
+      "edge_rate": "+6%",
+      "continuous": true
+    },
+    "music": {
+      "enabled": false,
+      "bpm": 112,
+      "bed_db": -25,
+      "duck_db": -9
+    },
+    "subtitles": {
+      "max_words": 3,
+      "y_pct": 76
+    }
+  },
+  "geo": {
+    "context": [
+      "GBR",
+      "IRL",
+      "IMN",
+      "FRA",
+      "BEL",
+      "NLD"
+    ],
+    "features": [
+      {
+        "id": "uk",
+        "source": "natural_earth",
+        "adm0_a3": "GBR"
+      },
+      {
+        "id": "loch",
+        "source": "nominatim",
+        "osm": "R4023212",
+        "nominatim": "Loch Ness, Highland",
+        "color": "loch_ness",
+        "label": [
+          -4.4645,
+          57.29
+        ],
+        "fallback_coordinates": [
+          [
+            [
+              -4.676,
+              57.145
+            ],
+            [
+              -4.6,
+              57.19
+            ],
+            [
+              -4.52,
+              57.245
+            ],
+            [
+              -4.44,
+              57.305
+            ],
+            [
+              -4.37,
+              57.36
+            ],
+            [
+              -4.328,
+              57.405
+            ],
+            [
+              -4.336,
+              57.41
+            ],
+            [
+              -4.385,
+              57.372
+            ],
+            [
+              -4.46,
+              57.318
+            ],
+            [
+              -4.54,
+              57.258
+            ],
+            [
+              -4.62,
+              57.2
+            ],
+            [
+              -4.672,
+              57.16
+            ],
+            [
+              -4.676,
+              57.145
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "great_glen",
+        "source": "inline",
+        "type": "LineString",
+        "color": "highlight",
+        "coordinates": [
+          [
+            -4.05,
+            57.58
+          ],
+          [
+            -4.2247,
+            57.4778
+          ],
+          [
+            -4.333,
+            57.405
+          ],
+          [
+            -4.5,
+            57.272
+          ],
+          [
+            -4.672,
+            57.148
+          ],
+          [
+            -4.775,
+            57.075
+          ],
+          [
+            -4.93,
+            56.975
+          ],
+          [
+            -5.105,
+            56.8198
+          ],
+          [
+            -5.33,
+            56.62
+          ]
+        ]
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "mode": "satellite",
+      "narration": "This is Loch Ness, Scotland's most famous lake, and it hides far more than a monster.",
+      "min_duration_s": 5.0,
+      "tail_s": 0.4,
+      "transition_sfx": null,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            -4.3,
+            56.9
+          ],
+          "zoom": 5.6,
+          "pitch": 0,
+          "bearing": 0
+        },
+        {
+          "t": 2.4,
+          "center": [
+            -4.5,
+            57.275
+          ],
+          "zoom": 9.7,
+          "pitch": 18,
+          "bearing": 22,
+          "easing": "easeOutQuart"
+        },
+        {
+          "t": 7.0,
+          "center": [
+            -4.5,
+            57.275
+          ],
+          "zoom": 9.9,
+          "pitch": 22,
+          "bearing": 28,
+          "easing": "linear"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "uk",
+          "style": "tint",
+          "t": 0,
+          "until_t": 1.6
+        },
+        {
+          "feature": "loch",
+          "style": "highlight",
+          "at_word": "Ness",
+          "offset": 0.1,
+          "width": 5,
+          "until_word": "monster"
+        },
+        {
+          "feature": "loch",
+          "style": "tint",
+          "at_word": "monster",
+          "width": 4
+        }
+      ],
+      "elements": [
+        {
+          "type": "HookTitle",
+          "t": 0.25,
+          "accent": "Loch Ness",
+          "text": "What's Really Down There?",
+          "y_pct": 15,
+          "until_word": "monster",
+          "until_offset": 0.5
+        },
+        {
+          "type": "CalloutArrow",
+          "at_word": "famous",
+          "from_pct": [
+            82,
+            34
+          ],
+          "to": [
+            -4.44,
+            57.31
+          ],
+          "curve": -0.35
+        },
+        {
+          "type": "QuestionMarks",
+          "at_word": "monster",
+          "at": [
+            -4.5,
+            57.27
+          ],
+          "count": 3,
+          "radius": 170,
+          "sfx": "pop_marimba"
+        }
+      ],
+      "sfx": [
+        {
+          "name": "whoosh_deep",
+          "t": 0.0,
+          "gain_db": -2
+        }
+      ]
+    },
+    {
+      "id": "great_glen",
+      "mode": "dark_cutaway",
+      "narration": "It lies in the Great Glen, a giant fault line that slices the Highlands in two, all the way from Inverness to Fort William.",
+      "min_duration_s": 7.0,
+      "tail_s": 0.4,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            -4.7,
+            57.15
+          ],
+          "zoom": 7.2,
+          "pitch": 0,
+          "bearing": 0
+        },
+        {
+          "t": 9.0,
+          "center": [
+            -4.65,
+            57.12
+          ],
+          "zoom": 7.5,
+          "pitch": 0,
+          "bearing": 0,
+          "easing": "linear"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "uk",
+          "style": "hatch",
+          "t": 0.05,
+          "lift": 12
+        },
+        {
+          "feature": "loch",
+          "style": "flat",
+          "at_word": "Glen",
+          "offset": 0.3
+        }
+      ],
+      "elements": [
+        {
+          "type": "GlowingBorderBar",
+          "feature": "great_glen",
+          "at_word": "fault",
+          "width": 8,
+          "draw_s": 1.4
+        },
+        {
+          "type": "Label",
+          "at_word": "Highlands",
+          "at": [
+            -3.6,
+            57.0
+          ],
+          "text": "Highlands",
+          "size": 52,
+          "sfx": null
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "Inverness",
+          "at": [
+            -4.2247,
+            57.4778
+          ],
+          "label": "Inverness",
+          "label_size": 40,
+          "size": 0.75
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "Fort",
+          "at": [
+            -5.105,
+            56.8198
+          ],
+          "label": "Fort William",
+          "label_size": 40,
+          "size": 0.75
+        },
+        {
+          "type": "DistanceRuler",
+          "at_word": "William",
+          "offset": 0.3,
+          "from": [
+            -4.2247,
+            57.4778
+          ],
+          "to": [
+            -5.105,
+            56.8198
+          ],
+          "label_offset": 90
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "mode": "satellite",
+      "narration": "The loch itself stretches twenty-three miles, yet it's barely a mile wide.",
+      "min_duration_s": 6.0,
+      "tail_s": 0.4,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            -4.5,
+            57.275
+          ],
+          "zoom": 9.6,
+          "pitch": 14,
+          "bearing": 20
+        },
+        {
+          "at_word": "stretches",
+          "center": [
+            -4.502,
+            57.276
+          ],
+          "zoom": 10.15,
+          "pitch": 22,
+          "bearing": 35,
+          "easing": "easeInOutCubic"
+        },
+        {
+          "t": 9.0,
+          "center": [
+            -4.5,
+            57.278
+          ],
+          "zoom": 10.3,
+          "pitch": 24,
+          "bearing": 36,
+          "easing": "linear"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "loch",
+          "style": "tint",
+          "t": 0,
+          "width": 4
+        }
+      ],
+      "elements": [
+        {
+          "type": "DistanceRuler",
+          "at_word": "twenty",
+          "from": [
+            -4.672,
+            57.146
+          ],
+          "to": [
+            -4.333,
+            57.407
+          ],
+          "label_offset": 110
+        },
+        {
+          "type": "StatBadge",
+          "at_word": "barely",
+          "at_pct": [
+            50,
+            20
+          ],
+          "text": "~1.5 km wide",
+          "label": "less than a mile",
+          "size": 60
+        }
+      ]
+    },
+    {
+      "id": "depth",
+      "mode": "dark_cutaway",
+      "narration": "But it's shockingly deep. It plunges two hundred and twenty-seven metres, more than twice the height of Big Ben.",
+      "min_duration_s": 7.0,
+      "tail_s": 0.4,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            -4.5,
+            57.275
+          ],
+          "zoom": 9.4,
+          "pitch": 0,
+          "bearing": 35
+        },
+        {
+          "t": 9.0,
+          "center": [
+            -4.5,
+            57.275
+          ],
+          "zoom": 9.7,
+          "pitch": 0,
+          "bearing": 35,
+          "easing": "linear"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "loch",
+          "style": "hatch",
+          "lift": 22,
+          "t": 0.1
+        }
+      ],
+      "elements": [
+        {
+          "type": "StatBadge",
+          "at_word": "plunges",
+          "at_pct": [
+            50,
+            18
+          ],
+          "value": 227,
+          "suffix": " m",
+          "label": "deepest point (745 ft)",
+          "size": 72,
+          "until_word": "twice"
+        },
+        {
+          "type": "StatBadge",
+          "at_word": "twice",
+          "at_pct": [
+            50,
+            18
+          ],
+          "text": "2.4 × Big Ben",
+          "label": "Big Ben = 96 m",
+          "size": 66
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "mode": "dark_cutaway",
+      "narration": "So this one lake holds more fresh water than every lake in England and Wales combined.",
+      "min_duration_s": 6.0,
+      "tail_s": 0.5,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            -3.8,
+            56.2
+          ],
+          "zoom": 6.2,
+          "pitch": 0,
+          "bearing": 0
+        },
+        {
+          "at_word": "fresh",
+          "center": [
+            -3.0,
+            54.6
+          ],
+          "zoom": 5.25,
+          "pitch": 0,
+          "bearing": 0,
+          "easing": "easeInOutCubic"
+        },
+        {
+          "t": 8.0,
+          "center": [
+            -3.0,
+            54.5
+          ],
+          "zoom": 5.15,
+          "pitch": 0,
+          "bearing": 0,
+          "easing": "linear"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "uk",
+          "style": "hatch",
+          "t": 0,
+          "lift": 10
+        },
+        {
+          "feature": "loch",
+          "style": "flat",
+          "t": 0
+        }
+      ],
+      "elements": [
+        {
+          "type": "HotspotPin",
+          "at_word": "lake",
+          "at": [
+            -4.5,
+            57.275
+          ],
+          "label": "Loch Ness",
+          "label_size": 40,
+          "size": 0.75
+        },
+        {
+          "type": "StatBadge",
+          "at_word": "fresh",
+          "at_pct": [
+            50,
+            15
+          ],
+          "value": 7.4,
+          "decimals": 1,
+          "suffix": " km³",
+          "label": "of fresh water",
+          "size": 64
+        },
+        {
+          "type": "Label",
+          "at_word": "England",
+          "at": [
+            -0.3,
+            52.4
+          ],
+          "text": "England",
+          "size": 44,
+          "sfx": null
+        },
+        {
+          "type": "Label",
+          "at_word": "Wales",
+          "at": [
+            -4.9,
+            52.1
+          ],
+          "text": "Wales",
+          "size": 34,
+          "sfx": null
+        },
+        {
+          "type": "CalloutArrow",
+          "at_word": "combined",
+          "from": [
+            -1.4,
+            52.6
+          ],
+          "to": [
+            -4.45,
+            57.15
+          ],
+          "curve": 0.3
+        }
+      ]
+    },
+    {
+      "id": "legend",
+      "mode": "satellite",
+      "narration": "The monster craze began in nineteen thirty-three, when a new road opened up views along the shore, near Urquhart Castle.",
+      "min_duration_s": 7.0,
+      "tail_s": 0.4,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            -4.48,
+            57.29
+          ],
+          "zoom": 10.4,
+          "pitch": 18,
+          "bearing": 30
+        },
+        {
+          "at_word": "road",
+          "center": [
+            -4.455,
+            57.315
+          ],
+          "zoom": 11.8,
+          "pitch": 26,
+          "bearing": 32,
+          "easing": "easeInOutCubic"
+        },
+        {
+          "at_word": "Urquhart",
+          "center": [
+            -4.4417,
+            57.3242
+          ],
+          "zoom": 15.6,
+          "pitch": 30,
+          "bearing": 30,
+          "easing": "easeInOutCubic"
+        },
+        {
+          "t": 11.0,
+          "center": [
+            -4.4415,
+            57.3242
+          ],
+          "zoom": 15.9,
+          "pitch": 32,
+          "bearing": 26,
+          "easing": "linear"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "loch",
+          "style": "tint",
+          "t": 0,
+          "until_word": "Urquhart"
+        }
+      ],
+      "elements": [
+        {
+          "type": "StatBadge",
+          "at_word": "nineteen",
+          "at_pct": [
+            50,
+            18
+          ],
+          "text": "1933",
+          "label": "the first famous sighting",
+          "size": 76,
+          "until_word": "shore"
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "Castle",
+          "offset": -0.2,
+          "at": [
+            -4.4417,
+            57.3242
+          ],
+          "label": "Urquhart Castle",
+          "label_size": 42
+        }
+      ]
+    },
+    {
+      "id": "hoax",
+      "mode": "dark_cutaway",
+      "narration": "A year later, the famous Surgeon's Photo seemed to prove it. Sixty years on, it was exposed as a toy submarine with a fake head.",
+      "min_duration_s": 7.5,
+      "tail_s": 0.4,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            -4.5,
+            57.275
+          ],
+          "zoom": 9.5,
+          "pitch": 0,
+          "bearing": 35
+        },
+        {
+          "t": 10.0,
+          "center": [
+            -4.5,
+            57.275
+          ],
+          "zoom": 9.8,
+          "pitch": 0,
+          "bearing": 38,
+          "easing": "linear"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "loch",
+          "style": "silhouette",
+          "t": 0,
+          "until_word": "exposed"
+        },
+        {
+          "feature": "loch",
+          "style": "hatch",
+          "at_word": "exposed",
+          "lift": 14
+        }
+      ],
+      "elements": [
+        {
+          "type": "StatBadge",
+          "at_word": "Photo",
+          "at_pct": [
+            50,
+            18
+          ],
+          "text": "1934",
+          "label": "the “Surgeon's Photo”",
+          "size": 76,
+          "until_word": "Sixty"
+        },
+        {
+          "type": "QuestionMarks",
+          "at_word": "prove",
+          "at": [
+            -4.5,
+            57.275
+          ],
+          "count": 3,
+          "radius": 220,
+          "until_word": "exposed"
+        },
+        {
+          "type": "StatBadge",
+          "at_word": "exposed",
+          "at_pct": [
+            50,
+            18
+          ],
+          "text": "HOAX",
+          "label": "confessed in 1994",
+          "size": 86,
+          "color": "uk"
+        },
+        {
+          "type": "Label",
+          "at_word": "submarine",
+          "at_pct": [
+            50,
+            31
+          ],
+          "text": "toy submarine + fake head",
+          "size": 44,
+          "sfx": "paper_slide"
+        }
+      ]
+    },
+    {
+      "id": "dna",
+      "mode": "satellite",
+      "narration": "Then in twenty eighteen, scientists tested DNA from all over the loch. No reptiles at all, just a surprising amount of eel. So maybe Nessie is just a very big eel.",
+      "min_duration_s": 9.0,
+      "tail_s": 1.2,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            -4.5,
+            57.275
+          ],
+          "zoom": 9.7,
+          "pitch": 16,
+          "bearing": 30
+        },
+        {
+          "at_word": "scientists",
+          "center": [
+            -4.502,
+            57.276
+          ],
+          "zoom": 10.1,
+          "pitch": 22,
+          "bearing": 35,
+          "easing": "easeInOutCubic"
+        },
+        {
+          "at_word": "maybe",
+          "center": [
+            -4.5,
+            57.278
+          ],
+          "zoom": 10.35,
+          "pitch": 26,
+          "bearing": 37,
+          "easing": "linear"
+        },
+        {
+          "t": 14.0,
+          "center": [
+            -4.5,
+            57.278
+          ],
+          "zoom": 10.6,
+          "pitch": 28,
+          "bearing": 38,
+          "easing": "linear"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "loch",
+          "style": "tint",
+          "t": 0,
+          "width": 4
+        }
+      ],
+      "elements": [
+        {
+          "type": "StatBadge",
+          "at_word": "twenty",
+          "at_pct": [
+            50,
+            16
+          ],
+          "text": "2018",
+          "label": "eDNA survey",
+          "size": 70,
+          "until_word": "reptiles"
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "tested",
+          "at": [
+            -4.63,
+            57.175
+          ],
+          "size": 0.55
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "tested",
+          "offset": 0.25,
+          "at": [
+            -4.56,
+            57.23
+          ],
+          "size": 0.55
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "tested",
+          "offset": 0.5,
+          "at": [
+            -4.49,
+            57.282
+          ],
+          "size": 0.55
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "tested",
+          "offset": 0.75,
+          "at": [
+            -4.42,
+            57.335
+          ],
+          "size": 0.55
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "tested",
+          "offset": 1.0,
+          "at": [
+            -4.36,
+            57.385
+          ],
+          "size": 0.55
+        },
+        {
+          "type": "StatBadge",
+          "at_word": "reptiles",
+          "at_pct": [
+            50,
+            16
+          ],
+          "value": 0,
+          "label": "reptile DNA",
+          "size": 76,
+          "until_word": "eel"
+        },
+        {
+          "type": "StatBadge",
+          "at_word": "eel",
+          "at_pct": [
+            50,
+            16
+          ],
+          "text": "Eels everywhere",
+          "label": "in almost every sample",
+          "size": 62,
+          "until_word": "maybe"
+        },
+        {
+          "type": "HookTitle",
+          "at_word": "maybe",
+          "accent": "Nessie?",
+          "text": "Just a very big eel",
+          "y_pct": 15
+        }
+      ]
+    }
+  ]
+}

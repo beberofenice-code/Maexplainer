@@ -30,6 +30,7 @@
   },
   "overlays": {
     "nyc_size_overlay": { "name": "NYC true-scale overlay", "fill": "#2A9BB0", "tint": "rgba(42, 155, 176, 0.55)", "border": "#FFFFFF", "glow": "rgba(120, 220, 240, 0.90)" },
+    "loch_ness":        { "name": "Loch Ness water",        "fill": "#3AA8FF", "tint": "rgba(58, 168, 255, 0.55)", "border": "#FFFFFF", "glow": "rgba(150, 210, 255, 0.90)" },
     "highlight":        { "name": "Highlight yellow",       "fill": "#FFE600", "tint": "rgba(255, 230, 0, 0.55)",  "border": "#FFE600", "glow": "rgba(255, 230, 0, 0.90)" }
   },
   "sovereign_codes": {

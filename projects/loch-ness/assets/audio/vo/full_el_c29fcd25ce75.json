@@ -1,0 +1,817 @@
+[
+ {
+  "word": "This",
+  "start": 0.0,
+  "end": 0.24
+ },
+ {
+  "word": "is",
+  "start": 0.32,
+  "end": 0.4
+ },
+ {
+  "word": "Loch",
+  "start": 0.48,
+  "end": 0.72
+ },
+ {
+  "word": "Ness,",
+  "start": 0.8,
+  "end": 1.52
+ },
+ {
+  "word": "Scotland's",
+  "start": 1.6,
+  "end": 2.24
+ },
+ {
+  "word": "most",
+  "start": 2.36,
+  "end": 2.48
+ },
+ {
+  "word": "famous",
+  "start": 2.64,
+  "end": 2.96
+ },
+ {
+  "word": "lake,",
+  "start": 3.04,
+  "end": 3.68
+ },
+ {
+  "word": "and",
+  "start": 3.76,
+  "end": 3.8
+ },
+ {
+  "word": "it",
+  "start": 3.84,
+  "end": 3.92
+ },
+ {
+  "word": "hides",
+  "start": 4.0,
+  "end": 4.32
+ },
+ {
+  "word": "far",
+  "start": 4.48,
+  "end": 4.72
+ },
+ {
+  "word": "more",
+  "start": 4.8,
+  "end": 4.96
+ },
+ {
+  "word": "than",
+  "start": 5.0,
+  "end": 5.04
+ },
+ {
+  "word": "a",
+  "start": 5.12,
+  "end": 5.16
+ },
+ {
+  "word": "monster.",
+  "start": 5.2,
+  "end": 6.0
+ },
+ {
+  "word": "It",
+  "start": 6.32,
+  "end": 6.48
+ },
+ {
+  "word": "lies",
+  "start": 6.56,
+  "end": 6.8
+ },
+ {
+  "word": "in",
+  "start": 6.88,
+  "end": 6.92
+ },
+ {
+  "word": "the",
+  "start": 6.96,
+  "end": 7.04
+ },
+ {
+  "word": "Great",
+  "start": 7.12,
+  "end": 7.28
+ },
+ {
+  "word": "Glen,",
+  "start": 7.36,
+  "end": 8.16
+ },
+ {
+  "word": "a",
+  "start": 8.24,
+  "end": 8.4
+ },
+ {
+  "word": "giant",
+  "start": 8.48,
+  "end": 8.8
+ },
+ {
+  "word": "fault",
+  "start": 8.96,
+  "end": 9.2
+ },
+ {
+  "word": "line",
+  "start": 9.32,
+  "end": 9.44
+ },
+ {
+  "word": "that",
+  "start": 9.52,
+  "end": 9.6
+ },
+ {
+  "word": "slices",
+  "start": 9.76,
+  "end": 10.16
+ },
+ {
+  "word": "the",
+  "start": 10.24,
+  "end": 10.28
+ },
+ {
+  "word": "Highlands",
+  "start": 10.32,
+  "end": 10.72
+ },
+ {
+  "word": "in",
+  "start": 10.8,
+  "end": 10.88
+ },
+ {
+  "word": "two,",
+  "start": 11.04,
+  "end": 11.68
+ },
+ {
+  "word": "all",
+  "start": 11.76,
+  "end": 11.92
+ },
+ {
+  "word": "the",
+  "start": 12.0,
+  "end": 12.04
+ },
+ {
+  "word": "way",
+  "start": 12.08,
+  "end": 12.24
+ },
+ {
+  "word": "from",
+  "start": 12.32,
+  "end": 12.4
+ },
+ {
+  "word": "Inverness",
+  "start": 12.56,
+  "end": 13.12
+ },
+ {
+  "word": "to",
+  "start": 13.16,
+  "end": 13.2
+ },
+ {
+  "word": "Fort",
+  "start": 13.36,
+  "end": 13.52
+ },
+ {
+  "word": "William.",
+  "start": 13.6,
+  "end": 14.0
+ },
+ {
+  "word": "The",
+  "start": 14.56,
+  "end": 14.64
+ },
+ {
+  "word": "loch",
+  "start": 14.72,
+  "end": 14.88
+ },
+ {
+  "word": "itself",
+  "start": 14.96,
+  "end": 15.44
+ },
+ {
+  "word": "stretches",
+  "start": 15.52,
+  "end": 16.0
+ },
+ {
+  "word": "twenty-three",
+  "start": 16.2,
+  "end": 16.56
+ },
+ {
+  "word": "miles,",
+  "start": 16.72,
+  "end": 17.52
+ },
+ {
+  "word": "yet",
+  "start": 17.6,
+  "end": 17.68
+ },
+ {
+  "word": "it's",
+  "start": 17.76,
+  "end": 18.0
+ },
+ {
+  "word": "barely",
+  "start": 18.12,
+  "end": 18.32
+ },
+ {
+  "word": "a",
+  "start": 18.4,
+  "end": 18.44
+ },
+ {
+  "word": "mile",
+  "start": 18.48,
+  "end": 18.72
+ },
+ {
+  "word": "wide.",
+  "start": 18.8,
+  "end": 19.48
+ },
+ {
+  "word": "But",
+  "start": 19.76,
+  "end": 19.84
+ },
+ {
+  "word": "it's",
+  "start": 19.92,
+  "end": 20.16
+ },
+ {
+  "word": "shockingly",
+  "start": 20.24,
+  "end": 20.72
+ },
+ {
+  "word": "deep.",
+  "start": 20.88,
+  "end": 21.2
+ },
+ {
+  "word": "It",
+  "start": 21.6,
+  "end": 21.76
+ },
+ {
+  "word": "plunges",
+  "start": 21.84,
+  "end": 22.32
+ },
+ {
+  "word": "two",
+  "start": 22.4,
+  "end": 22.56
+ },
+ {
+  "word": "hundred",
+  "start": 22.64,
+  "end": 22.88
+ },
+ {
+  "word": "and",
+  "start": 22.96,
+  "end": 23.12
+ },
+ {
+  "word": "twenty-seven",
+  "start": 23.24,
+  "end": 23.6
+ },
+ {
+  "word": "metres,",
+  "start": 23.76,
+  "end": 24.56
+ },
+ {
+  "word": "more",
+  "start": 24.64,
+  "end": 24.72
+ },
+ {
+  "word": "than",
+  "start": 24.8,
+  "end": 24.96
+ },
+ {
+  "word": "twice",
+  "start": 25.04,
+  "end": 25.36
+ },
+ {
+  "word": "the",
+  "start": 25.44,
+  "end": 25.52
+ },
+ {
+  "word": "height",
+  "start": 25.6,
+  "end": 25.68
+ },
+ {
+  "word": "of",
+  "start": 25.76,
+  "end": 25.84
+ },
+ {
+  "word": "Big",
+  "start": 25.92,
+  "end": 26.0
+ },
+ {
+  "word": "Ben.",
+  "start": 26.08,
+  "end": 26.72
+ },
+ {
+  "word": "So",
+  "start": 27.04,
+  "end": 27.2
+ },
+ {
+  "word": "this",
+  "start": 27.28,
+  "end": 27.44
+ },
+ {
+  "word": "one",
+  "start": 27.6,
+  "end": 27.76
+ },
+ {
+  "word": "lake",
+  "start": 27.84,
+  "end": 28.08
+ },
+ {
+  "word": "holds",
+  "start": 28.16,
+  "end": 28.4
+ },
+ {
+  "word": "more",
+  "start": 28.56,
+  "end": 28.64
+ },
+ {
+  "word": "fresh",
+  "start": 28.8,
+  "end": 29.04
+ },
+ {
+  "word": "water",
+  "start": 29.12,
+  "end": 29.36
+ },
+ {
+  "word": "than",
+  "start": 29.44,
+  "end": 29.68
+ },
+ {
+  "word": "every",
+  "start": 29.76,
+  "end": 30.0
+ },
+ {
+  "word": "lake",
+  "start": 30.08,
+  "end": 30.24
+ },
+ {
+  "word": "in",
+  "start": 30.32,
+  "end": 30.4
+ },
+ {
+  "word": "England",
+  "start": 30.48,
+  "end": 30.8
+ },
+ {
+  "word": "and",
+  "start": 30.88,
+  "end": 31.04
+ },
+ {
+  "word": "Wales",
+  "start": 31.12,
+  "end": 31.36
+ },
+ {
+  "word": "combined.",
+  "start": 31.44,
+  "end": 32.36
+ },
+ {
+  "word": "The",
+  "start": 32.72,
+  "end": 32.8
+ },
+ {
+  "word": "monster",
+  "start": 32.88,
+  "end": 33.2
+ },
+ {
+  "word": "craze",
+  "start": 33.28,
+  "end": 33.6
+ },
+ {
+  "word": "began",
+  "start": 33.68,
+  "end": 33.92
+ },
+ {
+  "word": "in",
+  "start": 34.0,
+  "end": 34.08
+ },
+ {
+  "word": "nineteen",
+  "start": 34.16,
+  "end": 34.48
+ },
+ {
+  "word": "thirty-three,",
+  "start": 34.64,
+  "end": 35.6
+ },
+ {
+  "word": "when",
+  "start": 35.68,
+  "end": 35.76
+ },
+ {
+  "word": "a",
+  "start": 35.8,
+  "end": 35.84
+ },
+ {
+  "word": "new",
+  "start": 35.92,
+  "end": 36.08
+ },
+ {
+  "word": "road",
+  "start": 36.16,
+  "end": 36.4
+ },
+ {
+  "word": "opened",
+  "start": 36.48,
+  "end": 36.8
+ },
+ {
+  "word": "up",
+  "start": 36.88,
+  "end": 36.96
+ },
+ {
+  "word": "views",
+  "start": 37.04,
+  "end": 37.36
+ },
+ {
+  "word": "along",
+  "start": 37.48,
+  "end": 37.6
+ },
+ {
+  "word": "the",
+  "start": 37.68,
+  "end": 37.76
+ },
+ {
+  "word": "shore,",
+  "start": 37.84,
+  "end": 38.4
+ },
+ {
+  "word": "near",
+  "start": 38.52,
+  "end": 38.64
+ },
+ {
+  "word": "Urquhart",
+  "start": 38.72,
+  "end": 39.12
+ },
+ {
+  "word": "Castle.",
+  "start": 39.2,
+  "end": 39.92
+ },
+ {
+  "word": "A",
+  "start": 40.24,
+  "end": 40.4
+ },
+ {
+  "word": "year",
+  "start": 40.48,
+  "end": 40.64
+ },
+ {
+  "word": "later,",
+  "start": 40.72,
+  "end": 41.2
+ },
+ {
+  "word": "the",
+  "start": 41.28,
+  "end": 41.36
+ },
+ {
+  "word": "famous",
+  "start": 41.4,
+  "end": 41.68
+ },
+ {
+  "word": "Surgeon's",
+  "start": 41.76,
+  "end": 42.24
+ },
+ {
+  "word": "Photo",
+  "start": 42.32,
+  "end": 42.64
+ },
+ {
+  "word": "seemed",
+  "start": 42.72,
+  "end": 42.88
+ },
+ {
+  "word": "to",
+  "start": 42.92,
+  "end": 42.96
+ },
+ {
+  "word": "prove",
+  "start": 43.04,
+  "end": 43.28
+ },
+ {
+  "word": "it.",
+  "start": 43.36,
+  "end": 43.52
+ },
+ {
+  "word": "Sixty",
+  "start": 44.16,
+  "end": 44.48
+ },
+ {
+  "word": "years",
+  "start": 44.56,
+  "end": 44.8
+ },
+ {
+  "word": "on,",
+  "start": 44.88,
+  "end": 45.36
+ },
+ {
+  "word": "it",
+  "start": 45.44,
+  "end": 45.52
+ },
+ {
+  "word": "was",
+  "start": 45.6,
+  "end": 45.68
+ },
+ {
+  "word": "exposed",
+  "start": 45.8,
+  "end": 46.24
+ },
+ {
+  "word": "as",
+  "start": 46.28,
+  "end": 46.32
+ },
+ {
+  "word": "a",
+  "start": 46.4,
+  "end": 46.48
+ },
+ {
+  "word": "toy",
+  "start": 46.56,
+  "end": 46.8
+ },
+ {
+  "word": "submarine",
+  "start": 46.88,
+  "end": 47.44
+ },
+ {
+  "word": "with",
+  "start": 47.48,
+  "end": 47.52
+ },
+ {
+  "word": "a",
+  "start": 47.6,
+  "end": 47.64
+ },
+ {
+  "word": "fake",
+  "start": 47.68,
+  "end": 47.92
+ },
+ {
+  "word": "head.",
+  "start": 48.08,
+  "end": 48.32
+ },
+ {
+  "word": "Then",
+  "start": 48.96,
+  "end": 49.12
+ },
+ {
+  "word": "in",
+  "start": 49.2,
+  "end": 49.28
+ },
+ {
+  "word": "twenty",
+  "start": 49.36,
+  "end": 49.52
+ },
+ {
+  "word": "eighteen,",
+  "start": 49.6,
+  "end": 50.48
+ },
+ {
+  "word": "scientists",
+  "start": 50.56,
+  "end": 51.12
+ },
+ {
+  "word": "tested",
+  "start": 51.32,
+  "end": 51.52
+ },
+ {
+  "word": "DNA",
+  "start": 51.6,
+  "end": 52.08
+ },
+ {
+  "word": "from",
+  "start": 52.16,
+  "end": 52.32
+ },
+ {
+  "word": "all",
+  "start": 52.4,
+  "end": 52.56
+ },
+ {
+  "word": "over",
+  "start": 52.64,
+  "end": 52.8
+ },
+ {
+  "word": "the",
+  "start": 52.84,
+  "end": 52.88
+ },
+ {
+  "word": "loch.",
+  "start": 52.96,
+  "end": 53.36
+ },
+ {
+  "word": "No",
+  "start": 53.92,
+  "end": 54.08
+ },
+ {
+  "word": "reptiles",
+  "start": 54.16,
+  "end": 54.64
+ },
+ {
+  "word": "at",
+  "start": 54.72,
+  "end": 54.8
+ },
+ {
+  "word": "all,",
+  "start": 54.92,
+  "end": 55.44
+ },
+ {
+  "word": "just",
+  "start": 55.52,
+  "end": 55.68
+ },
+ {
+  "word": "a",
+  "start": 55.72,
+  "end": 55.76
+ },
+ {
+  "word": "surprising",
+  "start": 55.88,
+  "end": 56.4
+ },
+ {
+  "word": "amount",
+  "start": 56.52,
+  "end": 56.64
+ },
+ {
+  "word": "of",
+  "start": 56.68,
+  "end": 56.72
+ },
+ {
+  "word": "eel.",
+  "start": 56.8,
+  "end": 57.68
+ },
+ {
+  "word": "So",
+  "start": 57.76,
+  "end": 57.92
+ },
+ {
+  "word": "maybe",
+  "start": 58.0,
+  "end": 58.24
+ },
+ {
+  "word": "Nessie",
+  "start": 58.32,
+  "end": 58.72
+ },
+ {
+  "word": "is",
+  "start": 58.8,
+  "end": 58.88
+ },
+ {
+  "word": "just",
+  "start": 58.96,
+  "end": 59.04
+ },
+ {
+  "word": "a",
+  "start": 59.12,
+  "end": 59.24
+ },
+ {
+  "word": "very",
+  "start": 59.36,
+  "end": 59.52
+ },
+ {
+  "word": "big",
+  "start": 59.68,
+  "end": 59.84
+ },
+ {
+  "word": "eel.",
+  "start": 60.0,
+  "end": 60.48
+ }
+]
