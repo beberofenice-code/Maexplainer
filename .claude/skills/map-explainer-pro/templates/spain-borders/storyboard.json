@@ -19,6 +19,7 @@
       "edge_rate": "+6%"
     },
     "music": {
+      "enabled": false,
       "bpm": 112,
       "bed_db": -25,
       "duck_db": -9

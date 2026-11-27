@@ -30,12 +30,12 @@
   {
    "check": "loudness",
    "ok": true,
-   "detail": "-15.6 LUFS (target -15), true peak -1.3 dBFS"
+   "detail": "-15.5 LUFS (target -15), true peak -1.2 dBFS"
   },
   {
    "check": "true peak",
    "ok": true,
-   "detail": "-1.3 dBFS"
+   "detail": "-1.2 dBFS"
   },
   {
    "check": "color hook/spain (tint over imagery)",

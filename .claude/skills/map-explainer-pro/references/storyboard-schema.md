@@ -13,7 +13,7 @@
                "elevenlabs_model": "eleven_multilingual_v2",
                "stability": 0.42, "similarity_boost": 0.8, "style": 0.3,
                "edge_voice": "en-US-AndrewNeural", "edge_rate": "+6%" },
-    "music": { "bpm": 112, "bed_db": -25, "duck_db": -9 },
+    "music": { "enabled": false, "bpm": 112, "bed_db": -25, "duck_db": -9 },   // enabled:false = VO + SFX only
     "subtitles": { "max_words": 3, "y_pct": 76 }
   },
   "geo": {

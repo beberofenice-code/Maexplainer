@@ -503,7 +503,7 @@ def main():
     ap.add_argument("project")
     ap.add_argument("--provider", choices=["auto", "elevenlabs", "edge", "silent"])
     ap.add_argument("--allow-silent", action="store_true", help="if no TTS works, continue with estimated timing")
-    ap.add_argument("--no-music", action="store_true")
+    ap.add_argument("--no-music", action="store_true", help="same as meta.music.enabled = false")
     a = ap.parse_args()
 
     paths = mx.project_paths(a.project)
@@ -596,7 +596,10 @@ def main():
     # ---- 4. music bed with side-chain ducking keyed by the VO
     music = meta.get("music", {})
     bed = np.zeros((n, 2))
-    if not a.no_music:
+    if a.no_music or music.get("enabled", True) is False:
+        log("music bed disabled -> VO + SFX only")
+        (adir / "bed.wav").unlink(missing_ok=True)
+    else:
         bed = music_bed(total, music.get("bpm", 112))[:n]
         if len(bed) < n:
             bed = np.pad(bed, ((0, n - len(bed)), (0, 0)))

@@ -81,7 +81,22 @@ const hashFiles = (files) => {
 // ---------------------------------------------------------------- bundle (cached)
 const engineHash = hashFiles([path.join(engine, "src"), path.join(engine, "package.json")]);
 const assetHash = hashFiles([path.join(project, "assets", "tiles", "manifest.json"), path.join(project, "assets", "geo", "features.geojson"), path.join(project, "assets", "fonts"), path.join(project, "assets", "country-colors.json")]);
-const inputHash = hashFiles([path.join(project, "storyboard.json"), tsPath]);
+// Only what affects PIXELS invalidates chunks: audio-only edits (voice settings, music, loudness,
+// SFX cues) just re-mux the new mix.wav onto the cached frames.
+const visualInputs = () => {
+  const sbv = JSON.parse(JSON.stringify(sb));
+  for (const k of ["music", "voice", "lufs"]) delete sbv.meta[k];
+  for (const sc of sbv.scenes) {
+    delete sc.sfx;
+    delete sc.transition_sfx;
+    for (const el of sc.elements ?? []) {
+      delete el.sfx;
+      delete el.sfx_gain_db;
+    }
+  }
+  return JSON.stringify([sbv, ts ? { scenes: ts.scenes, words: ts.words } : null]);
+};
+const inputHash = crypto.createHash("sha1").update(visualInputs()).digest("hex").slice(0, 12);
 // Bundle + staged public dir live OUTSIDE the project (never copy out/ or chunks/ into the bundle).
 const cacheRoot = path.join(process.env.MXP_CACHE ?? path.join(os.homedir(), ".cache", "map-explainer-pro"), "bundles");
 const projKey = crypto.createHash("sha1").update(project).digest("hex").slice(0, 8);
