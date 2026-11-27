@@ -8,6 +8,7 @@
     "render": "remotion render src/index.ts SpainsStrangestBorders out/spains-strangest-borders.mp4 --codec=h264 --pixel-format=yuv420p",
     "render:still": "remotion still src/index.ts SpainsStrangestBorders out/preview.png --frame=60",
     "render:italy": "remotion render src/index.ts ItalysStrangestBorders out/italys-strangest-borders.mp4 --codec=h264 --pixel-format=yuv420p",
+    "render:france": "remotion render src/index.ts FrancesStrangestBorders out/frances-strangest-borders.mp4 --codec=h264 --pixel-format=yuv420p",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

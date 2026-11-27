@@ -263,14 +263,14 @@ export const ITALY_BORDERS_STORYBOARD: StoryboardConfig = {
     { id: "pin-rome", kind: "pinLabel", startFrame: s(11.8), endFrame: s(13.8), xPct: 50, yPct: 44, text: "Rome" },
     { id: "pin-vatican", kind: "pinLabel", startFrame: s(14.8), endFrame: s(18.0), xPct: 50, yPct: 40, text: "Vatican City" },
     { id: "flag-va", kind: "flag", startFrame: s(15.5), endFrame: s(23.0), xPct: 72, yPct: 24, flagCode: "VA", rotationDeg: 8 },
-    { id: "flag-it-rome", kind: "flag", startFrame: s(16.5), endFrame: s(23.0), xPct: 28, yPct: 72, flagCode: "IT", rotationDeg: -8 },
+    { id: "flag-it-rome", kind: "flag", startFrame: s(16.5), endFrame: s(23.0), xPct: 26, yPct: 64, flagCode: "IT", rotationDeg: -8 },
     { id: "area-vatican", kind: "distanceBadge", startFrame: s(18.0), endFrame: s(20.8), xPct: 50, yPct: 60, text: "0.44 km²", subtext: "(0.17 sq mi)" },
     { id: "pop-vatican", kind: "populationBadge", startFrame: s(20.8), endFrame: s(24.5), xPct: 50, yPct: 47, text: "< 1,000" },
 
     // Beat 3: San Marino
     { id: "pin-san-marino", kind: "pinLabel", startFrame: s(26.0), endFrame: s(31.0), xPct: 50, yPct: 40, text: "San Marino" },
     { id: "flag-sm", kind: "flag", startFrame: s(28.5), endFrame: s(36.0), xPct: 70, yPct: 22, flagCode: "SM", rotationDeg: 6 },
-    { id: "flag-it-sm", kind: "flag", startFrame: s(29.5), endFrame: s(36.0), xPct: 28, yPct: 74, flagCode: "IT", rotationDeg: -6 },
+    { id: "flag-it-sm", kind: "flag", startFrame: s(29.5), endFrame: s(36.0), xPct: 26, yPct: 66, flagCode: "IT", rotationDeg: -6 },
     { id: "pop-san-marino", kind: "populationBadge", startFrame: s(31.0), endFrame: s(34.0), xPct: 50, yPct: 47, text: "34,000" },
     { id: "area-san-marino", kind: "distanceBadge", startFrame: s(34.0), endFrame: s(37.0), xPct: 50, yPct: 60, text: "61 km²", subtext: "(24 sq mi)" },
     { id: "lbl-301ad", kind: "countryLabel", startFrame: s(37.0), endFrame: s(39.8), xPct: 50, yPct: 62, text: "Since 301 AD", scale: 0.8 },
@@ -280,7 +280,7 @@ export const ITALY_BORDERS_STORYBOARD: StoryboardConfig = {
     { id: "campione-qmarks", kind: "questionMarks", startFrame: s(42.0), endFrame: s(44.2), xPct: 50, yPct: 49 },
     { id: "pin-campione", kind: "pinLabel", startFrame: s(44.5), endFrame: s(50.0), xPct: 50, yPct: 40, text: "Campione d'Italia", scale: 0.7 },
     { id: "flag-it-campione", kind: "flag", startFrame: s(46.0), endFrame: s(52.0), xPct: 30, yPct: 24, flagCode: "IT", rotationDeg: -8 },
-    { id: "flag-ch-campione", kind: "flag", startFrame: s(47.5), endFrame: s(52.0), xPct: 70, yPct: 72, flagCode: "CH", rotationDeg: 8 },
+    { id: "flag-ch-campione", kind: "flag", startFrame: s(47.5), endFrame: s(52.0), xPct: 72, yPct: 64, flagCode: "CH", rotationDeg: 8 },
     { id: "dist-campione", kind: "distanceBadge", startFrame: s(50.5), endFrame: s(55.0), xPct: 72, yPct: 42, text: "< 1 km", subtext: "(0.6 mi)" },
     { id: "lbl-exclave", kind: "countryLabel", startFrame: s(53.0), endFrame: s(57.8), xPct: 50, yPct: 62, text: "Exclave", scale: 0.8 },
 
@@ -289,7 +289,7 @@ export const ITALY_BORDERS_STORYBOARD: StoryboardConfig = {
     { id: "pin-matterhorn", kind: "pinLabel", startFrame: s(61.5), endFrame: s(65.0), xPct: 50, yPct: 40, text: "Matterhorn" },
     { id: "pin-refuge", kind: "pinLabel", startFrame: s(66.8), endFrame: s(69.8), xPct: 50, yPct: 42, text: "Rifugio Guide del Cervino", scale: 0.6 },
     { id: "flag-ch-alps", kind: "flag", startFrame: s(67.5), endFrame: s(72.5), xPct: 68, yPct: 28, flagCode: "CH", rotationDeg: 8 },
-    { id: "flag-it-alps", kind: "flag", startFrame: s(67.5), endFrame: s(72.5), xPct: 32, yPct: 70, flagCode: "IT", rotationDeg: -8 },
+    { id: "flag-it-alps", kind: "flag", startFrame: s(67.5), endFrame: s(72.5), xPct: 30, yPct: 66, flagCode: "IT", rotationDeg: -8 },
     { id: "dist-border-shift", kind: "distanceBadge", startFrame: s(73.0), endFrame: s(78), xPct: 28, yPct: 62, text: "~100 m", subtext: "(330 ft)", color: "#FFFFFF" },
   ],
 

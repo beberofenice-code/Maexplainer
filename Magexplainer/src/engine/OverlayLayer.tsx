@@ -90,6 +90,27 @@ const FlagGraphic: React.FC<{ code: NonNullable<CalloutItem["flagCode"]>; width?
           <circle cx="105" cy="24" r="6" fill="none" stroke="#C9A227" strokeWidth="3" />
         </>
       )}
+      {code === "MC" && (
+        <>
+          <rect width="140" height="45.5" y="0" fill="#CE1126" />
+          <rect width="140" height="45.5" y="45.5" fill="#FFFFFF" />
+        </>
+      )}
+      {code === "NL" && (
+        <>
+          <rect width="140" height="30.4" y="0" fill="#AE1C28" />
+          <rect width="140" height="30.3" y="30.4" fill="#FFFFFF" />
+          <rect width="140" height="30.3" y="60.7" fill="#21468B" />
+        </>
+      )}
+      {code === "BR" && (
+        <>
+          <rect width="140" height="91" fill="#009C3B" />
+          <polygon points="70,10 128,45.5 70,81 12,45.5" fill="#FFDF00" />
+          <circle cx="70" cy="45.5" r="21" fill="#002776" />
+          <path d="M50,40 Q70,34 90,48" stroke="#FFFFFF" strokeWidth="4" fill="none" />
+        </>
+      )}
     </svg>
   );
 };

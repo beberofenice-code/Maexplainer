@@ -79,7 +79,7 @@ export interface CalloutItem {
   subtext?: string;
   accentWord?: string;
   color?: string;
-  flagCode?: "ES" | "FR" | "UK" | "AD" | "MA" | "IT" | "CH" | "SM" | "VA";
+  flagCode?: "ES" | "FR" | "UK" | "AD" | "MA" | "IT" | "CH" | "SM" | "VA" | "MC" | "NL" | "BR";
   rotationDeg?: number;
   scale?: number;
   /** Counter values keyed by frame offset */
