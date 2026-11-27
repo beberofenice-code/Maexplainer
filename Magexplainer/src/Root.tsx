@@ -5,6 +5,7 @@ import { SPAIN_BORDERS_STORYBOARD } from "./data/spainBordersStoryboard";
 import { ITALY_BORDERS_STORYBOARD } from "./data/italyBordersStoryboard";
 import { FRANCE_BORDERS_STORYBOARD } from "./data/franceBordersStoryboard";
 import { GERMANY_BORDERS_STORYBOARD } from "./data/germanyBordersStoryboard";
+import { SWITZERLAND_BORDERS_STORYBOARD } from "./data/switzerlandBordersStoryboard";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -51,6 +52,17 @@ export const RemotionRoot: React.FC = () => {
         height={GERMANY_BORDERS_STORYBOARD.height}
         defaultProps={{
           storyboard: GERMANY_BORDERS_STORYBOARD,
+        }}
+      />
+      <Composition
+        id="SwitzerlandsStrangestBorders"
+        component={GeoExplainerVideo}
+        durationInFrames={SWITZERLAND_BORDERS_STORYBOARD.durationInFrames}
+        fps={SWITZERLAND_BORDERS_STORYBOARD.fps}
+        width={SWITZERLAND_BORDERS_STORYBOARD.width}
+        height={SWITZERLAND_BORDERS_STORYBOARD.height}
+        defaultProps={{
+          storyboard: SWITZERLAND_BORDERS_STORYBOARD,
         }}
       />
     </>

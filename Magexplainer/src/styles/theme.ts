@@ -25,6 +25,8 @@ export const THEME = {
     denmark: "#0EA5E9",
     poland: "#E11D48",
     czechia: "#8B5CF6",
+    liechtenstein: "#2563EB",
+    lake: "#38BDF8",
     accentYellow: "#FACC15",
     accentRed: "#EF4444",
     white: "#FFFFFF",

@@ -132,6 +132,13 @@ const FlagGraphic: React.FC<{ code: NonNullable<CalloutItem["flagCode"]>; width?
           <rect width="47" height="91" x="93" fill="#EF3340" />
         </>
       )}
+      {code === "LI" && (
+        <>
+          <rect width="140" height="45.5" y="0" fill="#002B7F" />
+          <rect width="140" height="45.5" y="45.5" fill="#CE1126" />
+          <path d="M22,30 L26,16 L32,24 L38,14 L44,24 L50,16 L54,30 Z" fill="#FFD83D" stroke="#9A7B00" strokeWidth="1.5" />
+        </>
+      )}
     </svg>
   );
 };
