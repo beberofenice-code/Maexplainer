@@ -1,0 +1,800 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "slug": "canada-lake-names",
+    "title": "Why Canada Has The Weirdest Lake Names",
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "lufs": -15,
+    "max_tile_zoom": 18,
+    "voice": {
+      "provider": "auto",
+      "elevenlabs_voice": "Brian",
+      "elevenlabs_model": "eleven_v4",
+      "stability": 0.5,
+      "similarity_boost": 0.8,
+      "style": 0.3,
+      "edge_voice": "en-US-AndrewNeural",
+      "edge_rate": "+6%",
+      "continuous": true
+    },
+    "music": {
+      "enabled": false,
+      "bpm": 112,
+      "bed_db": -25,
+      "duck_db": -9
+    },
+    "subtitles": {
+      "max_words": 3,
+      "y_pct": 76
+    }
+  },
+  "geo": {
+    "context": [
+      "CAN",
+      "USA",
+      "GRL",
+      "MEX",
+      "RUS"
+    ],
+    "features": [
+      {
+        "id": "canada",
+        "source": "natural_earth",
+        "adm0_a3": "CAN"
+      },
+      {
+        "id": "saskatchewan",
+        "source": "nominatim",
+        "nominatim": "Saskatchewan, Canada",
+        "color": "highlight"
+      },
+      {
+        "id": "lac_haha",
+        "source": "osm",
+        "osm": "R6425373",
+        "nominatim": "Lac Ha! Ha!, Québec, Canada",
+        "color": "lake_blue",
+        "fallback_coordinates": [
+          -70.8465,
+          48.0426
+        ]
+      },
+      {
+        "id": "lac_pas_de_nom",
+        "source": "osm",
+        "osm": "R1481104",
+        "nominatim": "Lac Pas de Nom, Portneuf, Québec, Canada",
+        "color": "lake_blue",
+        "fallback_coordinates": [
+          -72.0916,
+          46.8897
+        ]
+      },
+      {
+        "id": "pekwach_lake",
+        "source": "osm",
+        "osm": "R21240888",
+        "nominatim": "Pekwachnamaykoskwaskwaypinwanik Lake, Manitoba, Canada",
+        "color": "lake_blue",
+        "fallback_coordinates": [
+          -93.5673,
+          54.0223
+        ]
+      },
+      {
+        "id": "old_wives_lake",
+        "source": "osm",
+        "osm": "R57528",
+        "nominatim": "Old Wives Lake, Saskatchewan, Canada",
+        "color": "lake_blue",
+        "fallback_coordinates": [
+          -105.9495,
+          50.0863
+        ]
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "mode": "satellite",
+      "narration": "Canada has the weirdest lake names on the planet, and there's a reason why.",
+      "min_duration_s": 5.0,
+      "tail_s": 0.4,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            -96,
+            58
+          ],
+          "zoom": 2.4,
+          "pitch": 0,
+          "bearing": 0
+        },
+        {
+          "t": 2.0,
+          "center": [
+            -97,
+            59
+          ],
+          "zoom": 3.05,
+          "pitch": 16,
+          "bearing": -3,
+          "easing": "easeOutQuart"
+        },
+        {
+          "t": 7.0,
+          "center": [
+            -96.5,
+            59.3
+          ],
+          "zoom": 3.15,
+          "pitch": 18,
+          "bearing": 0,
+          "easing": "linear"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "canada",
+          "style": "tint",
+          "at_word": "Canada",
+          "offset": 0.1
+        }
+      ],
+      "elements": [
+        {
+          "type": "HookTitle",
+          "t": 0.25,
+          "accent": "Canada's",
+          "text": "Weirdest Lake Names",
+          "y_pct": 16,
+          "until_word": "reason",
+          "until_offset": 0.5
+        },
+        {
+          "type": "CalloutArrow",
+          "at_word": "lake",
+          "from_pct": [
+            84,
+            34
+          ],
+          "to": [
+            -100,
+            57
+          ],
+          "curve": -0.35
+        },
+        {
+          "type": "QuestionMarks",
+          "at_word": "reason",
+          "at": [
+            -100,
+            58
+          ],
+          "count": 3,
+          "radius": 170,
+          "sfx": "pop_marimba"
+        }
+      ],
+      "sfx": [
+        {
+          "name": "whoosh_deep",
+          "t": 0.0,
+          "gain_db": -2
+        }
+      ],
+      "transition_sfx": null
+    },
+    {
+      "id": "count",
+      "mode": "dark_cutaway",
+      "narration": "Canada holds about sixty-two percent of all the lakes on Earth. More than the rest of the world combined. And somebody had to name every single one.",
+      "min_duration_s": 8.0,
+      "tail_s": 0.4,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            -98,
+            56
+          ],
+          "zoom": 2.75,
+          "pitch": 0,
+          "bearing": 0
+        },
+        {
+          "t": 11.0,
+          "center": [
+            -97,
+            56.5
+          ],
+          "zoom": 2.95,
+          "pitch": 0,
+          "bearing": 0,
+          "easing": "linear"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "canada",
+          "style": "hatch",
+          "t": 0.1,
+          "lift": 16
+        }
+      ],
+      "elements": [
+        {
+          "type": "StatBadge",
+          "at_word": "sixty",
+          "at_pct": [
+            50,
+            14
+          ],
+          "value": 62,
+          "suffix": "%",
+          "label": "of Earth's lakes",
+          "size": 84
+        },
+        {
+          "type": "Label",
+          "at_word": "rest",
+          "at_pct": [
+            50,
+            66
+          ],
+          "text": "more than the rest of the world",
+          "size": 32,
+          "sfx": "chime_reveal"
+        },
+        {
+          "type": "QuestionMarks",
+          "at_word": "name",
+          "at": [
+            -98,
+            58
+          ],
+          "count": 3,
+          "radius": 200
+        }
+      ]
+    },
+    {
+      "id": "haha",
+      "mode": "satellite",
+      "narration": "In Quebec, there's Lac Ha! Ha!, spelled with two exclamation marks. A haha is an old French word for a sudden dead end.",
+      "min_duration_s": 7.0,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            -71.5,
+            48.4
+          ],
+          "zoom": 6.8,
+          "pitch": 10,
+          "bearing": 0
+        },
+        {
+          "at_word": "Lac",
+          "center": [
+            -70.84,
+            48.045
+          ],
+          "zoom": 12.4,
+          "pitch": 28,
+          "bearing": -8,
+          "easing": "easeInOutCubic"
+        },
+        {
+          "t": 12.0,
+          "center": [
+            -70.838,
+            48.043
+          ],
+          "zoom": 12.7,
+          "pitch": 30,
+          "bearing": -3,
+          "easing": "linear"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "canada",
+          "style": "tint",
+          "t": 0,
+          "until_word": "Lac",
+          "until_offset": 1.0
+        },
+        {
+          "feature": "lac_haha",
+          "style": "highlight",
+          "at_word": "Lac",
+          "offset": 0.8,
+          "width": 5
+        }
+      ],
+      "elements": [
+        {
+          "type": "Label",
+          "at_word": "Quebec",
+          "at_pct": [
+            50,
+            22
+          ],
+          "text": "Québec",
+          "size": 64,
+          "until_word": "Lac",
+          "sfx": null
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "Lac",
+          "offset": 0.9,
+          "at": [
+            -70.846,
+            48.0426
+          ],
+          "label": "Lac Ha! Ha!",
+          "label_size": 54
+        },
+        {
+          "type": "StatBadge",
+          "at_word": "exclamation",
+          "at_pct": [
+            50,
+            18
+          ],
+          "text": "!!",
+          "label": "2 exclamation marks",
+          "size": 96,
+          "until_word": "haha"
+        },
+        {
+          "type": "StatBadge",
+          "at_word": "haha",
+          "offset": 0.3,
+          "at_pct": [
+            50,
+            18
+          ],
+          "text": "\"haha\"",
+          "label": "old French: sudden dead end",
+          "size": 72
+        }
+      ]
+    },
+    {
+      "id": "nameless",
+      "mode": "satellite",
+      "narration": "Some mapmakers just gave up. Quebec has several lakes called Lac Pas de Nom, which literally means Lake No Name.",
+      "min_duration_s": 7.0,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            -72.1,
+            46.95
+          ],
+          "zoom": 10.5,
+          "pitch": 14,
+          "bearing": 0
+        },
+        {
+          "at_word": "called",
+          "center": [
+            -72.0916,
+            46.8897
+          ],
+          "zoom": 15.0,
+          "pitch": 30,
+          "bearing": -10,
+          "easing": "easeInOutCubic"
+        },
+        {
+          "t": 11.0,
+          "center": [
+            -72.0914,
+            46.8895
+          ],
+          "zoom": 15.3,
+          "pitch": 32,
+          "bearing": -4,
+          "easing": "linear"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "lac_pas_de_nom",
+          "style": "highlight",
+          "at_word": "Pas",
+          "width": 5
+        }
+      ],
+      "elements": [
+        {
+          "type": "QuestionMarks",
+          "at_word": "gave",
+          "at": [
+            -72.0916,
+            46.8897
+          ],
+          "count": 3,
+          "radius": 220,
+          "until_word": "Pas"
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "Pas",
+          "at": [
+            -72.0916,
+            46.8897
+          ],
+          "label": "Lac Pas de Nom",
+          "label_size": 50
+        },
+        {
+          "type": "StatBadge",
+          "at_word": "literally",
+          "offset": 0.3,
+          "at_pct": [
+            50,
+            18
+          ],
+          "text": "Lake No Name",
+          "label": "translation",
+          "size": 70
+        }
+      ]
+    },
+    {
+      "id": "longname",
+      "mode": "satellite",
+      "narration": "Up in Manitoba, one lake carries a thirty-one letter Cree name: Pekwachnamaykoskwaskwaypinwanik. Roughly, where trout are caught with hooks.",
+      "min_duration_s": 8.0,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            -96.5,
+            54.6
+          ],
+          "zoom": 5.6,
+          "pitch": 8,
+          "bearing": 0
+        },
+        {
+          "at_word": "lake",
+          "center": [
+            -93.53,
+            54.03
+          ],
+          "zoom": 8.6,
+          "pitch": 18,
+          "bearing": 0,
+          "easing": "easeInOutCubic"
+        },
+        {
+          "at_word": "Pekwachnamaykoskwaskwaypinwanik",
+          "center": [
+            -93.532,
+            54.022
+          ],
+          "zoom": 11.85,
+          "pitch": 28,
+          "bearing": -6,
+          "easing": "easeInOutCubic"
+        },
+        {
+          "t": 13.0,
+          "center": [
+            -93.531,
+            54.021
+          ],
+          "zoom": 12.05,
+          "pitch": 30,
+          "bearing": -2,
+          "easing": "linear"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "canada",
+          "style": "tint",
+          "t": 0,
+          "until_word": "lake",
+          "until_offset": 0.6
+        },
+        {
+          "feature": "pekwach_lake",
+          "style": "highlight",
+          "at_word": "Cree",
+          "width": 5
+        }
+      ],
+      "elements": [
+        {
+          "type": "Label",
+          "at_word": "Manitoba",
+          "at_pct": [
+            50,
+            22
+          ],
+          "text": "Manitoba",
+          "size": 64,
+          "until_word": "lake",
+          "sfx": null
+        },
+        {
+          "type": "StatBadge",
+          "at_word": "thirty",
+          "at_pct": [
+            50,
+            18
+          ],
+          "value": 31,
+          "suffix": " letters",
+          "label": "Cree name",
+          "size": 80,
+          "until_word": "Pekwachnamaykoskwaskwaypinwanik"
+        },
+        {
+          "type": "Label",
+          "at_word": "Pekwachnamaykoskwaskwaypinwanik",
+          "at_pct": [
+            50,
+            20
+          ],
+          "text": "Pekwachnamaykoskwaskwaypinwanik",
+          "size": 34,
+          "text_color": "#FFE600"
+        },
+        {
+          "type": "StatBadge",
+          "at_word": "trout",
+          "at_pct": [
+            50,
+            62
+          ],
+          "text": "\"trout caught with hooks\"",
+          "label": "meaning",
+          "size": 46
+        }
+      ]
+    },
+    {
+      "id": "oldwives",
+      "mode": "satellite",
+      "narration": "In Saskatchewan, Old Wives Lake comes from a legend: elderly women who stayed behind, lighting campfires to fool an enemy war party while their people escaped.",
+      "min_duration_s": 8.0,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            -106.2,
+            51.2
+          ],
+          "zoom": 6.4,
+          "pitch": 8,
+          "bearing": 0
+        },
+        {
+          "at_word": "Old",
+          "center": [
+            -105.95,
+            50.09
+          ],
+          "zoom": 9.8,
+          "pitch": 24,
+          "bearing": -6,
+          "easing": "easeInOutCubic"
+        },
+        {
+          "t": 14.0,
+          "center": [
+            -105.93,
+            50.08
+          ],
+          "zoom": 10.2,
+          "pitch": 28,
+          "bearing": -1,
+          "easing": "linear"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "canada",
+          "style": "tint",
+          "t": 0,
+          "until_word": "Old",
+          "until_offset": 0.8
+        },
+        {
+          "feature": "old_wives_lake",
+          "style": "highlight",
+          "at_word": "Wives",
+          "width": 5
+        }
+      ],
+      "elements": [
+        {
+          "type": "Label",
+          "at_word": "Saskatchewan",
+          "at_pct": [
+            50,
+            22
+          ],
+          "text": "Saskatchewan",
+          "size": 64,
+          "until_word": "Old",
+          "sfx": null
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "Lake",
+          "at": [
+            -105.95,
+            50.086
+          ],
+          "label": "Old Wives Lake",
+          "label_size": 52
+        },
+        {
+          "type": "StatBadge",
+          "at_word": "legend",
+          "offset": 0.2,
+          "at_pct": [
+            50,
+            18
+          ],
+          "text": "A legend",
+          "label": "named for brave elders",
+          "size": 70
+        },
+        {
+          "type": "QuestionMarks",
+          "at_word": "fool",
+          "at": [
+            -105.95,
+            50.086
+          ],
+          "count": 3,
+          "radius": 230
+        }
+      ]
+    },
+    {
+      "id": "memorial",
+      "mode": "dark_cutaway",
+      "narration": "And Saskatchewan named nearly four thousand lakes, islands and bays after soldiers lost in World War Two. So in Canada, a weird lake name usually has a story.",
+      "min_duration_s": 9.0,
+      "tail_s": 1.2,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            -106,
+            54.5
+          ],
+          "zoom": 4.6,
+          "pitch": 0,
+          "bearing": 0
+        },
+        {
+          "at_word": "Canada",
+          "center": [
+            -97,
+            58
+          ],
+          "zoom": 3.0,
+          "pitch": 0,
+          "bearing": 0,
+          "easing": "easeInOutCubic"
+        },
+        {
+          "t": 14.0,
+          "center": [
+            -97,
+            58.3
+          ],
+          "zoom": 2.95,
+          "pitch": 0,
+          "bearing": 0,
+          "easing": "linear"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "canada",
+          "style": "hatch",
+          "t": 0,
+          "lift": 10
+        },
+        {
+          "feature": "saskatchewan",
+          "style": "outline",
+          "at_word": "Saskatchewan",
+          "width": 5
+        }
+      ],
+      "elements": [
+        {
+          "type": "StatBadge",
+          "at_word": "nearly",
+          "at_pct": [
+            50,
+            14
+          ],
+          "value": 4000,
+          "prefix": "~",
+          "label": "places named for WWII soldiers",
+          "size": 80,
+          "until_word": "Canada"
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "lakes",
+          "at": [
+            -104.5,
+            57.8
+          ],
+          "size": 0.55,
+          "sfx": null,
+          "until_word": "Canada"
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "islands",
+          "at": [
+            -107.8,
+            56.6
+          ],
+          "size": 0.55,
+          "until_word": "Canada"
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "bays",
+          "at": [
+            -103.0,
+            55.4
+          ],
+          "size": 0.55,
+          "until_word": "Canada"
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "soldiers",
+          "at": [
+            -106.6,
+            58.9
+          ],
+          "size": 0.55,
+          "until_word": "Canada"
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "World",
+          "at": [
+            -102.6,
+            58.3
+          ],
+          "size": 0.55,
+          "sfx": null,
+          "until_word": "Canada"
+        },
+        {
+          "type": "HookTitle",
+          "at_word": "story",
+          "offset": -0.6,
+          "accent": "Every name",
+          "text": "tells a story",
+          "y_pct": 16
+        }
+      ]
+    }
+  ]
+}

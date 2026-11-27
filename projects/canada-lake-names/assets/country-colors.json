@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "_doc": "LOCKED palette for /map-explainer-pro. Never invent ad-hoc hex values in storyboards: reference these keys. Territories/enclaves inherit every field from `parent` unless they override it. Any Natural Earth feature whose SOV_A3 is listed in `sovereign_codes` inherits that country's colors automatically (e.g. Gibraltar SOV_A3=GB1 -> uk).",
+  "defaults": {
+    "tint_opacity": 0.55,
+    "border": "#FFFFFF",
+    "glow": "rgba(255, 255, 255, 0.85)",
+    "dark_cutaway": {
+      "background": "#0A0B0D",
+      "land": "#16181C",
+      "border": "#34373E",
+      "hatch": "#FFFFFF",
+      "silhouette": "#24272D"
+    }
+  },
+  "countries": {
+    "spain": {
+      "name": "Spain",
+      "adm0_a3": "ESP",
+      "fill": "#E66E1E",
+      "tint": "rgba(230, 110, 30, 0.55)",
+      "border": "#FFFFFF",
+      "glow": "rgba(255, 170, 110, 0.90)"
+    },
+    "france": {
+      "name": "France",
+      "adm0_a3": "FRA",
+      "fill": "#3E6DB5",
+      "tint": "rgba(62, 109, 181, 0.55)",
+      "border": "#FFFFFF",
+      "glow": "rgba(140, 180, 255, 0.90)"
+    },
+    "portugal": {
+      "name": "Portugal",
+      "adm0_a3": "PRT",
+      "fill": "#2E8B57",
+      "tint": "rgba(46, 139, 87, 0.55)",
+      "border": "#FFFFFF",
+      "glow": "rgba(120, 220, 160, 0.90)"
+    },
+    "andorra": {
+      "name": "Andorra",
+      "adm0_a3": "AND",
+      "fill": "#28B446",
+      "tint": "rgba(40, 180, 70, 0.55)",
+      "border": "#FFFFFF",
+      "glow": "rgba(130, 240, 150, 0.90)"
+    },
+    "uk": {
+      "name": "United Kingdom",
+      "adm0_a3": "GBR",
+      "fill": "#C92A2A",
+      "tint": "rgba(201, 42, 42, 0.55)",
+      "border": "#FFFFFF",
+      "glow": "rgba(255, 120, 120, 0.90)"
+    },
+    "morocco": {
+      "name": "Morocco",
+      "adm0_a3": "MAR",
+      "fill": "#2AD4C0",
+      "tint": "rgba(42, 212, 192, 0.55)",
+      "border": "#FFFFFF",
+      "glow": "rgba(140, 255, 240, 0.90)"
+    },
+    "canada": {
+      "name": "Canada",
+      "adm0_a3": "CAN",
+      "fill": "#D7263D",
+      "tint": "rgba(215, 38, 61, 0.55)",
+      "border": "#FFFFFF",
+      "glow": "rgba(255, 120, 135, 0.90)"
+    },
+    "usa": {
+      "name": "United States",
+      "adm0_a3": "USA",
+      "fill": "#5B5FC7",
+      "tint": "rgba(91, 95, 199, 0.55)",
+      "border": "#FFFFFF",
+      "glow": "rgba(160, 165, 255, 0.90)"
+    }
+  },
+  "territories": {
+    "llivia": {
+      "name": "Llívia",
+      "parent": "spain",
+      "type": "enclave"
+    },
+    "ceuta": {
+      "name": "Ceuta",
+      "parent": "spain",
+      "type": "exclave"
+    },
+    "melilla": {
+      "name": "Melilla",
+      "parent": "spain",
+      "type": "exclave"
+    },
+    "penon_de_velez": {
+      "name": "Peñón de Vélez de la Gomera",
+      "parent": "spain",
+      "type": "exclave"
+    },
+    "gibraltar": {
+      "name": "Gibraltar",
+      "parent": "uk",
+      "type": "overseas_territory",
+      "adm0_a3": "GIB"
+    }
+  },
+  "overlays": {
+    "nyc_size_overlay": {
+      "name": "NYC true-scale overlay",
+      "fill": "#2A9BB0",
+      "tint": "rgba(42, 155, 176, 0.55)",
+      "border": "#FFFFFF",
+      "glow": "rgba(120, 220, 240, 0.90)"
+    },
+    "highlight": {
+      "name": "Highlight yellow",
+      "fill": "#FFE600",
+      "tint": "rgba(255, 230, 0, 0.55)",
+      "border": "#FFE600",
+      "glow": "rgba(255, 230, 0, 0.90)"
+    },
+    "lake_blue": {
+      "name": "Lake highlight",
+      "fill": "#1FB6FF",
+      "tint": "rgba(31, 182, 255, 0.55)",
+      "border": "#FFFFFF",
+      "glow": "rgba(130, 215, 255, 0.90)"
+    }
+  },
+  "sovereign_codes": {
+    "ESP": "spain",
+    "FR1": "france",
+    "FRA": "france",
+    "PRT": "portugal",
+    "AND": "andorra",
+    "GB1": "uk",
+    "GBR": "uk",
+    "MAR": "morocco",
+    "CAN": "canada",
+    "USA": "usa",
+    "US1": "usa"
+  },
+  "adm0_overrides": {
+    "GIB": "gibraltar"
+  }
+}

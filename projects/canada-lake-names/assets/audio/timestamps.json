@@ -1,0 +1,1199 @@
+{
+ "fps": 30,
+ "total_s": 62.191,
+ "continuous": true,
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 5.06,
+   "vo_start": 0.3,
+   "vo_end": 4.82
+  },
+  {
+   "id": "count",
+   "start": 5.06,
+   "end": 14.02,
+   "vo_start": 5.18,
+   "vo_end": 13.82
+  },
+  {
+   "id": "haha",
+   "start": 14.02,
+   "end": 22.66,
+   "vo_start": 14.14,
+   "vo_end": 22.46
+  },
+  {
+   "id": "nameless",
+   "start": 22.66,
+   "end": 30.5,
+   "vo_start": 22.78,
+   "vo_end": 30.06
+  },
+  {
+   "id": "longname",
+   "start": 30.5,
+   "end": 40.5,
+   "vo_start": 30.62,
+   "vo_end": 40.14
+  },
+  {
+   "id": "oldwives",
+   "start": 40.5,
+   "end": 50.58,
+   "vo_start": 40.62,
+   "vo_end": 50.62
+  },
+  {
+   "id": "memorial",
+   "start": 50.58,
+   "end": 62.191,
+   "vo_start": 50.7,
+   "vo_end": 61.18
+  }
+ ],
+ "words": [
+  {
+   "word": "Canada",
+   "start": 0.3,
+   "end": 0.74,
+   "scene": "hook"
+  },
+  {
+   "word": "has",
+   "start": 0.78,
+   "end": 0.967,
+   "scene": "hook"
+  },
+  {
+   "word": "the",
+   "start": 1.02,
+   "end": 1.153,
+   "scene": "hook"
+  },
+  {
+   "word": "weirdest",
+   "start": 1.18,
+   "end": 1.74,
+   "scene": "hook"
+  },
+  {
+   "word": "lake",
+   "start": 1.82,
+   "end": 1.98,
+   "scene": "hook"
+  },
+  {
+   "word": "names",
+   "start": 2.06,
+   "end": 2.3,
+   "scene": "hook"
+  },
+  {
+   "word": "on",
+   "start": 2.34,
+   "end": 2.38,
+   "scene": "hook"
+  },
+  {
+   "word": "the",
+   "start": 2.46,
+   "end": 2.54,
+   "scene": "hook"
+  },
+  {
+   "word": "planet,",
+   "start": 2.62,
+   "end": 3.34,
+   "scene": "hook"
+  },
+  {
+   "word": "and",
+   "start": 3.38,
+   "end": 3.42,
+   "scene": "hook"
+  },
+  {
+   "word": "there's",
+   "start": 3.5,
+   "end": 3.66,
+   "scene": "hook"
+  },
+  {
+   "word": "a",
+   "start": 3.7,
+   "end": 3.74,
+   "scene": "hook"
+  },
+  {
+   "word": "reason",
+   "start": 3.82,
+   "end": 4.06,
+   "scene": "hook"
+  },
+  {
+   "word": "why.",
+   "start": 4.14,
+   "end": 4.82,
+   "scene": "hook"
+  },
+  {
+   "word": "Canada",
+   "start": 5.18,
+   "end": 5.58,
+   "scene": "count"
+  },
+  {
+   "word": "holds",
+   "start": 5.66,
+   "end": 5.82,
+   "scene": "count"
+  },
+  {
+   "word": "about",
+   "start": 5.9,
+   "end": 6.14,
+   "scene": "count"
+  },
+  {
+   "word": "sixty-two",
+   "start": 6.3,
+   "end": 6.78,
+   "scene": "count"
+  },
+  {
+   "word": "percent",
+   "start": 6.86,
+   "end": 7.18,
+   "scene": "count"
+  },
+  {
+   "word": "of",
+   "start": 7.26,
+   "end": 7.42,
+   "scene": "count"
+  },
+  {
+   "word": "all",
+   "start": 7.5,
+   "end": 7.58,
+   "scene": "count"
+  },
+  {
+   "word": "the",
+   "start": 7.66,
+   "end": 7.74,
+   "scene": "count"
+  },
+  {
+   "word": "lakes",
+   "start": 7.78,
+   "end": 7.98,
+   "scene": "count"
+  },
+  {
+   "word": "on",
+   "start": 8.06,
+   "end": 8.14,
+   "scene": "count"
+  },
+  {
+   "word": "Earth.",
+   "start": 8.22,
+   "end": 8.54,
+   "scene": "count"
+  },
+  {
+   "word": "More",
+   "start": 8.94,
+   "end": 9.1,
+   "scene": "count"
+  },
+  {
+   "word": "than",
+   "start": 9.18,
+   "end": 9.26,
+   "scene": "count"
+  },
+  {
+   "word": "the",
+   "start": 9.34,
+   "end": 9.42,
+   "scene": "count"
+  },
+  {
+   "word": "rest",
+   "start": 9.5,
+   "end": 9.66,
+   "scene": "count"
+  },
+  {
+   "word": "of",
+   "start": 9.74,
+   "end": 9.78,
+   "scene": "count"
+  },
+  {
+   "word": "the",
+   "start": 9.82,
+   "end": 9.86,
+   "scene": "count"
+  },
+  {
+   "word": "world",
+   "start": 9.9,
+   "end": 10.14,
+   "scene": "count"
+  },
+  {
+   "word": "combined.",
+   "start": 10.46,
+   "end": 10.98,
+   "scene": "count"
+  },
+  {
+   "word": "And",
+   "start": 11.18,
+   "end": 11.34,
+   "scene": "count"
+  },
+  {
+   "word": "somebody",
+   "start": 11.5,
+   "end": 11.9,
+   "scene": "count"
+  },
+  {
+   "word": "had",
+   "start": 11.94,
+   "end": 11.98,
+   "scene": "count"
+  },
+  {
+   "word": "to",
+   "start": 12.06,
+   "end": 12.14,
+   "scene": "count"
+  },
+  {
+   "word": "name",
+   "start": 12.26,
+   "end": 12.38,
+   "scene": "count"
+  },
+  {
+   "word": "every",
+   "start": 12.54,
+   "end": 12.78,
+   "scene": "count"
+  },
+  {
+   "word": "single",
+   "start": 12.86,
+   "end": 13.1,
+   "scene": "count"
+  },
+  {
+   "word": "one.",
+   "start": 13.26,
+   "end": 13.82,
+   "scene": "count"
+  },
+  {
+   "word": "In",
+   "start": 14.14,
+   "end": 14.3,
+   "scene": "haha"
+  },
+  {
+   "word": "Quebec,",
+   "start": 14.38,
+   "end": 15.1,
+   "scene": "haha"
+  },
+  {
+   "word": "there's",
+   "start": 15.18,
+   "end": 15.34,
+   "scene": "haha"
+  },
+  {
+   "word": "Lac",
+   "start": 15.5,
+   "end": 15.74,
+   "scene": "haha"
+  },
+  {
+   "word": "Ha!",
+   "start": 15.82,
+   "end": 16.06,
+   "scene": "haha"
+  },
+  {
+   "word": "Ha!,",
+   "start": 16.14,
+   "end": 16.7,
+   "scene": "haha"
+  },
+  {
+   "word": "spelled",
+   "start": 16.78,
+   "end": 17.1,
+   "scene": "haha"
+  },
+  {
+   "word": "with",
+   "start": 17.18,
+   "end": 17.26,
+   "scene": "haha"
+  },
+  {
+   "word": "two",
+   "start": 17.34,
+   "end": 17.5,
+   "scene": "haha"
+  },
+  {
+   "word": "exclamation",
+   "start": 17.58,
+   "end": 18.14,
+   "scene": "haha"
+  },
+  {
+   "word": "marks.",
+   "start": 18.22,
+   "end": 18.78,
+   "scene": "haha"
+  },
+  {
+   "word": "A",
+   "start": 19.02,
+   "end": 19.1,
+   "scene": "haha"
+  },
+  {
+   "word": "haha",
+   "start": 19.18,
+   "end": 19.74,
+   "scene": "haha"
+  },
+  {
+   "word": "is",
+   "start": 19.82,
+   "end": 19.9,
+   "scene": "haha"
+  },
+  {
+   "word": "an",
+   "start": 19.98,
+   "end": 20.06,
+   "scene": "haha"
+  },
+  {
+   "word": "old",
+   "start": 20.14,
+   "end": 20.3,
+   "scene": "haha"
+  },
+  {
+   "word": "French",
+   "start": 20.38,
+   "end": 20.62,
+   "scene": "haha"
+  },
+  {
+   "word": "word",
+   "start": 20.7,
+   "end": 20.94,
+   "scene": "haha"
+  },
+  {
+   "word": "for",
+   "start": 21.02,
+   "end": 21.1,
+   "scene": "haha"
+  },
+  {
+   "word": "a",
+   "start": 21.14,
+   "end": 21.18,
+   "scene": "haha"
+  },
+  {
+   "word": "sudden",
+   "start": 21.34,
+   "end": 21.58,
+   "scene": "haha"
+  },
+  {
+   "word": "dead",
+   "start": 21.66,
+   "end": 21.82,
+   "scene": "haha"
+  },
+  {
+   "word": "end.",
+   "start": 21.9,
+   "end": 22.46,
+   "scene": "haha"
+  },
+  {
+   "word": "Some",
+   "start": 22.78,
+   "end": 23.02,
+   "scene": "nameless"
+  },
+  {
+   "word": "mapmakers",
+   "start": 23.14,
+   "end": 23.58,
+   "scene": "nameless"
+  },
+  {
+   "word": "just",
+   "start": 23.66,
+   "end": 23.82,
+   "scene": "nameless"
+  },
+  {
+   "word": "gave",
+   "start": 23.86,
+   "end": 24.06,
+   "scene": "nameless"
+  },
+  {
+   "word": "up.",
+   "start": 24.14,
+   "end": 24.38,
+   "scene": "nameless"
+  },
+  {
+   "word": "Quebec",
+   "start": 24.78,
+   "end": 25.18,
+   "scene": "nameless"
+  },
+  {
+   "word": "has",
+   "start": 25.3,
+   "end": 25.42,
+   "scene": "nameless"
+  },
+  {
+   "word": "several",
+   "start": 25.5,
+   "end": 25.74,
+   "scene": "nameless"
+  },
+  {
+   "word": "lakes",
+   "start": 25.82,
+   "end": 26.06,
+   "scene": "nameless"
+  },
+  {
+   "word": "called",
+   "start": 26.14,
+   "end": 26.38,
+   "scene": "nameless"
+  },
+  {
+   "word": "Lac",
+   "start": 26.62,
+   "end": 26.86,
+   "scene": "nameless"
+  },
+  {
+   "word": "Pas",
+   "start": 26.94,
+   "end": 27.1,
+   "scene": "nameless"
+  },
+  {
+   "word": "de",
+   "start": 27.18,
+   "end": 27.26,
+   "scene": "nameless"
+  },
+  {
+   "word": "Nom,",
+   "start": 27.42,
+   "end": 27.98,
+   "scene": "nameless"
+  },
+  {
+   "word": "which",
+   "start": 28.1,
+   "end": 28.22,
+   "scene": "nameless"
+  },
+  {
+   "word": "literally",
+   "start": 28.3,
+   "end": 28.62,
+   "scene": "nameless"
+  },
+  {
+   "word": "means",
+   "start": 28.7,
+   "end": 29.02,
+   "scene": "nameless"
+  },
+  {
+   "word": "Lake",
+   "start": 29.26,
+   "end": 29.5,
+   "scene": "nameless"
+  },
+  {
+   "word": "No",
+   "start": 29.58,
+   "end": 29.66,
+   "scene": "nameless"
+  },
+  {
+   "word": "Name.",
+   "start": 29.74,
+   "end": 30.06,
+   "scene": "nameless"
+  },
+  {
+   "word": "Up",
+   "start": 30.62,
+   "end": 30.78,
+   "scene": "longname"
+  },
+  {
+   "word": "in",
+   "start": 30.82,
+   "end": 30.86,
+   "scene": "longname"
+  },
+  {
+   "word": "Manitoba,",
+   "start": 30.94,
+   "end": 31.9,
+   "scene": "longname"
+  },
+  {
+   "word": "one",
+   "start": 31.98,
+   "end": 32.14,
+   "scene": "longname"
+  },
+  {
+   "word": "lake",
+   "start": 32.22,
+   "end": 32.38,
+   "scene": "longname"
+  },
+  {
+   "word": "carries",
+   "start": 32.46,
+   "end": 32.78,
+   "scene": "longname"
+  },
+  {
+   "word": "a",
+   "start": 32.86,
+   "end": 32.94,
+   "scene": "longname"
+  },
+  {
+   "word": "thirty-one",
+   "start": 33.02,
+   "end": 33.42,
+   "scene": "longname"
+  },
+  {
+   "word": "letter",
+   "start": 33.5,
+   "end": 33.74,
+   "scene": "longname"
+  },
+  {
+   "word": "Cree",
+   "start": 33.82,
+   "end": 34.06,
+   "scene": "longname"
+  },
+  {
+   "word": "name:",
+   "start": 34.18,
+   "end": 34.78,
+   "scene": "longname"
+  },
+  {
+   "word": "Pekwachnamaykoskwaskwaypinwanik.",
+   "start": 34.86,
+   "end": 37.18,
+   "scene": "longname"
+  },
+  {
+   "word": "Roughly,",
+   "start": 37.66,
+   "end": 38.14,
+   "scene": "longname"
+  },
+  {
+   "word": "where",
+   "start": 38.46,
+   "end": 38.62,
+   "scene": "longname"
+  },
+  {
+   "word": "trout",
+   "start": 38.7,
+   "end": 39.02,
+   "scene": "longname"
+  },
+  {
+   "word": "are",
+   "start": 39.1,
+   "end": 39.26,
+   "scene": "longname"
+  },
+  {
+   "word": "caught",
+   "start": 39.38,
+   "end": 39.5,
+   "scene": "longname"
+  },
+  {
+   "word": "with",
+   "start": 39.58,
+   "end": 39.66,
+   "scene": "longname"
+  },
+  {
+   "word": "hooks.",
+   "start": 39.86,
+   "end": 40.14,
+   "scene": "longname"
+  },
+  {
+   "word": "In",
+   "start": 40.62,
+   "end": 40.7,
+   "scene": "oldwives"
+  },
+  {
+   "word": "Saskatchewan,",
+   "start": 40.78,
+   "end": 41.82,
+   "scene": "oldwives"
+  },
+  {
+   "word": "Old",
+   "start": 41.94,
+   "end": 42.06,
+   "scene": "oldwives"
+  },
+  {
+   "word": "Wives",
+   "start": 42.14,
+   "end": 42.38,
+   "scene": "oldwives"
+  },
+  {
+   "word": "Lake",
+   "start": 42.46,
+   "end": 42.7,
+   "scene": "oldwives"
+  },
+  {
+   "word": "comes",
+   "start": 42.78,
+   "end": 42.94,
+   "scene": "oldwives"
+  },
+  {
+   "word": "from",
+   "start": 43.02,
+   "end": 43.1,
+   "scene": "oldwives"
+  },
+  {
+   "word": "a",
+   "start": 43.14,
+   "end": 43.18,
+   "scene": "oldwives"
+  },
+  {
+   "word": "legend:",
+   "start": 43.26,
+   "end": 44.14,
+   "scene": "oldwives"
+  },
+  {
+   "word": "elderly",
+   "start": 44.22,
+   "end": 44.62,
+   "scene": "oldwives"
+  },
+  {
+   "word": "women",
+   "start": 44.7,
+   "end": 44.94,
+   "scene": "oldwives"
+  },
+  {
+   "word": "who",
+   "start": 45.02,
+   "end": 45.1,
+   "scene": "oldwives"
+  },
+  {
+   "word": "stayed",
+   "start": 45.18,
+   "end": 45.42,
+   "scene": "oldwives"
+  },
+  {
+   "word": "behind,",
+   "start": 45.54,
+   "end": 46.3,
+   "scene": "oldwives"
+  },
+  {
+   "word": "lighting",
+   "start": 46.38,
+   "end": 46.7,
+   "scene": "oldwives"
+  },
+  {
+   "word": "campfires",
+   "start": 46.78,
+   "end": 47.42,
+   "scene": "oldwives"
+  },
+  {
+   "word": "to",
+   "start": 47.46,
+   "end": 47.5,
+   "scene": "oldwives"
+  },
+  {
+   "word": "fool",
+   "start": 47.66,
+   "end": 47.82,
+   "scene": "oldwives"
+  },
+  {
+   "word": "an",
+   "start": 47.9,
+   "end": 47.98,
+   "scene": "oldwives"
+  },
+  {
+   "word": "enemy",
+   "start": 48.14,
+   "end": 48.3,
+   "scene": "oldwives"
+  },
+  {
+   "word": "war",
+   "start": 48.38,
+   "end": 48.54,
+   "scene": "oldwives"
+  },
+  {
+   "word": "party",
+   "start": 48.62,
+   "end": 48.94,
+   "scene": "oldwives"
+  },
+  {
+   "word": "while",
+   "start": 49.02,
+   "end": 49.18,
+   "scene": "oldwives"
+  },
+  {
+   "word": "their",
+   "start": 49.26,
+   "end": 49.34,
+   "scene": "oldwives"
+  },
+  {
+   "word": "people",
+   "start": 49.46,
+   "end": 49.58,
+   "scene": "oldwives"
+  },
+  {
+   "word": "escaped.",
+   "start": 49.86,
+   "end": 50.62,
+   "scene": "oldwives"
+  },
+  {
+   "word": "And",
+   "start": 50.7,
+   "end": 50.78,
+   "scene": "memorial"
+  },
+  {
+   "word": "Saskatchewan",
+   "start": 50.86,
+   "end": 51.66,
+   "scene": "memorial"
+  },
+  {
+   "word": "named",
+   "start": 51.78,
+   "end": 51.9,
+   "scene": "memorial"
+  },
+  {
+   "word": "nearly",
+   "start": 52.033,
+   "end": 52.3,
+   "scene": "memorial"
+  },
+  {
+   "word": "four",
+   "start": 52.38,
+   "end": 52.54,
+   "scene": "memorial"
+  },
+  {
+   "word": "thousand",
+   "start": 52.7,
+   "end": 53.02,
+   "scene": "memorial"
+  },
+  {
+   "word": "lakes,",
+   "start": 53.1,
+   "end": 53.66,
+   "scene": "memorial"
+  },
+  {
+   "word": "islands",
+   "start": 53.78,
+   "end": 54.06,
+   "scene": "memorial"
+  },
+  {
+   "word": "and",
+   "start": 54.1,
+   "end": 54.14,
+   "scene": "memorial"
+  },
+  {
+   "word": "bays",
+   "start": 54.3,
+   "end": 54.7,
+   "scene": "memorial"
+  },
+  {
+   "word": "after",
+   "start": 55.02,
+   "end": 55.26,
+   "scene": "memorial"
+  },
+  {
+   "word": "soldiers",
+   "start": 55.34,
+   "end": 55.82,
+   "scene": "memorial"
+  },
+  {
+   "word": "lost",
+   "start": 55.9,
+   "end": 56.14,
+   "scene": "memorial"
+  },
+  {
+   "word": "in",
+   "start": 56.18,
+   "end": 56.22,
+   "scene": "memorial"
+  },
+  {
+   "word": "World",
+   "start": 56.3,
+   "end": 56.46,
+   "scene": "memorial"
+  },
+  {
+   "word": "War",
+   "start": 56.54,
+   "end": 56.62,
+   "scene": "memorial"
+  },
+  {
+   "word": "Two.",
+   "start": 56.7,
+   "end": 57.58,
+   "scene": "memorial"
+  },
+  {
+   "word": "So",
+   "start": 57.66,
+   "end": 57.74,
+   "scene": "memorial"
+  },
+  {
+   "word": "in",
+   "start": 57.82,
+   "end": 57.98,
+   "scene": "memorial"
+  },
+  {
+   "word": "Canada,",
+   "start": 58.22,
+   "end": 58.7,
+   "scene": "memorial"
+  },
+  {
+   "word": "a",
+   "start": 58.82,
+   "end": 58.94,
+   "scene": "memorial"
+  },
+  {
+   "word": "weird",
+   "start": 58.98,
+   "end": 59.18,
+   "scene": "memorial"
+  },
+  {
+   "word": "lake",
+   "start": 59.26,
+   "end": 59.42,
+   "scene": "memorial"
+  },
+  {
+   "word": "name",
+   "start": 59.5,
+   "end": 59.82,
+   "scene": "memorial"
+  },
+  {
+   "word": "usually",
+   "start": 59.9,
+   "end": 60.22,
+   "scene": "memorial"
+  },
+  {
+   "word": "has",
+   "start": 60.3,
+   "end": 60.38,
+   "scene": "memorial"
+  },
+  {
+   "word": "a",
+   "start": 60.46,
+   "end": 60.5,
+   "scene": "memorial"
+  },
+  {
+   "word": "story.",
+   "start": 60.54,
+   "end": 61.18,
+   "scene": "memorial"
+  }
+ ],
+ "provider": "elevenlabs",
+ "model": "eleven_v4",
+ "sfx": [
+  {
+   "name": "whoosh_deep",
+   "t": 0.0,
+   "gain_db": -2,
+   "scene": "hook",
+   "source": "scene.sfx"
+  },
+  {
+   "name": "paper_slide",
+   "t": 1.82,
+   "gain_db": -6.0,
+   "scene": "hook",
+   "source": "CalloutArrow"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 3.82,
+   "gain_db": -6.0,
+   "scene": "hook",
+   "source": "QuestionMarks"
+  },
+  {
+   "name": "whoosh_deep",
+   "t": 5.06,
+   "gain_db": -4.0,
+   "scene": "count",
+   "source": "transition"
+  },
+  {
+   "name": "chime_reveal",
+   "t": 6.3,
+   "gain_db": -6.0,
+   "scene": "count",
+   "source": "StatBadge"
+  },
+  {
+   "name": "chime_reveal",
+   "t": 9.5,
+   "gain_db": -6.0,
+   "scene": "count",
+   "source": "Label"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 12.26,
+   "gain_db": -6.0,
+   "scene": "count",
+   "source": "QuestionMarks"
+  },
+  {
+   "name": "whoosh_deep",
+   "t": 14.02,
+   "gain_db": -4.0,
+   "scene": "haha",
+   "source": "transition"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 16.4,
+   "gain_db": -6.0,
+   "scene": "haha",
+   "source": "HotspotPin"
+  },
+  {
+   "name": "chime_reveal",
+   "t": 17.58,
+   "gain_db": -6.0,
+   "scene": "haha",
+   "source": "StatBadge"
+  },
+  {
+   "name": "chime_reveal",
+   "t": 19.48,
+   "gain_db": -6.0,
+   "scene": "haha",
+   "source": "StatBadge"
+  },
+  {
+   "name": "whoosh_deep",
+   "t": 22.66,
+   "gain_db": -4.0,
+   "scene": "nameless",
+   "source": "transition"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 23.86,
+   "gain_db": -6.0,
+   "scene": "nameless",
+   "source": "QuestionMarks"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 26.94,
+   "gain_db": -6.0,
+   "scene": "nameless",
+   "source": "HotspotPin"
+  },
+  {
+   "name": "chime_reveal",
+   "t": 28.6,
+   "gain_db": -6.0,
+   "scene": "nameless",
+   "source": "StatBadge"
+  },
+  {
+   "name": "whoosh_deep",
+   "t": 30.5,
+   "gain_db": -4.0,
+   "scene": "longname",
+   "source": "transition"
+  },
+  {
+   "name": "chime_reveal",
+   "t": 33.02,
+   "gain_db": -6.0,
+   "scene": "longname",
+   "source": "StatBadge"
+  },
+  {
+   "name": "chime_reveal",
+   "t": 38.7,
+   "gain_db": -6.0,
+   "scene": "longname",
+   "source": "StatBadge"
+  },
+  {
+   "name": "whoosh_deep",
+   "t": 40.5,
+   "gain_db": -4.0,
+   "scene": "oldwives",
+   "source": "transition"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 42.46,
+   "gain_db": -6.0,
+   "scene": "oldwives",
+   "source": "HotspotPin"
+  },
+  {
+   "name": "chime_reveal",
+   "t": 43.46,
+   "gain_db": -6.0,
+   "scene": "oldwives",
+   "source": "StatBadge"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 47.66,
+   "gain_db": -6.0,
+   "scene": "oldwives",
+   "source": "QuestionMarks"
+  },
+  {
+   "name": "whoosh_deep",
+   "t": 50.58,
+   "gain_db": -4.0,
+   "scene": "memorial",
+   "source": "transition"
+  },
+  {
+   "name": "chime_reveal",
+   "t": 52.033,
+   "gain_db": -6.0,
+   "scene": "memorial",
+   "source": "StatBadge"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 53.78,
+   "gain_db": -6.0,
+   "scene": "memorial",
+   "source": "HotspotPin"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 54.3,
+   "gain_db": -6.0,
+   "scene": "memorial",
+   "source": "HotspotPin"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 55.34,
+   "gain_db": -6.0,
+   "scene": "memorial",
+   "source": "HotspotPin"
+  }
+ ],
+ "audio": {
+  "mix": "assets/audio/mix.wav",
+  "integrated_lufs": -15.0,
+  "true_peak_dbfs": -1.4,
+  "target_lufs": -15
+ }
+}

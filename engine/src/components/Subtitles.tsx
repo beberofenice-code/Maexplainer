@@ -52,7 +52,10 @@ export const Subtitles: React.FC<{ words: Word[]; t: number; W: number; H: numbe
   const s = age < 0.12 ? 0.88 + (age / 0.12) * 0.12 : 1;
   // shrink long chunks so 2–4 words stay on one line (Montserrat 900 ≈ 0.78em per uppercase glyph)
   const chars = c.words.reduce((n, w) => n + w.word.length, 0) + (c.words.length - 1);
-  const fontSize = Math.max(54, Math.min(78, ((W - 140) / (chars * 0.78))));
+  // a single very long word (e.g. a 31-letter Cree place name) may go below 54 px so it never clips
+  const longest = c.words.reduce((n, w) => Math.max(n, w.word.length), 0);
+  const minSize = Math.min(54, (W - 140) / (longest * 0.78));
+  const fontSize = Math.max(minSize, Math.min(78, ((W - 140) / (chars * 0.78))));
   return (
     <div
       style={{

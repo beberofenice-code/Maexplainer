@@ -1,0 +1,787 @@
+[
+ {
+  "word": "Canada",
+  "start": 0.0,
+  "end": 0.44
+ },
+ {
+  "word": "has",
+  "start": 0.48,
+  "end": 0.667
+ },
+ {
+  "word": "the",
+  "start": 0.72,
+  "end": 0.853
+ },
+ {
+  "word": "weirdest",
+  "start": 0.88,
+  "end": 1.44
+ },
+ {
+  "word": "lake",
+  "start": 1.52,
+  "end": 1.68
+ },
+ {
+  "word": "names",
+  "start": 1.76,
+  "end": 2.0
+ },
+ {
+  "word": "on",
+  "start": 2.04,
+  "end": 2.08
+ },
+ {
+  "word": "the",
+  "start": 2.16,
+  "end": 2.24
+ },
+ {
+  "word": "planet,",
+  "start": 2.32,
+  "end": 3.04
+ },
+ {
+  "word": "and",
+  "start": 3.08,
+  "end": 3.12
+ },
+ {
+  "word": "there's",
+  "start": 3.2,
+  "end": 3.36
+ },
+ {
+  "word": "a",
+  "start": 3.4,
+  "end": 3.44
+ },
+ {
+  "word": "reason",
+  "start": 3.52,
+  "end": 3.76
+ },
+ {
+  "word": "why.",
+  "start": 3.84,
+  "end": 4.52
+ },
+ {
+  "word": "Canada",
+  "start": 4.88,
+  "end": 5.28
+ },
+ {
+  "word": "holds",
+  "start": 5.36,
+  "end": 5.52
+ },
+ {
+  "word": "about",
+  "start": 5.6,
+  "end": 5.84
+ },
+ {
+  "word": "sixty-two",
+  "start": 6.0,
+  "end": 6.48
+ },
+ {
+  "word": "percent",
+  "start": 6.56,
+  "end": 6.88
+ },
+ {
+  "word": "of",
+  "start": 6.96,
+  "end": 7.12
+ },
+ {
+  "word": "all",
+  "start": 7.2,
+  "end": 7.28
+ },
+ {
+  "word": "the",
+  "start": 7.36,
+  "end": 7.44
+ },
+ {
+  "word": "lakes",
+  "start": 7.48,
+  "end": 7.68
+ },
+ {
+  "word": "on",
+  "start": 7.76,
+  "end": 7.84
+ },
+ {
+  "word": "Earth.",
+  "start": 7.92,
+  "end": 8.24
+ },
+ {
+  "word": "More",
+  "start": 8.64,
+  "end": 8.8
+ },
+ {
+  "word": "than",
+  "start": 8.88,
+  "end": 8.96
+ },
+ {
+  "word": "the",
+  "start": 9.04,
+  "end": 9.12
+ },
+ {
+  "word": "rest",
+  "start": 9.2,
+  "end": 9.36
+ },
+ {
+  "word": "of",
+  "start": 9.44,
+  "end": 9.48
+ },
+ {
+  "word": "the",
+  "start": 9.52,
+  "end": 9.56
+ },
+ {
+  "word": "world",
+  "start": 9.6,
+  "end": 9.84
+ },
+ {
+  "word": "combined.",
+  "start": 10.16,
+  "end": 10.68
+ },
+ {
+  "word": "And",
+  "start": 10.88,
+  "end": 11.04
+ },
+ {
+  "word": "somebody",
+  "start": 11.2,
+  "end": 11.6
+ },
+ {
+  "word": "had",
+  "start": 11.64,
+  "end": 11.68
+ },
+ {
+  "word": "to",
+  "start": 11.76,
+  "end": 11.84
+ },
+ {
+  "word": "name",
+  "start": 11.96,
+  "end": 12.08
+ },
+ {
+  "word": "every",
+  "start": 12.24,
+  "end": 12.48
+ },
+ {
+  "word": "single",
+  "start": 12.56,
+  "end": 12.8
+ },
+ {
+  "word": "one.",
+  "start": 12.96,
+  "end": 13.52
+ },
+ {
+  "word": "In",
+  "start": 13.84,
+  "end": 14.0
+ },
+ {
+  "word": "Quebec,",
+  "start": 14.08,
+  "end": 14.8
+ },
+ {
+  "word": "there's",
+  "start": 14.88,
+  "end": 15.04
+ },
+ {
+  "word": "Lac",
+  "start": 15.2,
+  "end": 15.44
+ },
+ {
+  "word": "Ha!",
+  "start": 15.52,
+  "end": 15.76
+ },
+ {
+  "word": "Ha!,",
+  "start": 15.84,
+  "end": 16.4
+ },
+ {
+  "word": "spelled",
+  "start": 16.48,
+  "end": 16.8
+ },
+ {
+  "word": "with",
+  "start": 16.88,
+  "end": 16.96
+ },
+ {
+  "word": "two",
+  "start": 17.04,
+  "end": 17.2
+ },
+ {
+  "word": "exclamation",
+  "start": 17.28,
+  "end": 17.84
+ },
+ {
+  "word": "marks.",
+  "start": 17.92,
+  "end": 18.48
+ },
+ {
+  "word": "A",
+  "start": 18.72,
+  "end": 18.8
+ },
+ {
+  "word": "haha",
+  "start": 18.88,
+  "end": 19.44
+ },
+ {
+  "word": "is",
+  "start": 19.52,
+  "end": 19.6
+ },
+ {
+  "word": "an",
+  "start": 19.68,
+  "end": 19.76
+ },
+ {
+  "word": "old",
+  "start": 19.84,
+  "end": 20.0
+ },
+ {
+  "word": "French",
+  "start": 20.08,
+  "end": 20.32
+ },
+ {
+  "word": "word",
+  "start": 20.4,
+  "end": 20.64
+ },
+ {
+  "word": "for",
+  "start": 20.72,
+  "end": 20.8
+ },
+ {
+  "word": "a",
+  "start": 20.84,
+  "end": 20.88
+ },
+ {
+  "word": "sudden",
+  "start": 21.04,
+  "end": 21.28
+ },
+ {
+  "word": "dead",
+  "start": 21.36,
+  "end": 21.52
+ },
+ {
+  "word": "end.",
+  "start": 21.6,
+  "end": 22.16
+ },
+ {
+  "word": "Some",
+  "start": 22.48,
+  "end": 22.72
+ },
+ {
+  "word": "mapmakers",
+  "start": 22.84,
+  "end": 23.28
+ },
+ {
+  "word": "just",
+  "start": 23.36,
+  "end": 23.52
+ },
+ {
+  "word": "gave",
+  "start": 23.56,
+  "end": 23.76
+ },
+ {
+  "word": "up.",
+  "start": 23.84,
+  "end": 24.08
+ },
+ {
+  "word": "Quebec",
+  "start": 24.48,
+  "end": 24.88
+ },
+ {
+  "word": "has",
+  "start": 25.0,
+  "end": 25.12
+ },
+ {
+  "word": "several",
+  "start": 25.2,
+  "end": 25.44
+ },
+ {
+  "word": "lakes",
+  "start": 25.52,
+  "end": 25.76
+ },
+ {
+  "word": "called",
+  "start": 25.84,
+  "end": 26.08
+ },
+ {
+  "word": "Lac",
+  "start": 26.32,
+  "end": 26.56
+ },
+ {
+  "word": "Pas",
+  "start": 26.64,
+  "end": 26.8
+ },
+ {
+  "word": "de",
+  "start": 26.88,
+  "end": 26.96
+ },
+ {
+  "word": "Nom,",
+  "start": 27.12,
+  "end": 27.68
+ },
+ {
+  "word": "which",
+  "start": 27.8,
+  "end": 27.92
+ },
+ {
+  "word": "literally",
+  "start": 28.0,
+  "end": 28.32
+ },
+ {
+  "word": "means",
+  "start": 28.4,
+  "end": 28.72
+ },
+ {
+  "word": "Lake",
+  "start": 28.96,
+  "end": 29.2
+ },
+ {
+  "word": "No",
+  "start": 29.28,
+  "end": 29.36
+ },
+ {
+  "word": "Name.",
+  "start": 29.44,
+  "end": 29.76
+ },
+ {
+  "word": "Up",
+  "start": 30.32,
+  "end": 30.48
+ },
+ {
+  "word": "in",
+  "start": 30.52,
+  "end": 30.56
+ },
+ {
+  "word": "Manitoba,",
+  "start": 30.64,
+  "end": 31.6
+ },
+ {
+  "word": "one",
+  "start": 31.68,
+  "end": 31.84
+ },
+ {
+  "word": "lake",
+  "start": 31.92,
+  "end": 32.08
+ },
+ {
+  "word": "carries",
+  "start": 32.16,
+  "end": 32.48
+ },
+ {
+  "word": "a",
+  "start": 32.56,
+  "end": 32.64
+ },
+ {
+  "word": "thirty-one",
+  "start": 32.72,
+  "end": 33.12
+ },
+ {
+  "word": "letter",
+  "start": 33.2,
+  "end": 33.44
+ },
+ {
+  "word": "Cree",
+  "start": 33.52,
+  "end": 33.76
+ },
+ {
+  "word": "name:",
+  "start": 33.88,
+  "end": 34.48
+ },
+ {
+  "word": "Pekwachnamaykoskwaskwaypinwanik.",
+  "start": 34.56,
+  "end": 36.88
+ },
+ {
+  "word": "Roughly,",
+  "start": 37.36,
+  "end": 37.84
+ },
+ {
+  "word": "where",
+  "start": 38.16,
+  "end": 38.32
+ },
+ {
+  "word": "trout",
+  "start": 38.4,
+  "end": 38.72
+ },
+ {
+  "word": "are",
+  "start": 38.8,
+  "end": 38.96
+ },
+ {
+  "word": "caught",
+  "start": 39.08,
+  "end": 39.2
+ },
+ {
+  "word": "with",
+  "start": 39.28,
+  "end": 39.36
+ },
+ {
+  "word": "hooks.",
+  "start": 39.56,
+  "end": 39.84
+ },
+ {
+  "word": "In",
+  "start": 40.32,
+  "end": 40.4
+ },
+ {
+  "word": "Saskatchewan,",
+  "start": 40.48,
+  "end": 41.52
+ },
+ {
+  "word": "Old",
+  "start": 41.64,
+  "end": 41.76
+ },
+ {
+  "word": "Wives",
+  "start": 41.84,
+  "end": 42.08
+ },
+ {
+  "word": "Lake",
+  "start": 42.16,
+  "end": 42.4
+ },
+ {
+  "word": "comes",
+  "start": 42.48,
+  "end": 42.64
+ },
+ {
+  "word": "from",
+  "start": 42.72,
+  "end": 42.8
+ },
+ {
+  "word": "a",
+  "start": 42.84,
+  "end": 42.88
+ },
+ {
+  "word": "legend:",
+  "start": 42.96,
+  "end": 43.84
+ },
+ {
+  "word": "elderly",
+  "start": 43.92,
+  "end": 44.32
+ },
+ {
+  "word": "women",
+  "start": 44.4,
+  "end": 44.64
+ },
+ {
+  "word": "who",
+  "start": 44.72,
+  "end": 44.8
+ },
+ {
+  "word": "stayed",
+  "start": 44.88,
+  "end": 45.12
+ },
+ {
+  "word": "behind,",
+  "start": 45.24,
+  "end": 46.0
+ },
+ {
+  "word": "lighting",
+  "start": 46.08,
+  "end": 46.4
+ },
+ {
+  "word": "campfires",
+  "start": 46.48,
+  "end": 47.12
+ },
+ {
+  "word": "to",
+  "start": 47.16,
+  "end": 47.2
+ },
+ {
+  "word": "fool",
+  "start": 47.36,
+  "end": 47.52
+ },
+ {
+  "word": "an",
+  "start": 47.6,
+  "end": 47.68
+ },
+ {
+  "word": "enemy",
+  "start": 47.84,
+  "end": 48.0
+ },
+ {
+  "word": "war",
+  "start": 48.08,
+  "end": 48.24
+ },
+ {
+  "word": "party",
+  "start": 48.32,
+  "end": 48.64
+ },
+ {
+  "word": "while",
+  "start": 48.72,
+  "end": 48.88
+ },
+ {
+  "word": "their",
+  "start": 48.96,
+  "end": 49.04
+ },
+ {
+  "word": "people",
+  "start": 49.16,
+  "end": 49.28
+ },
+ {
+  "word": "escaped.",
+  "start": 49.56,
+  "end": 50.32
+ },
+ {
+  "word": "And",
+  "start": 50.4,
+  "end": 50.48
+ },
+ {
+  "word": "Saskatchewan",
+  "start": 50.56,
+  "end": 51.36
+ },
+ {
+  "word": "named",
+  "start": 51.48,
+  "end": 51.6
+ },
+ {
+  "word": "nearly",
+  "start": 51.733,
+  "end": 52.0
+ },
+ {
+  "word": "four",
+  "start": 52.08,
+  "end": 52.24
+ },
+ {
+  "word": "thousand",
+  "start": 52.4,
+  "end": 52.72
+ },
+ {
+  "word": "lakes,",
+  "start": 52.8,
+  "end": 53.36
+ },
+ {
+  "word": "islands",
+  "start": 53.48,
+  "end": 53.76
+ },
+ {
+  "word": "and",
+  "start": 53.8,
+  "end": 53.84
+ },
+ {
+  "word": "bays",
+  "start": 54.0,
+  "end": 54.4
+ },
+ {
+  "word": "after",
+  "start": 54.72,
+  "end": 54.96
+ },
+ {
+  "word": "soldiers",
+  "start": 55.04,
+  "end": 55.52
+ },
+ {
+  "word": "lost",
+  "start": 55.6,
+  "end": 55.84
+ },
+ {
+  "word": "in",
+  "start": 55.88,
+  "end": 55.92
+ },
+ {
+  "word": "World",
+  "start": 56.0,
+  "end": 56.16
+ },
+ {
+  "word": "War",
+  "start": 56.24,
+  "end": 56.32
+ },
+ {
+  "word": "Two.",
+  "start": 56.4,
+  "end": 57.28
+ },
+ {
+  "word": "So",
+  "start": 57.36,
+  "end": 57.44
+ },
+ {
+  "word": "in",
+  "start": 57.52,
+  "end": 57.68
+ },
+ {
+  "word": "Canada,",
+  "start": 57.92,
+  "end": 58.4
+ },
+ {
+  "word": "a",
+  "start": 58.52,
+  "end": 58.64
+ },
+ {
+  "word": "weird",
+  "start": 58.68,
+  "end": 58.88
+ },
+ {
+  "word": "lake",
+  "start": 58.96,
+  "end": 59.12
+ },
+ {
+  "word": "name",
+  "start": 59.2,
+  "end": 59.52
+ },
+ {
+  "word": "usually",
+  "start": 59.6,
+  "end": 59.92
+ },
+ {
+  "word": "has",
+  "start": 60.0,
+  "end": 60.08
+ },
+ {
+  "word": "a",
+  "start": 60.16,
+  "end": 60.2
+ },
+ {
+  "word": "story.",
+  "start": 60.24,
+  "end": 60.88
+ }
+]
