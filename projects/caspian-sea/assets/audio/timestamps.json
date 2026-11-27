@@ -1,0 +1,1005 @@
+{
+ "fps": 30,
+ "total_s": 55.052,
+ "continuous": true,
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 5.3,
+   "vo_start": 0.3,
+   "vo_end": 5.18
+  },
+  {
+   "id": "lake",
+   "start": 5.3,
+   "end": 13.46,
+   "vo_start": 5.42,
+   "vo_end": 13.42
+  },
+  {
+   "id": "neighbors",
+   "start": 13.46,
+   "end": 21.06,
+   "vo_start": 13.58,
+   "vo_end": 21.1
+  },
+  {
+   "id": "oil",
+   "start": 21.06,
+   "end": 31.06,
+   "vo_start": 21.18,
+   "vo_end": 31.1
+  },
+  {
+   "id": "rules",
+   "start": 31.06,
+   "end": 43.38,
+   "vo_start": 31.18,
+   "vo_end": 43.46
+  },
+  {
+   "id": "deal",
+   "start": 43.38,
+   "end": 55.052,
+   "vo_start": 43.5,
+   "vo_end": 53.98
+  }
+ ],
+ "words": [
+  {
+   "word": "This",
+   "start": 0.3,
+   "end": 0.62,
+   "scene": "hook"
+  },
+  {
+   "word": "is",
+   "start": 0.78,
+   "end": 0.86,
+   "scene": "hook"
+  },
+  {
+   "word": "the",
+   "start": 0.94,
+   "end": 1.02,
+   "scene": "hook"
+  },
+  {
+   "word": "Caspian",
+   "start": 1.1,
+   "end": 1.58,
+   "scene": "hook"
+  },
+  {
+   "word": "Sea,",
+   "start": 1.74,
+   "end": 2.46,
+   "scene": "hook"
+  },
+  {
+   "word": "and",
+   "start": 2.54,
+   "end": 2.62,
+   "scene": "hook"
+  },
+  {
+   "word": "its",
+   "start": 2.7,
+   "end": 2.78,
+   "scene": "hook"
+  },
+  {
+   "word": "name",
+   "start": 2.94,
+   "end": 3.18,
+   "scene": "hook"
+  },
+  {
+   "word": "might",
+   "start": 3.26,
+   "end": 3.42,
+   "scene": "hook"
+  },
+  {
+   "word": "be",
+   "start": 3.46,
+   "end": 3.5,
+   "scene": "hook"
+  },
+  {
+   "word": "the",
+   "start": 3.58,
+   "end": 3.74,
+   "scene": "hook"
+  },
+  {
+   "word": "biggest",
+   "start": 3.82,
+   "end": 4.14,
+   "scene": "hook"
+  },
+  {
+   "word": "lie",
+   "start": 4.26,
+   "end": 4.38,
+   "scene": "hook"
+  },
+  {
+   "word": "on",
+   "start": 4.42,
+   "end": 4.46,
+   "scene": "hook"
+  },
+  {
+   "word": "the",
+   "start": 4.5,
+   "end": 4.54,
+   "scene": "hook"
+  },
+  {
+   "word": "map.",
+   "start": 4.62,
+   "end": 5.18,
+   "scene": "hook"
+  },
+  {
+   "word": "It",
+   "start": 5.42,
+   "end": 5.58,
+   "scene": "lake"
+  },
+  {
+   "word": "has",
+   "start": 5.66,
+   "end": 5.9,
+   "scene": "lake"
+  },
+  {
+   "word": "no",
+   "start": 5.98,
+   "end": 6.06,
+   "scene": "lake"
+  },
+  {
+   "word": "connection",
+   "start": 6.14,
+   "end": 6.62,
+   "scene": "lake"
+  },
+  {
+   "word": "to",
+   "start": 6.74,
+   "end": 6.86,
+   "scene": "lake"
+  },
+  {
+   "word": "any",
+   "start": 6.94,
+   "end": 7.1,
+   "scene": "lake"
+  },
+  {
+   "word": "ocean,",
+   "start": 7.18,
+   "end": 7.9,
+   "scene": "lake"
+  },
+  {
+   "word": "which",
+   "start": 8.06,
+   "end": 8.22,
+   "scene": "lake"
+  },
+  {
+   "word": "technically",
+   "start": 8.34,
+   "end": 8.78,
+   "scene": "lake"
+  },
+  {
+   "word": "makes",
+   "start": 8.9,
+   "end": 9.02,
+   "scene": "lake"
+  },
+  {
+   "word": "it",
+   "start": 9.06,
+   "end": 9.1,
+   "scene": "lake"
+  },
+  {
+   "word": "the",
+   "start": 9.18,
+   "end": 9.34,
+   "scene": "lake"
+  },
+  {
+   "word": "largest",
+   "start": 9.46,
+   "end": 9.74,
+   "scene": "lake"
+  },
+  {
+   "word": "lake",
+   "start": 9.82,
+   "end": 9.9,
+   "scene": "lake"
+  },
+  {
+   "word": "on",
+   "start": 9.98,
+   "end": 10.06,
+   "scene": "lake"
+  },
+  {
+   "word": "Earth,",
+   "start": 10.14,
+   "end": 10.78,
+   "scene": "lake"
+  },
+  {
+   "word": "almost",
+   "start": 10.86,
+   "end": 11.26,
+   "scene": "lake"
+  },
+  {
+   "word": "exactly",
+   "start": 11.42,
+   "end": 11.9,
+   "scene": "lake"
+  },
+  {
+   "word": "the",
+   "start": 11.94,
+   "end": 11.98,
+   "scene": "lake"
+  },
+  {
+   "word": "size",
+   "start": 12.06,
+   "end": 12.22,
+   "scene": "lake"
+  },
+  {
+   "word": "of",
+   "start": 12.3,
+   "end": 12.38,
+   "scene": "lake"
+  },
+  {
+   "word": "Germany.",
+   "start": 12.46,
+   "end": 13.42,
+   "scene": "lake"
+  },
+  {
+   "word": "Five",
+   "start": 13.58,
+   "end": 13.82,
+   "scene": "neighbors"
+  },
+  {
+   "word": "countries",
+   "start": 13.9,
+   "end": 14.38,
+   "scene": "neighbors"
+  },
+  {
+   "word": "share",
+   "start": 14.46,
+   "end": 14.54,
+   "scene": "neighbors"
+  },
+  {
+   "word": "its",
+   "start": 14.62,
+   "end": 14.7,
+   "scene": "neighbors"
+  },
+  {
+   "word": "shores:",
+   "start": 14.78,
+   "end": 15.66,
+   "scene": "neighbors"
+  },
+  {
+   "word": "Russia,",
+   "start": 15.86,
+   "end": 16.38,
+   "scene": "neighbors"
+  },
+  {
+   "word": "Kazakhstan,",
+   "start": 16.46,
+   "end": 17.5,
+   "scene": "neighbors"
+  },
+  {
+   "word": "Turkmenistan,",
+   "start": 17.58,
+   "end": 18.7,
+   "scene": "neighbors"
+  },
+  {
+   "word": "Iran,",
+   "start": 18.78,
+   "end": 19.58,
+   "scene": "neighbors"
+  },
+  {
+   "word": "and",
+   "start": 19.66,
+   "end": 19.74,
+   "scene": "neighbors"
+  },
+  {
+   "word": "Azerbaijan.",
+   "start": 19.82,
+   "end": 21.1,
+   "scene": "neighbors"
+  },
+  {
+   "word": "And",
+   "start": 21.18,
+   "end": 21.26,
+   "scene": "oil"
+  },
+  {
+   "word": "beneath",
+   "start": 21.34,
+   "end": 21.58,
+   "scene": "oil"
+  },
+  {
+   "word": "its",
+   "start": 21.66,
+   "end": 21.82,
+   "scene": "oil"
+  },
+  {
+   "word": "floor",
+   "start": 21.9,
+   "end": 22.22,
+   "scene": "oil"
+  },
+  {
+   "word": "lie",
+   "start": 22.3,
+   "end": 22.54,
+   "scene": "oil"
+  },
+  {
+   "word": "almost",
+   "start": 22.7,
+   "end": 22.86,
+   "scene": "oil"
+  },
+  {
+   "word": "fifty",
+   "start": 23.02,
+   "end": 23.34,
+   "scene": "oil"
+  },
+  {
+   "word": "billion",
+   "start": 23.58,
+   "end": 23.9,
+   "scene": "oil"
+  },
+  {
+   "word": "barrels",
+   "start": 23.98,
+   "end": 24.22,
+   "scene": "oil"
+  },
+  {
+   "word": "of",
+   "start": 24.3,
+   "end": 24.38,
+   "scene": "oil"
+  },
+  {
+   "word": "oil.",
+   "start": 24.46,
+   "end": 25.34,
+   "scene": "oil"
+  },
+  {
+   "word": "Off",
+   "start": 25.42,
+   "end": 25.58,
+   "scene": "oil"
+  },
+  {
+   "word": "the",
+   "start": 25.66,
+   "end": 25.74,
+   "scene": "oil"
+  },
+  {
+   "word": "coast",
+   "start": 25.78,
+   "end": 25.98,
+   "scene": "oil"
+  },
+  {
+   "word": "of",
+   "start": 26.06,
+   "end": 26.14,
+   "scene": "oil"
+  },
+  {
+   "word": "Azerbaijan,",
+   "start": 26.18,
+   "end": 27.26,
+   "scene": "oil"
+  },
+  {
+   "word": "there's",
+   "start": 27.3,
+   "end": 27.42,
+   "scene": "oil"
+  },
+  {
+   "word": "even",
+   "start": 27.5,
+   "end": 27.66,
+   "scene": "oil"
+  },
+  {
+   "word": "a",
+   "start": 27.74,
+   "end": 27.82,
+   "scene": "oil"
+  },
+  {
+   "word": "whole",
+   "start": 27.94,
+   "end": 28.06,
+   "scene": "oil"
+  },
+  {
+   "word": "town",
+   "start": 28.14,
+   "end": 28.46,
+   "scene": "oil"
+  },
+  {
+   "word": "built",
+   "start": 28.54,
+   "end": 28.7,
+   "scene": "oil"
+  },
+  {
+   "word": "on",
+   "start": 28.78,
+   "end": 28.94,
+   "scene": "oil"
+  },
+  {
+   "word": "stilts,",
+   "start": 29.02,
+   "end": 29.66,
+   "scene": "oil"
+  },
+  {
+   "word": "far",
+   "start": 29.74,
+   "end": 29.9,
+   "scene": "oil"
+  },
+  {
+   "word": "out",
+   "start": 29.98,
+   "end": 30.06,
+   "scene": "oil"
+  },
+  {
+   "word": "at",
+   "start": 30.14,
+   "end": 30.22,
+   "scene": "oil"
+  },
+  {
+   "word": "sea.",
+   "start": 30.3,
+   "end": 31.1,
+   "scene": "oil"
+  },
+  {
+   "word": "So",
+   "start": 31.18,
+   "end": 31.26,
+   "scene": "rules"
+  },
+  {
+   "word": "the",
+   "start": 31.3,
+   "end": 31.34,
+   "scene": "rules"
+  },
+  {
+   "word": "name",
+   "start": 31.42,
+   "end": 31.66,
+   "scene": "rules"
+  },
+  {
+   "word": "matters.",
+   "start": 31.7,
+   "end": 32.54,
+   "scene": "rules"
+  },
+  {
+   "word": "If",
+   "start": 32.62,
+   "end": 32.7,
+   "scene": "rules"
+  },
+  {
+   "word": "it's",
+   "start": 32.74,
+   "end": 32.86,
+   "scene": "rules"
+  },
+  {
+   "word": "a",
+   "start": 32.94,
+   "end": 33.02,
+   "scene": "rules"
+  },
+  {
+   "word": "sea,",
+   "start": 33.1,
+   "end": 33.82,
+   "scene": "rules"
+  },
+  {
+   "word": "each",
+   "start": 33.9,
+   "end": 34.06,
+   "scene": "rules"
+  },
+  {
+   "word": "country",
+   "start": 34.14,
+   "end": 34.54,
+   "scene": "rules"
+  },
+  {
+   "word": "owns",
+   "start": 34.62,
+   "end": 34.78,
+   "scene": "rules"
+  },
+  {
+   "word": "the",
+   "start": 34.86,
+   "end": 34.94,
+   "scene": "rules"
+  },
+  {
+   "word": "water",
+   "start": 35.02,
+   "end": 35.26,
+   "scene": "rules"
+  },
+  {
+   "word": "off",
+   "start": 35.34,
+   "end": 35.42,
+   "scene": "rules"
+  },
+  {
+   "word": "its",
+   "start": 35.5,
+   "end": 35.58,
+   "scene": "rules"
+  },
+  {
+   "word": "own",
+   "start": 35.7,
+   "end": 35.82,
+   "scene": "rules"
+  },
+  {
+   "word": "coast,",
+   "start": 35.9,
+   "end": 36.62,
+   "scene": "rules"
+  },
+  {
+   "word": "and",
+   "start": 36.7,
+   "end": 36.78,
+   "scene": "rules"
+  },
+  {
+   "word": "Iran",
+   "start": 37.02,
+   "end": 37.26,
+   "scene": "rules"
+  },
+  {
+   "word": "gets",
+   "start": 37.38,
+   "end": 37.5,
+   "scene": "rules"
+  },
+  {
+   "word": "only",
+   "start": 37.58,
+   "end": 37.74,
+   "scene": "rules"
+  },
+  {
+   "word": "about",
+   "start": 37.9,
+   "end": 38.06,
+   "scene": "rules"
+  },
+  {
+   "word": "thirteen",
+   "start": 38.1,
+   "end": 38.38,
+   "scene": "rules"
+  },
+  {
+   "word": "percent.",
+   "start": 38.46,
+   "end": 39.5,
+   "scene": "rules"
+  },
+  {
+   "word": "If",
+   "start": 39.58,
+   "end": 39.66,
+   "scene": "rules"
+  },
+  {
+   "word": "it's",
+   "start": 39.7,
+   "end": 39.82,
+   "scene": "rules"
+  },
+  {
+   "word": "a",
+   "start": 39.9,
+   "end": 39.94,
+   "scene": "rules"
+  },
+  {
+   "word": "lake,",
+   "start": 39.98,
+   "end": 40.58,
+   "scene": "rules"
+  },
+  {
+   "word": "it's",
+   "start": 40.62,
+   "end": 40.7,
+   "scene": "rules"
+  },
+  {
+   "word": "split",
+   "start": 40.78,
+   "end": 41.02,
+   "scene": "rules"
+  },
+  {
+   "word": "equally,",
+   "start": 41.18,
+   "end": 41.86,
+   "scene": "rules"
+  },
+  {
+   "word": "twenty",
+   "start": 41.9,
+   "end": 42.06,
+   "scene": "rules"
+  },
+  {
+   "word": "percent",
+   "start": 42.14,
+   "end": 42.46,
+   "scene": "rules"
+  },
+  {
+   "word": "each.",
+   "start": 42.54,
+   "end": 43.46,
+   "scene": "rules"
+  },
+  {
+   "word": "After",
+   "start": 43.5,
+   "end": 43.82,
+   "scene": "deal"
+  },
+  {
+   "word": "more",
+   "start": 43.9,
+   "end": 43.98,
+   "scene": "deal"
+  },
+  {
+   "word": "than",
+   "start": 44.1,
+   "end": 44.22,
+   "scene": "deal"
+  },
+  {
+   "word": "twenty",
+   "start": 44.38,
+   "end": 44.54,
+   "scene": "deal"
+  },
+  {
+   "word": "years",
+   "start": 44.66,
+   "end": 44.78,
+   "scene": "deal"
+  },
+  {
+   "word": "of",
+   "start": 44.82,
+   "end": 44.86,
+   "scene": "deal"
+  },
+  {
+   "word": "arguing,",
+   "start": 44.94,
+   "end": 45.78,
+   "scene": "deal"
+  },
+  {
+   "word": "all",
+   "start": 45.82,
+   "end": 46.06,
+   "scene": "deal"
+  },
+  {
+   "word": "five",
+   "start": 46.14,
+   "end": 46.46,
+   "scene": "deal"
+  },
+  {
+   "word": "signed",
+   "start": 46.54,
+   "end": 46.7,
+   "scene": "deal"
+  },
+  {
+   "word": "a",
+   "start": 46.78,
+   "end": 46.86,
+   "scene": "deal"
+  },
+  {
+   "word": "deal",
+   "start": 46.98,
+   "end": 47.1,
+   "scene": "deal"
+  },
+  {
+   "word": "in",
+   "start": 47.18,
+   "end": 47.26,
+   "scene": "deal"
+  },
+  {
+   "word": "Aktau",
+   "start": 47.34,
+   "end": 47.74,
+   "scene": "deal"
+  },
+  {
+   "word": "in",
+   "start": 47.82,
+   "end": 47.9,
+   "scene": "deal"
+  },
+  {
+   "word": "twenty",
+   "start": 48.02,
+   "end": 48.14,
+   "scene": "deal"
+  },
+  {
+   "word": "eighteen,",
+   "start": 48.22,
+   "end": 49.14,
+   "scene": "deal"
+  },
+  {
+   "word": "declaring",
+   "start": 49.18,
+   "end": 49.58,
+   "scene": "deal"
+  },
+  {
+   "word": "the",
+   "start": 49.66,
+   "end": 49.74,
+   "scene": "deal"
+  },
+  {
+   "word": "Caspian",
+   "start": 49.82,
+   "end": 50.38,
+   "scene": "deal"
+  },
+  {
+   "word": "neither",
+   "start": 50.42,
+   "end": 50.7,
+   "scene": "deal"
+  },
+  {
+   "word": "a",
+   "start": 50.78,
+   "end": 50.86,
+   "scene": "deal"
+  },
+  {
+   "word": "sea",
+   "start": 50.94,
+   "end": 51.42,
+   "scene": "deal"
+  },
+  {
+   "word": "nor",
+   "start": 51.5,
+   "end": 51.58,
+   "scene": "deal"
+  },
+  {
+   "word": "a",
+   "start": 51.62,
+   "end": 51.66,
+   "scene": "deal"
+  },
+  {
+   "word": "lake.",
+   "start": 51.74,
+   "end": 52.5,
+   "scene": "deal"
+  },
+  {
+   "word": "It's",
+   "start": 52.54,
+   "end": 52.78,
+   "scene": "deal"
+  },
+  {
+   "word": "just",
+   "start": 52.86,
+   "end": 53.02,
+   "scene": "deal"
+  },
+  {
+   "word": "the",
+   "start": 53.1,
+   "end": 53.18,
+   "scene": "deal"
+  },
+  {
+   "word": "Caspian.",
+   "start": 53.26,
+   "end": 53.98,
+   "scene": "deal"
+  }
+ ],
+ "provider": "elevenlabs",
+ "model": "eleven_v4",
+ "sfx": [
+  {
+   "name": "whoosh_deep",
+   "t": 0.0,
+   "gain_db": -2,
+   "scene": "hook",
+   "source": "scene.sfx"
+  },
+  {
+   "name": "paper_slide",
+   "t": 2.94,
+   "gain_db": -6.0,
+   "scene": "hook",
+   "source": "CalloutArrow"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 4.26,
+   "gain_db": -6.0,
+   "scene": "hook",
+   "source": "QuestionMarks"
+  },
+  {
+   "name": "whoosh_deep",
+   "t": 5.3,
+   "gain_db": -4.0,
+   "scene": "lake",
+   "source": "transition"
+  },
+  {
+   "name": "paper_slide",
+   "t": 12.06,
+   "gain_db": -6.0,
+   "scene": "lake",
+   "source": "TrueScaleCityCompare"
+  },
+  {
+   "name": "whoosh_deep",
+   "t": 13.46,
+   "gain_db": -4.0,
+   "scene": "neighbors",
+   "source": "transition"
+  },
+  {
+   "name": "whoosh_deep",
+   "t": 21.06,
+   "gain_db": -4.0,
+   "scene": "oil",
+   "source": "transition"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 27.94,
+   "gain_db": -6.0,
+   "scene": "oil",
+   "source": "HotspotPin"
+  },
+  {
+   "name": "paper_slide",
+   "t": 29.74,
+   "gain_db": -6.0,
+   "scene": "oil",
+   "source": "DistanceRuler"
+  },
+  {
+   "name": "whoosh_deep",
+   "t": 31.06,
+   "gain_db": -4.0,
+   "scene": "rules",
+   "source": "transition"
+  },
+  {
+   "name": "paper_slide",
+   "t": 35.9,
+   "gain_db": -6.0,
+   "scene": "rules",
+   "source": "CalloutArrow"
+  },
+  {
+   "name": "whoosh_deep",
+   "t": 43.38,
+   "gain_db": -4.0,
+   "scene": "deal",
+   "source": "transition"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 47.34,
+   "gain_db": -6.0,
+   "scene": "deal",
+   "source": "HotspotPin"
+  },
+  {
+   "name": "pop_marimba",
+   "t": 51.74,
+   "gain_db": -6.0,
+   "scene": "deal",
+   "source": "QuestionMarks"
+  }
+ ],
+ "audio": {
+  "mix": "assets/audio/mix.wav",
+  "integrated_lufs": -15.0,
+  "true_peak_dbfs": -1.5,
+  "target_lufs": -15
+ }
+}

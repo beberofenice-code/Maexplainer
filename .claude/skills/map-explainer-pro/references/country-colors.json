@@ -19,7 +19,13 @@
     "portugal": { "name": "Portugal",       "adm0_a3": "PRT", "fill": "#2E8B57", "tint": "rgba(46, 139, 87, 0.55)",   "border": "#FFFFFF", "glow": "rgba(120, 220, 160, 0.90)" },
     "andorra":  { "name": "Andorra",        "adm0_a3": "AND", "fill": "#28B446", "tint": "rgba(40, 180, 70, 0.55)",   "border": "#FFFFFF", "glow": "rgba(130, 240, 150, 0.90)" },
     "uk":       { "name": "United Kingdom", "adm0_a3": "GBR", "fill": "#C92A2A", "tint": "rgba(201, 42, 42, 0.55)",   "border": "#FFFFFF", "glow": "rgba(255, 120, 120, 0.90)" },
-    "morocco":  { "name": "Morocco",        "adm0_a3": "MAR", "fill": "#2AD4C0", "tint": "rgba(42, 212, 192, 0.55)",  "border": "#FFFFFF", "glow": "rgba(140, 255, 240, 0.90)" }
+    "morocco":  { "name": "Morocco",        "adm0_a3": "MAR", "fill": "#2AD4C0", "tint": "rgba(42, 212, 192, 0.55)",  "border": "#FFFFFF", "glow": "rgba(140, 255, 240, 0.90)" },
+    "russia":   { "name": "Russia",          "adm0_a3": "RUS", "fill": "#8E44C9", "tint": "rgba(142, 68, 201, 0.55)", "border": "#FFFFFF", "glow": "rgba(204, 170, 230, 0.90)" },
+    "kazakhstan":{ "name": "Kazakhstan",      "adm0_a3": "KAZ", "fill": "#D4A017", "tint": "rgba(212, 160, 23, 0.55)", "border": "#FFFFFF", "glow": "rgba(235, 212, 150, 0.90)" },
+    "turkmenistan":{ "name": "Turkmenistan",    "adm0_a3": "TKM", "fill": "#2E9E5B", "tint": "rgba(46, 158, 91, 0.55)", "border": "#FFFFFF", "glow": "rgba(160, 211, 181, 0.90)" },
+    "iran":     { "name": "Iran",            "adm0_a3": "IRN", "fill": "#D9465F", "tint": "rgba(217, 70, 95, 0.55)", "border": "#FFFFFF", "glow": "rgba(237, 171, 183, 0.90)" },
+    "azerbaijan":{ "name": "Azerbaijan",      "adm0_a3": "AZE", "fill": "#3E8EDE", "tint": "rgba(62, 142, 222, 0.55)", "border": "#FFFFFF", "glow": "rgba(168, 204, 240, 0.90)" },
+    "germany":  { "name": "Germany",         "adm0_a3": "DEU", "fill": "#F06CA8", "tint": "rgba(240, 108, 168, 0.55)", "border": "#FFFFFF", "glow": "rgba(248, 188, 215, 0.90)" }
   },
   "territories": {
     "llivia":         { "name": "Llívia",                     "parent": "spain", "type": "enclave" },
@@ -30,7 +36,8 @@
   },
   "overlays": {
     "nyc_size_overlay": { "name": "NYC true-scale overlay", "fill": "#2A9BB0", "tint": "rgba(42, 155, 176, 0.55)", "border": "#FFFFFF", "glow": "rgba(120, 220, 240, 0.90)" },
-    "highlight":        { "name": "Highlight yellow",       "fill": "#FFE600", "tint": "rgba(255, 230, 0, 0.55)",  "border": "#FFE600", "glow": "rgba(255, 230, 0, 0.90)" }
+    "highlight":        { "name": "Highlight yellow",       "fill": "#FFE600", "tint": "rgba(255, 230, 0, 0.55)",  "border": "#FFE600", "glow": "rgba(255, 230, 0, 0.90)" },
+    "caspian_water":    { "name": "Caspian water body",     "fill": "#19C3E6", "tint": "rgba(25, 195, 230, 0.55)", "border": "#FFFFFF", "glow": "rgba(130, 235, 255, 0.90)" }
   },
   "sovereign_codes": {
     "ESP": "spain",
@@ -40,7 +47,7 @@
     "AND": "andorra",
     "GB1": "uk",
     "GBR": "uk",
-    "MAR": "morocco"
+    "MAR": "morocco", "RUS": "russia", "KAZ": "kazakhstan", "TKM": "turkmenistan", "IRN": "iran", "AZE": "azerbaijan", "DEU": "germany"
   },
   "adm0_overrides": {
     "GIB": "gibraltar"
