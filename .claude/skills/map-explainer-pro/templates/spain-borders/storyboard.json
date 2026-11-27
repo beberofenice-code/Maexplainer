@@ -11,12 +11,13 @@
     "voice": {
       "provider": "auto",
       "elevenlabs_voice": "Brian",
-      "elevenlabs_model": "eleven_multilingual_v2",
-      "stability": 0.42,
+      "elevenlabs_model": "eleven_v4",
+      "stability": 0.5,
       "similarity_boost": 0.8,
       "style": 0.3,
       "edge_voice": "en-US-AndrewNeural",
-      "edge_rate": "+6%"
+      "edge_rate": "+6%",
+      "continuous": true
     },
     "music": {
       "enabled": false,
@@ -785,19 +786,19 @@
           "value": 468,
           "suffix": " km²",
           "label": "Andorra",
-          "until_word": "New"
+          "until_word": "smaller"
         },
         {
           "type": "TrueScaleCityCompare",
           "feature": "nyc",
           "target_feature": "andorra",
-          "at_word": "New",
+          "at_word": "smaller",
           "color": "nyc_size_overlay"
         },
         {
           "type": "StatBadge",
-          "at_word": "City",
-          "offset": 0.2,
+          "at_word": "New",
+          "offset": 0.1,
           "at_pct": [
             50,
             20

@@ -133,6 +133,11 @@ def main():
                 continue
             if not (clock.at(layer) + 0.5 <= tl <= clock.until(layer)):
                 continue
+            covered = [e for e in sc.get("elements", []) if e.get("type") in ("TrueScaleCityCompare", "ShiftingBorderSpline")
+                       and layer["feature"] in (e.get("target_feature"), e.get("feature")) and clock.at(e) <= tl <= clock.until(e)]
+            if covered:
+                check(f"color {sc['id']}/{layer['feature']}", True, f"skipped: intentionally covered by {covered[0]['type']}")
+                continue
             style = layer.get("style", "hatch" if mode == "dark_cutaway" else "tint")
             if style not in ("hatch", "flat", "tint", "highlight"):
                 continue

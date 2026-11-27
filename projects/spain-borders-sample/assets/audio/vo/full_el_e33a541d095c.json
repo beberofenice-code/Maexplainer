@@ -1,0 +1,502 @@
+[
+ {
+  "word": "This",
+  "start": 0.0,
+  "end": 0.24
+ },
+ {
+  "word": "is",
+  "start": 0.32,
+  "end": 0.4
+ },
+ {
+  "word": "Spain,",
+  "start": 0.48,
+  "end": 1.28
+ },
+ {
+  "word": "and",
+  "start": 1.32,
+  "end": 1.36
+ },
+ {
+  "word": "it",
+  "start": 1.44,
+  "end": 1.52
+ },
+ {
+  "word": "has",
+  "start": 1.6,
+  "end": 1.76
+ },
+ {
+  "word": "some",
+  "start": 1.84,
+  "end": 1.92
+ },
+ {
+  "word": "of",
+  "start": 1.96,
+  "end": 2.0
+ },
+ {
+  "word": "the",
+  "start": 2.08,
+  "end": 2.16
+ },
+ {
+  "word": "strangest",
+  "start": 2.24,
+  "end": 2.8
+ },
+ {
+  "word": "borders",
+  "start": 2.88,
+  "end": 3.2
+ },
+ {
+  "word": "on",
+  "start": 3.24,
+  "end": 3.28
+ },
+ {
+  "word": "the",
+  "start": 3.36,
+  "end": 3.44
+ },
+ {
+  "word": "planet.",
+  "start": 3.52,
+  "end": 4.0
+ },
+ {
+  "word": "It",
+  "start": 4.48,
+  "end": 4.64
+ },
+ {
+  "word": "touches",
+  "start": 4.84,
+  "end": 5.04
+ },
+ {
+  "word": "five",
+  "start": 5.2,
+  "end": 5.44
+ },
+ {
+  "word": "countries:",
+  "start": 5.52,
+  "end": 6.4
+ },
+ {
+  "word": "France,",
+  "start": 6.48,
+  "end": 7.12
+ },
+ {
+  "word": "Portugal,",
+  "start": 7.28,
+  "end": 8.08
+ },
+ {
+  "word": "Andorra,",
+  "start": 8.16,
+  "end": 9.04
+ },
+ {
+  "word": "Morocco,",
+  "start": 9.12,
+  "end": 9.92
+ },
+ {
+  "word": "and",
+  "start": 10.0,
+  "end": 10.08
+ },
+ {
+  "word": "even",
+  "start": 10.16,
+  "end": 10.4
+ },
+ {
+  "word": "Britain.",
+  "start": 10.48,
+  "end": 11.2
+ },
+ {
+  "word": "High",
+  "start": 11.52,
+  "end": 11.76
+ },
+ {
+  "word": "in",
+  "start": 11.8,
+  "end": 11.84
+ },
+ {
+  "word": "the",
+  "start": 11.92,
+  "end": 11.96
+ },
+ {
+  "word": "Pyrenees",
+  "start": 12.0,
+  "end": 12.56
+ },
+ {
+  "word": "sits",
+  "start": 12.6,
+  "end": 12.8
+ },
+ {
+  "word": "Llívia,",
+  "start": 12.88,
+  "end": 13.68
+ },
+ {
+  "word": "a",
+  "start": 13.76,
+  "end": 13.84
+ },
+ {
+  "word": "Spanish",
+  "start": 13.92,
+  "end": 14.32
+ },
+ {
+  "word": "town",
+  "start": 14.4,
+  "end": 14.64
+ },
+ {
+  "word": "completely",
+  "start": 14.72,
+  "end": 15.28
+ },
+ {
+  "word": "surrounded",
+  "start": 15.36,
+  "end": 15.68
+ },
+ {
+  "word": "by",
+  "start": 15.76,
+  "end": 15.84
+ },
+ {
+  "word": "France.",
+  "start": 15.92,
+  "end": 16.4
+ },
+ {
+  "word": "On",
+  "start": 17.04,
+  "end": 17.12
+ },
+ {
+  "word": "the",
+  "start": 17.2,
+  "end": 17.24
+ },
+ {
+  "word": "Bidasoa",
+  "start": 17.28,
+  "end": 17.84
+ },
+ {
+  "word": "river,",
+  "start": 17.92,
+  "end": 18.56
+ },
+ {
+  "word": "tiny",
+  "start": 18.72,
+  "end": 18.88
+ },
+ {
+  "word": "Pheasant",
+  "start": 19.04,
+  "end": 19.36
+ },
+ {
+  "word": "Island",
+  "start": 19.44,
+  "end": 19.76
+ },
+ {
+  "word": "changes",
+  "start": 19.84,
+  "end": 20.16
+ },
+ {
+  "word": "countries",
+  "start": 20.24,
+  "end": 20.64
+ },
+ {
+  "word": "every",
+  "start": 20.8,
+  "end": 21.04
+ },
+ {
+  "word": "six",
+  "start": 21.12,
+  "end": 21.28
+ },
+ {
+  "word": "months.",
+  "start": 21.36,
+  "end": 22.04
+ },
+ {
+  "word": "Andorra,",
+  "start": 22.32,
+  "end": 23.2
+ },
+ {
+  "word": "wedged",
+  "start": 23.28,
+  "end": 23.52
+ },
+ {
+  "word": "between",
+  "start": 23.68,
+  "end": 23.84
+ },
+ {
+  "word": "Spain",
+  "start": 23.92,
+  "end": 24.24
+ },
+ {
+  "word": "and",
+  "start": 24.28,
+  "end": 24.32
+ },
+ {
+  "word": "France,",
+  "start": 24.4,
+  "end": 25.12
+ },
+ {
+  "word": "is",
+  "start": 25.2,
+  "end": 25.28
+ },
+ {
+  "word": "smaller",
+  "start": 25.44,
+  "end": 25.68
+ },
+ {
+  "word": "than",
+  "start": 25.76,
+  "end": 25.84
+ },
+ {
+  "word": "New",
+  "start": 25.88,
+  "end": 25.92
+ },
+ {
+  "word": "York",
+  "start": 26.0,
+  "end": 26.16
+ },
+ {
+  "word": "City.",
+  "start": 26.24,
+  "end": 26.56
+ },
+ {
+  "word": "In",
+  "start": 27.12,
+  "end": 27.2
+ },
+ {
+  "word": "the",
+  "start": 27.28,
+  "end": 27.36
+ },
+ {
+  "word": "far",
+  "start": 27.48,
+  "end": 27.6
+ },
+ {
+  "word": "south,",
+  "start": 27.76,
+  "end": 28.32
+ },
+ {
+  "word": "Gibraltar",
+  "start": 28.36,
+  "end": 28.88
+ },
+ {
+  "word": "is",
+  "start": 28.96,
+  "end": 29.04
+ },
+ {
+  "word": "still",
+  "start": 29.16,
+  "end": 29.28
+ },
+ {
+  "word": "British,",
+  "start": 29.36,
+  "end": 30.08
+ },
+ {
+  "word": "over",
+  "start": 30.16,
+  "end": 30.4
+ },
+ {
+  "word": "seventeen",
+  "start": 30.48,
+  "end": 30.96
+ },
+ {
+  "word": "hundred",
+  "start": 31.12,
+  "end": 31.36
+ },
+ {
+  "word": "kilometres",
+  "start": 31.52,
+  "end": 32.0
+ },
+ {
+  "word": "from",
+  "start": 32.08,
+  "end": 32.16
+ },
+ {
+  "word": "London.",
+  "start": 32.24,
+  "end": 32.64
+ },
+ {
+  "word": "And",
+  "start": 33.12,
+  "end": 33.2
+ },
+ {
+  "word": "across",
+  "start": 33.28,
+  "end": 33.6
+ },
+ {
+  "word": "the",
+  "start": 33.68,
+  "end": 33.76
+ },
+ {
+  "word": "sea",
+  "start": 33.84,
+  "end": 33.92
+ },
+ {
+  "word": "in",
+  "start": 34.0,
+  "end": 34.08
+ },
+ {
+  "word": "Africa,",
+  "start": 34.16,
+  "end": 34.88
+ },
+ {
+  "word": "Spain",
+  "start": 34.96,
+  "end": 35.36
+ },
+ {
+  "word": "still",
+  "start": 35.48,
+  "end": 35.6
+ },
+ {
+  "word": "holds",
+  "start": 35.68,
+  "end": 35.92
+ },
+ {
+  "word": "Ceuta,",
+  "start": 36.0,
+  "end": 36.72
+ },
+ {
+  "word": "Melilla,",
+  "start": 36.8,
+  "end": 37.68
+ },
+ {
+  "word": "and",
+  "start": 37.72,
+  "end": 37.76
+ },
+ {
+  "word": "the",
+  "start": 37.84,
+  "end": 37.92
+ },
+ {
+  "word": "tiny",
+  "start": 38.0,
+  "end": 38.32
+ },
+ {
+  "word": "Peñón",
+  "start": 38.4,
+  "end": 38.8
+ },
+ {
+  "word": "de",
+  "start": 38.84,
+  "end": 38.88
+ },
+ {
+  "word": "Vélez,",
+  "start": 38.96,
+  "end": 39.76
+ },
+ {
+  "word": "whose",
+  "start": 39.88,
+  "end": 40.0
+ },
+ {
+  "word": "border",
+  "start": 40.08,
+  "end": 40.32
+ },
+ {
+  "word": "is",
+  "start": 40.4,
+  "end": 40.48
+ },
+ {
+  "word": "just",
+  "start": 40.56,
+  "end": 40.8
+ },
+ {
+  "word": "eighty-five",
+  "start": 40.88,
+  "end": 41.28
+ },
+ {
+  "word": "metres",
+  "start": 41.36,
+  "end": 41.68
+ },
+ {
+  "word": "long.",
+  "start": 41.76,
+  "end": 42.32
+ }
+]

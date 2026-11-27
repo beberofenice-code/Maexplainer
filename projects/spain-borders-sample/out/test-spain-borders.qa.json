@@ -25,22 +25,22 @@
   {
    "check": "duration",
    "ok": true,
-   "detail": "12.63s (timeline 0.00->12.63s)"
+   "detail": "11.70s (timeline 0.00->11.70s)"
   },
   {
    "check": "loudness",
    "ok": true,
-   "detail": "-15.5 LUFS (target -15), true peak -1.2 dBFS"
+   "detail": "-15.4 LUFS (target -15), true peak -1.4 dBFS"
   },
   {
    "check": "true peak",
    "ok": true,
-   "detail": "-1.2 dBFS"
+   "detail": "-1.4 dBFS"
   },
   {
    "check": "color hook/spain (tint over imagery)",
    "ok": true,
-   "detail": "#C37436 hue Δ2° vs locked #E66E1E (probe 2)"
+   "detail": "#C37438 hue Δ2° vs locked #E66E1E (probe 2)"
   },
   {
    "check": "color hook/france (tint over imagery)",
@@ -50,7 +50,7 @@
   {
    "check": "color hook/portugal (tint over imagery)",
    "ok": true,
-   "detail": "#579261 hue Δ16° vs locked #2E8B57 (probe 2)"
+   "detail": "#579162 hue Δ15° vs locked #2E8B57 (probe 2)"
   },
   {
    "check": "color neighbors/spain (hatch)",
@@ -65,7 +65,7 @@
   {
    "check": "color neighbors/portugal (hatch)",
    "ok": true,
-   "detail": "got #2C8855 vs locked #2E8B57 (ΔRGB 4, probe 4)"
+   "detail": "got #2C8955 vs locked #2E8B57 (ΔRGB 3, probe 4)"
   },
   {
    "check": "color neighbors/andorra (hatch)",
@@ -75,12 +75,12 @@
   {
    "check": "color neighbors/morocco (hatch)",
    "ok": true,
-   "detail": "got #27D1BD vs locked #2AD4C0 (ΔRGB 5, probe 1)"
+   "detail": "got #27D3BE vs locked #2AD4C0 (ΔRGB 4, probe 1)"
   },
   {
    "check": "frames not black",
    "ok": true,
-   "detail": "mean luma per probe [106, 49]"
+   "detail": "mean luma per probe [109, 49]"
   }
  ]
 }

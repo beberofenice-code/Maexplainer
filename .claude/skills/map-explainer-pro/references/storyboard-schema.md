@@ -9,9 +9,10 @@
     "lufs": -15,                      // final mix target
     "max_tile_zoom": 18,              // Esri tile zoom cap
     "voice": { "provider": "auto",    // auto | elevenlabs | edge | silent
+               "continuous": true,    // one unbroken read split into scenes (no gaps); false = per-scene clips
                "elevenlabs_voice": "Brian", "elevenlabs_voice_id": "<optional>",
-               "elevenlabs_model": "eleven_multilingual_v2",
-               "stability": 0.42, "similarity_boost": 0.8, "style": 0.3,
+               "elevenlabs_model": "eleven_v4",
+               "stability": 0.5, "similarity_boost": 0.8, "style": 0.3,
                "edge_voice": "en-US-AndrewNeural", "edge_rate": "+6%" },
     "music": { "enabled": false, "bpm": 112, "bed_db": -25, "duck_db": -9 },   // enabled:false = VO + SFX only
     "subtitles": { "max_words": 3, "y_pct": 76 }

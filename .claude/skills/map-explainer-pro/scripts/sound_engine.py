@@ -111,7 +111,14 @@ class ElevenLabs:
             body["previous_text"] = prev
         if nxt:
             body["next_text"] = nxt
-        r = self.rq.post(f"{self.API}/text-to-speech/{self.voice_id}/with-timestamps", params={"output_format": "mp3_44100_128"}, json=body, timeout=180)
+        url = f"{self.API}/text-to-speech/{self.voice_id}/with-timestamps"
+        r = self.rq.post(url, params={"output_format": "mp3_44100_128"}, json=body, timeout=300)
+        if r.status_code == 400 and ("voice_settings" in r.text or "stability" in r.text or "previous_text" in r.text):
+            log(f"model {self.model} rejected optional settings -> retrying with defaults")
+            body.pop("voice_settings", None)
+            body.pop("previous_text", None)
+            body.pop("next_text", None)
+            r = self.rq.post(url, params={"output_format": "mp3_44100_128"}, json=body, timeout=300)
         if r.status_code >= 400:
             raise RuntimeError(f"ElevenLabs {r.status_code}: {r.text[:300]}")
         d = r.json()
@@ -421,6 +428,46 @@ def music_bed(total_s, bpm=112):
     return out * e[:, None]
 
 
+# =============================================================================== continuous narration
+def split_words_by_scene(words, scenes):
+    """Assign the words of ONE continuous read back to their scenes (same whitespace tokenization)."""
+    counts = [len(sc["narration"].split()) for sc in scenes]
+    if len(words) == sum(counts):
+        out, i = [], 0
+        for c in counts:
+            out.append(words[i : i + c])
+            i += c
+        return out
+    # tokenization drift (rare): walk the script tokens and match normalized words greedily
+    toks = [(k, mx.norm_word(t)) for k, sc in enumerate(scenes) for t in sc["narration"].split()]
+    out = [[] for _ in scenes]
+    j = 0
+    for w in words:
+        nw = mx.norm_word(w["word"])
+        while j < len(toks) - 1 and toks[j][1] != nw and not (nw and toks[j][1].startswith(nw[:3])):
+            j += 1
+        out[toks[min(j, len(toks) - 1)][0]].append(w)
+        j += 1
+    return out
+
+
+def build_continuous_timeline(sb, clip_len, words_by_scene, lead=0.3, preroll=0.12):
+    """One unbroken voiceover: each scene starts just before its first spoken word, so there is
+    never inserted silence between scenes (min_duration_s is ignored in continuous mode)."""
+    scenes, words, starts = [], [], []
+    for i, (sc, ws) in enumerate(zip(sb["scenes"], words_by_scene)):
+        st = 0.0 if i == 0 else lead + ws[0]["start"] - preroll
+        starts.append(max(st, starts[-1] + 0.5) if starts else st)
+    last = sb["scenes"][-1]
+    total = lead + clip_len + last.get("tail_s", 0.8)
+    for i, (sc, ws) in enumerate(zip(sb["scenes"], words_by_scene)):
+        end = starts[i + 1] if i + 1 < len(starts) else total
+        for w in ws:
+            words.append({"word": w["word"], "start": round(lead + w["start"], 3), "end": round(lead + w["end"], 3), "scene": sc["id"]})
+        scenes.append({"id": sc["id"], "start": round(starts[i], 3), "end": round(end, 3), "vo_start": round(lead + ws[0]["start"], 3), "vo_end": round(lead + ws[-1]["end"], 3)})
+    return {"fps": sb["meta"].get("fps", 30), "total_s": round(total, 3), "continuous": True, "scenes": scenes, "words": words}
+
+
 # =============================================================================== timeline + cues
 def build_timeline(sb, vo_clips):
     t, scenes, words = 0.0, [], []
@@ -519,10 +566,31 @@ def main():
     if tts is None and not (a.allow_silent or provider == "silent"):
         sys.exit("[sound] no TTS provider available (set ELEVENLABS_API_KEY or `pip install edge-tts`), or pass --allow-silent")
 
-    # ---- 1. voiceover per scene (cached)
+    continuous = voice_cfg.get("continuous", True) and tts is not None
     vo_clips = {}
-    scenes = sb["scenes"]
     used_provider = "silent"
+    if continuous:
+        # ---- 1+2. ONE continuous read of the whole script (cached), split back into scenes
+        full = " ".join(sc["narration"].strip() for sc in sb["scenes"])
+        key = tts.key(full, None, None)
+        mp3, wav, wj = adir / "vo" / f"full_{key}.mp3", adir / "vo" / f"full_{key}.wav", adir / "vo" / f"full_{key}.json"
+        if not wj.exists():
+            log(f"TTS [{type(tts).__name__} {getattr(tts, 'model', '')}] continuous narration: {len(full)} chars, {len(sb['scenes'])} scenes")
+            words = tts.synth(full, None, None, mp3)
+            ffmpeg_decode(mp3, wav)
+            mx.save_json(wj, words, indent=1)
+        else:
+            log(f"TTS cache hit: {wj.name}")
+        used_provider = "elevenlabs" if key.startswith("el_") else "edge"
+        audio = read_wav(wav)
+        nz = np.nonzero(np.abs(audio) > 0.01)[0]
+        if len(nz):
+            audio = audio[: min(len(audio), nz[-1] + int(0.08 * SR))]
+        by_scene = split_words_by_scene(mx.load_json(wj), sb["scenes"])
+        ts = build_continuous_timeline(sb, len(audio) / SR, by_scene)
+        vo_full = audio
+    # ---- 1. voiceover per scene (cached)
+    scenes = sb["scenes"] if not continuous else []
     for i, sc in enumerate(scenes):
         text = sc["narration"].strip()
         prev = scenes[i - 1]["narration"] if i > 0 else None
@@ -561,12 +629,18 @@ def main():
         vo_clips[sc["id"]] = {"audio": audio, "words": mx.load_json(wj)}
 
     # ---- 2. timeline
-    ts = build_timeline(sb, vo_clips)
+    if not continuous:
+        ts = build_timeline(sb, vo_clips)
     ts["provider"] = used_provider
+    ts["model"] = getattr(tts, "model", None)
     total = ts["total_s"]
     n = int(math.ceil(total * SR))
     vo = np.zeros(n)
-    for sc in ts["scenes"]:
+    if continuous:
+        i0 = int(0.3 * SR)
+        seg = vo_full[: n - i0]
+        vo[i0 : i0 + len(seg)] += seg
+    for sc in ts["scenes"] if not continuous else []:
         clip = vo_clips[sc["id"]]["audio"]
         if clip is None:
             continue

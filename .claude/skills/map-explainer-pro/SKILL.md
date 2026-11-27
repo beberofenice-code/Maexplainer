@@ -46,8 +46,9 @@ Read `templates/spain-borders/storyboard.json` first and copy its pacing. Rules:
 - Set `MXP_NO_OVERPASS=1` if Overpass is blocked (sandboxed networks) to skip straight to Nominatim.
 
 ## Stage 4 — audio
-- `ELEVENLABS_API_KEY` set → ElevenLabs `with-timestamps` (default voice "Brian", `eleven_multilingual_v2`, scene-to-scene context stitching). Otherwise free `edge-tts` `en-US-AndrewNeural` with WordBoundary timing. `--allow-silent` for layout work without any TTS.
-- VO is cached per scene by content hash in `assets/audio/vo/` → re-runs cost no credits; only edited scenes are re-voiced.
+- `ELEVENLABS_API_KEY` set → ElevenLabs `with-timestamps` (default voice "Brian", model **`eleven_v4`**).
+- **Continuous narration (default, `meta.voice.continuous: true`)**: the whole script is voiced in ONE call and split back into scenes at each scene's first word — no inserted pauses; scene length = how long the narrator takes (`min_duration_s` is ignored). Write enough narration per scene for its visuals, and cue late beats on earlier words. `continuous: false` = per-scene clips padded to `min_duration_s`. Otherwise free `edge-tts` `en-US-AndrewNeural` with WordBoundary timing. `--allow-silent` for layout work without any TTS.
+- VO is cached by content hash in `assets/audio/vo/` → re-runs cost no credits (editing any narration re-voices the continuous read).
 - Scene length = max(`min_duration_s`, VO + `tail_s`). SFX are cued automatically per element type (override with `"sfx": "<name>"`, mute with `"sfx": null`): whoosh_deep (transitions/arcs), pop_marimba (pins/counter/question marks), paper_slide (arrows/rulers/true-scale), tug_stretch (flags), border_flip (sovereignty flips), chime_reveal (stat badges/border bars).
 - Bed: 112 BPM marimba + plucked pulse, side-chain ducked under VO. **Off by default in the template** (`meta.music.enabled: false` — the user prefers VO + SFX only); enable only if asked. Final mix: two-pass loudnorm to `meta.lufs` (−15 LUFS, −1.5 dBTP).
 - Audio-only edits (voice settings, music, SFX cues, loudness) don't invalidate rendered chunks: re-run `sound_engine.py` then `render_chunks.mjs` and it only re-muxes.
