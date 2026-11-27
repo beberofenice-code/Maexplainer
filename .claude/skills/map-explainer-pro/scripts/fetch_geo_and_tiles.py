@@ -409,6 +409,8 @@ def inherit_enclave_parts(feats, colors, report):
         p = f["properties"]
         if p["source"] in ("natural_earth_10m",) or not p.get("color_key") or f["geometry"]["type"] not in ("Polygon", "MultiPolygon"):
             continue
+        if p["color_key"] not in colors["countries"] and p["color_key"] not in colors["territories"]:
+            continue  # overlays (water bodies, true-scale shapes, highlights) are never enclaves
         root = _root_country(p["color_key"], colors)
         if root != p["color_key"] or p["id"] != root:
             by_root.setdefault(root, []).append(f)
