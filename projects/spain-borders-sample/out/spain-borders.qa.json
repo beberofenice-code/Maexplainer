@@ -1,0 +1,106 @@
+{
+ "video": "/home/user/Maexplainer/projects/spain-borders-sample/out/spain-borders.mp4",
+ "passed": true,
+ "results": [
+  {
+   "check": "video stream",
+   "ok": true,
+   "detail": "h264 yuv420p"
+  },
+  {
+   "check": "resolution",
+   "ok": true,
+   "detail": "1080x1920"
+  },
+  {
+   "check": "frame rate",
+   "ok": true,
+   "detail": "30.000 fps"
+  },
+  {
+   "check": "audio stream",
+   "ok": true,
+   "detail": "aac 2ch 48000Hz"
+  },
+  {
+   "check": "duration",
+   "ok": true,
+   "detail": "49.63s (timeline 0.00->49.63s)"
+  },
+  {
+   "check": "loudness",
+   "ok": true,
+   "detail": "-15.1 LUFS (target -15), true peak -1.2 dBFS"
+  },
+  {
+   "check": "true peak",
+   "ok": true,
+   "detail": "-1.2 dBFS"
+  },
+  {
+   "check": "color hook/spain (tint over imagery)",
+   "ok": true,
+   "detail": "#C37436 hue Δ2° vs locked #E66E1E (probe 2)"
+  },
+  {
+   "check": "color hook/france (tint over imagery)",
+   "ok": true,
+   "detail": "#516A7D hue Δ10° vs locked #3E6DB5 (probe 2)"
+  },
+  {
+   "check": "color hook/portugal (tint over imagery)",
+   "ok": true,
+   "detail": "#579261 hue Δ16° vs locked #2E8B57 (probe 2)"
+  },
+  {
+   "check": "color neighbors/spain (hatch)",
+   "ok": true,
+   "detail": "got #E46C1D vs locked #E66E1E (ΔRGB 3, probe 0)"
+  },
+  {
+   "check": "color neighbors/france (hatch)",
+   "ok": true,
+   "detail": "got #3D6CB5 vs locked #3E6DB5 (ΔRGB 1, probe 3)"
+  },
+  {
+   "check": "color neighbors/portugal (hatch)",
+   "ok": true,
+   "detail": "got #2C8854 vs locked #2E8B57 (ΔRGB 5, probe 4)"
+  },
+  {
+   "check": "color neighbors/andorra (hatch)",
+   "ok": true,
+   "detail": "skipped: only 13px on screen"
+  },
+  {
+   "check": "color neighbors/morocco (hatch)",
+   "ok": true,
+   "detail": "got #27D1BD vs locked #2AD4C0 (ΔRGB 5, probe 1)"
+  },
+  {
+   "check": "color andorra/andorra (tint over imagery)",
+   "ok": true,
+   "detail": "#27762B hue Δ10° vs locked #28B446 (probe 2)"
+  },
+  {
+   "check": "color gibraltar/spain (tint over imagery)",
+   "ok": true,
+   "detail": "#D88646 hue Δ2° vs locked #E66E1E (probe 0)"
+  },
+  {
+   "check": "color gibraltar/gibraltar (tint)",
+   "ok": true,
+   "detail": "skipped: only 1px on screen"
+  },
+  {
+   "check": "color gibraltar/uk (tint over imagery)",
+   "ok": true,
+   "detail": "#A94C3B hue Δ9° vs locked #C92A2A (probe 4)"
+  },
+  {
+   "check": "frames not black",
+   "ok": true,
+   "detail": "mean luma per probe [106, 49, 89, 91, 87, 100, 50]"
+  }
+ ]
+}
