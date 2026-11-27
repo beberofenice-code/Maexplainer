@@ -9847,7 +9847,8 @@
      "suffix": " km²",
      "label": "World's largest lake",
      "until_word": "size",
-     "size": 62
+     "size": 62,
+     "sfx": null
     },
     {
      "type": "TrueScaleCityCompare",
@@ -9868,7 +9869,8 @@
      "suffix": " km²",
      "label": "Germany",
      "color": "germany",
-     "size": 62
+     "size": 62,
+     "sfx": null
     }
    ]
   },
@@ -9965,7 +9967,8 @@
        "at_word": "Azerbaijan",
        "value": 5
       }
-     ]
+     ],
+     "sfx": null
     },
     {
      "type": "Label",
@@ -10112,7 +10115,8 @@
      "text": "~50 billion barrels",
      "label": "of oil under the Caspian",
      "size": 60,
-     "until_word": "coast"
+     "until_word": "coast",
+     "sfx": null
     },
     {
      "type": "HotspotPin",
@@ -10159,7 +10163,8 @@
      ],
      "text": "Neft Daşları · 1949",
      "label": "an oil town on stilts",
-     "size": 56
+     "size": 56,
+     "sfx": null
     }
    ]
   },
@@ -10299,7 +10304,8 @@
      "label": "Iran's share",
      "color": "iran",
      "until_word": "lake",
-     "size": 66
+     "size": 66,
+     "sfx": null
     },
     {
      "type": "Label",
@@ -10323,7 +10329,8 @@
      "suffix": "% each",
      "label": "5 equal shares",
      "color": "caspian_water",
-     "size": 66
+     "size": 66,
+     "sfx": null
     }
    ],
    "sfx": []
@@ -10416,7 +10423,8 @@
      "suffix": " years",
      "label": "of negotiations",
      "until_word": "Aktau",
-     "size": 62
+     "size": 62,
+     "sfx": null
     },
     {
      "type": "HotspotPin",
@@ -10438,7 +10446,8 @@
      "text": "2018 Convention",
      "label": "signed by all 5 countries",
      "until_word": "neither",
-     "size": 60
+     "size": 60,
+     "sfx": null
     },
     {
      "type": "Label",

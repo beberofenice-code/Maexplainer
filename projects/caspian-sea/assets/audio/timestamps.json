@@ -926,25 +926,11 @@
    "source": "transition"
   },
   {
-   "name": "chime_reveal",
-   "t": 9.46,
-   "gain_db": -6.0,
-   "scene": "lake",
-   "source": "StatBadge"
-  },
-  {
    "name": "paper_slide",
    "t": 12.06,
    "gain_db": -6.0,
    "scene": "lake",
    "source": "TrueScaleCityCompare"
-  },
-  {
-   "name": "chime_reveal",
-   "t": 12.36,
-   "gain_db": -6.0,
-   "scene": "lake",
-   "source": "StatBadge"
   },
   {
    "name": "whoosh_deep",
@@ -954,41 +940,6 @@
    "source": "transition"
   },
   {
-   "name": "pop_marimba",
-   "t": 15.86,
-   "gain_db": -6.0,
-   "scene": "neighbors",
-   "source": "Counter.step"
-  },
-  {
-   "name": "pop_marimba",
-   "t": 16.46,
-   "gain_db": -6.0,
-   "scene": "neighbors",
-   "source": "Counter.step"
-  },
-  {
-   "name": "pop_marimba",
-   "t": 17.58,
-   "gain_db": -6.0,
-   "scene": "neighbors",
-   "source": "Counter.step"
-  },
-  {
-   "name": "pop_marimba",
-   "t": 18.78,
-   "gain_db": -6.0,
-   "scene": "neighbors",
-   "source": "Counter.step"
-  },
-  {
-   "name": "pop_marimba",
-   "t": 19.82,
-   "gain_db": -6.0,
-   "scene": "neighbors",
-   "source": "Counter.step"
-  },
-  {
    "name": "whoosh_deep",
    "t": 21.06,
    "gain_db": -4.0,
@@ -996,25 +947,11 @@
    "source": "transition"
   },
   {
-   "name": "chime_reveal",
-   "t": 23.02,
-   "gain_db": -6.0,
-   "scene": "oil",
-   "source": "StatBadge"
-  },
-  {
    "name": "pop_marimba",
    "t": 27.94,
    "gain_db": -6.0,
    "scene": "oil",
    "source": "HotspotPin"
-  },
-  {
-   "name": "chime_reveal",
-   "t": 29.02,
-   "gain_db": -6.0,
-   "scene": "oil",
-   "source": "StatBadge"
   },
   {
    "name": "paper_slide",
@@ -1038,20 +975,6 @@
    "source": "CalloutArrow"
   },
   {
-   "name": "chime_reveal",
-   "t": 38.1,
-   "gain_db": -6.0,
-   "scene": "rules",
-   "source": "StatBadge"
-  },
-  {
-   "name": "chime_reveal",
-   "t": 41.9,
-   "gain_db": -6.0,
-   "scene": "rules",
-   "source": "StatBadge"
-  },
-  {
    "name": "whoosh_deep",
    "t": 43.38,
    "gain_db": -4.0,
@@ -1059,25 +982,11 @@
    "source": "transition"
   },
   {
-   "name": "chime_reveal",
-   "t": 44.38,
-   "gain_db": -6.0,
-   "scene": "deal",
-   "source": "StatBadge"
-  },
-  {
    "name": "pop_marimba",
    "t": 47.34,
    "gain_db": -6.0,
    "scene": "deal",
    "source": "HotspotPin"
-  },
-  {
-   "name": "chime_reveal",
-   "t": 48.22,
-   "gain_db": -6.0,
-   "scene": "deal",
-   "source": "StatBadge"
   },
   {
    "name": "pop_marimba",
