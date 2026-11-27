@@ -1,0 +1,18 @@
+# dependencies & caches
+node_modules/
+__pycache__/
+.env
+.env.local
+.DS_Store
+*.log
+
+# heavy, regenerable render artifacts (force-add final deliverables: git add -f path/to/final.mp4)
+assets/tiles/
+**/assets/tiles/
+chunks/
+tmp/
+out/
+
+# regenerable audio (mix/stems/sfx rebuild in seconds from the cached VO mp3 + timestamps.json)
+projects/*/assets/audio/**/*.wav
+.remotion/

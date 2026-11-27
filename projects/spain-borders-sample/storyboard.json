@@ -1,0 +1,1129 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "slug": "spain-borders-sample",
+    "title": "Spain's Strangest Borders",
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "lufs": -15,
+    "max_tile_zoom": 18,
+    "voice": {
+      "provider": "auto",
+      "elevenlabs_voice": "Brian",
+      "elevenlabs_model": "eleven_v4",
+      "stability": 0.5,
+      "similarity_boost": 0.8,
+      "style": 0.3,
+      "edge_voice": "en-US-AndrewNeural",
+      "edge_rate": "+6%",
+      "continuous": true
+    },
+    "music": {
+      "enabled": false,
+      "bpm": 112,
+      "bed_db": -25,
+      "duck_db": -9
+    },
+    "subtitles": {
+      "max_words": 3,
+      "y_pct": 76
+    }
+  },
+  "geo": {
+    "context": [
+      "ESP",
+      "FRA",
+      "PRT",
+      "AND",
+      "MAR",
+      "GBR",
+      "GIB",
+      "DZA",
+      "ITA",
+      "CHE",
+      "BEL",
+      "DEU",
+      "LUX",
+      "IRL",
+      "NLD",
+      "MCO",
+      "TUN"
+    ],
+    "features": [
+      {
+        "id": "spain",
+        "source": "natural_earth",
+        "adm0_a3": "ESP"
+      },
+      {
+        "id": "france",
+        "source": "natural_earth",
+        "adm0_a3": "FRA"
+      },
+      {
+        "id": "portugal",
+        "source": "natural_earth",
+        "adm0_a3": "PRT"
+      },
+      {
+        "id": "andorra",
+        "source": "natural_earth",
+        "adm0_a3": "AND"
+      },
+      {
+        "id": "morocco",
+        "source": "natural_earth",
+        "adm0_a3": "MAR"
+      },
+      {
+        "id": "uk",
+        "source": "natural_earth",
+        "adm0_a3": "GBR"
+      },
+      {
+        "id": "gibraltar",
+        "source": "natural_earth",
+        "adm0_a3": "GIB"
+      },
+      {
+        "id": "pyrenees_border",
+        "source": "ne_boundary",
+        "between": [
+          "ESP",
+          "FRA"
+        ],
+        "color": "highlight"
+      },
+      {
+        "id": "llivia",
+        "source": "osm",
+        "osm": "R356747",
+        "nominatim": "Llívia, Girona, Spain",
+        "parent": "spain"
+      },
+      {
+        "id": "ceuta",
+        "source": "osm",
+        "osm": "R1154756",
+        "nominatim": "Ceuta, Spain",
+        "parent": "spain"
+      },
+      {
+        "id": "melilla",
+        "source": "osm",
+        "osm": "R1154757",
+        "nominatim": "Melilla, Spain",
+        "parent": "spain"
+      },
+      {
+        "id": "penon_de_velez",
+        "source": "inline",
+        "parent": "spain",
+        "_note": "OSM maps the Peñón only as a point; outline traced from Esri imagery (z17).",
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.301126,
+              35.172887
+            ],
+            [
+              -4.30104,
+              35.173177
+            ],
+            [
+              -4.300665,
+              35.17323
+            ],
+            [
+              -4.300021,
+              35.173124
+            ],
+            [
+              -4.299753,
+              35.173037
+            ],
+            [
+              -4.299538,
+              35.172668
+            ],
+            [
+              -4.299163,
+              35.172405
+            ],
+            [
+              -4.298626,
+              35.172379
+            ],
+            [
+              -4.298272,
+              35.172317
+            ],
+            [
+              -4.298208,
+              35.172098
+            ],
+            [
+              -4.298337,
+              35.171835
+            ],
+            [
+              -4.297929,
+              35.171616
+            ],
+            [
+              -4.297693,
+              35.171546
+            ],
+            [
+              -4.298573,
+              35.171511
+            ],
+            [
+              -4.299055,
+              35.171616
+            ],
+            [
+              -4.299431,
+              35.171774
+            ],
+            [
+              -4.29986,
+              35.171949
+            ],
+            [
+              -4.300236,
+              35.172124
+            ],
+            [
+              -4.300718,
+              35.172247
+            ],
+            [
+              -4.30104,
+              35.172493
+            ],
+            [
+              -4.301126,
+              35.172887
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "pheasant_island",
+        "source": "osm",
+        "osm": "W177945817",
+        "nominatim": "Isla de los Faisanes",
+        "fallback_coordinates": [
+          [
+            [
+              -1.76745,
+              43.34262
+            ],
+            [
+              -1.76655,
+              43.34305
+            ],
+            [
+              -1.76555,
+              43.34298
+            ],
+            [
+              -1.76545,
+              43.34268
+            ],
+            [
+              -1.7664,
+              43.3424
+            ],
+            [
+              -1.76745,
+              43.34262
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "nyc",
+        "source": "osm",
+        "osm": "R175905",
+        "nominatim": "New York City",
+        "color": "nyc_size_overlay"
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "mode": "satellite",
+      "narration": "This is Spain, and it has some of the strangest borders on the planet.",
+      "min_duration_s": 5.0,
+      "tail_s": 0.45,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            -3.6,
+            40.6
+          ],
+          "zoom": 3.3,
+          "pitch": 0,
+          "bearing": 0
+        },
+        {
+          "t": 2.0,
+          "center": [
+            -3.5,
+            40.0
+          ],
+          "zoom": 4.95,
+          "pitch": 20,
+          "bearing": -3,
+          "easing": "easeOutQuart"
+        },
+        {
+          "t": 6.0,
+          "center": [
+            -3.3,
+            40.1
+          ],
+          "zoom": 5.1,
+          "pitch": 22,
+          "bearing": 0,
+          "easing": "linear"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "spain",
+          "style": "tint",
+          "at_word": "Spain",
+          "offset": 0.1
+        },
+        {
+          "feature": "france",
+          "style": "tint",
+          "at_word": "strangest"
+        },
+        {
+          "feature": "portugal",
+          "style": "tint",
+          "at_word": "strangest",
+          "offset": 0.15
+        }
+      ],
+      "elements": [
+        {
+          "type": "HookTitle",
+          "t": 0.25,
+          "accent": "Spain's",
+          "text": "Strangest Borders",
+          "y_pct": 16,
+          "until_word": "planet",
+          "until_offset": 0.6
+        },
+        {
+          "type": "CalloutArrow",
+          "at_word": "strangest",
+          "from_pct": [
+            84,
+            33
+          ],
+          "to": [
+            -1.0,
+            42.6
+          ],
+          "curve": -0.35
+        },
+        {
+          "type": "QuestionMarks",
+          "at_word": "planet",
+          "at": [
+            -3.7,
+            40.2
+          ],
+          "count": 3,
+          "radius": 150,
+          "sfx": "pop_marimba"
+        }
+      ],
+      "sfx": [
+        {
+          "name": "whoosh_deep",
+          "t": 0.0,
+          "gain_db": -2
+        }
+      ],
+      "transition_sfx": null
+    },
+    {
+      "id": "neighbors",
+      "mode": "dark_cutaway",
+      "narration": "It touches five countries: France, Portugal, Andorra, Morocco, and even Britain.",
+      "min_duration_s": 6.6,
+      "tail_s": 0.5,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            -3.2,
+            40.9
+          ],
+          "zoom": 4.75,
+          "pitch": 0,
+          "bearing": 0
+        },
+        {
+          "t": 7.5,
+          "center": [
+            -3.0,
+            40.6
+          ],
+          "zoom": 4.9,
+          "pitch": 0,
+          "bearing": 0,
+          "easing": "linear"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "spain",
+          "style": "hatch",
+          "t": 0.1,
+          "lift": 16
+        },
+        {
+          "feature": "france",
+          "style": "hatch",
+          "at_word": "France",
+          "lift": 10
+        },
+        {
+          "feature": "portugal",
+          "style": "hatch",
+          "at_word": "Portugal",
+          "lift": 10
+        },
+        {
+          "feature": "andorra",
+          "style": "hatch",
+          "at_word": "Andorra",
+          "lift": 8
+        },
+        {
+          "feature": "morocco",
+          "style": "hatch",
+          "at_word": "Morocco",
+          "lift": 10
+        },
+        {
+          "feature": "uk",
+          "style": "hatch",
+          "at_word": "Britain",
+          "lift": 10
+        },
+        {
+          "feature": "gibraltar",
+          "style": "flat",
+          "at_word": "Britain"
+        }
+      ],
+      "elements": [
+        {
+          "type": "Counter",
+          "label": "neighbors",
+          "y_pct": 12,
+          "t": 0,
+          "steps": [
+            {
+              "at_word": "France",
+              "value": 1
+            },
+            {
+              "at_word": "Portugal",
+              "value": 2
+            },
+            {
+              "at_word": "Andorra",
+              "value": 3
+            },
+            {
+              "at_word": "Morocco",
+              "value": 4
+            },
+            {
+              "at_word": "Britain",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "at_word": "France",
+          "at": [
+            2.4,
+            46.9
+          ],
+          "text": "France",
+          "size": 50,
+          "sfx": null
+        },
+        {
+          "type": "Label",
+          "at_word": "Portugal",
+          "at": [
+            -8.3,
+            39.7
+          ],
+          "text": "Portugal",
+          "size": 38,
+          "sfx": null
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "Andorra",
+          "at": [
+            1.56,
+            42.54
+          ],
+          "label": "Andorra",
+          "label_size": 38,
+          "size": 0.7,
+          "sfx": null
+        },
+        {
+          "type": "Label",
+          "at_word": "Morocco",
+          "at": [
+            -5.4,
+            34.1
+          ],
+          "text": "Morocco",
+          "size": 46,
+          "sfx": null
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "Britain",
+          "at": [
+            -5.353,
+            36.14
+          ],
+          "label": "Gibraltar (UK)",
+          "label_size": 38,
+          "size": 0.7,
+          "sfx": null
+        }
+      ],
+      "sfx": []
+    },
+    {
+      "id": "llivia",
+      "mode": "satellite",
+      "narration": "High in the Pyrenees sits Llívia, a Spanish town completely surrounded by France.",
+      "min_duration_s": 6.5,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            0.9,
+            42.7
+          ],
+          "zoom": 7.0,
+          "pitch": 12,
+          "bearing": 0
+        },
+        {
+          "at_word": "sits",
+          "center": [
+            1.4,
+            42.6
+          ],
+          "zoom": 8.0,
+          "pitch": 18,
+          "bearing": 0
+        },
+        {
+          "at_word": "Spanish",
+          "center": [
+            1.975,
+            42.463
+          ],
+          "zoom": 12.4,
+          "pitch": 28,
+          "bearing": -6,
+          "easing": "easeInOutCubic"
+        },
+        {
+          "t": 9.0,
+          "center": [
+            1.97,
+            42.458
+          ],
+          "zoom": 12.6,
+          "pitch": 30,
+          "bearing": -2,
+          "easing": "linear"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "france",
+          "style": "tint",
+          "t": 0
+        },
+        {
+          "feature": "spain",
+          "style": "tint",
+          "t": 0
+        },
+        {
+          "feature": "llivia",
+          "style": "highlight",
+          "at_word": "Llivia",
+          "width": 5
+        }
+      ],
+      "elements": [
+        {
+          "type": "GlowingBorderBar",
+          "feature": "pyrenees_border",
+          "at_word": "Pyrenees",
+          "until_word": "Spanish",
+          "width": 8
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "Llivia",
+          "offset": 0.2,
+          "at": [
+            1.981,
+            42.466
+          ],
+          "label": "Llívia",
+          "until_word": "completely"
+        },
+        {
+          "type": "QuestionMarks",
+          "at_word": "surrounded",
+          "at": [
+            1.981,
+            42.466
+          ],
+          "radius": 190,
+          "count": 3
+        },
+        {
+          "type": "Label",
+          "at_word": "France",
+          "at_pct": [
+            50,
+            24
+          ],
+          "text": "France",
+          "size": 72,
+          "sfx": null
+        },
+        {
+          "type": "DistanceRuler",
+          "at_word": "France",
+          "offset": 0.5,
+          "from": [
+            1.981,
+            42.466
+          ],
+          "to": [
+            1.9285,
+            42.4325
+          ],
+          "label_offset": 80
+        }
+      ]
+    },
+    {
+      "id": "pheasant",
+      "mode": "satellite",
+      "narration": "On the Bidasoa river, tiny Pheasant Island changes countries every six months.",
+      "min_duration_s": 6.5,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            -1.775,
+            43.345
+          ],
+          "zoom": 11.5,
+          "pitch": 12,
+          "bearing": 0
+        },
+        {
+          "at_word": "Pheasant",
+          "center": [
+            -1.7661,
+            43.3428
+          ],
+          "zoom": 16.7,
+          "pitch": 30,
+          "bearing": -14,
+          "easing": "easeInOutCubic"
+        },
+        {
+          "t": 9.0,
+          "center": [
+            -1.766,
+            43.3428
+          ],
+          "zoom": 16.9,
+          "pitch": 32,
+          "bearing": -8,
+          "easing": "linear"
+        }
+      ],
+      "layers": [],
+      "elements": [
+        {
+          "type": "ShiftingBorderSpline",
+          "feature": "pheasant_island",
+          "at_word": "tiny",
+          "colors": [
+            "spain",
+            "france"
+          ],
+          "flips": 4,
+          "period_s": 1.25,
+          "sweep_s": 0.55
+        },
+        {
+          "type": "FlagWithTugArms",
+          "at_word": "Pheasant",
+          "offset": 0.5,
+          "at_pct": [
+            50,
+            27
+          ],
+          "left": "ES",
+          "right": "FR"
+        },
+        {
+          "type": "StatBadge",
+          "at_word": "six",
+          "at_pct": [
+            50,
+            63
+          ],
+          "text": "Every 6 months",
+          "size": 54
+        }
+      ]
+    },
+    {
+      "id": "andorra",
+      "mode": "satellite",
+      "narration": "Andorra, wedged between Spain and France, is smaller than New York City.",
+      "min_duration_s": 6.0,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            1.6,
+            42.3
+          ],
+          "zoom": 7.3,
+          "pitch": 10,
+          "bearing": 0
+        },
+        {
+          "at_word": "Spain",
+          "center": [
+            1.57,
+            42.53
+          ],
+          "zoom": 9.25,
+          "pitch": 22,
+          "bearing": 0,
+          "easing": "easeInOutCubic"
+        },
+        {
+          "t": 9.0,
+          "center": [
+            1.57,
+            42.5
+          ],
+          "zoom": 8.85,
+          "pitch": 18,
+          "bearing": 0,
+          "easing": "easeInOutCubic"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "spain",
+          "style": "tint",
+          "t": 0
+        },
+        {
+          "feature": "france",
+          "style": "tint",
+          "t": 0
+        },
+        {
+          "feature": "andorra",
+          "style": "highlight",
+          "at_word": "Andorra",
+          "offset": 0.1
+        }
+      ],
+      "elements": [
+        {
+          "type": "StatBadge",
+          "at_word": "wedged",
+          "at_pct": [
+            50,
+            20
+          ],
+          "value": 468,
+          "suffix": " km²",
+          "label": "Andorra",
+          "until_word": "smaller"
+        },
+        {
+          "type": "TrueScaleCityCompare",
+          "feature": "nyc",
+          "target_feature": "andorra",
+          "at_word": "smaller",
+          "color": "nyc_size_overlay"
+        },
+        {
+          "type": "StatBadge",
+          "at_word": "New",
+          "offset": 0.1,
+          "at_pct": [
+            50,
+            20
+          ],
+          "value": 784,
+          "suffix": " km²",
+          "label": "New York City",
+          "color": "nyc_size_overlay"
+        }
+      ]
+    },
+    {
+      "id": "gibraltar",
+      "mode": "satellite",
+      "narration": "In the far south, Gibraltar is still British, over seventeen hundred kilometres from London.",
+      "min_duration_s": 7.0,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            -5.36,
+            36.16
+          ],
+          "zoom": 10.0,
+          "pitch": 10,
+          "bearing": 0
+        },
+        {
+          "at_word": "Gibraltar",
+          "center": [
+            -5.35,
+            36.135
+          ],
+          "zoom": 12.3,
+          "pitch": 28,
+          "bearing": -8,
+          "easing": "easeOutQuart"
+        },
+        {
+          "at_word": "seventeen",
+          "center": [
+            -5.35,
+            36.135
+          ],
+          "zoom": 12.0,
+          "pitch": 26,
+          "bearing": -6,
+          "easing": "linear"
+        },
+        {
+          "at_word": "London",
+          "center": [
+            -2.9,
+            43.6
+          ],
+          "zoom": 4.55,
+          "pitch": 8,
+          "bearing": 0,
+          "easing": "easeInOutCubic"
+        },
+        {
+          "t": 10.0,
+          "center": [
+            -2.9,
+            43.7
+          ],
+          "zoom": 4.5,
+          "pitch": 8,
+          "bearing": 0,
+          "easing": "linear"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "spain",
+          "style": "tint",
+          "t": 0
+        },
+        {
+          "feature": "gibraltar",
+          "style": "tint",
+          "at_word": "Gibraltar",
+          "width": 5
+        },
+        {
+          "feature": "uk",
+          "style": "tint",
+          "at_word": "London",
+          "offset": -0.4
+        }
+      ],
+      "elements": [
+        {
+          "type": "HotspotPin",
+          "at_word": "British",
+          "at": [
+            -5.3536,
+            36.1408
+          ],
+          "label": "Gibraltar",
+          "until_word": "seventeen"
+        },
+        {
+          "type": "TravelArc",
+          "at_word": "London",
+          "offset": 0.3,
+          "from": [
+            -5.3536,
+            36.1408
+          ],
+          "to": [
+            -0.1276,
+            51.5072
+          ],
+          "label": "auto",
+          "height": 0.25
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "London",
+          "offset": 1.5,
+          "at": [
+            -0.1276,
+            51.5072
+          ],
+          "label": "London",
+          "size": 0.75,
+          "label_size": 42,
+          "sfx": null
+        }
+      ]
+    },
+    {
+      "id": "africa",
+      "mode": "dark_cutaway",
+      "mode_at": [
+        {
+          "at_word": "Peñón",
+          "mode": "satellite"
+        }
+      ],
+      "narration": "And across the sea in Africa, Spain still holds Ceuta, Melilla, and the tiny Peñón de Vélez, whose border is just eighty-five metres long.",
+      "min_duration_s": 11.0,
+      "tail_s": 1.4,
+      "camera": [
+        {
+          "t": 0,
+          "center": [
+            -4.2,
+            35.75
+          ],
+          "zoom": 6.9,
+          "pitch": 0,
+          "bearing": 0
+        },
+        {
+          "at_word": "tiny",
+          "center": [
+            -4.15,
+            35.55
+          ],
+          "zoom": 7.4,
+          "pitch": 0,
+          "bearing": 0,
+          "easing": "linear"
+        },
+        {
+          "at_word": "whose",
+          "center": [
+            -4.2985,
+            35.1722
+          ],
+          "zoom": 16.9,
+          "pitch": 30,
+          "bearing": -10,
+          "easing": "easeInOutCubic"
+        },
+        {
+          "t": 14.0,
+          "center": [
+            -4.2983,
+            35.172
+          ],
+          "zoom": 17.2,
+          "pitch": 32,
+          "bearing": -4,
+          "easing": "linear"
+        }
+      ],
+      "layers": [
+        {
+          "feature": "spain",
+          "style": "hatch",
+          "t": 0,
+          "until_word": "Peñón"
+        },
+        {
+          "feature": "morocco",
+          "style": "hatch",
+          "at_word": "Africa",
+          "until_word": "Peñón",
+          "lift": 8
+        },
+        {
+          "feature": "ceuta",
+          "style": "silhouette",
+          "at_word": "Africa",
+          "until_word": "Ceuta"
+        },
+        {
+          "feature": "melilla",
+          "style": "silhouette",
+          "at_word": "Africa",
+          "until_word": "Melilla"
+        },
+        {
+          "feature": "ceuta",
+          "style": "hatch",
+          "at_word": "Ceuta",
+          "until_word": "Peñón",
+          "lift": 6
+        },
+        {
+          "feature": "melilla",
+          "style": "hatch",
+          "at_word": "Melilla",
+          "until_word": "Peñón",
+          "lift": 6
+        },
+        {
+          "feature": "penon_de_velez",
+          "style": "tint",
+          "at_word": "Peñón",
+          "width": 5
+        }
+      ],
+      "elements": [
+        {
+          "type": "QuestionMarks",
+          "at_word": "holds",
+          "at": [
+            -4.1,
+            35.6
+          ],
+          "radius": 260,
+          "count": 3,
+          "until_word": "Ceuta"
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "Ceuta",
+          "at": [
+            -5.32,
+            35.89
+          ],
+          "label": "Ceuta",
+          "label_size": 44,
+          "size": 0.8,
+          "until_word": "Peñón"
+        },
+        {
+          "type": "HotspotPin",
+          "at_word": "Melilla",
+          "at": [
+            -2.95,
+            35.29
+          ],
+          "label": "Melilla",
+          "label_size": 44,
+          "size": 0.8,
+          "until_word": "Peñón"
+        },
+        {
+          "type": "GlowingBorderBar",
+          "at_word": "eighty",
+          "coordinates": [
+            [
+              -4.298573,
+              35.171511
+            ],
+            [
+              -4.297693,
+              35.171546
+            ]
+          ],
+          "width": 10
+        },
+        {
+          "type": "StatBadge",
+          "at_word": "eighty",
+          "offset": 0.2,
+          "at_pct": [
+            50,
+            22
+          ],
+          "text": "85 m (279 ft)",
+          "label": "border with Morocco",
+          "size": 66
+        },
+        {
+          "type": "Label",
+          "at_word": "whose",
+          "offset": 0.4,
+          "at_pct": [
+            30,
+            62
+          ],
+          "text": "Morocco",
+          "size": 58,
+          "sfx": null
+        },
+        {
+          "type": "Label",
+          "at_word": "whose",
+          "offset": 0.4,
+          "at_pct": [
+            62,
+            36
+          ],
+          "text": "Spain",
+          "size": 58,
+          "text_color": "#FFE600",
+          "sfx": null
+        }
+      ]
+    }
+  ]
+}
