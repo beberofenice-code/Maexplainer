@@ -111,6 +111,27 @@ const FlagGraphic: React.FC<{ code: NonNullable<CalloutItem["flagCode"]>; width?
           <path d="M50,40 Q70,34 90,48" stroke="#FFFFFF" strokeWidth="4" fill="none" />
         </>
       )}
+      {code === "DE" && (
+        <>
+          <rect width="140" height="30.4" y="0" fill="#000000" />
+          <rect width="140" height="30.3" y="30.4" fill="#DD0000" />
+          <rect width="140" height="30.3" y="60.7" fill="#FFCE00" />
+        </>
+      )}
+      {code === "AT" && (
+        <>
+          <rect width="140" height="30.4" y="0" fill="#ED2939" />
+          <rect width="140" height="30.3" y="30.4" fill="#FFFFFF" />
+          <rect width="140" height="30.3" y="60.7" fill="#ED2939" />
+        </>
+      )}
+      {code === "BE" && (
+        <>
+          <rect width="47" height="91" x="0" fill="#000000" />
+          <rect width="46" height="91" x="47" fill="#FDDA24" />
+          <rect width="47" height="91" x="93" fill="#EF3340" />
+        </>
+      )}
     </svg>
   );
 };
