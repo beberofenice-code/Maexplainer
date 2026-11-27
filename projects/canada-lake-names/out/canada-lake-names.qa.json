@@ -1,0 +1,61 @@
+{
+ "video": "/home/user/Maexplainer/projects/canada-lake-names/out/canada-lake-names.mp4",
+ "passed": true,
+ "results": [
+  {
+   "check": "video stream",
+   "ok": true,
+   "detail": "h264 yuv420p"
+  },
+  {
+   "check": "resolution",
+   "ok": true,
+   "detail": "1080x1920"
+  },
+  {
+   "check": "frame rate",
+   "ok": true,
+   "detail": "30.000 fps"
+  },
+  {
+   "check": "audio stream",
+   "ok": true,
+   "detail": "aac 2ch 48000Hz"
+  },
+  {
+   "check": "duration",
+   "ok": true,
+   "detail": "62.19s (timeline 0.00->62.19s)"
+  },
+  {
+   "check": "loudness",
+   "ok": true,
+   "detail": "-15.1 LUFS (target -15), true peak -1.2 dBFS"
+  },
+  {
+   "check": "true peak",
+   "ok": true,
+   "detail": "-1.2 dBFS"
+  },
+  {
+   "check": "color hook/canada (tint over imagery)",
+   "ok": true,
+   "detail": "#983536 hue Δ7° vs locked #D7263D (probe 2)"
+  },
+  {
+   "check": "color count/canada (hatch)",
+   "ok": true,
+   "detail": "got #D6253C vs locked #D7263D (ΔRGB 2, probe 0)"
+  },
+  {
+   "check": "color memorial/canada (hatch)",
+   "ok": true,
+   "detail": "got #D7273C vs locked #D7263D (ΔRGB 1, probe 0)"
+  },
+  {
+   "check": "frames not black",
+   "ok": true,
+   "detail": "mean luma per probe [93, 46, 62, 83, 59, 66, 51]"
+  }
+ ]
+}
